@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/蓟",
-   "quote": "『。有临乡。有督亢亭。◎广阳郡高帝置，为燕国，昭帝更名为郡。世祖省并上谷，复。五城，户四万四千五百五十，口二十八万六百。〖蓟〗本燕国。刺史治。〖广阳〗〖昌平〗故属上谷。〖军都〗故属上谷。〖安次〗故属勃海。◎代郡秦置。雒阳东北二千五百里。十一城，户二万一百二十三，口十二万六千一百八十八。〖高柳〗〖桑乾〗〖道人〗〖当城〗〖马城〗〖班氏〗〖狋氏〗〖北平邑〗复。〖东安阳〗〖平舒〗〖代〗◎上谷郡秦置。雒阳东北三』——《漢書》(後漢書/卷113)",
+   "quote": null,
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "machine-checked",
  "subject": {
   "id": "plc_beijing",
   "type": "place"

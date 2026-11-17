@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/常德府",
-   "quote": null,
+   "quote": "『州府志》十二卷張春《夷陵州志》十卷劉璣《岳州府志》十卷張治《長沙府志》六卷陸東《寶慶府志》五卷楊佩《衡州府志》九卷硃麟《常德府志》二卷胡靖《沅州志》七卷姚昺《永州府志》十卷林球《荊門州志》十卷童承敘《沔陽州志》十八卷周紹稷《鄖陽府志》二十一卷王心《郴州志》六卷黃仲昭《八閩通志》八十七卷，《邵武府志》二十五卷王應山《閩大記》五十五卷，《閩都記》三十二卷何喬遠《閩書》一百五十四卷王世懋《閩部疏》一卷陳鳴鶴《』——《明史》(明史/卷97)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changde",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/舒州",
-   "quote": "『應其言初補泉州衙内都校又為衙内都監使朝命領順州刺史歸朝為登州刺史滄棣有寇盗命為廵檢使㑹以禁軍大校趙延漙為登州團練使文頊改舒州刺史卒年三十五文頊頗知書亦工畫子宗絳為殿中丞宋史卷四百八十三考證按九國志行逄妻嚴氏父廣遠仕馬氏為評事因以女妻行逄宋通鑑作鄧氏三楚新録及宋史作潘氏皆非高保融傳○馬令南唐書作保庸保融長子繼冲字贊平○五代史繼冲字咸和按五代史五國故事唐紀傳南唐書皆作從効泉州桃林人』——《宋史》(宋史 (四庫全書本)/卷483)",
+   "quote": null,
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "machine-checked",
  "subject": {
   "id": "plc_anqing",
   "type": "place"

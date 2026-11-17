@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/临湘",
-   "quote": "『”乃裂素为书，以遗巨卿。既终，妻从其言。时式出行适还，省书见瘗，怆然感之，向坟揖哭，以为死友。乃营护平子妻兒，身自送丧于临湘。未至四五里，乃委素书于柩上，哭别而去。其兄弟闻之，寻求不复见。长沙上计掾史到京师，上书表式行状，三府并辟，不应。举州茂才，四迁荆州刺史。友人南阳孔嵩，家贫亲老，乃变名姓，佣为新野县阿里街卒。式行部到新野，而县选嵩为导骑迎式。式见而识之，呼嵩，把臂谓曰：“子非孔仲山邪？”对之叹息』——《漢書》(後漢書/卷81)",
+   "quote": null,
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "machine-checked",
  "subject": {
   "id": "plc_changsha",
   "type": "place"

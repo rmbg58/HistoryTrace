@@ -45,19 +45,23 @@ def build_search_query(book: str, term: str) -> str:
         "action": "query",
         "list": "search",
         "srsearch": f'insource:"{term}" intitle:{book}',
-        "srlimit": "5",
+        "srlimit": "10",
         "format": "json",
     }
     return f"{API}?{urllib.parse.urlencode(params)}"
 
 
-def parse_search_response(data: dict[str, Any]) -> list[str]:
-    """从 search 响应提取页面标题。"""
-    return [
+def parse_search_response(data: dict[str, Any], book: str | None = None) -> list[str]:
+    """从 search 响应提取页面标题;给定 book 时仅保留书名自身或以「书名/」开头的页
+    (排除 後漢書/南明史稿/宋史紀事本末 等子串误匹配)。"""
+    titles = [
         r["title"]
         for r in data.get("query", {}).get("search", [])
         if isinstance(r, dict) and "title" in r
     ]
+    if book:
+        titles = [t for t in titles if t == book or t.startswith(f"{book}/")]
+    return titles
 
 
 def search_wikisource(book: str, term: str) -> list[str]:
@@ -70,7 +74,7 @@ def search_wikisource(book: str, term: str) -> list[str]:
             with urllib.request.urlopen(req, timeout=30) as resp:  # 固定 https 域名
                 data = json.load(resp)
             time.sleep(0.8)  # 请求间隔,避免触发限流
-            return parse_search_response(data)
+            return parse_search_response(data, book=book)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:
                 time.sleep(3 * (attempt + 1))

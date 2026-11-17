@@ -1,0 +1,53 @@
+# 校验流水线(非部署):PR/push 跑全量验证;手动 dispatch 追加 R4 回归
+# 部署方案未定(OT-001);本文件不做任何发布动作
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install uv && uv sync
+        working-directory: pipelines
+      - name: Lint + unit tests + R0/R1 校验
+        run: |
+          uv run ruff check .
+          uv run pytest
+          uv run ht verify
+        working-directory: pipelines
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 前端 typecheck + test + build
+        run: |
+          pnpm install
+          pnpm typecheck
+          pnpm test
+          pnpm build
+        working-directory: web
+
+  regression:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install uv && uv sync
+        working-directory: pipelines
+      - name: R4 回归(cross-checked 引文重检)
+        run: uv run ht regression
+        working-directory: pipelines
