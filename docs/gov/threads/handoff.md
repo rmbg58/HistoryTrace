@@ -17,6 +17,7 @@
 - 现状:verify.yml CI 已就绪(push/PR 全量校验 + 手动 R4 regression);**不含部署动作**。
 - **解锁动作**:回复"部署 GitHub Pages"→ 代理执行:① 加 GitHub Pages 发布配置(产物=web/dist);② verify.yml 追加 deploy job(main push 时发布);③ regression 挂 `schedule: weekly` cron;④ 首次上线后回填实际站点 URL 到 STATE。
 - 备选:Cloudflare Pages(需用户提供项目凭证)。
+- **前置条件提醒(2026-11-18 补)**:本项目当前为纯本地 git 仓库(**无 GitHub remote**)。部署 GitHub Pages 前需先:① 在 GitHub 创建仓库并 `git remote add origin … && git push`(此步属外向发布,同样需要你授权);② 仓库 Settings 开启 Pages。确认部署 = 授权上述全部步骤。
 
 ## ③ 锚点 151 → 200+(P1 持续考据项)
 
