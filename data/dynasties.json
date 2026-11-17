@@ -1,0 +1,7 @@
+[
+  { "key": "han", "label": "汉", "earliest": -202, "latest": 8, "note": "西汉" },
+  { "key": "tang", "label": "唐", "earliest": 618, "latest": 907 },
+  { "key": "song", "label": "宋", "earliest": 960, "latest": 1127, "note": "北宋" },
+  { "key": "ming", "label": "明", "earliest": 1368, "latest": 1643, "note": "1644 顺治元年归清" },
+  { "key": "qing", "label": "清", "earliest": 1644, "latest": 1911, "note": "至帝制终结" }
+]

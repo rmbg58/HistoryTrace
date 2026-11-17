@@ -7,6 +7,9 @@ __pycache__/
 *.pyc
 .venv/
 
+# web 数据产物(可由 `uv run ht build` 重建;claims 才是事实源)
+web/public/data/
+
 # 数据管线:外部来源下载缓存(许可受限,永不入库:CHGIS/CBDB/dump 等)
 data/_downloaded/
 

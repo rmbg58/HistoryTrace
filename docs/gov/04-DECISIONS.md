@@ -31,3 +31,18 @@
 - **影响**:web/ 全部实现;05-DESIGN.md 为视觉事实源。
 - **维护与退出**:无框架锁定,迁移到任何组件方案成本低;字体从系统栈起步,自托管思源系(OFL)留 OT-002。
 - **取代**:无。
+
+## ADR-004: M1 实现细节:依赖与地图标记方案(2026-11-18)
+
+- **背景**:M1 开发落地时需定具体依赖与实现方式。
+- **决策**:
+  1. web 依赖仅 `maplibre-gl@^5`(运行时)+ vite/typescript/vitest(开发);PMTiles 包待 M2 接边界瓦片时再引入(避免未使用依赖)。
+  2. 城邑标记用 **HTML Marker**(墨点 + 楷体标签)而非地图 glyph 文本层——规避 glyphs 服务依赖,标签样式(古名/都城朱砂)完全由项目 tokens 控制;10–300 城规模下性能足够,过量后再迁 symbol 层。
+  3. 底图 = 纯宣纸色 background 层(无瓦片服务),M2 接 Cliopatria 疆界几何前保持离线可用。
+  4. `#map` 布局用 `position:relative; width/height:100%`——maplibre 自带 CSS(unlayered)强制 `.maplibregl-map` relative,layered 的 absolute/inset 会被其压过(实测踩坑)。
+  5. 种子 claims 由 `pipelines/scripts/gen_seed.py` 一次性生成落库;claims 文件本身是事实源,脚本仅作回归重建。
+  6. 明/清朝代边界按"1644 归清"建模(明 latest=1643),时段区间含端点、不允许重叠(R2 冲突检测实测拦截过该问题)。
+- **备选**:symbol 文本层(需 glyphs URL,离线不可用);absolute 布局强行 !important(破坏层叠体系)。
+- **影响**:web/src/map/stage.ts、web/src/styles/app.css、pipelines/scripts/gen_seed.py。
+- **维护与退出**:marker 方案在城邑数 >500 或需要避让算法时迁移 symbol 层;依赖升级常规。
+- **取代**:无(细化 ADR-001/003 的实现层)。

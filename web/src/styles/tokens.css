@@ -1,0 +1,51 @@
+/* 设计令牌 — 唯一视觉事实源(docs/gov/05-DESIGN.md) */
+:root {
+  /* 纸 */
+  --paper: #f6f1e3;
+  --paper-aged: #efe6d0;
+  --paper-deep: #2e2a24;
+
+  /* 墨 */
+  --ink: #2f2b26;
+  --ink-strong: #1f1c18;
+  --ink-soft: #4a443c;
+  --ink-faint: #8a8272;
+  --ink-line: rgba(74, 68, 60, 0.3);
+
+  /* 朱 */
+  --cinnabar: #9e3d34;
+  --cinnabar-soft: rgba(158, 61, 52, 0.12);
+
+  /* 青绿设色(地图点缀) */
+  --azurite: #5d7d8c;
+  --malachite: #6d8a6a;
+  --ochre: #a3814f;
+  --indigo: #3d5568;
+
+  /* 字体 */
+  --font-display: "Kaiti SC", "STKaiti", "KaiTi", "Noto Serif SC", serif;
+  --font-body: "Songti SC", "STSong", "SimSun", "Noto Serif SC", serif;
+  --font-num: ui-monospace, "SF Mono", "Menlo", monospace;
+
+  /* 间距/尺寸 */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --panel-w: 380px;
+  --control-h: 36px;
+
+  /* 圆角/线 */
+  --radius: 3px;
+  --hairline: 1px solid var(--ink-line);
+
+  /* 动效 */
+  --motion-fast: 150ms;
+  --motion-med: 250ms;
+
+  /* 置信印章 */
+  --seal-g4: var(--cinnabar);
+  --seal-g3: var(--ink);
+  --seal-g2: var(--ink-faint);
+}

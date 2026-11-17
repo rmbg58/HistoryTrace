@@ -1,0 +1,12 @@
+{
+  "id": "src_own_manual",
+  "type": "derived",
+  "title": "本项目人工考订",
+  "jurisdiction": "种子数据整理过程中的编年归属、今地坐标锚定",
+  "edition": "HistoryTrace 自建(2026-11)",
+  "tier": "E",
+  "license": "随 DATA-LICENSE(CC BY-SA 4.0)",
+  "access": { "method": "manual", "key": "git 历史" },
+  "retrieved_at": "2026-11-18",
+  "note": "仅用于 period/坐标锚定类辅助声明,不得作为名称类断言的唯一来源"
+}

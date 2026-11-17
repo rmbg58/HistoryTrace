@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://historytrace.dev/schemas/claim.schema.json",
+  "title": "Claim(声明)",
+  "description": "HistoryTrace 唯一事实源单元:带佐证与置信的断言,见 docs/verification-protocol.md §1.2",
+  "type": "object",
+  "required": ["id", "subject", "predicate", "object", "period", "attestations", "confidence", "status", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^clm_[a-z0-9_]+$" },
+    "subject": {
+      "type": "object",
+      "required": ["type", "id"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "enum": ["place", "person", "work", "event", "polity"] },
+        "id": { "type": "string", "pattern": "^plc_|^prs_|^wrk_|^evt_|^pol_" }
+      }
+    },
+    "predicate": {
+      "enum": [
+        "name_in_period", "belongs_to", "located_at", "boundary_snapshot",
+        "occurred_at", "occurred_when", "person_at", "written_at", "written_when", "same_as"
+      ]
+    },
+    "object": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "note": { "type": "string" },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lng": { "type": "number", "minimum": -180, "maximum": 180 },
+        "precision": { "type": "string" }
+      }
+    },
+    "period": {
+      "type": "object",
+      "required": ["earliest", "latest", "precision", "calendar"],
+      "additionalProperties": false,
+      "properties": {
+        "earliest": { "type": "integer", "minimum": -2200, "maximum": 2100 },
+        "latest": { "type": "integer", "minimum": -2200, "maximum": 2100 },
+        "precision": { "enum": ["day", "month", "year", "decade", "approx"] },
+        "calendar": { "enum": ["proleptic-julian", "proleptic-gregorian"] }
+      }
+    },
+    "attestations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "locus"],
+        "additionalProperties": false,
+        "properties": {
+          "source": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+          "locus": { "type": "string", "minLength": 1 },
+          "quote": { "type": ["string", "null"] },
+          "certainty": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    },
+    "verdicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["round", "by", "date", "decision"],
+        "additionalProperties": false,
+        "properties": {
+          "round": { "enum": ["R2", "R3", "R4"] },
+          "by": { "type": "string", "minLength": 1 },
+          "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "decision": { "enum": ["accept", "reject", "prefer", "keep-disputed"] },
+          "basis": { "type": "string" }
+        }
+      }
+    },
+    "confidence": { "enum": ["G1", "G2", "G3", "G4"] },
+    "status": {
+      "enum": ["draft", "machine-checked", "cross-checked", "verified-multi-source", "disputed"]
+    },
+    "disputes": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^clm_[a-z0-9_]+$" }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["created_by", "created_at"],
+      "additionalProperties": false,
+      "properties": {
+        "created_by": { "type": "string", "minLength": 1 },
+        "created_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "pipeline_runs": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

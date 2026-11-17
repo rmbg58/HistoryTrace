@@ -1,0 +1,12 @@
+{
+  "id": "src_daizhige",
+  "type": "text",
+  "title": "殆知阁古代文献镜像",
+  "jurisdiction": "廿四史等(网络流传文本)",
+  "edition": "daizhigev20 GitHub 镜像(TXT)",
+  "tier": "D",
+  "license": "原文公有领域;镜像整理无版本信息,错讹风险高",
+  "access": { "method": "github-repo", "key": "garychowcmu/daizhigev20" },
+  "retrieved_at": "2026-11-18",
+  "note": "仅作低权重旁证(第二来源),不得作为唯一依据"
+}

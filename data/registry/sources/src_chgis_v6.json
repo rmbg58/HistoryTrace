@@ -1,0 +1,12 @@
+{
+  "id": "src_chgis_v6",
+  "type": "geodata",
+  "title": "CHGIS V6(哈佛/复旦)",
+  "jurisdiction": "221 BCE–1911 政区时间序列",
+  "edition": "V6(2016)",
+  "tier": "B",
+  "license": "EULA:学术免费,禁止商用/转售/再分发 → RESTRICTED",
+  "access": { "method": "local-only", "key": "dataverse.harvard.edu/dataverse/chgis_v6" },
+  "retrieved_at": "2026-11-18",
+  "note": "RESTRICTED:仅本地参照,只可出现在 verdict,不得进入 attestation 或发布产物(ADR-002)"
+}

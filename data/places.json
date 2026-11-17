@@ -1,0 +1,14 @@
+{
+  "places": [
+    { "id": "plc_xian", "name": "西安", "lng": 108.9398, "lat": 34.3416, "province": "陕西" },
+    { "id": "plc_luoyang", "name": "洛阳", "lng": 112.454, "lat": 34.6197, "province": "河南" },
+    { "id": "plc_nanjing", "name": "南京", "lng": 118.7969, "lat": 32.0603, "province": "江苏" },
+    { "id": "plc_beijing", "name": "北京", "lng": 116.4074, "lat": 39.9042, "province": "北京" },
+    { "id": "plc_chengdu", "name": "成都", "lng": 104.0668, "lat": 30.5728, "province": "四川" },
+    { "id": "plc_suzhou", "name": "苏州", "lng": 120.5853, "lat": 31.2989, "province": "江苏" },
+    { "id": "plc_guangzhou", "name": "广州", "lng": 113.2644, "lat": 23.1291, "province": "广东" },
+    { "id": "plc_wuhan", "name": "武汉", "lng": 114.3055, "lat": 30.5928, "province": "湖北" },
+    { "id": "plc_hangzhou", "name": "杭州", "lng": 120.1551, "lat": 30.2741, "province": "浙江" },
+    { "id": "plc_kaifeng", "name": "开封", "lng": 114.3075, "lat": 34.797, "province": "河南" }
+  ]
+}

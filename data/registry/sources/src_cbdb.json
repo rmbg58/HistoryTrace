@@ -1,0 +1,12 @@
+{
+  "id": "src_cbdb",
+  "type": "reference",
+  "title": "CBDB 中国历代人物传记资料库",
+  "jurisdiction": "约 65.8 万人物(地址/入仕/关系)",
+  "edition": "SQLite 2026-11 版",
+  "tier": "B",
+  "license": "CC BY-NC-SA 4.0;大陆商用权已独占授权 → RESTRICTED(非商业场景亦须署名-相同方式共享)",
+  "access": { "method": "local-only", "key": "github.com/cbdb-project/cbdb_sqlite" },
+  "retrieved_at": "2026-11-18",
+  "note": "RESTRICTED:仅本地参照,只可出现在 verdict,不得进入 attestation 或发布产物(ADR-002)"
+}

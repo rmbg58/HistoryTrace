@@ -1,0 +1,12 @@
+{
+  "id": "src_hanshu_ws",
+  "type": "text",
+  "title": "汉书",
+  "jurisdiction": "全书(本项目主要用地理志)",
+  "edition": "维基文库录入本(民国以前刻本体系)",
+  "tier": "C",
+  "license": "CC-BY-SA-4.0(录入层);原文公有领域",
+  "access": { "method": "mediawiki-api", "key": "zh.wikisource.org 汉书" },
+  "retrieved_at": "2026-11-18",
+  "note": "对校基准来源之一;批量获取遵守 Wikimedia API 礼仪"
+}

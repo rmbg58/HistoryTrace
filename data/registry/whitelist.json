@@ -1,0 +1,14 @@
+{
+  "comment": "许可白名单:发布产物只允许引用 distributable 来源(ADR-002)。restricted 来源仅可本地参照,只能出现在 verdict 而非 attestation。",
+  "distributable": [
+    "src_hanshu_ws", "src_hanshu_ctext",
+    "src_jiutangshu_ws",
+    "src_songshi_ws",
+    "src_mingshi_ws",
+    "src_qingshigao_ws",
+    "src_liaoshi_ws",
+    "src_daizhige",
+    "src_own_manual"
+  ],
+  "restricted": ["src_chgis_v6", "src_cbdb"]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://historytrace.dev/schemas/source.schema.json",
+  "title": "Source(来源注册)",
+  "description": "来源分级与许可登记,见 docs/verification-protocol.md §1.1/§2",
+  "type": "object",
+  "required": ["id", "type", "title", "tier", "license", "access", "retrieved_at"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+    "type": { "enum": ["text", "geodata", "reference", "derived"] },
+    "title": { "type": "string", "minLength": 1 },
+    "jurisdiction": { "type": "string" },
+    "edition": { "type": "string" },
+    "tier": { "enum": ["A", "B", "C", "D", "E"] },
+    "license": { "type": "string", "minLength": 1 },
+    "access": {
+      "type": "object",
+      "required": ["method", "key"],
+      "additionalProperties": false,
+      "properties": {
+        "method": { "enum": ["mediawiki-api", "ctext-api", "github-repo", "dataverse", "manual", "local-only", "url"] },
+        "key": { "type": "string" },
+        "revid": { "type": "string" },
+        "urn": { "type": "string" }
+      }
+    },
+    "retrieved_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "note": { "type": "string" }
+  }
+}

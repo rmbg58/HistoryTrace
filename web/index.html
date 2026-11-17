@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="中国历史地图时空变迁互动平台:朝代切换、点选地点看历代名称沿革,一切数据可溯源。" />
+    <title>历史长河 · HistoryTrace</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="loading" role="status">展卷</div>
+      <div id="map" aria-label="历史地图"></div>
+      <header class="masthead">
+        <h1 class="brand">历史长河</h1>
+        <p class="tagline">点选城邑 · 阅其沿革 · 皆可溯源</p>
+      </header>
+      <nav id="timeline" class="timeline" aria-label="朝代时间轴"></nav>
+      <aside id="panel" class="panel" aria-label="沿革卡片"></aside>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

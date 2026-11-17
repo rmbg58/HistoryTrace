@@ -31,10 +31,12 @@
 
 | 用途 | 命令 |
 |------|------|
-| 验证(全部) | 待确认(脚手架后回填 manifest.validation) |
-| 测试 | 待确认(planned: `uv run pytest`;`pnpm -C web test`) |
-| 构建 | 待确认(planned: `pnpm -C web build`;`uv run ht build`) |
-| Lint | 待确认(planned: `pnpm -C web lint`;`uv run ruff check`) |
+| 数据校验(R0+R1) | `cd pipelines && uv run ht verify` |
+| 数据构建(→web/public/data) | `cd pipelines && uv run ht build` |
+| 质量报告 / 纪年换算 | `uv run ht report` / `uv run ht era 贞观 14` |
+| Python 测试 / Lint | `uv run pytest` / `uv run ruff check .`(均在 pipelines/) |
+| 前端类型检查 / 测试 / 构建 | `pnpm typecheck` / `pnpm test` / `pnpm build`(均在 web/) |
+| 本地预览 | `pnpm -C web dev`(开发)或 `pnpm -C web preview`(产物) |
 
 ## 文档地图
 

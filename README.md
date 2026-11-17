@@ -37,6 +37,27 @@
 
 devinit standard 治理体系位于 `docs/gov/`(STATE/概览/架构/规范/模块/ADR/设计系统);Agent 会话入口:[AGENTS.md](AGENTS.md)。UI 采用古风设计系统(宣纸·墨·朱砂),规范见 [docs/gov/05-DESIGN.md](docs/gov/05-DESIGN.md)。
 
+## 快速上手
+
+```bash
+# 数据管线(Python,uv)
+cd pipelines
+uv sync                        # 安装依赖
+uv run ht verify               # R0 许可白名单 + R1 一致性校验
+uv run ht build                # claims → web/public/data 静态产物
+uv run ht report               # 数据质量报告
+uv run ht era 贞观 14          # 年号纪年换算 → 640
+uv run pytest                  # 数据管线测试
+
+# 前端(pnpm)
+cd ../web
+pnpm install
+pnpm dev                       # 开发预览(先跑过 ht build)
+pnpm typecheck && pnpm test && pnpm build
+```
+
+当前进度(M1 已完成):10 个锚点城市 × 汉/唐/宋/明/清 5 期 = 50 条名称沿革 claims,每条带 2 路来源佐证与 G3 置信;交互原型支持朝代切换、点选城邑看历代名称、展开佐证笺注。下一阶段(M2):Cliopatria 疆界几何 → PMTiles 政区图层。
+
 ---
 
 *调研完成于 2026-11-18,star 数与平台状态均为当日核实值。*

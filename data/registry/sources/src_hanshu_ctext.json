@@ -1,0 +1,12 @@
+{
+  "id": "src_hanshu_ctext",
+  "type": "text",
+  "title": "汉书",
+  "jurisdiction": "全书(原典板块)",
+  "edition": "ctext 原典体系(带版本信息)",
+  "tier": "C",
+  "license": "原文公有领域;站点整理层版权归 ctext,仅低频点查并附链接",
+  "access": { "method": "ctext-api", "key": "ctp:han-shu" },
+  "retrieved_at": "2026-11-18",
+  "note": "URN 为稳定溯源键;禁止批量抓取(使用条款红线)"
+}

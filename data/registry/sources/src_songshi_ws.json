@@ -1,0 +1,12 @@
+{
+  "id": "src_songshi_ws",
+  "type": "text",
+  "title": "宋史",
+  "jurisdiction": "全书(本项目主要用地理志)",
+  "edition": "维基文库录入本",
+  "tier": "C",
+  "license": "CC-BY-SA-4.0(录入层);原文公有领域",
+  "access": { "method": "mediawiki-api", "key": "zh.wikisource.org 宋史" },
+  "retrieved_at": "2026-11-18",
+  "note": "北宋政区主证来源"
+}

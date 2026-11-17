@@ -31,10 +31,10 @@
     "hookFile": null
   },
   "validation": {
-    "verify": "待确认(脚手架后定;planned: pnpm -C web lint && pnpm -C web exec tsc --noEmit && uv run pytest && uv run ht verify)",
-    "test": "待确认(planned: uv run pytest; pnpm -C web test)",
-    "build": "待确认(planned: pnpm -C web build; uv run ht build)",
-    "lint": "待确认(planned: pnpm -C web lint; uv run ruff check)"
+    "verify": "cd pipelines && uv run ruff check . && uv run pytest && uv run ht verify && cd ../web && pnpm typecheck && pnpm test && pnpm build(2026-11-18 全部实测通过)",
+    "test": "cd pipelines && uv run pytest; cd web && pnpm test",
+    "build": "cd pipelines && uv run ht build(数据产物→web/public/data);cd web && pnpm build",
+    "lint": "cd pipelines && uv run ruff check .;cd web && pnpm typecheck"
   },
   "policy": {
     "stateMaxLines": 99,
