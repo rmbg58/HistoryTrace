@@ -53,7 +53,7 @@ Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 �
 |----|------|------|--------|
 | OT-001 | question | **⏸ 三项待用户决定(七轮询问未答,交接文档:docs/gov/threads/handoff.md)**:①复核队列升 G4(需 ctext 凭证或人工转录或 ADR 修订);②部署上线(GitHub Pages 就绪);③锚点 151→200+(卷页直抓基建就绪)。项目处于完整可交付状态,答复任一项即恢复推进 | 高 |
 | OT-002 | tech-debt | web 字体方案:系统字体栈起步,自托管思源宋体/楷体(OFL)待性能评估后决策 | 低 |
-| OT-004 | tech-debt | 主 bundle 1.1MB(maplibre 占大头):接部署时做动态 import / manualChunks 分包 | 中 |
+| OT-004 | tech-debt | ~~bundle 分包~~ **已完成**:maplibre 拆独立 vendor chunk(业务 index 17.7KB + maplibre 1.05MB,业务更新不再重下大依赖) | — |
 | OT-006 | idea | PMTiles:现用按朝代 GeoJSON 快照(约 1MB)足够;锚点/几何规模增大后迁移 PMTiles + 矢量瓦片 | 低 |
 | OT-007 | idea | 作品气泡与行迹站点匹配目前按坐标距离;将 works 挂 claim 后改用 claim 关联 | 低 |
 
