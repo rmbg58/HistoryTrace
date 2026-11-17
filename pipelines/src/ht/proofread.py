@@ -73,7 +73,7 @@ def search_wikisource(book: str, term: str) -> list[str]:
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:  # 固定 https 域名
                 data = json.load(resp)
-            time.sleep(0.8)  # 请求间隔,避免触发限流
+            time.sleep(1.5)  # 请求间隔,避免触发限流
             return parse_search_response(data, book=book)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:

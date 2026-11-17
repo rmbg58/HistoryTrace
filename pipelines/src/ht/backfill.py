@@ -64,14 +64,24 @@ def clean_wikitext(text: str) -> str:
 
 
 def extract_context(wikitext: str, term: str) -> str | None:
-    """在原文中定位条目名,截取前后文窗口。"""
+    """在原文中定位条目名,截取前后文窗口。
+
+    排除"书目著录"型出现(term 后紧跟「志」,如 艺文志里的「常德府志四十八卷」),
+    只取真正描述政区的语境;全部为书目出现时返回 None。
+    """
     plain = clean_wikitext(wikitext)
-    i = plain.find(term)
-    if i < 0:
-        return None
-    start = max(0, i - CONTEXT_BEFORE)
-    end = min(len(plain), i + len(term) + CONTEXT_AFTER)
-    return plain[start:end]
+    start_pos = 0
+    while True:
+        i = plain.find(term, start_pos)
+        if i < 0:
+            return None
+        nxt = i + len(term)
+        if nxt < len(plain) and plain[nxt] == "志":
+            start_pos = nxt
+            continue
+        start = max(0, i - CONTEXT_BEFORE)
+        end = min(len(plain), i + len(term) + CONTEXT_AFTER)
+        return plain[start:end]
 
 
 def run_backfill(dyn_filter: str | None, limit: int, dry_run: bool) -> list[dict[str, Any]]:
