@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "汉书/西域传/龟兹",
+   "quote": null,
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "ctp:han-shu 西域传",
+   "quote": null,
+   "source": "src_hanshu_ctext"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_kuche_han",
+ "object": {
+  "name": "龟兹",
+  "note": "",
+  "role": "龟兹国"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_kuche",
+  "type": "place"
+ },
+ "verdicts": []
+}

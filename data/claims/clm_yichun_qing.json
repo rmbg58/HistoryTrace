@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/地理志/袁州府",
+   "quote": null,
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "殆知阁镜像/正史地理志/袁州府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_yichun_qing",
+ "object": {
+  "name": "袁州府",
+  "note": "",
+  "role": "江西省辖"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_yichun",
+  "type": "place"
+ },
+ "verdicts": []
+}

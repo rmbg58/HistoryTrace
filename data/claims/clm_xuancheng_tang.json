@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "旧唐书/地理志/宣州",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "殆知阁镜像/正史地理志/宣州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_xuancheng_tang",
+ "object": {
+  "name": "宣州",
+  "note": "",
+  "role": "宣城郡"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 618,
+  "latest": 907,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_xuancheng",
+  "type": "place"
+ },
+ "verdicts": []
+}

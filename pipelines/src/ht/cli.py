@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import click
@@ -78,6 +79,42 @@ def import_cliopatria() -> None:
     for dyn, s in stats.items():
         click.echo(f"  {dyn} ({s['year']}): {s['polities']} polities")
     click.echo("boundaries.json OK")
+
+
+@main.command()
+@click.option("--dyn", default=None, help="只校某朝(如 han/tang/song/ming/qing)")
+@click.option("--limit", type=int, default=None, help="限制条数(试跑)")
+@click.option("--json-out", type=click.Path(path_type=Path), default=None, help="结果写 JSON")
+def proofread(dyn: str | None, limit: int | None, json_out: Path | None) -> None:
+    """L1 对校:维基文库 insource 核验 claim 条目(命中供人工回填引文)。"""
+    from .proofread import proofread, render
+
+    results = proofread(dyn_filter=dyn, limit=limit)
+    if json_out:
+        json_out.parent.mkdir(parents=True, exist_ok=True)
+        json_out.write_text(
+            json.dumps(
+                [
+                    {
+                        "claimId": r.claim_id,
+                        "source": r.source,
+                        "term": r.term,
+                        "status": r.status,
+                        "pages": r.pages,
+                    }
+                    for r in results
+                ],
+                ensure_ascii=False,
+                indent=1,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+    click.echo(render(results))
+
+
+if __name__ == "__main__":
+    main()
 
 
 if __name__ == "__main__":
