@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:熙宁九年密州中秋,小序自证",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_sushi_shuidiao",
+ "object": {
+  "lat": 36.77,
+  "lng": 119.75,
+  "name": "密州"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1076,
+  "latest": 1076,
+  "precision": "year"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_sushi_shuidiao",
+  "type": "work"
+ },
+ "verdicts": []
+}

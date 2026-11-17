@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/韩愈传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/韩昌黎集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_hanyu_02",
+ "object": {
+  "lat": 23.6566,
+  "lng": 116.6226,
+  "name": "潮州",
+  "note": "谏迎佛骨,贬潮州刺史,驱鳄兴学"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 819,
+  "latest": 820,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_hanyu",
+  "type": "person"
+ },
+ "verdicts": []
+}

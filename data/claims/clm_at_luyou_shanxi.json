@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:乾道三年罢官居山阴作",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_luyou_shanxi",
+ "object": {
+  "lat": 30.0,
+  "lng": 120.58,
+  "name": "山阴"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1167,
+  "latest": 1167,
+  "precision": "year"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_luyou_shanxi",
+  "type": "work"
+ },
+ "verdicts": []
+}

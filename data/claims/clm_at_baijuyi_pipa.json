@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:元和十一年江州司马任上",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_baijuyi_pipa",
+ "object": {
+  "lat": 29.7052,
+  "lng": 116.0005,
+  "name": "江州(九江)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 816,
+  "latest": 816,
+  "precision": "year"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_baijuyi_pipa",
+  "type": "work"
+ },
+ "verdicts": []
+}

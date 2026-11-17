@@ -18,7 +18,7 @@ def test_real_dataset_passes():
     report = verify()
     errors = [i for i in report.issues if i.level == "error"]
     assert not errors, f"种子数据存在校验错误: {[ (i.claim_id, i.message) for i in errors ]}"
-    assert report.total >= 450, "种子数据应≥450条(100城×5朝)"
+    assert report.total >= 630, "种子数据应≥630条(127城+事件/行迹/系年)"
 
 
 def test_computed_confidence_rules():

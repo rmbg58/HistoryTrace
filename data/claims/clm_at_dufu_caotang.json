@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:上元二年成都草堂作",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_dufu_caotang",
+ "object": {
+  "lat": 30.5728,
+  "lng": 104.0668,
+  "name": "成都"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 761,
+  "latest": 761,
+  "precision": "year"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_dufu_caotang",
+  "type": "work"
+ },
+ "verdicts": []
+}

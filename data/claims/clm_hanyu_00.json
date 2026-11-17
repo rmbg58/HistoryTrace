@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/韩愈传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/韩昌黎集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_hanyu_00",
+ "object": {
+  "lat": 34.91,
+  "lng": 112.79,
+  "name": "河阳(今孟州)",
+  "note": "生于河阳,三岁而孤,随兄嫂颠沛"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 768,
+  "latest": 768,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_hanyu",
+  "type": "person"
+ },
+ "verdicts": []
+}

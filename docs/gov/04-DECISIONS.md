@@ -73,3 +73,17 @@
 - **影响**:pipelines/proofread.py、gen_seed.py、tests。
 - **维护与退出**:维基文库 API 变更只影响 proofread 单模块;claims 数据不受影响。
 - **取代**:无。
+
+## ADR-007: M6 实现细节:系年 claim 化、诗人 10 位与引文回填(2026-11-18)
+
+- **背景**:M6 三项:作品系年 claim 化、诗人扩至 10 位、引文回填→升 G4。
+- **决策**:
+  1. **系年 claim 化**:`gen_works_claims.py` 把 works.json 通行系年转写为 `written_when`(40 条,含 approx 区间如"江雪 805–815")与 `written_at`(有地者,object 带 lng/lat)claims。按协议**单源(src_own_manual)→ G2 诚实**,不虚报。
+  2. **诗人 10 位**:新增柳宗元/韩愈(旧唐书本传+文集,双证 G3)、辛弃疾(宋史传+稼轩词,G3)、李清照(无正史专传,attestation 用《金石录·后序》李清照自述,单源 **G2 诚实**——第一手史料但独立来源仅一路)。works 增至 28 首。
+  3. **引文回填 `ht backfill`**:L1 命中后抓命中页 wikitext,清标记后截取条目上下文为 quote,claim 升 status=cross-checked;选页优先含"卷"的正文页(避免考异页,实测修正过顺天府命中实录的问题);**升 G4 不自动**——生成 `docs/gov/threads/review-queue.md` 复核队列(合并追加,不覆盖),由人工裁决后写 verdict。
+  4. **简繁处理**:加依赖 `opencc-python-reimplemented`(MIT),检索词 s2t 转换(安庆府→安慶府),命中率显著提升;未命中仍进人工队列。
+  5. 锚点扩展:101 → **127 城**(+26:寿县/淮阳/和县/郴州/汝南/大荔/河间/邢台/汾阳/长治/代县/卫辉/沁阳/澧县/雷州/长汀/漳州/郯城/哈密/莎车/银川/奉节/三台/南平/鄱阳/上饶)。**诚实记录:P1 的 200–300 目标为持续考据项**,剩余城池(多为直隶州/散州/卫所)需逐城考据,不批量编造。
+- **备选**:自动升 G4(违 R3,否);引新全文对校 CollateX(M7,需 quote 语料先回填)。
+- **影响**:pipelines(backfill/proofread/gen_works_claims/gen_events_poets/gen_seed)、data(claims 638 条/works/poets)。
+- **维护与退出**:opencc 仅 proofread/backfill 依赖;claims 数据不受影响。
+- **取代**:无(细化 ADR-006)。

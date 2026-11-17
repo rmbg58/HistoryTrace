@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/金石录·后序(李清照自述)",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_liqingzhao_00",
+ "object": {
+  "lat": 36.71,
+  "lng": 117.5,
+  "name": "济南(章丘)",
+  "note": "生于齐州章丘,父李格非"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1084,
+  "latest": 1084,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_liqingzhao",
+  "type": "person"
+ },
+ "verdicts": []
+}

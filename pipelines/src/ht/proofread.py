@@ -79,8 +79,14 @@ def search_wikisource(book: str, term: str) -> list[str]:
 
 
 def _proof_term(locus: str) -> str:
-    """取 locus 末段作为检索词(条目/郡县名)。"""
-    return locus.replace("ctp:han-shu ", "").split("/")[-1].strip()
+    """取 locus 末段作为检索词(条目/郡县名),转繁体(维基文库为繁体原文)。"""
+    raw = locus.replace("ctp:han-shu ", "").split("/")[-1].strip()
+    try:
+        from opencc import OpenCC
+
+        return OpenCC("s2t").convert(raw)
+    except ImportError:  # 未装 opencc 时退回原词(繁简同形条目仍可命中)
+        return raw
 
 
 def proofread(dyn_filter: str | None = None, limit: int | None = None) -> list[ProofResult]:

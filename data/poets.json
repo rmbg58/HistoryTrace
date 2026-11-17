@@ -5,6 +5,10 @@
     { "id": "prs_wangwei", "name": "王维", "dynasty": "唐", "years": "701–761", "desc": "字摩诘。诗中有画,晚年长斋奉佛。" },
     { "id": "prs_baijuyi", "name": "白居易", "dynasty": "唐", "years": "772–846", "desc": "字乐天,号香山居士。诗浅切平易。" },
     { "id": "prs_sushi", "name": "苏轼", "dynasty": "宋", "years": "1037–1101", "desc": "字子瞻,号东坡居士。诗词文书画皆冠绝一时。" },
-    { "id": "prs_luyou", "name": "陆游", "dynasty": "宋", "years": "1125–1210", "desc": "字务观,号放翁。存诗九千余首,志在恢复。" }
+    { "id": "prs_luyou", "name": "陆游", "dynasty": "宋", "years": "1125–1210", "desc": "字务观,号放翁。存诗九千余首,志在恢复。" },
+    { "id": "prs_liuzongyuan", "name": "柳宗元", "dynasty": "唐", "years": "773–819", "desc": "字子厚,河东人。与韩愈共倡古文,唐宋八大家之一。" },
+    { "id": "prs_hanyu", "name": "韩愈", "dynasty": "唐", "years": "768–824", "desc": "字退之,昌黎人。文起八代之衰,唐宋八大家之首。" },
+    { "id": "prs_liqingzhao", "name": "李清照", "dynasty": "宋", "years": "1084–约1155", "desc": "号易安居士。婉约词宗,南渡词风凄婉沉痛。" },
+    { "id": "prs_xinqiji", "name": "辛弃疾", "dynasty": "宋", "years": "1140–1207", "desc": "字幼安,号稼轩。豪放词宗,志在恢复中原。" }
   ]
 }

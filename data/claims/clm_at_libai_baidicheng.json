@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:乾元二年流放遇赦东还,通行编年",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_libai_baidicheng",
+ "object": {
+  "lat": 31.042,
+  "lng": 109.574,
+  "name": "白帝城(夔州)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 759,
+  "latest": 759,
+  "precision": "year"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_libai_baidicheng",
+  "type": "work"
+ },
+ "verdicts": []
+}

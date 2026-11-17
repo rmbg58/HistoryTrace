@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "明史/地理志/哈密卫",
+   "quote": null,
+   "source": "src_mingshi_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "殆知阁镜像/正史地理志/哈密卫",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_hami_ming",
+ "object": {
+  "name": "哈密卫",
+  "note": "永乐四年 1406 置",
+  "role": "关西七卫"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1406,
+  "latest": 1643,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_hami",
+  "type": "place"
+ },
+ "verdicts": []
+}

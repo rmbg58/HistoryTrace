@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/常德府",
-   "quote": null,
+   "quote": "『。松林修。長沙府志五十卷。呂肅高修。岳州府志三十卷。黃凝道修。寶慶府志一百五十七卷。黃宅中修。衡州府志三十二卷。饒佺修。常德府志四十八卷。應光烈撰。辰州府志十一卷。畢本烈修。沅州府志四十卷。張官五修。永州府志十八卷。宗績辰撰。永順府志十二卷。張天如修。開封府志四十卷。管竭忠修。陳州府志三十卷。崔應楷修。歸德府志三十六卷。陳錫輅修。彰州府志三十二卷。湯康業修。衛輝府志五十五卷。德昌修。懷慶府志三十二卷。杜』——《清史稿》(清史稿/卷146)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changde",
   "type": "place"

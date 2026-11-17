@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/金石录·后序(李清照自述)",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_liqingzhao_01",
+ "object": {
+  "lat": 34.797,
+  "lng": 114.3075,
+  "name": "汴京",
+  "note": "归于赵明诚,共治金石,靖康乱起南渡"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1101,
+  "latest": 1126,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_liqingzhao",
+  "type": "person"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:长庆三年长安作,通行说",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_hanyu_zaocun",
+ "object": {
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "name": "长安"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 823,
+  "latest": 823,
+  "precision": "year"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_hanyu_zaocun",
+  "type": "work"
+ },
+ "verdicts": []
+}

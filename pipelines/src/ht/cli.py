@@ -113,6 +113,24 @@ def proofread(dyn: str | None, limit: int | None, json_out: Path | None) -> None
     click.echo(render(results))
 
 
+@main.command()
+@click.option("--dyn", default=None, help="只回填某朝")
+@click.option("--limit", type=int, default=5, help="本批回填条数(限流友好)")
+@click.option("--dry-run", is_flag=True, help="只检索不写回")
+def backfill(dyn: str | None, limit: int, dry_run: bool) -> None:
+    """引文回填:抓命中页原文片段回填 quote,生成复核队列(升 G4 须人工裁决)。"""
+    from .backfill import run_backfill, write_review_queue
+
+    report = run_backfill(dyn_filter=dyn, limit=limit, dry_run=dry_run)
+    for r in report:
+        click.echo(f"  [{r['status']}] {r['claimId']} {r['source']}「{r['term']}」")
+    if not dry_run:
+        queue = write_review_queue(report)
+        click.echo(f"复核队列已生成:{queue}")
+    done = sum(1 for r in report if r["status"] == "backfilled")
+    click.echo(f"backfill {'(dry-run) ' if dry_run else ''}OK: {done}/{len(report)} 回填")
+
+
 if __name__ == "__main__":
     main()
 

@@ -1,0 +1,36 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.6,
+   "locus": "通行编年整理:柳州刺史任上作",
+   "quote": null,
+   "source": "src_own_manual"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_at_liuzongyuan_liuzhou",
+ "object": {
+  "lat": 24.3255,
+  "lng": 109.4155,
+  "name": "柳州"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 815,
+  "latest": 819,
+  "precision": "approx"
+ },
+ "predicate": "written_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "wrk_liuzongyuan_liuzhou",
+  "type": "work"
+ },
+ "verdicts": []
+}

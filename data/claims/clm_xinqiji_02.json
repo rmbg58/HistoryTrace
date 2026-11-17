@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "宋史/辛弃疾传",
+   "quote": null,
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/稼轩长短句",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_xinqiji_02",
+ "object": {
+  "lat": 28.31,
+  "lng": 117.7,
+  "name": "铅山(瓢泉)",
+  "note": "徙铅山瓢泉,相地建舍,卒于此"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1196,
+  "latest": 1207,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_xinqiji",
+  "type": "person"
+ },
+ "verdicts": []
+}

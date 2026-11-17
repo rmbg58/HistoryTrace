@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/顺天府",
-   "quote": null,
+   "quote": "『入湘潭，聚众为乱”。江西又宋代明教之重要传教区也。至十六年又有刘化自称弥勒佛。《明成祖实录》卷一一〇：十六年五月辛亥，“顺天府昌平县民刘化以谋叛伏诛。化初名僧保，畏避从军，逃匿保定府新城县民家，衣道人服，自称弥勒佛下世，当主天下，演说《应劫五公》诸经，鼓诱愚民百四十余人，皆信从之。已而真定容城山西洪洞等县人民皆受戒约，遂相聚为乱。事闻，悉捕诛之。”永乐以后，类似之暴动史不绝书，姑举其著者数事，如宣宗朝转』——《明史》(吳晗論明史)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_beijing",
   "type": "place"

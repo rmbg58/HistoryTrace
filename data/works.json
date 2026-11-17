@@ -20,6 +20,14 @@
     { "id": "wrk_sushi_yinhu", "poetId": "prs_sushi", "title": "饮湖上初晴后雨", "lines": "水光潋滟晴方好,山色空蒙雨亦奇。\n欲把西湖比西子,淡妆浓抹总相宜。", "year": 1073, "yearNote": "熙宁六年杭州通判任上作", "placeId": "plc_hangzhou" },
     { "id": "wrk_luyou_shier", "poetId": "prs_luyou", "title": "示儿", "lines": "死去元知万事空,但悲不见九州同。\n王师北定中原日,家祭无忘告乃翁。", "year": 1210, "yearNote": "临终绝笔,编年无争议", "lng": 120.58, "lat": 30.0, "placeName": "山阴" },
     { "id": "wrk_luyou_shanxi", "poetId": "prs_luyou", "title": "游山西村(节)", "lines": "山重水复疑无路,柳暗花明又一村。", "year": 1167, "yearNote": "乾道三年罢官居山阴作", "lng": 120.58, "lat": 30.0, "placeName": "山阴" },
-    { "id": "wrk_luyou_shufen", "poetId": "prs_luyou", "title": "书愤(节)", "lines": "楼船夜雪瓜洲渡,铁马秋风大散关。", "year": 1186, "yearNote": "淳熙十三年山阴作;大散关指 1172 南郑从军旧事", "lng": 120.58, "lat": 30.0, "placeName": "山阴" }
+    { "id": "wrk_luyou_shufen", "poetId": "prs_luyou", "title": "书愤(节)", "lines": "楼船夜雪瓜洲渡,铁马秋风大散关。", "year": 1186, "yearNote": "淳熙十三年山阴作;大散关指 1172 南郑从军旧事", "lng": 120.58, "lat": 30.0, "placeName": "山阴" },
+    { "id": "wrk_liuzongyuan_jiangxue", "poetId": "prs_liuzongyuan", "title": "江雪", "lines": "千山鸟飞绝,万径人踪灭。\n孤舟蓑笠翁,独钓寒江雪。", "year": 810, "yearNote": "永州十年间作(约),通行说", "lng": 111.6131, "lat": 26.4345, "placeName": "永州" },
+    { "id": "wrk_liuzongyuan_liuzhou", "poetId": "prs_liuzongyuan", "title": "登柳州城楼寄漳汀封连四州", "lines": "城上高楼接大荒,海天愁思正茫茫。", "year": 816, "yearNote": "元和十一年柳州刺史任上作", "lng": 109.4155, "lat": 24.3255, "placeName": "柳州" },
+    { "id": "wrk_hanyu_languan", "poetId": "prs_hanyu", "title": "左迁至蓝关示侄孙湘", "lines": "一封朝奏九重天,夕贬潮州路八千。\n欲为圣明除弊事,肯将衰朽惜残年。", "year": 819, "yearNote": "元和十四年谏迎佛骨贬潮州途中,诗题自证", "lng": 109.32, "lat": 34.15, "placeName": "蓝关(蓝田)" },
+    { "id": "wrk_hanyu_zaocun", "poetId": "prs_hanyu", "title": "早春呈水部张十八员外", "lines": "天街小雨润如酥,草色遥看近却无。\n最是一年春好处,绝胜烟柳满皇都。", "year": 823, "yearNote": "长庆三年长安作,通行说", "placeId": "plc_xian" },
+    { "id": "wrk_liqingzhao_shengshengman", "poetId": "prs_liqingzhao", "title": "声声慢·寻寻觅觅(节)", "lines": "寻寻觅觅,冷冷清清,凄凄惨惨戚戚。", "year": null, "yearNote": "南渡后作,确年不可考", "placeId": null },
+    { "id": "wrk_liqingzhao_xiarijueju", "poetId": "prs_liqingzhao", "title": "夏日绝句", "lines": "生当作人杰,死亦为鬼雄。\n至今思项羽,不肯过江东。", "year": null, "yearNote": "南渡后过乌江作(相传),系年缺", "lng": 118.45, "lat": 31.32, "placeName": "乌江(相传)" },
+    { "id": "wrk_xinqiji_pozhenzi", "poetId": "prs_xinqiji", "title": "破阵子·为陈同甫赋壮词以寄之", "lines": "醉里挑灯看剑,梦回吹角连营。\n了却君王天下事,赢得生前身后名。", "year": 1188, "yearNote": "闲居带湖期作(约),与鹅湖之会相关", "lng": 117.94, "lat": 28.45, "placeName": "上饶·带湖" },
+    { "id": "wrk_xinqiji_yongyule", "poetId": "prs_xinqiji", "title": "永遇乐·京口北固亭怀古(节)", "lines": "千古江山,英雄无觅,孙仲谋处。", "year": 1205, "yearNote": "开禧元年镇江知府任上作,通行说", "lng": 119.4252, "lat": 32.1884, "placeName": "京口(镇江)" }
   ]
 }
