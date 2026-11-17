@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷62/光州",
+   "quote": "『二驛。保安，縣丞駐。汝寧府：沖，繁，難。隸南汝光道。汝南分防通判、新息分防通判駐。清初沿明制，領州二，縣十二。雍正二年，光州直隸。光山、固始、息、商城割隸。北距省治四百六十里。廣二百四十里，袤五百九十里。北極高三十三度一分。京師偏西二度九分。領州一，縣八。汝陽繁，難。倚。城北：天中山。北汝，汝正源。西汝，潕及澺。南汝，瀙。元季，汝溢病蔡，自舞陽堨故瀆，則潕及西平、雲庄諸山水擅之。明嘉靖中涸，則遂平灈、』——《清史稿》(清史稿/卷62)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/光州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_guangzhou_hn_qing",
+ "object": {
+  "name": "光州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_guangzhou_hn",
+  "type": "place"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷75/石阡府",
+   "quote": "『葫蘆溪、堯壩溪、沙壩溪，經廳南，後溪注之。又北流，風水溪並二小水注之，東北流，仍入仁懷。南：葫蘆關。西：中箐關。猿猴汛。石阡府：簡。舊隸糧儲道。順治初，沿明制。康熙中，省葛彰、苗民。雍正中，省石阡副司。西南距省治五百七十四里。廣六十五里，袤四百四十里。北極高二十七度二十九分。京師偏西八度十九分。領縣一。阡山，自平越入境，蜿蜒數百里，府以此名。東：九龍、鎮東。南：松明、十萬山。西：萬壽山。北：香爐山。烏江』——《清史稿》(清史稿/卷75)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/石阡府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_shiqian_qing",
+ "object": {
+  "name": "石阡府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_shiqian",
+  "type": "place"
+ },
+ "verdicts": []
+}

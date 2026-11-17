@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷75/平越府",
+   "quote": "『年，割四川遵義來屬。七年，復升大定、降威寧。乾隆四十一年，升仁懷，嘉慶二年，升松桃，均為直隸廳，改南籠為興義府。三年，降平越府為直隸州。十四年，升普安為直隸州。十六年，改廳。東至湖南晃州；五百四十里。西至雲南霑益；五百五十里。南至廣西南丹；二百二十里。北至四川綦江。五百五十里。東北距京師七千六百四十里。廣一千九十里，袤七百七十里。北極高二十五度四分至二十八度三十三分。京師偏西七度三十三分至十度五十五分。』——《清史稿》(清史稿/卷75)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/平越府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_pingyue_qing",
+ "object": {
+  "name": "平越府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_pingyue",
+  "type": "place"
+ },
+ "verdicts": []
+}

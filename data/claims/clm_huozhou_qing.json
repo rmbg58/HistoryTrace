@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷60/霍州",
+   "quote": "『。歸化城、清水河、薩拉齊、和林格爾、托克托城。與歸、綏二廳並屬歸綏道。二十九年，裁歸化城通判。三十七年，吉州改屬平陽府，霍州為直隸州。今領府九，直隸州十，廳十二，州六，縣八十五。東界直隸井陘；三百七十五里。西界陝西吳堡；五百五里。南界河南濟源；七百三十里。北界內蒙古四子部落草地。一千一百里。廣八百八十里，袤一千六百二十里。北極高三十四度五十七分至四十一度五十分。京師偏西三度四分至五度四十五分。東北距京』——《清史稿》(清史稿/卷60)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/霍州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_huozhou_qing",
+ "object": {
+  "name": "霍州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_huozhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

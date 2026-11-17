@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷61/曹州府",
+   "quote": "『注「出巨公山」，俗黃墩河，其北鶴水，並西入莒。北有濰水，自莒錯入，東入諸城，洪陵河從之。鎮三：濤洛、夾倉、石臼。巨峰寨。曹州府：繁，疲，難。隸兗沂曹濟道。總兵駐。初沿明制，為兗州屬州。雍正二年直隸，仍領縣二。八年，鉅野、嘉祥自兗割隸。十三年為府，置附郭。降濮並所領縣三，又割兗之單、城武、鄆城來屬；而嘉祥還舊隸。東北距省治主五百八十五里。廣百九十五里，袤二百八十里。北極高三十五度二十分。京師偏西五十一分。』——《清史稿》(清史稿/卷61)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/曹州府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_caozhou_qing",
+ "object": {
+  "name": "曹州府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_caozhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

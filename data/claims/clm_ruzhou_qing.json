@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷62/汝州",
+   "quote": "『支蔓渠，俗名悶頓嶺，伊水出，東北逕欒川鎮入嵩。西南：湯水，俗名黃沙五渡，入內鄉。水經註：出盧氏大嵩山。硃陽一鎮。縣驛一。汝州直隸州：繁，難。隸南汝光道。糧捕、水利州同駐。東北距省治四百九十里。廣袤各二百二十里。北極高三十四度十三分。京師偏西三度三十六分。沿明制，領縣四。西南：崆峒山。東北：風穴山。其石樓、鹿台、望雲、檀樹、狼皋、鑾駕諸山，皆中嶽熊耳之支脈也。西北：永安河入伊陽，逕楊家樓。水經注「趨狼皋』——《清史稿》(清史稿/卷62)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/汝州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_ruzhou_qing",
+ "object": {
+  "name": "汝州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_ruzhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

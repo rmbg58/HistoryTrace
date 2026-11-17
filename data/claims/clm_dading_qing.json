@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷75/大定府",
+   "quote": "『。東江、溶江自古州合流入境，下游曰曹平江，東南流入永從。弱女江源出廳南，東北流至雙江口，小溪東北流來會，再東北入古州江。大定府：要。舊隸貴西道。明，貴州宣慰司及烏撒軍民府地。副將駐。康熙三年，平水西、烏撒，以大方城置。二十六年，降州，隸威寧府。雍正七年，復升府。東南距省治三百三十里。廣五百八十五里，袤六百六十里。北極高二十七度四分。京師偏西十度五十五分。領廳一，州三，縣一。東：萬松、火焰、鳳山、凰山。西』——《清史稿》(清史稿/卷75)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/大定府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_dading_qing",
+ "object": {
+  "name": "大定府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_dading",
+  "type": "place"
+ },
+ "verdicts": []
+}

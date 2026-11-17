@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷75/思南府",
+   "quote": "『入，邛水自左來注之。烏蔑河、烏擁河、烏拉河自丹江入，匯為南哨河，自右來注之。再東納德河，入開泰。東：東鎮關。北：白濟關。思南府：繁。隸貴東道。順治初，沿明制。西南距省治六百四十五里。廣四百里，袤五百六十里。北極高二十七度五十六分。京師偏西八度五分。領縣三。城內：中和山。東：東勝、思唐。西：岩門、白鹿。北：雙峰、象山。烏江自石阡入，鸚鵡溪、板坪河會清江溪注之，折東錯入安化。北行至齊灘場，復入府境，曹溪東流』——《清史稿》(清史稿/卷75)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/思南府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_sinan_qing",
+ "object": {
+  "name": "思南府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_sinan",
+  "type": "place"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷69/茂州",
+   "quote": "『水入州。西小壩、睢水，北曲山三關。綿竹繁。州西南百八十里。北：武都。南：文曲。西南：飛鳧。西北：紫岩山。綿水、石亭水俱自茂州入，左流為綿水，逕城北，東南入德陽。射水一名紫溪河，源出三溪山，逕城南，與石亭水合。白水河源出土司漆寨坪，東南流，逕城西南，馬尾河源出土司天池山，東南流，逕城西北，折而東，併入射水河。南：石碑鎮。梓潼衝，繁。州東北百二十里。東：兜率山。西：葛山。南：長卿山。北：五婦山。梓潼水一名』——《清史稿》(清史稿/卷69)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/茂州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_maozhou_qing",
+ "object": {
+  "name": "茂州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_maozhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

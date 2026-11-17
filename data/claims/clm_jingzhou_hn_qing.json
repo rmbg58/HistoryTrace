@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷68/靖州",
+   "quote": "『安化。高平水出西南首望山，東南流，入邵陽，注資水。西北有蘇溪鎮巡司，乾隆四十年廢。城步難。府西南四百二十里。乾隆三年改隸靖州，七年復。東：羅漢山。東南：金紫山，與廣西全州接界。西南：金童，又有藍山。西北：楓門山。東北：青角山，即古路山，資水所出，一名都梁水，又名濟水。北流屈東，左會款溪水，入武岡。又有巫水，源出東北巫山，南屈而西為漁渡江，縣東南諸水皆入焉。至縣治西南，左納界背水，西北與清溪水合，入綏寧』——《清史稿》(清史稿/卷68)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/靖州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_jingzhou_hn_qing",
+ "object": {
+  "name": "靖州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_jingzhou_hn",
+  "type": "place"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷61/泰安府",
+   "quote": "『，繁，疲，難。府東北百八十里。西北：衛河，自武城錯入。西南古黃河，南馬頰，左瀆並自夏津入，入德。四女寺，縣丞駐。太平驛。泰安府：衝，繁，難。隸濟東泰武臨道。初沿明制，為濟南屬州。雍正二年直隸，領新泰、萊蕪、長清。長清尋換肥城。十三年為府，增附郭，降東平與其所領東阿、平陰來隸。北距省八十里。廣四百三十里，袤百七十里。北極高三十六度十五分。京師偏東五十二分。領州一，縣六。泰安衝，繁，疲，難。倚。泰山，北五里』——《清史稿》(清史稿/卷61)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/泰安府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_taian_qing",
+ "object": {
+  "name": "泰安府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_taian",
+  "type": "place"
+ },
+ "verdicts": []
+}

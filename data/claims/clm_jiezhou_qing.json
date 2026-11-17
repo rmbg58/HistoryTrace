@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷60/解州",
+   "quote": "『里。東有涑水自安邑入，西南入臨晉。有張岳鎮。萬泉難。府東北百六十里。東：介山，其西峰孤山。城南山陰暖泉。又東澗。解店鎮。解州直隸州：繁，難。河東道兼鹽法駐安邑運城。明，平陽屬州。領縣五。雍正二年升，割聞喜易其垣曲，尋並隸絳。東北距省治九百五十里。至京師千四百五十里。廣二百二十里，袤百四十里。北極高三十四度五十八分。京師偏西五度三十八分。領縣四。東南：中條山，其脊橫嶺，又白徑、分雲。其北鹽池。又北鹽水，』——《清史稿》(清史稿/卷60)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/解州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_jiezhou_qing",
+ "object": {
+  "name": "解州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_jiezhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

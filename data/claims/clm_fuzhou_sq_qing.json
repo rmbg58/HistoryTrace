@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷63/鄜州",
+   "quote": "『牆。甘泉簡。府南九十里。東北：伏陸山。南：秦冒、溫泉山。洛水自安塞入，右納自修川、北河、美水，左納清泉水、漫漲河水，南入鄜州。西南有甘泉，縣以此名。臨真鎮，縣丞駐。安定簡。府北百八十里。東：鵬山。西：祖師。南：祖師山。西北：高柏山，懷寧河出焉，亦名走馬水，又東北有東溝，並東入清澗。秀延水自安塞入，即北河，俗名縣河，逕城北，合根水、革班川，東南亦入清澗。南：清化水，南入膚施。保安簡。府西北二百二十里。東』——《清史稿》(清史稿/卷63)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/鄜州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_fuzhou_sq_qing",
+ "object": {
+  "name": "鄜州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_fuzhou_sq",
+  "type": "place"
+ },
+ "verdicts": []
+}

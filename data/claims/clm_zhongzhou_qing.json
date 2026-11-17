@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷69/忠州",
+   "quote": "『州，省馬湖入敘州，改建寧衛為寧遠府，升錦、茂、達三州及資縣並為直隸州。七年，升雅州為府。十二年，升嘉定、潼川二州為府，升忠州為直隸州，置黔彭直隸廳。乾隆元年裁，改酉陽土司為酉陽直隸州，升敘永廳為直隸廳。十四年，復專設四川總督，裁巡撫，以總督兼理巡撫事，治成都。二十五年，改松潘衛為松潘直隸廳，改雜古腦為理番直隸廳。二十六年，改石砫土司為石砫直隸廳。嘉慶七年，升達州為綏定府。光緒三十年，升打箭鑪廳為直隸廳』——《清史稿》(清史稿/卷69)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/忠州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_zhongzhou_qing",
+ "object": {
+  "name": "忠州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_zhongzhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

@@ -1,131 +1,1061 @@
 {
-  "places": [
-    { "id": "plc_xian", "name": "西安", "lng": 108.9398, "lat": 34.3416, "province": "陕西" },
-    { "id": "plc_luoyang", "name": "洛阳", "lng": 112.454, "lat": 34.6197, "province": "河南" },
-    { "id": "plc_nanjing", "name": "南京", "lng": 118.7969, "lat": 32.0603, "province": "江苏" },
-    { "id": "plc_beijing", "name": "北京", "lng": 116.4074, "lat": 39.9042, "province": "北京" },
-    { "id": "plc_chengdu", "name": "成都", "lng": 104.0668, "lat": 30.5728, "province": "四川" },
-    { "id": "plc_suzhou", "name": "苏州", "lng": 120.5853, "lat": 31.2989, "province": "江苏" },
-    { "id": "plc_guangzhou", "name": "广州", "lng": 113.2644, "lat": 23.1291, "province": "广东" },
-    { "id": "plc_wuhan", "name": "武汉", "lng": 114.3055, "lat": 30.5928, "province": "湖北" },
-    { "id": "plc_hangzhou", "name": "杭州", "lng": 120.1551, "lat": 30.2741, "province": "浙江" },
-    { "id": "plc_kaifeng", "name": "开封", "lng": 114.3075, "lat": 34.797, "province": "河南" },
-    { "id": "plc_taiyuan", "name": "太原", "lng": 112.5489, "lat": 37.8706, "province": "山西" },
-    { "id": "plc_jinan", "name": "济南", "lng": 117.1201, "lat": 36.6512, "province": "山东" },
-    { "id": "plc_changsha", "name": "长沙", "lng": 112.9388, "lat": 28.2282, "province": "湖南" },
-    { "id": "plc_nanchang", "name": "南昌", "lng": 115.8579, "lat": 28.682, "province": "江西" },
-    { "id": "plc_fuzhou", "name": "福州", "lng": 119.2965, "lat": 26.0745, "province": "福建" },
-    { "id": "plc_ningbo", "name": "宁波", "lng": 121.544, "lat": 29.8683, "province": "浙江" },
-    { "id": "plc_wenzhou", "name": "温州", "lng": 120.6994, "lat": 28.0001, "province": "浙江" },
-    { "id": "plc_jiujiang", "name": "九江", "lng": 116.0005, "lat": 29.7052, "province": "江西" },
-    { "id": "plc_anqing", "name": "安庆", "lng": 117.0433, "lat": 30.5438, "province": "安徽" },
-    { "id": "plc_hefei", "name": "合肥", "lng": 117.2272, "lat": 31.8206, "province": "安徽" },
-    { "id": "plc_xuzhou", "name": "徐州", "lng": 117.2858, "lat": 34.2044, "province": "江苏" },
-    { "id": "plc_guilin", "name": "桂林", "lng": 110.2902, "lat": 25.2742, "province": "广西" },
-    { "id": "plc_lanzhou", "name": "兰州", "lng": 103.8343, "lat": 36.0611, "province": "甘肃" },
-    { "id": "plc_tianshui", "name": "天水", "lng": 105.7249, "lat": 34.5809, "province": "甘肃" },
-    { "id": "plc_wuwei", "name": "武威", "lng": 102.6378, "lat": 37.9283, "province": "甘肃" },
-    { "id": "plc_zhangye", "name": "张掖", "lng": 100.4497, "lat": 38.9259, "province": "甘肃" },
-    { "id": "plc_dunhuang", "name": "敦煌", "lng": 94.6616, "lat": 40.1421, "province": "甘肃" },
-    { "id": "plc_datong", "name": "大同", "lng": 113.3001, "lat": 40.0768, "province": "山西" },
-    { "id": "plc_linfen", "name": "临汾", "lng": 111.519, "lat": 36.0881, "province": "山西" },
-    { "id": "plc_handan", "name": "邯郸", "lng": 114.5391, "lat": 36.6259, "province": "河北" },
-    { "id": "plc_zhengding", "name": "正定", "lng": 114.5717, "lat": 38.1415, "province": "河北" },
-    { "id": "plc_dingzhou", "name": "定州", "lng": 114.9913, "lat": 38.5166, "province": "河北" },
-    { "id": "plc_jizhou", "name": "冀州", "lng": 115.4196, "lat": 37.5508, "province": "河北" },
-    { "id": "plc_daming", "name": "大名", "lng": 115.1511, "lat": 36.2806, "province": "河北" },
-    { "id": "plc_shuozhou", "name": "朔州", "lng": 112.433, "lat": 39.3312, "province": "山西" },
-    { "id": "plc_yongji", "name": "永济", "lng": 110.2884, "lat": 34.8561, "province": "山西" },
-    { "id": "plc_liaoyang", "name": "辽阳", "lng": 123.2373, "lat": 41.2683, "province": "辽宁" },
-    { "id": "plc_qufu", "name": "曲阜", "lng": 116.991, "lat": 35.5966, "province": "山东" },
-    { "id": "plc_laizhou", "name": "莱州", "lng": 119.9424, "lat": 37.178, "province": "山东" },
-    { "id": "plc_linzi", "name": "临淄", "lng": 118.0621, "lat": 36.8175, "province": "山东" },
-    { "id": "plc_xuchang", "name": "许昌", "lng": 113.8523, "lat": 34.0357, "province": "河南" },
-    { "id": "plc_nanyang", "name": "南阳", "lng": 112.5283, "lat": 32.9991, "province": "河南" },
-    { "id": "plc_shangqiu", "name": "商丘", "lng": 115.6505, "lat": 34.4371, "province": "河南" },
-    { "id": "plc_puyang", "name": "濮阳", "lng": 115.0296, "lat": 35.7627, "province": "河南" },
-    { "id": "plc_sanmenxia", "name": "三门峡", "lng": 111.1947, "lat": 34.7733, "province": "河南" },
-    { "id": "plc_suzhou_yu", "name": "宿州", "lng": 116.9641, "lat": 33.6461, "province": "安徽" },
-    { "id": "plc_fuyang", "name": "阜阳", "lng": 115.8147, "lat": 32.8908, "province": "安徽" },
-    { "id": "plc_xuancheng", "name": "宣城", "lng": 118.758, "lat": 30.9457, "province": "安徽" },
-    { "id": "plc_huaian", "name": "淮安", "lng": 119.0153, "lat": 33.6104, "province": "江苏" },
-    { "id": "plc_lianyungang", "name": "连云港", "lng": 119.2219, "lat": 34.5968, "province": "江苏" },
-    { "id": "plc_yangzhou", "name": "扬州", "lng": 119.4126, "lat": 32.3947, "province": "江苏" },
-    { "id": "plc_zhenjiang", "name": "镇江", "lng": 119.4252, "lat": 32.1884, "province": "江苏" },
-    { "id": "plc_changzhou", "name": "常州", "lng": 119.9465, "lat": 31.7729, "province": "江苏" },
-    { "id": "plc_jiaxing", "name": "嘉兴", "lng": 120.7554, "lat": 30.7465, "province": "浙江" },
-    { "id": "plc_jinhua", "name": "金华", "lng": 119.6491, "lat": 29.1, "province": "浙江" },
-    { "id": "plc_taizhou_zj", "name": "台州", "lng": 121.4208, "lat": 28.6562, "province": "浙江" },
-    { "id": "plc_shaoxing", "name": "绍兴", "lng": 120.5823, "lat": 30.0063, "province": "浙江" },
-    { "id": "plc_huzhou", "name": "湖州", "lng": 120.1024, "lat": 30.8672, "province": "浙江" },
-    { "id": "plc_huangshan", "name": "黄山", "lng": 118.3379, "lat": 29.9079, "province": "安徽" },
-    { "id": "plc_yichun", "name": "宜春", "lng": 114.3836, "lat": 27.8043, "province": "江西" },
-    { "id": "plc_jian", "name": "吉安", "lng": 114.9862, "lat": 27.1138, "province": "江西" },
-    { "id": "plc_ganzhou", "name": "赣州", "lng": 114.935, "lat": 25.8309, "province": "江西" },
-    { "id": "plc_jingzhou", "name": "荆州", "lng": 112.239, "lat": 30.3264, "province": "湖北" },
-    { "id": "plc_xiangyang", "name": "襄阳", "lng": 112.1214, "lat": 32.009, "province": "湖北" },
-    { "id": "plc_yichang", "name": "宜昌", "lng": 111.2865, "lat": 30.6921, "province": "湖北" },
-    { "id": "plc_changde", "name": "常德", "lng": 111.6989, "lat": 29.0319, "province": "湖南" },
-    { "id": "plc_yongzhou", "name": "永州", "lng": 111.6131, "lat": 26.4345, "province": "湖南" },
-    { "id": "plc_liuzhou", "name": "柳州", "lng": 109.4155, "lat": 24.3255, "province": "广西" },
-    { "id": "plc_wuzhou", "name": "梧州", "lng": 111.2793, "lat": 23.477, "province": "广西" },
-    { "id": "plc_hepu", "name": "合浦", "lng": 109.1993, "lat": 21.6621, "province": "广西" },
-    { "id": "plc_chaozhou", "name": "潮州", "lng": 116.6226, "lat": 23.6566, "province": "广东" },
-    { "id": "plc_zhaoqing", "name": "肇庆", "lng": 112.4652, "lat": 23.0472, "province": "广东" },
-    { "id": "plc_chongqing", "name": "重庆", "lng": 106.5516, "lat": 29.563, "province": "重庆" },
-    { "id": "plc_leshan", "name": "乐山", "lng": 103.7657, "lat": 29.552, "province": "四川" },
-    { "id": "plc_yibin", "name": "宜宾", "lng": 104.6418, "lat": 28.7688, "province": "四川" },
-    { "id": "plc_guanghan", "name": "广汉", "lng": 104.2843, "lat": 30.977, "province": "四川" },
-    { "id": "plc_langzhong", "name": "阆中", "lng": 105.9776, "lat": 31.5583, "province": "四川" },
-    { "id": "plc_baoji", "name": "宝鸡", "lng": 107.2369, "lat": 34.3617, "province": "陕西" },
-    { "id": "plc_fengxiang", "name": "凤翔", "lng": 107.4001, "lat": 34.5212, "province": "陕西" },
-    { "id": "plc_hanzhong", "name": "汉中", "lng": 107.0233, "lat": 33.0675, "province": "陕西" },
-    { "id": "plc_yanan", "name": "延安", "lng": 109.4908, "lat": 36.5855, "province": "陕西" },
-    { "id": "plc_jiuquan", "name": "酒泉", "lng": 98.4899, "lat": 39.7321, "province": "甘肃" },
-    { "id": "plc_turpan", "name": "吐鲁番", "lng": 89.1894, "lat": 42.9513, "province": "新疆" },
-    { "id": "plc_dengzhou", "name": "邓州", "lng": 112.0844, "lat": 32.6872, "province": "河南" },
-    { "id": "plc_taizhou_js", "name": "泰州", "lng": 119.923, "lat": 32.4553, "province": "江苏" },
-    { "id": "plc_lingwu", "name": "灵武", "lng": 106.3308, "lat": 38.1025, "province": "宁夏" },
-    { "id": "plc_tianjin", "name": "天津", "lng": 117.2009, "lat": 39.1256, "province": "天津" },
-    { "id": "plc_chengde", "name": "承德", "lng": 117.9557, "lat": 40.9517, "province": "河北" },
-    { "id": "plc_zhangjiakou", "name": "张家口", "lng": 114.8862, "lat": 40.7675, "province": "河北" },
-    { "id": "plc_xuanhua", "name": "宣化", "lng": 115.0499, "lat": 40.6057, "province": "河北" },
-    { "id": "plc_chifeng", "name": "赤峰", "lng": 118.887, "lat": 42.2578, "province": "内蒙古" },
-    { "id": "plc_shenyang", "name": "沈阳", "lng": 123.4315, "lat": 41.8057, "province": "辽宁" },
-    { "id": "plc_xining", "name": "西宁", "lng": 101.7782, "lat": 36.6171, "province": "青海" },
-    { "id": "plc_urumqi", "name": "乌鲁木齐", "lng": 87.6168, "lat": 43.8256, "province": "新疆" },
-    { "id": "plc_kashi", "name": "喀什", "lng": 75.9898, "lat": 39.4704, "province": "新疆" },
-    { "id": "plc_hetian", "name": "和田", "lng": 79.9226, "lat": 37.1098, "province": "新疆" },
-    { "id": "plc_kuche", "name": "库车", "lng": 82.96, "lat": 41.7167, "province": "新疆" },
-    { "id": "plc_yanqi", "name": "焉耆", "lng": 86.57, "lat": 42.438, "province": "新疆" },
-    { "id": "plc_ningan", "name": "宁安", "lng": 129.4835, "lat": 44.3414, "province": "黑龙江" },
-    { "id": "plc_qiqihaer", "name": "齐齐哈尔", "lng": 123.918, "lat": 47.3542, "province": "黑龙江" },
-    { "id": "plc_yili", "name": "伊犁", "lng": 80.8667, "lat": 44.0436, "province": "新疆" },
-    { "id": "plc_shouxian", "name": "寿县", "lng": 116.7894, "lat": 32.5758, "province": "安徽" },
-    { "id": "plc_huaiyang", "name": "淮阳", "lng": 114.8861, "lat": 33.7306, "province": "河南" },
-    { "id": "plc_hexian", "name": "和县", "lng": 118.3525, "lat": 31.6973, "province": "安徽" },
-    { "id": "plc_chenzhou", "name": "郴州", "lng": 113.0147, "lat": 25.7706, "province": "湖南" },
-    { "id": "plc_runan", "name": "汝南", "lng": 114.3582, "lat": 33.0021, "province": "河南" },
-    { "id": "plc_dali_shaan", "name": "大荔", "lng": 109.9417, "lat": 34.7967, "province": "陕西" },
-    { "id": "plc_hejian", "name": "河间", "lng": 116.0953, "lat": 38.4456, "province": "河北" },
-    { "id": "plc_xingtai", "name": "邢台", "lng": 114.5049, "lat": 37.0695, "province": "河北" },
-    { "id": "plc_fenyang", "name": "汾阳", "lng": 111.7867, "lat": 37.268, "province": "山西" },
-    { "id": "plc_changzhi", "name": "长治", "lng": 113.1163, "lat": 36.1953, "province": "山西" },
-    { "id": "plc_daixian", "name": "代县", "lng": 112.9591, "lat": 39.0667, "province": "山西" },
-    { "id": "plc_weihui", "name": "卫辉", "lng": 113.9642, "lat": 35.4019, "province": "河南" },
-    { "id": "plc_qinyang", "name": "沁阳", "lng": 112.9453, "lat": 35.0893, "province": "河南" },
-    { "id": "plc_lixian_hn", "name": "澧县", "lng": 111.7587, "lat": 29.6426, "province": "湖南" },
-    { "id": "plc_leizhou", "name": "雷州", "lng": 110.0847, "lat": 20.9143, "province": "广东" },
-    { "id": "plc_changting", "name": "长汀", "lng": 116.3581, "lat": 25.8344, "province": "福建" },
-    { "id": "plc_zhangzhou", "name": "漳州", "lng": 117.6537, "lat": 24.5129, "province": "福建" },
-    { "id": "plc_tancheng", "name": "郯城", "lng": 118.3342, "lat": 34.6169, "province": "山东" },
-    { "id": "plc_hami", "name": "哈密", "lng": 93.5152, "lat": 42.8332, "province": "新疆" },
-    { "id": "plc_shache", "name": "莎车", "lng": 77.2444, "lat": 38.4158, "province": "新疆" },
-    { "id": "plc_yinchuan", "name": "银川", "lng": 106.2309, "lat": 38.4872, "province": "宁夏" },
-    { "id": "plc_fengjie", "name": "奉节", "lng": 109.46, "lat": 31.0183, "province": "重庆" },
-    { "id": "plc_santai", "name": "三台", "lng": 105.0903, "lat": 31.0919, "province": "四川" },
-    { "id": "plc_nanping", "name": "南平", "lng": 118.1776, "lat": 26.6418, "province": "福建" },
-    { "id": "plc_poyang", "name": "鄱阳", "lng": 116.6997, "lat": 28.9926, "province": "江西" },
-    { "id": "plc_shangrao", "name": "上饶", "lng": 117.9433, "lat": 28.4548, "province": "江西" }
-  ]
+ "places": [
+  {
+   "id": "plc_xian",
+   "name": "西安",
+   "lng": 108.9398,
+   "lat": 34.3416,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_luoyang",
+   "name": "洛阳",
+   "lng": 112.454,
+   "lat": 34.6197,
+   "province": "河南"
+  },
+  {
+   "id": "plc_nanjing",
+   "name": "南京",
+   "lng": 118.7969,
+   "lat": 32.0603,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_beijing",
+   "name": "北京",
+   "lng": 116.4074,
+   "lat": 39.9042,
+   "province": "北京"
+  },
+  {
+   "id": "plc_chengdu",
+   "name": "成都",
+   "lng": 104.0668,
+   "lat": 30.5728,
+   "province": "四川"
+  },
+  {
+   "id": "plc_suzhou",
+   "name": "苏州",
+   "lng": 120.5853,
+   "lat": 31.2989,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_guangzhou",
+   "name": "广州",
+   "lng": 113.2644,
+   "lat": 23.1291,
+   "province": "广东"
+  },
+  {
+   "id": "plc_wuhan",
+   "name": "武汉",
+   "lng": 114.3055,
+   "lat": 30.5928,
+   "province": "湖北"
+  },
+  {
+   "id": "plc_hangzhou",
+   "name": "杭州",
+   "lng": 120.1551,
+   "lat": 30.2741,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_kaifeng",
+   "name": "开封",
+   "lng": 114.3075,
+   "lat": 34.797,
+   "province": "河南"
+  },
+  {
+   "id": "plc_taiyuan",
+   "name": "太原",
+   "lng": 112.5489,
+   "lat": 37.8706,
+   "province": "山西"
+  },
+  {
+   "id": "plc_jinan",
+   "name": "济南",
+   "lng": 117.1201,
+   "lat": 36.6512,
+   "province": "山东"
+  },
+  {
+   "id": "plc_changsha",
+   "name": "长沙",
+   "lng": 112.9388,
+   "lat": 28.2282,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_nanchang",
+   "name": "南昌",
+   "lng": 115.8579,
+   "lat": 28.682,
+   "province": "江西"
+  },
+  {
+   "id": "plc_fuzhou",
+   "name": "福州",
+   "lng": 119.2965,
+   "lat": 26.0745,
+   "province": "福建"
+  },
+  {
+   "id": "plc_ningbo",
+   "name": "宁波",
+   "lng": 121.544,
+   "lat": 29.8683,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_wenzhou",
+   "name": "温州",
+   "lng": 120.6994,
+   "lat": 28.0001,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_jiujiang",
+   "name": "九江",
+   "lng": 116.0005,
+   "lat": 29.7052,
+   "province": "江西"
+  },
+  {
+   "id": "plc_anqing",
+   "name": "安庆",
+   "lng": 117.0433,
+   "lat": 30.5438,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_hefei",
+   "name": "合肥",
+   "lng": 117.2272,
+   "lat": 31.8206,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_xuzhou",
+   "name": "徐州",
+   "lng": 117.2858,
+   "lat": 34.2044,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_guilin",
+   "name": "桂林",
+   "lng": 110.2902,
+   "lat": 25.2742,
+   "province": "广西"
+  },
+  {
+   "id": "plc_lanzhou",
+   "name": "兰州",
+   "lng": 103.8343,
+   "lat": 36.0611,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_tianshui",
+   "name": "天水",
+   "lng": 105.7249,
+   "lat": 34.5809,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_wuwei",
+   "name": "武威",
+   "lng": 102.6378,
+   "lat": 37.9283,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_zhangye",
+   "name": "张掖",
+   "lng": 100.4497,
+   "lat": 38.9259,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_dunhuang",
+   "name": "敦煌",
+   "lng": 94.6616,
+   "lat": 40.1421,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_datong",
+   "name": "大同",
+   "lng": 113.3001,
+   "lat": 40.0768,
+   "province": "山西"
+  },
+  {
+   "id": "plc_linfen",
+   "name": "临汾",
+   "lng": 111.519,
+   "lat": 36.0881,
+   "province": "山西"
+  },
+  {
+   "id": "plc_handan",
+   "name": "邯郸",
+   "lng": 114.5391,
+   "lat": 36.6259,
+   "province": "河北"
+  },
+  {
+   "id": "plc_zhengding",
+   "name": "正定",
+   "lng": 114.5717,
+   "lat": 38.1415,
+   "province": "河北"
+  },
+  {
+   "id": "plc_dingzhou",
+   "name": "定州",
+   "lng": 114.9913,
+   "lat": 38.5166,
+   "province": "河北"
+  },
+  {
+   "id": "plc_jizhou",
+   "name": "冀州",
+   "lng": 115.4196,
+   "lat": 37.5508,
+   "province": "河北"
+  },
+  {
+   "id": "plc_daming",
+   "name": "大名",
+   "lng": 115.1511,
+   "lat": 36.2806,
+   "province": "河北"
+  },
+  {
+   "id": "plc_shuozhou",
+   "name": "朔州",
+   "lng": 112.433,
+   "lat": 39.3312,
+   "province": "山西"
+  },
+  {
+   "id": "plc_yongji",
+   "name": "永济",
+   "lng": 110.2884,
+   "lat": 34.8561,
+   "province": "山西"
+  },
+  {
+   "id": "plc_liaoyang",
+   "name": "辽阳",
+   "lng": 123.2373,
+   "lat": 41.2683,
+   "province": "辽宁"
+  },
+  {
+   "id": "plc_qufu",
+   "name": "曲阜",
+   "lng": 116.991,
+   "lat": 35.5966,
+   "province": "山东"
+  },
+  {
+   "id": "plc_laizhou",
+   "name": "莱州",
+   "lng": 119.9424,
+   "lat": 37.178,
+   "province": "山东"
+  },
+  {
+   "id": "plc_linzi",
+   "name": "临淄",
+   "lng": 118.0621,
+   "lat": 36.8175,
+   "province": "山东"
+  },
+  {
+   "id": "plc_xuchang",
+   "name": "许昌",
+   "lng": 113.8523,
+   "lat": 34.0357,
+   "province": "河南"
+  },
+  {
+   "id": "plc_nanyang",
+   "name": "南阳",
+   "lng": 112.5283,
+   "lat": 32.9991,
+   "province": "河南"
+  },
+  {
+   "id": "plc_shangqiu",
+   "name": "商丘",
+   "lng": 115.6505,
+   "lat": 34.4371,
+   "province": "河南"
+  },
+  {
+   "id": "plc_puyang",
+   "name": "濮阳",
+   "lng": 115.0296,
+   "lat": 35.7627,
+   "province": "河南"
+  },
+  {
+   "id": "plc_sanmenxia",
+   "name": "三门峡",
+   "lng": 111.1947,
+   "lat": 34.7733,
+   "province": "河南"
+  },
+  {
+   "id": "plc_suzhou_yu",
+   "name": "宿州",
+   "lng": 116.9641,
+   "lat": 33.6461,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_fuyang",
+   "name": "阜阳",
+   "lng": 115.8147,
+   "lat": 32.8908,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_xuancheng",
+   "name": "宣城",
+   "lng": 118.758,
+   "lat": 30.9457,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_huaian",
+   "name": "淮安",
+   "lng": 119.0153,
+   "lat": 33.6104,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_lianyungang",
+   "name": "连云港",
+   "lng": 119.2219,
+   "lat": 34.5968,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_yangzhou",
+   "name": "扬州",
+   "lng": 119.4126,
+   "lat": 32.3947,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_zhenjiang",
+   "name": "镇江",
+   "lng": 119.4252,
+   "lat": 32.1884,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_changzhou",
+   "name": "常州",
+   "lng": 119.9465,
+   "lat": 31.7729,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_jiaxing",
+   "name": "嘉兴",
+   "lng": 120.7554,
+   "lat": 30.7465,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_jinhua",
+   "name": "金华",
+   "lng": 119.6491,
+   "lat": 29.1,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_taizhou_zj",
+   "name": "台州",
+   "lng": 121.4208,
+   "lat": 28.6562,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_shaoxing",
+   "name": "绍兴",
+   "lng": 120.5823,
+   "lat": 30.0063,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_huzhou",
+   "name": "湖州",
+   "lng": 120.1024,
+   "lat": 30.8672,
+   "province": "浙江"
+  },
+  {
+   "id": "plc_huangshan",
+   "name": "黄山",
+   "lng": 118.3379,
+   "lat": 29.9079,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_yichun",
+   "name": "宜春",
+   "lng": 114.3836,
+   "lat": 27.8043,
+   "province": "江西"
+  },
+  {
+   "id": "plc_jian",
+   "name": "吉安",
+   "lng": 114.9862,
+   "lat": 27.1138,
+   "province": "江西"
+  },
+  {
+   "id": "plc_ganzhou",
+   "name": "赣州",
+   "lng": 114.935,
+   "lat": 25.8309,
+   "province": "江西"
+  },
+  {
+   "id": "plc_jingzhou",
+   "name": "荆州",
+   "lng": 112.239,
+   "lat": 30.3264,
+   "province": "湖北"
+  },
+  {
+   "id": "plc_xiangyang",
+   "name": "襄阳",
+   "lng": 112.1214,
+   "lat": 32.009,
+   "province": "湖北"
+  },
+  {
+   "id": "plc_yichang",
+   "name": "宜昌",
+   "lng": 111.2865,
+   "lat": 30.6921,
+   "province": "湖北"
+  },
+  {
+   "id": "plc_changde",
+   "name": "常德",
+   "lng": 111.6989,
+   "lat": 29.0319,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_yongzhou",
+   "name": "永州",
+   "lng": 111.6131,
+   "lat": 26.4345,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_liuzhou",
+   "name": "柳州",
+   "lng": 109.4155,
+   "lat": 24.3255,
+   "province": "广西"
+  },
+  {
+   "id": "plc_wuzhou",
+   "name": "梧州",
+   "lng": 111.2793,
+   "lat": 23.477,
+   "province": "广西"
+  },
+  {
+   "id": "plc_hepu",
+   "name": "合浦",
+   "lng": 109.1993,
+   "lat": 21.6621,
+   "province": "广西"
+  },
+  {
+   "id": "plc_chaozhou",
+   "name": "潮州",
+   "lng": 116.6226,
+   "lat": 23.6566,
+   "province": "广东"
+  },
+  {
+   "id": "plc_zhaoqing",
+   "name": "肇庆",
+   "lng": 112.4652,
+   "lat": 23.0472,
+   "province": "广东"
+  },
+  {
+   "id": "plc_chongqing",
+   "name": "重庆",
+   "lng": 106.5516,
+   "lat": 29.563,
+   "province": "重庆"
+  },
+  {
+   "id": "plc_leshan",
+   "name": "乐山",
+   "lng": 103.7657,
+   "lat": 29.552,
+   "province": "四川"
+  },
+  {
+   "id": "plc_yibin",
+   "name": "宜宾",
+   "lng": 104.6418,
+   "lat": 28.7688,
+   "province": "四川"
+  },
+  {
+   "id": "plc_guanghan",
+   "name": "广汉",
+   "lng": 104.2843,
+   "lat": 30.977,
+   "province": "四川"
+  },
+  {
+   "id": "plc_langzhong",
+   "name": "阆中",
+   "lng": 105.9776,
+   "lat": 31.5583,
+   "province": "四川"
+  },
+  {
+   "id": "plc_baoji",
+   "name": "宝鸡",
+   "lng": 107.2369,
+   "lat": 34.3617,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_fengxiang",
+   "name": "凤翔",
+   "lng": 107.4001,
+   "lat": 34.5212,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_hanzhong",
+   "name": "汉中",
+   "lng": 107.0233,
+   "lat": 33.0675,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_yanan",
+   "name": "延安",
+   "lng": 109.4908,
+   "lat": 36.5855,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_jiuquan",
+   "name": "酒泉",
+   "lng": 98.4899,
+   "lat": 39.7321,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_turpan",
+   "name": "吐鲁番",
+   "lng": 89.1894,
+   "lat": 42.9513,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_dengzhou",
+   "name": "邓州",
+   "lng": 112.0844,
+   "lat": 32.6872,
+   "province": "河南"
+  },
+  {
+   "id": "plc_taizhou_js",
+   "name": "泰州",
+   "lng": 119.923,
+   "lat": 32.4553,
+   "province": "江苏"
+  },
+  {
+   "id": "plc_lingwu",
+   "name": "灵武",
+   "lng": 106.3308,
+   "lat": 38.1025,
+   "province": "宁夏"
+  },
+  {
+   "id": "plc_tianjin",
+   "name": "天津",
+   "lng": 117.2009,
+   "lat": 39.1256,
+   "province": "天津"
+  },
+  {
+   "id": "plc_chengde",
+   "name": "承德",
+   "lng": 117.9557,
+   "lat": 40.9517,
+   "province": "河北"
+  },
+  {
+   "id": "plc_zhangjiakou",
+   "name": "张家口",
+   "lng": 114.8862,
+   "lat": 40.7675,
+   "province": "河北"
+  },
+  {
+   "id": "plc_xuanhua",
+   "name": "宣化",
+   "lng": 115.0499,
+   "lat": 40.6057,
+   "province": "河北"
+  },
+  {
+   "id": "plc_chifeng",
+   "name": "赤峰",
+   "lng": 118.887,
+   "lat": 42.2578,
+   "province": "内蒙古"
+  },
+  {
+   "id": "plc_shenyang",
+   "name": "沈阳",
+   "lng": 123.4315,
+   "lat": 41.8057,
+   "province": "辽宁"
+  },
+  {
+   "id": "plc_xining",
+   "name": "西宁",
+   "lng": 101.7782,
+   "lat": 36.6171,
+   "province": "青海"
+  },
+  {
+   "id": "plc_urumqi",
+   "name": "乌鲁木齐",
+   "lng": 87.6168,
+   "lat": 43.8256,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_kashi",
+   "name": "喀什",
+   "lng": 75.9898,
+   "lat": 39.4704,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_hetian",
+   "name": "和田",
+   "lng": 79.9226,
+   "lat": 37.1098,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_kuche",
+   "name": "库车",
+   "lng": 82.96,
+   "lat": 41.7167,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_yanqi",
+   "name": "焉耆",
+   "lng": 86.57,
+   "lat": 42.438,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_ningan",
+   "name": "宁安",
+   "lng": 129.4835,
+   "lat": 44.3414,
+   "province": "黑龙江"
+  },
+  {
+   "id": "plc_qiqihaer",
+   "name": "齐齐哈尔",
+   "lng": 123.918,
+   "lat": 47.3542,
+   "province": "黑龙江"
+  },
+  {
+   "id": "plc_yili",
+   "name": "伊犁",
+   "lng": 80.8667,
+   "lat": 44.0436,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_shouxian",
+   "name": "寿县",
+   "lng": 116.7894,
+   "lat": 32.5758,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_huaiyang",
+   "name": "淮阳",
+   "lng": 114.8861,
+   "lat": 33.7306,
+   "province": "河南"
+  },
+  {
+   "id": "plc_hexian",
+   "name": "和县",
+   "lng": 118.3525,
+   "lat": 31.6973,
+   "province": "安徽"
+  },
+  {
+   "id": "plc_chenzhou",
+   "name": "郴州",
+   "lng": 113.0147,
+   "lat": 25.7706,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_runan",
+   "name": "汝南",
+   "lng": 114.3582,
+   "lat": 33.0021,
+   "province": "河南"
+  },
+  {
+   "id": "plc_dali_shaan",
+   "name": "大荔",
+   "lng": 109.9417,
+   "lat": 34.7967,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_hejian",
+   "name": "河间",
+   "lng": 116.0953,
+   "lat": 38.4456,
+   "province": "河北"
+  },
+  {
+   "id": "plc_xingtai",
+   "name": "邢台",
+   "lng": 114.5049,
+   "lat": 37.0695,
+   "province": "河北"
+  },
+  {
+   "id": "plc_fenyang",
+   "name": "汾阳",
+   "lng": 111.7867,
+   "lat": 37.268,
+   "province": "山西"
+  },
+  {
+   "id": "plc_changzhi",
+   "name": "长治",
+   "lng": 113.1163,
+   "lat": 36.1953,
+   "province": "山西"
+  },
+  {
+   "id": "plc_daixian",
+   "name": "代县",
+   "lng": 112.9591,
+   "lat": 39.0667,
+   "province": "山西"
+  },
+  {
+   "id": "plc_weihui",
+   "name": "卫辉",
+   "lng": 113.9642,
+   "lat": 35.4019,
+   "province": "河南"
+  },
+  {
+   "id": "plc_qinyang",
+   "name": "沁阳",
+   "lng": 112.9453,
+   "lat": 35.0893,
+   "province": "河南"
+  },
+  {
+   "id": "plc_lixian_hn",
+   "name": "澧县",
+   "lng": 111.7587,
+   "lat": 29.6426,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_leizhou",
+   "name": "雷州",
+   "lng": 110.0847,
+   "lat": 20.9143,
+   "province": "广东"
+  },
+  {
+   "id": "plc_changting",
+   "name": "长汀",
+   "lng": 116.3581,
+   "lat": 25.8344,
+   "province": "福建"
+  },
+  {
+   "id": "plc_zhangzhou",
+   "name": "漳州",
+   "lng": 117.6537,
+   "lat": 24.5129,
+   "province": "福建"
+  },
+  {
+   "id": "plc_tancheng",
+   "name": "郯城",
+   "lng": 118.3342,
+   "lat": 34.6169,
+   "province": "山东"
+  },
+  {
+   "id": "plc_hami",
+   "name": "哈密",
+   "lng": 93.5152,
+   "lat": 42.8332,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_shache",
+   "name": "莎车",
+   "lng": 77.2444,
+   "lat": 38.4158,
+   "province": "新疆"
+  },
+  {
+   "id": "plc_yinchuan",
+   "name": "银川",
+   "lng": 106.2309,
+   "lat": 38.4872,
+   "province": "宁夏"
+  },
+  {
+   "id": "plc_fengjie",
+   "name": "奉节",
+   "lng": 109.46,
+   "lat": 31.0183,
+   "province": "重庆"
+  },
+  {
+   "id": "plc_santai",
+   "name": "三台",
+   "lng": 105.0903,
+   "lat": 31.0919,
+   "province": "四川"
+  },
+  {
+   "id": "plc_nanping",
+   "name": "南平",
+   "lng": 118.1776,
+   "lat": 26.6418,
+   "province": "福建"
+  },
+  {
+   "id": "plc_poyang",
+   "name": "鄱阳",
+   "lng": 116.6997,
+   "lat": 28.9926,
+   "province": "江西"
+  },
+  {
+   "id": "plc_shangrao",
+   "name": "上饶",
+   "lng": 117.9433,
+   "lat": 28.4548,
+   "province": "江西"
+  },
+  {
+   "id": "plc_guangzhou_hn",
+   "name": "光州",
+   "lng": 114.0,
+   "lat": 32.13,
+   "province": "河南"
+  },
+  {
+   "id": "plc_ruzhou",
+   "name": "汝州",
+   "lng": 112.84,
+   "lat": 34.16,
+   "province": "河南"
+  },
+  {
+   "id": "plc_taian",
+   "name": "泰安",
+   "lng": 117.13,
+   "lat": 36.19,
+   "province": "山东"
+  },
+  {
+   "id": "plc_yizhou_sd",
+   "name": "沂州",
+   "lng": 118.35,
+   "lat": 35.1,
+   "province": "山东"
+  },
+  {
+   "id": "plc_caozhou",
+   "name": "曹州",
+   "lng": 115.48,
+   "lat": 35.24,
+   "province": "山东"
+  },
+  {
+   "id": "plc_wuding",
+   "name": "武定",
+   "lng": 117.51,
+   "lat": 37.49,
+   "province": "山东"
+  },
+  {
+   "id": "plc_qinzhou_sx",
+   "name": "沁州",
+   "lng": 112.67,
+   "lat": 36.75,
+   "province": "山西"
+  },
+  {
+   "id": "plc_baode",
+   "name": "保德",
+   "lng": 111.09,
+   "lat": 38.01,
+   "province": "山西"
+  },
+  {
+   "id": "plc_jiezhou",
+   "name": "解州",
+   "lng": 110.83,
+   "lat": 34.99,
+   "province": "山西"
+  },
+  {
+   "id": "plc_huozhou",
+   "name": "霍州",
+   "lng": 111.76,
+   "lat": 36.57,
+   "province": "山西"
+  },
+  {
+   "id": "plc_xizhou",
+   "name": "隰州",
+   "lng": 110.94,
+   "lat": 36.69,
+   "province": "山西"
+  },
+  {
+   "id": "plc_binzhou",
+   "name": "邠州",
+   "lng": 108.08,
+   "lat": 35.04,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_qianzhou",
+   "name": "乾州",
+   "lng": 108.24,
+   "lat": 34.53,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_fuzhou_sq",
+   "name": "鄜州",
+   "lng": 109.38,
+   "lat": 35.99,
+   "province": "陕西"
+  },
+  {
+   "id": "plc_maozhou",
+   "name": "茂州",
+   "lng": 103.85,
+   "lat": 31.68,
+   "province": "四川"
+  },
+  {
+   "id": "plc_zhongzhou",
+   "name": "忠州",
+   "lng": 108.04,
+   "lat": 30.3,
+   "province": "四川"
+  },
+  {
+   "id": "plc_sinan",
+   "name": "思南",
+   "lng": 108.26,
+   "lat": 27.94,
+   "province": "贵州"
+  },
+  {
+   "id": "plc_shiqian",
+   "name": "石阡",
+   "lng": 108.23,
+   "lat": 27.52,
+   "province": "贵州"
+  },
+  {
+   "id": "plc_liping",
+   "name": "黎平",
+   "lng": 109.14,
+   "lat": 26.23,
+   "province": "贵州"
+  },
+  {
+   "id": "plc_dading",
+   "name": "大方",
+   "lng": 105.61,
+   "lat": 27.15,
+   "province": "贵州"
+  },
+  {
+   "id": "plc_pingyue",
+   "name": "福泉",
+   "lng": 107.52,
+   "lat": 26.7,
+   "province": "贵州"
+  },
+  {
+   "id": "plc_jingzhou_hn",
+   "name": "靖州",
+   "lng": 109.7,
+   "lat": 26.58,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_daozhou",
+   "name": "道县",
+   "lng": 111.6,
+   "lat": 25.52,
+   "province": "湖南"
+  },
+  {
+   "id": "plc_tongzhou_js",
+   "name": "南通",
+   "lng": 120.86,
+   "lat": 32.02,
+   "province": "江苏"
+  }
+ ]
 }

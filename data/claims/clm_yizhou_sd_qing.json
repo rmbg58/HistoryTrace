@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷61/沂州府",
+   "quote": "『濼。西南：黃河，自陽穀入，仍錯出復入，入東阿。其北，運河，自東阿錯入仍入之。有張秋鎮。其南沙灣、沮河併入鄆城。有竹口鎮。沂州府：衝，繁，難。隸兗沂曹濟道。初沿明制，為兗州屬州，領縣二。雍正二年直隸。十二年為府，置附郭，降莒及所屬蒙陰、沂水、日照來隸。西北距省治六百六十里。廣五百二十里，袤五百十里。北極高三十五度九分。京師偏東二度十二分。領州一，縣六。蘭山衝，繁，難。倚。西南：寶山。東南：馬陵。北：大柱。』——《清史稿》(清史稿/卷61)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/沂州府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_yizhou_sd_qing",
+ "object": {
+  "name": "沂州府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_yizhou_sd",
+  "type": "place"
+ },
+ "verdicts": []
+}

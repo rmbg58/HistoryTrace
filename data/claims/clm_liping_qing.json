@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷75/黎平府",
+   "quote": "『河，東流入鎮遠。西：欄橋關。勝秉，縣丞一。偏橋廢驛。天柱繁，疲，難。府東南二百十里。順治初，因明隸湖廣靖州。雍正五年改隸黎平府，十一年來隸。東：高雲山、茨嶺山。南：春花、黃少。西：蓮花。北：柱石山，縣以此名。清水江自開泰入，逕城南，直銀水、等溪東南流注之，入湖南會同。西江一曰等溪，東南流，至城北，入鑒水江。東：老黃田關。南：王橋關。西：西安哨關。北：渡頭關。柳霽，縣丞一。遠口巡司一。岔處、革溪二汛。黃平』——《清史稿》(清史稿/卷75)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/黎平府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_liping_qing",
+ "object": {
+  "name": "黎平府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_liping",
+  "type": "place"
+ },
+ "verdicts": []
+}

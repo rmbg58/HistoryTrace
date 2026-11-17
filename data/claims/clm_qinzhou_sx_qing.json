@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷60/沁州",
+   "quote": "『逕城西，又南納縣之西川、儀川等水，入武鄉界。西北：黃花嶺，烏馬河出焉，西北流，入太谷界。北有馬陵關，西有石會關。雲簇鎮。沁州直隸州：沖，繁。隸冀寧道。西北距省治三百三十里。廣三百二十里，袤百三十里。北極高三十六度四十一分。京師偏西三度四十二分。領縣二。東：麟山。西：堯山。西南：銅鞮。西北：伏牛。迤東漳源鎮，小漳水出，左會花山、爛柯山，逕城西，又南，右合後泉、上官泉，至萬安山北，右會銅鞮水，入襄垣，亦通』——《清史稿》(清史稿/卷60)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/沁州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_qinzhou_sx_qing",
+ "object": {
+  "name": "沁州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_qinzhou_sx",
+  "type": "place"
+ },
+ "verdicts": []
+}

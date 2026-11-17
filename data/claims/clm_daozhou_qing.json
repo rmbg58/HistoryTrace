@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷68/道州",
+   "quote": "『石山。西：西山。北：萬石。東北：巋山。東南：陽明山。西南：石城山、永山。湘水自東安合西南石頭江入，至府治西北，東南瀟水自道州合麻江水入，北與永水逕袁家渡至城南，合愚溪及鈷鉧潭來會，是為瀟湘。湘水北與蘆洪江水合，又北，東入祁陽。黃溪水出東南，馬子江出西南，併流合湘水。縣丞駐泠水灘。北有黃楊堡巡司，後廢。有驛。祁陽沖，繁。府東北一百里。北有祁山，縣以是名。南：白水。東南：樂山。東北：七星，即大雲山。西北：』——《清史稿》(清史稿/卷68)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/道州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_daozhou_qing",
+ "object": {
+  "name": "道州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_daozhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

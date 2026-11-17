@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷61/武定府",
+   "quote": "『城西北，又東入肥城。其肥河入東南，合柳溝泉，折南，入東平。西北：趙王河，自東阿入，分入肥城、長清。古黃河，堙。鎮：滑口。武定府：繁，難。隸濟東泰武臨道。初沿明制，永樂初改金棣州曰樂安，宣德初，平漢庶人，改曰武安。國制為濟南屬州，領縣三。雍正二年直隸。十二年為府，置附郭，降濱並所領利津、霑化、蒲臺及濟南之青城、商河來隸。西南距省治二百里。廣二百八十里，袤二百七十里。北極高三十七度三十四分。京師偏東一度十三』——《清史稿》(清史稿/卷61)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/武定府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_wuding_qing",
+ "object": {
+  "name": "武定府",
+  "role": "府(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_wuding",
+  "type": "place"
+ },
+ "verdicts": []
+}

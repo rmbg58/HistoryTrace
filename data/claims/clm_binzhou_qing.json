@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷63/邠州",
+   "quote": "『分水嶺，泔水出，逕城東，漠谷水亦出之，逕城西，並南入州。武水出西南石牛山南，逕州西北，復逕縣南入州。西北：拜家河，東北入邠州，注太谷水。北：呂公渠，西南：趙家渠、李家渠、杜渠。鎮四：底窖、蒿店、監軍、儀並。驛一：永安。==商州直隸州==商州直隸州：繁，疲，難。隸潼商道。明屬西安府。雍正三年，升直隸州。西北距省治三百里。廣四百六十里。袤四百三十里。北極高三十三度四十九分。京師偏西六度三十五分。領縣四。東』——《清史稿》(清史稿/卷63)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/邠州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_binzhou_qing",
+ "object": {
+  "name": "邠州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_binzhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

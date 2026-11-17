@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷63/乾州",
+   "quote": "『石臼。南：箭括山。漆水出縣西青蓮山，東北合岐水，其西麻夫川、東雨亭河，併入甘肅靈台。杜水出西北杜山，逕城南，受澄水，東入乾州。西良舍、西北招賢二鎮。汧陽沖。府西北七十里。東：圭山、龍泉。北：天台：臥虎。南：箭括嶺。汧水自隴入，西北納草碧谷、暉川河，逕城南，納澗口河、界止河，東南入鳳翔。東縻隃澤。東黃理、西草碧二鎮。隴州沖。府西北百五十里。南：吳岳。西北：隴山，即隴坂。又汧山，汧水出，合龍門、關山、蒲峪』——《清史稿》(清史稿/卷63)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/乾州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_qianzhou_qing",
+ "object": {
+  "name": "乾州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_qianzhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

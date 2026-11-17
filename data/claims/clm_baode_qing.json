@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "清史稿/卷60/保德州",
+   "quote": "『出，入興。南：赤堅嶺，嵐水出，東北逕桃尖山，左合乏馬嶺、雙松山水，折東南入靜樂。有東村鎮。興簡。府西北四百里。雍正二年隸保德州。八年仍來隸。東：桃花山。西南：采林。西北：黃河自保德入。東北：嵐漪水自岢嵐入，逕石樓山。東南：蔚汾水自嵐入，逕合查山，至縣西，合南川水併入焉。又南合紫荊山水入臨。蔚汾、合河二關，皆要隘。汾州府：沖，繁，難。隸冀寧道。康熙六年，省明冀南道入。東北距省治二百二十里。至京師千三百八十』——《清史稿》(清史稿/卷60)",
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知阁镜像/清史稿/保德州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_baode_qing",
+ "object": {
+  "name": "保德州",
+  "role": "直隶州(清)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1644,
+  "latest": 1911,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "qing-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_baode",
+  "type": "place"
+ },
+ "verdicts": []
+}
