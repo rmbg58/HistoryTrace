@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/梧州府",
-   "quote": null,
+   "quote": "『水、西江水，經治南，左合銀江，又東南，六樟水東流注之，又東南，榕木嶺水西南流注之，南入藤縣曰濛江。平樂協右營分防汛駐城。梧州府：沖，繁。桂平梧郁道治所。梧州協左右營駐防副將駐。明洪武元年為府，領州一，縣九。順治初，因明舊。雍正三年，升鬱林州為直隸州，割博白、北流、陸川、興業四縣往屬焉。西北距省治九百三十五里。廣二百七十里，袤四百六十里。北極高二十三度三十分。京師偏西五度二分。領縣五。光緒二十三年設關通商』——《清史稿》(清史稿/卷73)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wuzhou",
   "type": "place"

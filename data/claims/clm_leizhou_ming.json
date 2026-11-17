@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/雷州府",
-   "quote": null,
+   "quote": "『，後遷縣西北之地聚村，又遷於芷𦫼口。石城州西。元屬化州路。四月屬高州府。十四年五月改屬州。南濱海。西有零緣巡檢司。===雷州府===雷州府元雷州路，屬海北海南道宣慰司。爲府。領縣三。東距布政司千四百五十里。海康倚。東濱海。南有擎雷水，自擎雷山南流，東入於海。西有海康守禦千戶所，十月置。西南有清道、東南有黑石二巡檢司。遂溪府北。東西濱海。西南有樂民守禦千戶所，十月置。西北有湛川巡檢司，治故湛川縣，後遷縣東』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_leizhou",
   "type": "place"

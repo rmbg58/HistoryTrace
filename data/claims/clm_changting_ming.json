@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/汀州府",
-   "quote": null,
+   "quote": "『東入尤溪縣境。又東南有花橋巡檢司。又西南有桃源店巡檢司，本屬漳平縣，後來屬。北有英寨、西南有安仁隘二巡檢司，後廢。===汀州府===汀州府元汀州路，屬福建道宣慰司。爲府。領縣八。東距布政司九百七十五里。長汀倚。北有臥龍山。又北有新樂山，貢水出焉，流入江西界。西有新路嶺。東有鄞江，即東溪，亦曰左溪，自寧化縣流入，下流經廣東大埔縣入海，中有五百灘，亦謂之汀水。又東南有正溪，西有西溪，北有北溪，南有南溪，俱合』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changting",
   "type": "place"

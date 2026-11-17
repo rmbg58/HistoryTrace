@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/河南府",
-   "quote": null,
+   "quote": "『其南，方山，山海經「浮臝，記水出」，左納玉仙水，北逕城西入焉。爾雅「水決復入汜」。又東，板渚，入滎澤。縣驛一。鄭洛鐵路。河南府：沖，繁。隸河陝汝道。糧捕、水利通判駐。清初沿明制，領州一，縣十三。雍正二年，陝升直隸州。靈寶、閿鄉、盧氏先後割屬。東距省治三百八十里。廣三百六十里，袤五百十五里。北極高三十四度。京師偏西四度二分。洛陽沖，繁，難。倚。城北：北邙山。東南：大石。南：周山。西南：秦山。洛水自宜陽入，』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_luoyang",
   "type": "place"

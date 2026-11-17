@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/江夏",
-   "quote": null,
+   "quote": "『巡撫、布政使、按察使、督糧道駐。廣五百三十二里，袤四百七十二里。北極高三十度三十三分，京師偏西二度十四分。領州一，縣九。江夏要，沖，繁，難。倚。其名山：荊山、內方、大別。城內黃鵠山，亦名黃鶴山。與城北隅鳳凰山，俱置砲台。東有洪山，一名東山，百戰地也。西臨大江，雄據東南上游，有險無蔽。大江自嘉魚，逕城西北入武昌，光緒中，沿江岸建紡紗、織布、繅絲、制麻各局。西南：金水，一曰塗水，自咸寧來，匯為斧頭湖，北至』——《清史稿》(清史稿/卷67)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wuhan",
   "type": "place"

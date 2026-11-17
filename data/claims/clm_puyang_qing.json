@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/开州",
-   "quote": null,
+   "quote": "『：嘉慶八年奪洪河，二十四年奪漆河，奪賈魯河，後復北徙為今瀆。南有杜勝集鎮。改守備置都司，明年置巡司。舊有通判，道光中裁。開州：繁，疲，難。府南百二十里。同、光中，黃河自東明潰入者六道，合而復分。北支古瓠子河，一曰毛相河，故小渠，康熙中決荊隆口，始大。南支古濮渠，併入山東濮州。又有黃河故道二，曰古馬頰河、古朱龍河。又硝河自河南滑縣入，亦曰馬頰河。徐鎮堡、兩門集、井店集、柳下屯四鎮。呂丘堡，州判駐。古定鎮』——《清史稿》(清史稿/卷54)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_puyang",
   "type": "place"

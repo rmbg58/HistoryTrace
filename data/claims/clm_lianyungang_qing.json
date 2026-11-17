@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/海州",
-   "quote": null,
+   "quote": "『瀰漫十里，土人呼遼海，有遼海屯。北柴河，南范河，又南懿路河，皆西入遼河。舊設驛一。商埠，中日約開。有東清鐵路。}}海城：海州降。十一月置海城縣，隸遼陽府。十四年四月改隸。西六十里有牛莊防守尉。西南：唐王山。遼河在西。渾河自遼中入，曰蛤蜊河，左匯太子河，西流入之，名三岔河。北土河、鞍山河西入太子河，南入海州河，西入遼河。三岔巡司，置，駐牛莊。西鄉、三家子、石佛寺等處舊有河道，繞流入遼，後淤塞。開濬故河，』——《清史稿》(清史稿/卷55)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"

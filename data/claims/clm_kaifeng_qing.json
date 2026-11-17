@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/开封府",
-   "quote": null,
+   "quote": "『、太行。其大川：河水、淮、汴、洛、潁、汝、白、丹、衛、漳。其鐵路：京漢，開鄭，道澤。其電線：東北達濟南、京師；西，長安。開封府：沖，繁，疲，難。巡撫，布政、提學、提法司，鹽、糧、開歸陳許鄭、兵備、巡警、勸業道駐。明洪武元年，以元汴梁路改。清初，河南省治，仍領州四，縣三十。雍正二年，陳、許、鄭、禹直隸，割縣十四隸之。延津、原武屬衛輝、懷慶。乾隆中，禹及密、新鄭還隸；河陰省；陽武、封丘屬懷慶、衛輝；儀封為廳』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"

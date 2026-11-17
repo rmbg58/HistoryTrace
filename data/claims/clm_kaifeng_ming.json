@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/开封府",
-   "quote": null,
+   "quote": "『使司==河南《禹貢》豫、冀、揚、兗四州之域。元以河北地直隸中書省，河南地置河南江北行中書省。治汴梁路。五月置中書分省。治開封府。二年四月改分省爲河南等處行中書省。三年十二月置河南都衛。八年十月改都衛爲都指揮使司。九年六月改行中書省爲承宣布政使司。府八，直隸州一，屬州十一，縣九十六。爲裏三千八百八十有奇。北至武安，與北直、山西界。南至信陽，與江南、湖廣界。東至永城，與山東、江南界。西至陝州，與山西、陝西界』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/顺天府",
-   "quote": null,
+   "quote": "『百三十六。八月置燕山都衛。與行中書省同治。八年十月改都衛爲北平都指揮使司。九年六月改行中書省爲承宣布政使司。正月建北京於順天府，稱爲「行在」。二月罷北平布政使司，以所領直隸北京行部；罷北平都指揮使司，以所領直隸北京留守行後軍都督府。十九年正月改北京爲京師。罷北京留守行後軍都督府，直隸後軍都督府。衛所有實土者附見，無實土者不載。罷北京行部，直隸六部。洪熙初，仍稱行在。十一月罷稱行在，定爲京師。府八，直隸州』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_beijing",
   "type": "place"

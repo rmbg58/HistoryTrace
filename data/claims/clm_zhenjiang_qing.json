@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/镇江府",
-   "quote": null,
+   "quote": "『南紫氣河，漩洑深洪，海舶入江處。界河自港北環縣流，西達界港入於江。西有團河。鎮三：陳阜、生祠、新豐市。新港巡司一。===鎮江府===}}：最要，沖，繁，疲，難。常鎮通海道治所。長江水師提督、京口副都統駐。順治初設鎮海將軍，乾隆二十八年裁。順治初，因明制，縣三。雍正八年，以江寧府之溧陽來屬。光緒三十年，又設太平廳，隸府。東南距省治三百七十里。廣二百十里，袤一百三十六里。北極高三十二度十二分。京師偏東二度五』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhenjiang",
   "type": "place"

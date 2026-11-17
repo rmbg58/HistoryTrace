@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/汉州",
-   "quote": null,
+   "quote": "『有湔㳛口。新都府北。東有雒水，自什邡縣流經此，下流至瀘州入大江，亦曰中水。北有湔水，即大江別流，自灌縣東北出，流經此，至漢州入雒水。東北有綿水，自漢州流至此入雒江。三水同流，亦曰郫江也。彭府北。元彭州。五月降爲縣。北有九隴山，有葛王貴山，又有大隋山、中隋山。南有沱江，又北有濛水流合焉。又東有濛陽縣，元屬彭州。五月省。又北有白石溝巡檢司。崇寧府西北。元屬彭州。屬府。十年五月省入灌縣。十三年十一月復置。南』——《明史》(明史/卷43)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"

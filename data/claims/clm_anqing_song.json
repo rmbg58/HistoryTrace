@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/舒州",
-   "quote": null,
+   "quote": "『，緊。有梁山、柵江二砦。含山，中。有東關砦。烏江。中。紹興五年廢爲鎭，七年，-{復}-。====安慶府====安慶府，本舒州，同安郡，德慶軍節度。本團練州。建隆元年，-{陞}-爲防-{禦}-。政和五年，賜軍額。建炎間，置舒、蘄鎭撫使。紹興三年，舒、黃、蘄三州仍-{聽}-江南西路安撫司節-{制}-。十七年，改安慶軍。慶元元年，以-{甯}-宗潛邸，-{陞}-爲府。端平三年，移治羅刹洲，又移楊槎洲。景定元年』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_anqing",
   "type": "place"

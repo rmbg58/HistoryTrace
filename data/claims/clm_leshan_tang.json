@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/嘉州",
-   "quote": null,
+   "quote": "『管府，管松、嘉、台三州。括州領括蒼、麗水二縣。七年，改為都督府。八年，廢松州為松陽縣來屬。省麗水入括蒼。，廢都督府。省東嘉州，以永嘉、安固二縣來屬。，改為縉雲郡。，復為括州。夏五月，改為處州，避德宗諱。舊領縣四，戶一萬二千八百九十九，口十萬一千六百六。天寶領縣五，戶四萬二千九百三十六，口二十五萬八千二百四十八。今縣六。在京師東南四千二百七十八里，至東都三千一十五里。}}漢回浦縣地，屬會稽郡。光武更為章』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_leshan",
   "type": "place"

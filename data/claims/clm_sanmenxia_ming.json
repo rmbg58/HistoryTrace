@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/陕州",
-   "quote": null,
+   "quote": "『十一，縣九十六。爲裏三千八百八十有奇。北至武安，與北直、山西界。南至信陽，與江南、湖廣界。東至永城，與山東、江南界。西至陝州，與山西、陝西界。距南京一千一百七十五里，京師一千五百八十里。編戶三十一萬五千六百一十七，口一百九十一萬二千五百四十二。，戶五十七萬五千二百四十九，口四百三十六萬四百七十六。，戶六十三萬三千六十七，口五百一十九萬三千六百二。===開封府===開封府元汴梁路，屬河南江北行省。五月曰』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_sanmenxia",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/楚州",
-   "quote": null,
+   "quote": "『兵馬鈐轄。建炎元年，-{陞}-帥府。二年，髙宗駐蹕。四年，爲眞、揚鎭撫使，尋罷。嘉定中，淮東-{制}-置開幕府-{於}-楚州，仍兼安撫。崇-{甯}-戸五萬六千四百八十五，口十萬七千五百七十九。貢白-{苧}-布、莞席、銅鏡。縣一：江都。緊。熙-{寧}-五年，省廣陵縣入焉。南渡-{後}-，增縣二：廣陵，緊。泰興。中。舊隸泰州，紹興五年來屬。十年，又屬泰州。十二年，又來隸，以柴墟鎭延冷邨隸海陵。二十九年，盡』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huaian",
   "type": "place"

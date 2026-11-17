@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/陈州府",
-   "quote": null,
+   "quote": "『城，會於東南磚橋，東南入鹿邑。又東劉家河，古谷水，即渙水，水經注「逕鄫城北」者。又古泓水，縣西，並堙。八橋一鎮。縣驛一。陳州府：繁，難。隸開歸陳許鄭道。清初沿明制，為開封屬州，領縣四。雍正二年，升直隸州。十二年，升府，並割太康、扶溝來隸，增附郭。西北距省治三百里。廣一百九十里，袤二百十五里。北極高三十度四十七分。京師偏西一度二十六分。領縣七。淮寧繁，疲，難。倚。明省宛丘入州。雍正十二年，析改為府治。西北』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huaiyang",
   "type": "place"

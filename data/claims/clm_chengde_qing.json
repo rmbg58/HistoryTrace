@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/承德府",
-   "quote": null,
+   "quote": "『諾爾廳。十一年，熱河廳、易州並為直隸州。十二年，置獨石口廳。，承德仍為熱河廳。八年，遵化升直隸州。四十三年，復升熱河廳為承德府。，置圍場廳。三十年，置朝陽府。三十三年，升赤峰縣為直隸州。今京尹而外，領府十一，直隸州七，直隸廳三，散州九，散廳一，縣百有四。北至內蒙古阿巴噶右翼旗界；東至奉天寧遠州界；南至河南蘭封縣界；西至山西廣寧縣界。廣一千二百三十里，袤二千六百三十里。，編戶共四百九十九萬五千四百九十五，』——《清史稿》(清史稿/卷54)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chengde",
   "type": "place"

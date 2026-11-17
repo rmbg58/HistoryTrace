@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/雷州",
-   "quote": null,
+   "quote": "『，中下。唐信儀縣。太平興國初改信宜。熙-{甯}-四年廢竇州，以信宜縣來隸。有銀塲。茂名，下。開寶五年，自潘州來隸。===雷州===雷州，下，海康郡，軍事，開寶五年，廢徐聞、遂溪二縣。元-{豐}-戸一萬三千七百八十四。貢良-{薑}-。元-{豐}-貢斑竹。縣一：海康，下。有冠頭砦。南渡-{後}-，-{復}-二縣：遂溪，紹興十九年-{復}-置。徐聞，-{乾}-道七年-{復}-置。===欽州===欽州，下，-』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_leizhou",
   "type": "place"

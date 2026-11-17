@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/邓州",
-   "quote": null,
+   "quote": "『山、白溪、瀛山七縣。八年，改南平州為霸州。十三年，州廢，省清-{谷}-等縣，以南平縣屬渝州。===山南東道=======鄧州====}}隋南陽郡。，改為鄧州，領穰縣、冠軍、深陽三縣。三年，立順陽縣。州置總管，管鄧、淅、酈、宛、淯、新、弘等七州。四年，廢總管，隸山南行臺。廢新州，以新野縣來屬。又置平晉縣。六年，省順陽入冠軍，省平晉入穰縣。八年，廢宛州，以南陽來屬，廢酈州，以新城來屬。，省冠軍入新城。，改』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dengzhou",
   "type": "place"

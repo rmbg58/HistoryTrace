@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/泰州",
-   "quote": null,
+   "quote": "『三，縣七。康熙十一年，海門圮于海，並通州。雍正三年，通州升直隸州，以如皋、泰興往屬。九年，析江都置甘泉。乾隆三十二年，析泰州置東台。西南距省治二百十里。廣三百五十里，袤二百三十里。北極高三十二度二十七分。京師偏東二度五十六分。領州二，縣六。}}沖，繁，疲，難。倚。大江西自六合曆揚子入，東逕七濠口。監製同知駐。又東逕裕民洲，為夾江，歧為二。又東為三江口，東南流，與江合。三江口與天福洲對，設砲台，守備駐。』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taizhou_js",
   "type": "place"

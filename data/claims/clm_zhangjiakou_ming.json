@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/张家口堡",
-   "quote": null,
+   "quote": "『徙治山西蔚州。二月徙治通州，直隸後軍都督府。二年徙治德勝堡。改屬。北有翠屏山，又有野狐嶺。西北有西陽河，下流入灤河。東有張家口堡。西有新河口堡。北有膳房堡、上莊堡。西北有新開口、柴溝、洗馬林等堡。西南有渡口堡，又有西陽河堡。東距都司八十里。懷安衛元懷安縣，屬興和路。屬興和府，改屬山西大同府，尋廢。二十六年二月置衛，屬山西行都司。二月直隸後軍都督府。六月改屬。西北有花山。北有蕁麻嶺。南有水溝口河，東入於洋河』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangjiakou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/潞州",
-   "quote": null,
+   "quote": "『府，大都督府，上黨郡，昭義軍節度。太平興國初，改昭德。舊領河東路兵馬鈐轄，兼提舉澤晉絳州、威勝軍屯駐泊本城兵馬巡檢事。本潞州。建中靖國元年，改爲軍。崇-{寧}-三年，升爲府，仍還昭德舊節。崇-{甯}-戸五萬二千九百九十七，口一十三萬三千一百四十六。貢人參、蜜、墨。縣八：上黨，望。屯留，上。襄垣，上。潞城，上。壺關，中。長子，中。渉，中。黎城。中。天聖三年，徙治渉之東南白馬驛。熙-{寧}-五年，省入潞城』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changzhi",
   "type": "place"

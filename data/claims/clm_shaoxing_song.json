@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/越州",
-   "quote": null,
+   "quote": "『官，上。昌化。中。唐唐山縣。太平興國四年改。有紫溪鹽塲。紹興中，七縣-{並}--{陞}-畿。===紹興府===紹興府，本越州，大都督府，會稽郡，鎭東軍節度。大觀元年，-{陞}-爲帥府。舊領兩浙東路兵馬鈐轄。紹興元年，-{陞}-爲府。崇-{甯}-戸二十七萬九千三百六，口三十六萬七千三百九十。貢越綾、輕庸紗、紙。縣八：會稽，望。山陰，望。嵊，望。舊剡縣，宣和三年改。諸暨，望。有龍泉一銀坑。-{餘}-姚，望』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shaoxing",
   "type": "place"

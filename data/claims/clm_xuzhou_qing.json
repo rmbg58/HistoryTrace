@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/徐州府",
-   "quote": null,
+   "quote": "『河出縣西海道徬，西南流，錯出復入，至淤溪入泰州。水利同知駐東台場。草堰四徬有徬官。一鎮：西溪。巡司裁。王家港有汛。===徐州府===}}：要，沖，繁，難。隸淮徐道。徐州鎮總兵駐。順治初為直隸州。領蕭、碭山、豐、沛。雍正十一年，升府。置銅山縣。又以降直隸邳州來隸，及所領宿遷、睢寧。東南距省治七百三十里。廣三百二十里，袤一百八十里。北極高三十四度五分。京師偏東五十八分。領州一，縣七。}}沖，繁，難。倚。雍正』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuzhou",
   "type": "place"

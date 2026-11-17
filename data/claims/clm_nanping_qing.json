@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/延平府",
-   "quote": null,
+   "quote": "『。下游亦注交溪。西南松洋溪自政和入，逕芹山至泗洲橋，支津西南出，又東南至溪口，併入寧德。里老橋陂溉田二百餘畝。漁溪巡司。延平府：衝，難。延建邵道治所。明，領縣七。雍正十二年，割大田隸永春。東南距省治三百六十里。廣三百里，袤三百十八里。北極高二十六度三十九分。京師偏東一度四十九分。領縣六。南平衝，繁，難。倚。南：九峰山。東南：屏山。城西：虎頭。東北：演仙。西北：蓮花。西南：金鳳。劍江一曰建江，為閩江上流。』——《清史稿》(清史稿/卷70)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanping",
   "type": "place"

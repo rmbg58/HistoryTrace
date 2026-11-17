@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/福州",
-   "quote": null,
+   "quote": "『四十七。南渡-{後}-，-{陞}-建州爲府。紹興三十二年，戸一百三十九萬五百六十五，口二百八十二萬八千八百五十二。===福州===福州，大都督府，長樂郡，威武軍節度。舊領福建路鈐轄，建炎三年-{陞}-帥府。崇-{甯}-戸二十一萬一千五百五十二。貢茘枝、鹿角菜、紫菜。元-{豐}-貢紅花蕉布。縣十二：閩，望。侯官，望。福淸，望。古田，望。唐縣。有寶興銀塲、古田金坑。永福，望，有黃洋、保德二銀塲。長溪，望。』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fuzhou",
   "type": "place"

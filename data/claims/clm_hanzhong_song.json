@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/兴元府",
-   "quote": null,
+   "quote": "『戎、瀘、維、茂、昌、榮、果、閬、渠、合、龍、普、利、興、文、巴、劍、蓬、壁、夔、忠、萬、集、開、渝、涪、黔、施、達、洋，興元府），縣一百九十八，戸五十三萬四千三十九。開寶四年，平廣南，得州六十（廣、韶、潮、循、封、端、英、連、雄、龔、惠、康、恩、春、瀧、勤、新、髙、潘、雷、羅、辨、桂、賀、昭、梧、蒙、恭、象、富、融、宜、柳、嚴、思唐、邕、澄、貴、蠻、橫、賓、欽、潯、容、牢、白、廉、黨、繡、郁林、藤、竇、』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hanzhong",
   "type": "place"

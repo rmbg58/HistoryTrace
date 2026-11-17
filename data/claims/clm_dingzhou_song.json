@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/定州",
-   "quote": null,
+   "quote": "『焉。林慮。中。====中山府====中山府，次府，博陵郡。建隆元年，以易北平-{並}-來屬。太平興國初，改定武軍節度。本定州，慶暦八年，始置定州路安撫使，統定、保、深、祁、廣信、安肅、順安、永-{寧}-八州。政和三年，升爲府，改賜郡名曰中山。崇-{甯}-戸六萬五千九百三十五，口一十八萬六千三百五。貢羅、大花綾。縣七：安喜，緊。無極，緊。-{曲}-陽，上。唐，上。望都，中。新樂，中。北平。中下。砦一，軍』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"

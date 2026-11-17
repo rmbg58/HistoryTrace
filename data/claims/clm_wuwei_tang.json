@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/凉州",
-   "quote": null,
+   "quote": "『人，馬三百疋。斷隔羌胡。統赤水、大鬥、建康、寧寇、玉門、墨離、豆盧、新泉等八軍，張掖、交城、白亭三守捉。河西節度使治，在涼州，管兵七萬三千人，馬萬九千四百疋，衣賜歲百八十萬疋段。赤水軍，在涼州城內，管兵三萬三千人，馬萬三千疋。大鬥軍，在涼州西二百余裏，管兵七千五百人，馬二千四百疋。建康軍，在甘州西二百里，管兵五千三百人，馬五百疋。甯寇軍，在涼州東北千餘里。玉門軍，在肅州西二百里，管兵五千二百人，馬六百』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wuwei",
   "type": "place"

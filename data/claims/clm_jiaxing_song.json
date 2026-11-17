@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/秀州",
-   "quote": null,
+   "quote": "『，中。遂安，中。壽昌。中。監一：神泉。熙-{寧}-七年置，鑄銅錢，尋罷。慶元三年-{復}-。===嘉興府===嘉興府，本秀州，軍事。政和七年，賜郡名曰嘉禾。慶元元年，以孝宗所生之地，-{陞}-府。嘉定元年，-{陞}-嘉興軍節度。崇-{甯}-戸一十二萬二千八百一十三，口二十二萬八千六百七十六。貢綾。縣四：嘉興，望。華亭，緊。海鹽。上。有鹽監，沙腰、蘆瀝二鹽塲。崇德。中。===論===兩浙路，蓋《禹貢》揚』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jiaxing",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/汴州",
-   "quote": null,
+   "quote": "『為十五道，每道置採訪使，檢察非法，如漢刺史之職：京畿採訪使、理京師城內都畿、河東理蒲卅理東都城內關內、以京官遙領河南、理汴州河北、理魏州隴右、理鄯州山南東道、理襄州山南西道、理梁州劍南、理益州淮南、理揚州江南東道、理蘇州江南西道、理洪州黔中、理黔州嶺南理廣州。又於邊境置節度、經略使，式遏四夷。凡節度使十，經略守捉使三。大凡鎮兵四十九萬人，戎馬八萬餘疋。每歲經費：衣賜則千二十萬疋段，軍食則百九十萬石，大』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"

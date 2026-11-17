@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/阆州",
-   "quote": null,
+   "quote": "『州安撫使，尋罷。崇-{甯}-戸四萬五千四百九十，口九萬八千五百六十七。貢隔織。縣三：興道，望。西鄕，上。眞符。中。===閬州===閬州，上，閬中郡。-{乾}-德四年，改安德軍節度。紹興十四年，隸東路。端平三年，兵亂。淳祐三年，移治大獲山。崇-{甯}-戸四萬三千九百三十六，口一十萬九百七。貢蓮綾。縣七：閬中，望。閬水迂-{曲}-，繞縣三-{面}-，故名。紹興十八年，省玉井鎭入焉。蒼溪，緊南部，緊新井，緊』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_langzhong",
   "type": "place"

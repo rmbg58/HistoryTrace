@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/大同",
-   "quote": null,
+   "quote": "『改爲震武軍。不見四至，據童貫奏，古骨龍元屬湟州。通濟橋，震武城浮橋，政和六年賜名。善治堡，政和六年，震武城通濟橋堡賜名。大同堡，本名古骨龍城應接堡，政和六年賜名。德通城，本瞎令古城，政和七年，劉法既解震武軍圍，建-{築}-，賜名。石門堡。瞎令古城北，地名石門子，政和七年賜名。====積石軍====積石軍。本溪哥城。元符間，爲吐蕃溪巴温所據。大觀二年，臧-{征}-撲哥以城降，即其地建軍。東至廓州界八十-』——《宋史》(宋史/卷87)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_datong",
   "type": "place"

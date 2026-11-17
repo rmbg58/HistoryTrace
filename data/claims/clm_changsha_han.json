@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/临湘",
-   "quote": null,
+   "quote": "『，口十七萬八千六百一十六。縣五：六，蓼，安豐，安風，陽泉。長沙國，戶四萬三千四百七十，口二十三萬五千八百二十五。縣十三：臨湘，羅，連道，益陽，下雋，收，酃，承陽，湘南，昭陵，荼陵，容陵，安成。==論==本秦京師為內史，分天下作三十六郡。漢興，以其郡大大，稍復開置，又立諸侯王國。武帝開廣三邊。故自高祖增二十六，文、景各六，武帝二十八，昭帝一，訖於孝平，凡郡國一百三，縣邑千三百一十四，道三十二，侯國二百四』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changsha",
   "type": "place"

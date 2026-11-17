@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/冀州",
-   "quote": null,
+   "quote": "『=山西=山西：禹貢冀州之域。清初沿明制為省，置總督、巡撫。順治末，總督裁。康熙四年，並冀南、冀北置雁平道。雍正元年，置歸化廳。二年，增直隸州八。平定、忻、代、保、解、絳、吉、隰。三年，增府二。寧武、朔平。六年，升蒲、澤二州並為府，置歸綏道。乾隆四年，增置綏遠廳同知。二十五年，又以歸綏所屬地增置五通判。』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jizhou",
   "type": "place"

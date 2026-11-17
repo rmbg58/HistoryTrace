@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/瀛州",
-   "quote": null,
+   "quote": "『平、饒陽、蕪蔞三縣。初治安平，其年，移治饒陽。，割故廉州之鹿城，冀州之武強、下博來屬。省蕪蔞縣。十七年，廢深州，以饒陽屬瀛州，安平屬定州，鹿城、下博、武強屬冀州。，復割饒陽、安平、鹿城置深州，仍分置陸澤縣。，改深州為饒陽郡。，復為深州。舊領縣五，戶二萬一百五十六，口八萬七千。天寶，縣四，戶萬八千八百二十五，口三十四萬六千四百七十二。在京師東北二千一十三里，至東都一千二百五十里。}}，分饒陽、鹿城界置陸』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hejian",
   "type": "place"

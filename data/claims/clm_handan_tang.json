@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/邯郸",
-   "quote": null,
+   "quote": "『行臺，置洺州大總管府，管洺、衛、岩、相、磁、邢、趙八州。六年，罷總管府。以磁州之武安、臨洺、肥鄉三縣來屬。，又以廢磁州之邯鄲來屬。，改為廣平郡。，復為洺州。永泰之後，復以武安、邯鄲屬磁州。，省清漳、洺水二縣入肥鄉、平恩、曲周等縣。舊領縣七，戶二萬二千九百三十三，口十萬一千三十。天寶領縣十，戶九萬一千六百六十六，口六十八萬三千二百八十。省清漳、洺水。今領縣六。在京師東北一千五百八十五里，至東都八百五十七』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_handan",
   "type": "place"

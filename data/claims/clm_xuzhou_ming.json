@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/徐州",
-   "quote": null,
+   "quote": "『灣鎮、羊寨鄉三巡檢司。清河府西。縣治濱黃河，崇禎末，遷治縣東南之甘羅城。南有淮河，東北與黃河合，謂之清口，舊謂之泗口。自徐州至此，皆泗水故道，爲黃河所奪者也。南有洪澤湖，有洪澤巡檢司。又東有馬頭鎮巡檢司。鹽城府東南。東濱海，有鹽場。北有射陽湖。西有清溝、西北有喻口鎮二巡檢司。安東府東北。元安東州。正月降爲縣。東北朐山在南。東北有鬱洲山，在海中，洪武初，置東海巡檢司於此，後移於州南之新壩。西南有漣河，又』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuzhou",
   "type": "place"

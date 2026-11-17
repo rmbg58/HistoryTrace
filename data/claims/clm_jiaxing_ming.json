@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/嘉兴府",
-   "quote": null,
+   "quote": "『即於潛縣之紫溪及昌化縣柳溪也，下流爲桐廬縣之桐溪。又東南有前溪，自淳安縣流入，東流於天目溪。東有吳村巡檢司，後廢。===嘉興府===嘉興府元嘉興路，屬江浙行省。太祖丙午年十一月爲府，直隸京師。十四年十一月改隸浙江。領縣七。西南距布政司百七十五里。嘉興倚。南有南湖，亦曰鴛鴦湖，流合運河。又有長水塘，西南接海寧，東北接海鹽縣界。又東有雙溪，東出爲華亭塘，南直松江府之漕舟，由此入運河。秀水倚。三月析嘉興縣地置』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jiaxing",
   "type": "place"

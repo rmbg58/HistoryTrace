@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/开封",
-   "quote": null,
+   "quote": "『而凡四京之城闕宮室，及南渡行在之所，其可考者冠乎篇首，爲《地理-{志}-》-{-{云}-}-。===東京===東京，汴之開封也。梁爲東都，-{後}-唐罷，晉-{復}-爲東京，宋因周之舊爲都，建隆三年，廣皇城東北隅，命有司畫洛陽宮殿，按圖修之，皇居始壯麗矣。雍熙三年，欲廣宮城，詔殿前指揮使劉延翰等經度之，以居民多不欲徙，遂罷。宮城周回五-{里}-。南三門：中曰-{乾}-元宋初依梁、晉之舊，名曰明德，太平』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"

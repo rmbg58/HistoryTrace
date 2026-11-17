@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/太原府",
-   "quote": null,
+   "quote": "『十七。，戶五十七萬五千二百四十九，口四百三十六萬四百七十六。，戶五十九萬六千九十七，口五百三十一萬七千三百五十九。===太原府===太原府元冀寧路，屬河東山西道宣慰司。十二月改爲太原府，領州五，縣二十：陽曲倚。四月建晉王府於城外東北維。西有汾水，自靜樂縣流經此，下流至滎河縣合大河。西北有天門關巡檢司。東北有石嶺關巡檢司。太原府西南。元曰平晉，治在今東北。移於汾水西，故晉陽城之南關。八年更名太原。西有懸甕』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"

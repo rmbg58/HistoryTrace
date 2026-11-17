@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/梧州",
-   "quote": null,
+   "quote": "『百七十二里。東南至廣州八百七十六里，東至連州二百六十里，南至封州三百六十六里，北至道州四百里，北至富州三百二十里，西南至梧州四百二十二里也。}}州所治。漢縣，屬蒼梧郡。臨、賀水。吳置臨賀郡。宋改為臨慶國，齊復為臨賀郡。隋置賀州，隋末廢為縣。，復置賀州}}漢臨賀縣地，隋舊也}}漢縣，屬蒼梧郡。有荔平關}}漢縣，屬蒼梧郡}}漢富川縣。天寶改為富水，後復為富川也}}新置。===端州===}}，隋信安郡。，置』——《舊唐書》(舊唐書/卷41)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wuzhou",
   "type": "place"

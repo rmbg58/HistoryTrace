@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/澧州",
-   "quote": null,
+   "quote": "『}-七年，廢桃源、湯口、白崖三砦。元-{豐}-三年，廢白磚、黃石二砦。政和七年，-{陞}-爲軍。建炎四年，-{陞}-鼎、澧州鎭撫使。紹興元年，置荊湖北路安撫使，治鼎州，領鼎、澧、辰、沅、靖州；三十二年，罷。-{乾}-道元年，以孝宗潛藩，-{陞}-府。八年，依舊提舉五州。崇-{甯}-戸五萬八千二百九十七，口一十三萬八百六十五。貢𦆭、布、練布。縣三：武陵，望。桃源，望。-{乾}-德中，析武陵地置縣。龍陽，』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lixian_hn",
   "type": "place"

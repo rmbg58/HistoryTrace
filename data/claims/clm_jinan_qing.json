@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/济南府",
-   "quote": null,
+   "quote": "『志三十六地理八山東山東：禹貢青、徐及兗、豫四州之域。明置山東承宣布政使司。清初因之。雍正二年，升濟南府之泰安、武定、濱，兗州府之濟寧、曹、沂等六州為直隸州。八年，濟寧州仍屬兗州府。十二年，升武定、沂二州為府，濱州改屬武定。十三年，升泰安、曹二州為府。乾隆四十一年，仍升濟寧、臨清為直隸州。凡領府十，州二，散州八，縣九十六。在京師之南。八百里。東至大海；一千三百里。西至直隸元城縣界；』——《清史稿》(清史稿/卷61)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jinan",
   "type": "place"

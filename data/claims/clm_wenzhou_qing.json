@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/温州府",
-   "quote": null,
+   "quote": "『港，松門山扼其口，中有窄水道。其東牛山島，又東蘇丹島，東南三蒜島。轉西逕隘頑寨，群峰刺天，慢游嶺尤嶮仄。中有大海灣，錯出溫州府境，逕天澳、木杓諸山，轉西北逕楚門城。西北：白漿渚溪，正源大溪與別源小溪合流為雙溪，北流折東為新建河，合桃溪、溫嶺溪，逕大溪口。西南西溪出梅嶺來會，是為金清港，北通黃岩官河。又東逕新河城為迂江，縣丞駐，又東入海。閭溪一名練溪，併入之。有蒲岐、溫嶺二鎮。松門巡司。鳳尾、盤馬、沙角、』——《清史稿》(清史稿/卷65)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wenzhou",
   "type": "place"

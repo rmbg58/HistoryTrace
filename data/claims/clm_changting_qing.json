@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/汀州府",
-   "quote": null,
+   "quote": "『溪、石塘溪，建寧濉江亦自西來會，是為雙溪口。折南，右合龍安溪、金口溪，又東南為布溪，入將樂。樂思壩本鸕甪陂，溉田四十頃。汀州府：衝，繁，疲。隸汀漳龍道。東北距省治九百七十五里。廣三百五十五里，袤四百三十里。北極高二十五度四十七分。京師偏東二分。領縣八。長汀衝，繁。倚。今治南城。北：臥龍山。東：馬鞍。城南：圓珠、宣嚴。西：玉女。東北：翠峰。東南：七寶。鄞江即汀水，東北自寧化入，右合將軍山、天井山水，又西南』——《清史稿》(清史稿/卷70)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changting",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/江宁",
-   "quote": null,
+   "quote": "『}}志第二十地理三○淮南道六江南道七隴右道八==淮南道=====揚州===}}，大都督府，隋江都郡。，杜伏威歸國，于潤州江寧縣置揚州，以隋江都郡為兗州，置東南道行臺。七年，改兗州為邗州。九年，省江寧縣之揚州，改邗州為揚州。置大都督，督揚、和、滁、楚、舒、廬、壽七州。，改大都督為都督，督揚、滁、常、潤、和、宣、歙七州。，升為大都督府。，改為廣陵郡，依舊大都督府。，復為揚州。自後置淮南節度使，親王為都督，』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanjing",
   "type": "place"

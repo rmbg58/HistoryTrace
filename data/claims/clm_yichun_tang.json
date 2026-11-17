@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/袁州",
-   "quote": null,
+   "quote": "『。隋為龍城縣。，置浩州，又分置都昌、樂城二縣。八年，罷浩州，以彭澤屬江州，仍省樂城入彭澤。九月，中丞宋若思奏置。====袁州====}}下，隋宜春郡。，平蕭銑，置袁州。，改為宜春郡。，復為袁州。舊領縣三，戶四千六百三十六，口二萬五千七百一十六。天寶，戶二萬七千九十一，口一十四萬四千九十六。在京師東南三千五百八十里，至東都二千一百六十一里。}}州所理。漢縣，屬豫章郡。吳為安成郡，南朝不改。晉改為宜陽。隋』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yichun",
   "type": "place"

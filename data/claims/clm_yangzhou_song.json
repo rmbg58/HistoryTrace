@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/扬州",
-   "quote": null,
+   "quote": "『百七十六。貢綾。縣四：嘉興，望。華亭，緊。海鹽。上。有鹽監，沙腰、蘆瀝二鹽塲。崇德。中。===論===兩浙路，蓋《禹貢》揚州之域，當南-{斗}-、須女之分。東南際海，西控震澤，北又濱-{於}-海。有魚鹽、布帛、秔稻之産。人性柔慧，尚浮屠之教。俗奢靡而無積聚，厚-{於}-滋味。善進取，急圖利，而奇技之巧出焉。-{餘}-杭、四明，通蕃互市，珠貝外國之物，頗充-{於}-中藏-{云}-。==淮南路==淮南路。』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yangzhou",
   "type": "place"

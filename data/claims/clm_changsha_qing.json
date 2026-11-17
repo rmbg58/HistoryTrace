@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/长沙府",
-   "quote": null,
+   "quote": "『路幹：粵漢中段。支：萍株。航路：自長沙南達湘潭，北達漢口。電線：自長沙北達漢口，南通桂林，西通洪江，東通江西萍鄉、安源。長沙府：沖，繁，難。巡撫治；布政、提學、提法三司，巡警、勸業、鹽法、長寶四道同治。府隸之。明隸湖廣布政使司。康熙中，偏沅巡撫自沅州徙駐，為省治。雍正二年改湖南巡撫。東北至京師三千五百八十五里。廣一千里，袤五百九十里。北極高二十八度十三分。京師偏西三度四十分。領州一，縣十一。長沙沖，繁，』——《清史稿》(清史稿/卷68)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changsha",
   "type": "place"

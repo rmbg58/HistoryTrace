@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/宁国府",
-   "quote": null,
+   "quote": "『合為臨溪。又西會上溪水，入練溪。東績溪源亦出揚溪，與徽水交流如績，縣名昉此。西北：太平鎮有徽嶺關。濠寨巡司。一驛：績溪。寧國府：繁，難。隸徽寧池太廣道。明，寧國府，屬江南。順治初因之，屬江南左布政使司。康熙六年，分隸安徽省。西北距省治四百三十里。廣二百二十里，袤三百三十五里。北極高二十度二分。京師偏東二度十六分。領縣六。宣城繁，疲，難。倚。響山，縣南。城內：陵陽山。城北隅：敬亭山。南：響山。東南：華陽山』——《清史稿》(清史稿/卷59)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuancheng",
   "type": "place"

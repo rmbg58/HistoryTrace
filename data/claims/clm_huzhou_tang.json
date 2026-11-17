@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/湖州",
-   "quote": null,
+   "quote": "『，西魏改淮州，又為純州。後周為大義郡，陳廢郡為桐柏縣。}}漢縣，屬南陽郡。}}漢縣，屬南陽郡。隋不改，屬舂陵郡。，於縣置湖州，領湖陽、上馬二縣。，廢湖州，省上馬，以湖陽屬唐州。}}前漢堵陽縣，屬南陽郡。後漢改為順陽。隋改為方城縣，屬淯陽郡。，於縣置北澧州，領方城、真昌二縣。貞觀初，省真昌縣。八年，改北澧州為魯州，領縣不改。九年，省魯州，以方城屬唐州。}}後魏石馬縣，後訛為上馬縣。廢。，割湖陽復置上馬縣』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/郴州",
-   "quote": null,
+   "quote": "『道置。，改為永明縣}}，湖南觀察使韋貫之奏請析延唐縣，于道州東南二百二十里舂陵侯故城北十五里置縣，因以大曆為名。====郴州====}}中，隋桂陽郡。，平蕭銑，置郴州，領郴、盧陽、義章、臨武、平陽、晉興六縣。七年，廢義章、平陽二縣。八年，省晉興。，改為桂陽郡。，復為郴州。舊領縣五，戶八千六百四十六，口四萬九千三百五十五。天寶領縣八，戶三萬一千三百三。在京師東南三千三百里，至東都三千五十七里。}}漢縣，』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chenzhou",
   "type": "place"

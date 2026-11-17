@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/朔州",
-   "quote": null,
+   "quote": "『馬營河，又北，右會兔毛河。西北有邊牆，西南接平魯，東北至右玉，有殺虎、水柵、鐵山、大沙、雲石等口。威遠堡、殺虎口二巡司。朔州沖，繁，難。府東南二百四十里。明屬大同府。雍正三年來隸。嘉慶元年，所領馬邑省入為鄉。有鄉學訓導。東北：契吳。東：洪濤，其支阜雷山。左黃道泉，右金龍池，桑乾水出，水經注所謂「洪源七輪即溹涫水」者。東南匯於臘河口，古馬邑川水南源。恢河，古水，自寧武入，逕城南，折東，右合七里河，左沙棱』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"

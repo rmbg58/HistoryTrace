@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/应天府",
-   "quote": null,
+   "quote": "『{價}-日增，一斤至數千。-{於}-是四郊塚墓，悉被-{發}-掘，取人骨爲灰矣。」===南京===南京。大中祥符七年，建應天府爲南京。宮城週二-{里}-三百一十六歩。門曰重熙、頒慶。殿曰歸德。元-{豐}-六年，賜度僧牒修外城門及西橋等。京城周回一十五-{里}-四十歩。東二門：南曰延和，北曰昭仁。西二門：南曰順成，北曰回鑾。南一門，曰崇禮。北一門，曰靜安。中有隔城，又有門二：東曰承慶，西曰祥輝。其東又有關』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shangqiu",
   "type": "place"

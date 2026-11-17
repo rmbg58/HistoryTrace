@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/汾州府",
-   "quote": null,
+   "quote": "『水自岢嵐入，逕石樓山。東南：蔚汾水自嵐入，逕合查山，至縣西，合南川水併入焉。又南合紫荊山水入臨。蔚汾、合河二關，皆要隘。汾州府：沖，繁，難。隸冀寧道。康熙六年，省明冀南道入。東北距省治二百二十里。至京師千三百八十里。廣三百五十里，斜。袤三百二十里。沿明制。北極高三十七度十九分。京師偏西四度四十五分。領州一，縣七。汾陽繁，疲，難。倚。西：將軍山、黃蘆嶺。北：謁泉。東北：文谷水自文水入，循汾水故道，右合原公』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fenyang",
   "type": "place"

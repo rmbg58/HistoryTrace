@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/怀庆府",
-   "quote": null,
+   "quote": "『繁。府東南百里。南有河水自陽武入，緣祥符界入之。城北：黑山。東北：淳于岡、青陵台，圮。古濮渠，堙。潘店、中欒二鎮。有驛。懷慶府：沖，繁。隸河北道。河北鎮總兵、黃沁同知駐。清初沿明制，領縣六。後割開封之原武、陽武來隸。東南距省治三百里。廣三百九十里，袤百三十里。北極高三十五度六分。京師偏西三度二十七分。領縣八。河內沖，繁。倚。北：太行山。沁水自濟源入，左傳少水，水經注「東逕小沁亭北，右合小沁、倍澗水、邘水』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_qinyang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/端州",
-   "quote": null,
+   "quote": "『漢臨賀縣地，隋舊也}}漢縣，屬蒼梧郡。有荔平關}}漢縣，屬蒼梧郡}}漢富川縣。天寶改為富水，後復為富川也}}新置。===端州===}}，隋信安郡。，置端州，領高要、樂城、銅陵、平興、博林五縣。其年，以樂城屬康州，銅陵屬春州。七年，置清泰縣。，省博林、清泰二縣。，為高要郡。，復為端州。舊領縣二，戶四千四百九十一，口二萬四千三百三。天寶，戶九千五百，口二萬一千一百二十。東至廣州二百四十里，南至新州一百四十』——《舊唐書》(舊唐書/卷41)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhaoqing",
   "type": "place"

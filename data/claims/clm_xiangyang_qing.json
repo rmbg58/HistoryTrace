@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/襄阳府",
-   "quote": null,
+   "quote": "『瑙河，亦入江。白洋在江北岸，順治初僑治於此，尋復故。東北：普通關廢司。西南：聶家河市。北：安福市。又虎腦背市，即古猇亭。襄陽府：沖，繁，難。隸安襄鄖荊道。順治初，沿明制，屬湖廣布政司。康熙三年，屬湖北布政司。東南距省治六百八十里。廣六百七十里，袤二百七十里。北極高三十二度五分。京師偏西四度二十分。領州一，縣六。襄陽沖，繁，難。倚。東南：鹿門。西南：虎頭。南：峴山。西：隆中山。漢水自穀城來，逕城北，入宜城』——《清史稿》(清史稿/卷67)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xiangyang",
   "type": "place"

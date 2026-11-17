@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/怀州",
-   "quote": null,
+   "quote": "『-戸三千一百七十六，口三千二百二。縣二：衞，上。熙-{寧}-六年，廢爲鎭入黎陽。-{後}--{復}-。黎陽。中。====懷州====懷州，雄，河内郡，防-{禦}-。建隆元年，升爲團練，俄爲防-{禦}-。崇-{甯}-戸三萬二千三百一十一，口八萬八千一百八十五。貢牛膝、皂角。縣三：河内，緊。熙-{甯}-六年，省武德縣爲鎭入焉。修武，上。熙-{寧}-六年，省爲鎭入武陟。元祐元年-{復}-。武陟。中。====』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_qinyang",
   "type": "place"

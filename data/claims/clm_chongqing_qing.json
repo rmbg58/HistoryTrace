@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/重庆府",
-   "quote": null,
+   "quote": "『齒山。西北：章山，即雒通山，雒水出焉，逕城北，東南流，入漢州。金雁河、沈犀河、白魚河三水並出縣境，亦入漢州。西：高鏡關。重慶府：衝，繁，難。川東道治所。明，府順治初，因明制，領州三，縣十七。康熙元年，省銅梁、安居入合州，省璧山入永川，省武隆入涪州。八年，省定遠入合州。六十年，復置銅梁，以安居併入。雍正六年，復置大足、璧山、定遠三縣。十三年，升忠州為直隸州，酆都、墊江屬之。析黔江、彭水二縣置黔彭直隸廳。乾』——《清史稿》(清史稿/卷69)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chongqing",
   "type": "place"

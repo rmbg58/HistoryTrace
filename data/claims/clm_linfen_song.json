@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/晋州",
-   "quote": null,
+   "quote": "『治渉之東南白馬驛。熙-{寧}-五年，省入潞城縣。元祐元年-{復}-。===平陽府===平陽府，望，平陽郡，建雄軍節度。本晉州，政和六年，升爲府。崇-{甯}-戸七萬五千九百八，口一十八萬五千二百五十四。貢蜜、-{蠟}-燭。縣十：臨汾，望。洪洞，緊。襄陵，緊。熙-{寧}-五年，廢慈州鄕-{寧}-縣分隸焉。有雕掌、豹尾二砦。神山，上。有韓買、安國、史壁、疊頭等堡。趙城，上。熙-{寧}-五年，省爲鎭隸洪洞。元』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_linfen",
   "type": "place"

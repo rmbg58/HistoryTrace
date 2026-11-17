@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/定州",
-   "quote": null,
+   "quote": "『}薊州：：，自真定移巡撫於此，為直隸省治。，改總督。布政使、清河道等同駐。十二年，升易州為直隸州，以淶水屬之。又改深澤屬定州。道光中，省新安。東北距京師三百五十里。廣三百五十里，袤四百里。北極高三十八度五十一分。京師偏西五十二分。領州二，縣十四。清苑：衝，繁，疲，難。倚。清苑河即府河，古瀋水上游。奇村河自滿城入，合白草溝，環城，左納徐河溝，又東合金線河。唐河自望都入，合陽城河，納齊賢庄河，今淤；咸豐中』——《清史稿》(清史稿/卷54)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"

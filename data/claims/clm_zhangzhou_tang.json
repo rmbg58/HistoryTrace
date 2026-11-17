@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/漳州",
-   "quote": null,
+   "quote": "『移于南安縣。，分泉州之南安、莆田、龍溪三縣，置武榮州。三年，州廢，三縣還泉州。，又以三縣置武榮州。，改為泉州。，割龍溪屬漳州。，改泉州為清源郡。，復為泉州。天寶領縣四，戶二萬三千八百六，口十六萬二百九十五。在京師東南六千二百一十六里，至東都五千四百一十三里。}}，分南安置，今為州之治所}}隋縣。，置豐州，領南安、莆田二縣。，廢豐州，縣屬泉州。，屬武榮州。州廢來屬}}，分南安縣置，屬豐州。州廢來屬。}}』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"

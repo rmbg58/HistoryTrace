@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/磁州",
-   "quote": null,
+   "quote": "『熙二年軍廢，還屬，三年廢，四年-{復}-置，改今名。束鹿，望。淳化中，自眞定來屬。安平，望。饒陽，望。武強。望。====磁州====磁州，上，滏陽郡，團練。舊名慈，政和三年改作磁。崇-{甯}-戸三萬六千四百九十一，口九萬六千九百二十二。貢磁石。縣三：滏陽，上。熙-{寧}-六年，省昭德縣爲鎭入焉。邯鄲，上。武安。上。有固鎭、永安、黃澤、海回四砦。====祁州====祁州，中，蒲陰郡，團練。端拱初，以鎭州』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_handan",
   "type": "place"

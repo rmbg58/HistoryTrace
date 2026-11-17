@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/雷州",
-   "quote": null,
+   "quote": "『復為羅州。舊領縣五，戶五千四百六十，口八千四十一。至京師六千五百二十二里，至東都五千七百五里。東至大海一百三十九里，南至雷州二百五十里，西至廉州二百五十里，北至辯州一百五十里，西南至零綠縣大海一百二十里，西北至白州二百三十里，東北至新州五十里。}}州所治。漢合浦郡地。宋將檀道濟于陵羅江口築石城，因置羅州，屬高涼郡。唐復置羅州於縣}}隋縣}}析石龍縣置也}}析石龍縣置也。===潘州===}}下，隋合浦郡』——《舊唐書》(舊唐書/卷41)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_leizhou",
   "type": "place"

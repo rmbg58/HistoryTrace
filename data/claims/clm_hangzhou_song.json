@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/杭州",
-   "quote": null,
+   "quote": "『爲東路。紹興三十二年，戸二百二十四萬三千五百四十八，口四百三十二萬七千三百二十二。===臨安府===臨安府，大都督府，本杭州，-{餘}-杭郡。淳化五年，改-{甯}-海軍節度。大觀元年，-{陞}-爲帥府。舊領兩浙西路兵馬鈐轄。建炎元年，帶本路安撫使，領杭、湖、嚴、秀四州。三年，-{陞}-爲府，帶兵馬鈐轄。紹興五年，兼浙西安撫使。崇-{甯}-戸二十萬三千五百七十四，口二十九萬六千六百一十五。貢綾、藤紙。縣』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hangzhou",
   "type": "place"

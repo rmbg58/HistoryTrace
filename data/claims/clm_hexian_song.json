@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/和州",
-   "quote": null,
+   "quote": "『觀二年，-{陞}-爲望。舊領淮南西路兵馬鈐轄。建炎二年，兼本路安撫使。紹興初，寄治巣縣。-{乾}-道二年，置司-{於}-和州。五年，-{復}-舊。崇-{甯}-戸八萬三千五十六，口一十七萬八千三百五十九。貢紗、絹、-{蠟}-、石斛。縣三：合肥，上。舒城，下。梁。中。本愼縣。紹興三十二年，避孝宗諱，改今名。====蘄州====蘄州，望，蘄春郡，防-{禦}-。建炎初，爲盜所據，紹興五年收-{復}-。景定元年』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hexian",
   "type": "place"

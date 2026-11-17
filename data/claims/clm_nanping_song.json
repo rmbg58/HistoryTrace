@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/南剑州",
-   "quote": null,
+   "quote": "『六年，析晉江置縣。有鹽亭一百二十九。永春，中。閩桃源縣，有倚洋一鐵塲。安溪，下。有靑陽鐵塲。德化，下。有赤水鐵塲。===南劍州===南劍州，上，劍浦郡，軍事。太平興國四年，加「南」字。崇-{甯}-戸一十一萬九千五百六十一。貢土茴香。元-{豐}-貢茶。縣五：劍浦，緊。舊龍津縣，南唐改。有大演、石城二銀塲，雷、大熟等五茶焙。將樂，上。太平興國四年，自建州來隸。有石牌、安福二銀塲。順昌，上。南唐-{陞}-永順』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanping",
   "type": "place"

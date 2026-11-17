@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/陕州",
-   "quote": null,
+   "quote": "『註：東北逕太和城，歷長白沙口，狐白谿水注之，東入伊陽。又西北，離山，淯水出，俗名白河，東入南召。舊縣鎮，巡司駐。縣驛一。陝州直隸州：沖，繁。河陝汝道治所。州隸之。清初沿明制，為河南府屬州，領縣二。雍正二年升。十二年，割盧氏來隸。東距省治六百八十里。廣三百三十里，袤五百四十里。北極高三十四度四十六分。京師偏西五度二十分。領縣三。東：崤山。南：常烝。西：虢山。河水自靈寶入，合橋頭溝、藏龍、青龍澗。水經註：』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_sanmenxia",
   "type": "place"

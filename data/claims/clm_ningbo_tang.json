@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/明州",
-   "quote": null,
+   "quote": "『。，置嵊州及剡城縣。八年，廢嵊州及剡城，以剡縣來屬。}}，分會稽、諸暨置永興縣。，改為蕭山。}}漢縣，屬會稽郡。====明州====}}，上，，於越州鄮縣置明州。，改為餘姚郡。，復為明州，取四明山為名。天寶領縣四，戶四萬二千二十七，口二十萬七千三十二。在京師東南四千一百里，至東都三千二百五十里。}}漢縣，屬會稽郡。至隋廢。，置鄞州。八年，州廢為鄮縣，屬越州。，於縣置明州}}，慈溪，翁山，已上三縣，皆鄮』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ningbo",
   "type": "place"

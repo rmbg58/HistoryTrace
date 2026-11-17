@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/蓟",
-   "quote": null,
+   "quote": "『戶四萬五千四十三，口十八萬七千六百六十二。縣四：樂成，候井，武隧，弓高。廣陽國，戶二萬七百四十，口七萬六百五十八。縣四：薊，方城，廣陽，陰鄉。甾川國，戶五萬二百八十九，口二十二萬七千三十一。縣三：劇，東安平，樓鄉。廣陽國，戶二萬七百四膠東國，戶七萬二千二，口三十二萬三千三百三十一。縣八：即墨，昌武，下密，壯武，郁秩，挺，觀陽，鄒盧。高密國，戶四萬五百三十一，口十九萬二千五百三十六。縣五：高密，昌安，』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_beijing",
   "type": "place"

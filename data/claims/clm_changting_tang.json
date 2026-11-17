@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/汀州",
-   "quote": null,
+   "quote": "『縣。，改為武寧。，復為唐興。，改為浦城}}隋廢縣。，分建安置}}隋廢縣。五月，分邵武復置}}隋廢縣。，分建安置。====汀州====}}下，，開福、撫二州山洞，置汀州。，改為臨汀郡。，復為汀州。天寶領縣三，戶四千六百八十，口一萬三千七百二。在京師東南六千一百七十三里，至東都五千三百七十里。}}州治所。龍岩寧化已上三縣，並開山洞置。====漳州====}}十二月九日置。，改為漳浦郡。舊屬嶺南道，天寶割屬』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changting",
   "type": "place"

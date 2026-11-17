@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/兰州",
-   "quote": null,
+   "quote": "『亹水}}漢允吾縣，屬金城郡。後漢改為龍耆縣。後魏改為金城縣，又改為龍支。積石山，在今縣南}}置，漢西平郡故城在西。===蘭州===}}，下，隋金城郡。隋末，陷薛舉。，平賊，置蘭州。八年，置都督府，督蘭、河、廓四州。，又督西鹽州。十二年，又督涼州。今督蘭、鄯、儒、淳四州。領金城、狄道、廣武三縣。，罷都督府。，改金城郡。二載，割狄道縣置狄道郡。，復為蘭州。舊領縣三，戶一千六百七十五，口七千三百五。天寶領縣』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lanzhou",
   "type": "place"

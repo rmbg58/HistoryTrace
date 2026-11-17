@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/临淄",
-   "quote": null,
+   "quote": "『廢都督府及譚州，省源陽縣。又以廢譚州之平陵、臨濟、亭山、章丘四縣來屬。七年，又置都督府，管齊、青、淄、萊、密五州。，改為臨淄郡。五載，為濟南郡。，復為齊州。舊領縣八，戶一萬一千五百九十三，口六萬一千七百七十一。天寶，戶六萬二千四百八十五，口三十六萬五千九百七十二。在京師東北二千六十九里，至東都東北一千二百四十四里。今管縣六，並三縣也。}}漢縣，屬濟南郡。舊志有平陵縣。，齊王祐起兵，平陵人不從順，遂改為』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_linzi",
   "type": "place"

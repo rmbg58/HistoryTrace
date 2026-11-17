@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/荆州府",
-   "quote": null,
+   "quote": "『即武勝關，一名武陽關，京漢鐵路所經之義陽三關，此其二也。廣水、馬平港、龍泉、太平四鎮。縣城、平靖關、觀音店、廣水鎮四驛。荊州府：沖，繁，疲，難。隸荊宜道。將軍，左右翼副都統均駐。順治初，沿明制，屬湖廣布政司。康熙三年，屬湖北布政司。東距省治八百里。廣七百二十五里，袤二百十里。北極高三十度二十六分。京師偏西四度二十八分。領縣七。江陵沖，繁，疲，難。倚。西北：龍山。北：紀山。大江自松滋西來，逕城南，入公安界』——《清史稿》(清史稿/卷67)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jingzhou",
   "type": "place"

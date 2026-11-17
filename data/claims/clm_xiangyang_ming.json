@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/襄阳府",
-   "quote": null,
+   "quote": "『清江，一名夷水，自四川建始縣流入，下流入於大江。又北有鹽井。西南有連天關巡檢司。南有野山關巡檢司，本治石柱，更名。===襄陽府===襄陽府元襄陽路，屬河南江北行省。太祖甲辰年爲府，屬湖廣行省。九年屬湖廣佈政司。二十四年六月改屬河南，未幾，還屬湖廣。領州一，縣六。東南距布政司六百八十里。襄陽倚。，襄王府自長沙遷此。南有虎頭山，又有峴山。東南有鹿門山。又西有隆中山。漢水在城北，亦曰襄江。白河在城東北，與唐河』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xiangyang",
   "type": "place"

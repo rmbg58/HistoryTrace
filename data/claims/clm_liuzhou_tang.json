@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/柳州",
-   "quote": null,
+   "quote": "『、鬱二州。八年，改越州為廉州，南簡為橫州，南方為澄州，南宕為潘州，南晉為邕州，尹州為貴州，靜州為富州，樂州為昭州，南昆為柳州，銅州為容州。廢福祿、歸義二縣。十年，廢薑州。十二年，廢晏州，以建陵縣來屬。廢荔州，以荔浦、崇仁二縣來屬。省宣風縣。今督桂、昭、賀、富、梧、藤、容、潘、白、廉、繡、欽、橫、邕、融、柳、貴十七州。，改為始安郡，依舊都督府。九月，改為建陵郡。，復為桂州，刺史充經略軍使，管戍兵千人，衣』——《舊唐書》(舊唐書/卷41)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_liuzhou",
   "type": "place"

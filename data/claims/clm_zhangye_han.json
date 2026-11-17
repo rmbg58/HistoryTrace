@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/觻得",
-   "quote": null,
+   "quote": "『：姑臧，張掖，武威，休屠，揟次，鸞鳥，撲峦，媼圍，蒼巅，宣威。張掖郡，戶二萬四千三百五十二，口八萬八千七百三十一。縣十：觻得，昭武，刪丹，氐池，屋蘭，曰勒，驪靬，番和，居延，顯美。酒泉郡，戶萬八千一百三十七，口七萬六千七百二十六。縣九：祿福，表是，樂涫，天孪，玉門，會水，池頭，綏彌，乾齊。敦煌郡，戶萬一千二百，口三萬八千三百三十五。縣六：敦煌，冥安，效穀，淵泉，廣至，龍勒。安定郡，戶四萬二千七百二十五』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangye",
   "type": "place"

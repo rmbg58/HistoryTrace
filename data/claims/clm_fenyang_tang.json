@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/汾州",
-   "quote": null,
+   "quote": "『}}，分襄陵置浮山縣。四年，改為神山，以縣東南羊角山神見為名}}後魏安澤縣，隋改為岳陽}}漢彘縣，後漢改為永安。隋於此置汾州，尋改為呂州，領霍邑、趙城、汾西、靈石四縣。，廢呂州，以霍邑等三縣來屬，以靈石屬汾州}}國初，分霍邑縣置}}後漢汾西郡，隋廢為縣，屬呂州。隋末陷賊。武德初，權於今城南五十里申村堡置。，移於今所}}漢猗氏縣地，後於古猗氏縣地南置冀氏。===隰州===}}下，隋龍泉郡。，改為隰州，領』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fenyang",
   "type": "place"

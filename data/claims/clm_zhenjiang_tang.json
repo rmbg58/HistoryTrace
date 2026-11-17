@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/润州",
-   "quote": null,
+   "quote": "『、遂、合、渝、瀘等州。治鄂州，管鄂、嶽、蘄、黃、安、申、光等州。治揚州，管揚、楚、滁、和、舒、壽、廬等州，使親王領之。治潤州，管潤、蘇、常、杭、湖等州。或為觀察使。治越州，管越、衢、婺、溫、台、明等州。或為觀察使。治福州，管福、建、泉、汀、漳等州。治宣州，管宣、歙、池等州。治洪州，管洪、饒、吉、江、袁、信、虔、撫等州。喪亂後，時升為節度使。治潭州，管潭、衡、郴、、連、道、永、邵等州。治黔州，管涪、溪、』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhenjiang",
   "type": "place"

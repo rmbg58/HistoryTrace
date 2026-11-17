@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/饶州府",
-   "quote": null,
+   "quote": "『東南石門嶺，匯為官池。後河出石門別嶺，亦名石門溪，一曰南河，流至雙河口，與貴池西溪水合，入東流。南：龍口河，縣南迤入江西饒州府之獨山湖。南：永豐鎮。有汛一。巡司一。東流沖，疲。府西百八十里。南：馬當山，橫枕江流，險。安慶、宿松、江西之彭澤，皆以此山為界。西南：大江，自馬當東北流，逕香口、青陽諸鎮，至黃湓河入貴池。城西江口河、南東流河、香口河，下流皆入江。南黃金、白洋二湖，東大清湖，亦皆入江。黃石磯，東北』——《清史稿》(清史稿/卷59)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_poyang",
   "type": "place"

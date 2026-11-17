@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/宝鸡",
-   "quote": null,
+   "quote": "『縣及鳳泉。，復置虢縣。，改為扶風郡。，肅宗自順化郡幸扶風郡，置天興縣，改雍縣為鳳翔縣，並治郭下。初以陳倉為鳳翔縣，乃改為寶雞縣。其年十月，克復兩京。十二月，置鳳翔府，號為西京，與成都、京兆、河南、太原為五京。，並鳳翔縣入天興縣，後罷京名。舊領縣八，戶二萬七千二百八十二，口十萬八千三百二十四。天寶領縣九，戶五萬八千四百八十六，口三十八萬四百六十三。在京師西三百一十五里，去東都一千一百七十里。}}隋雍縣。』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_baoji",
   "type": "place"

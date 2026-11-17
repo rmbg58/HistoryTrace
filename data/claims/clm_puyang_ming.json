@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/开州",
-   "quote": null,
+   "quote": "『府西少北。舊治在縣西。遷於此。南有魏河，又有新舊二漳河，下流俱合於衛河。南樂府東。南有繁水，北入於衛河。清豐府東南。元屬開州。三月改屬府。西南有澶水，伏流至古繁水城西南，謂之繁水。內黃府西南。元屬滑州。三月改屬府。北有衛河。東有繁水。西有洹水。西北有回隆鎮，有回龍廟巡檢司。，漳河決於此，入衛。浚府西南。元浚州治在浮丘山之西。四月降爲縣，徙治於山東北之平坡。復徙城於山巔，即今治也。東有大伾山，一名黎陽山』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_puyang",
   "type": "place"

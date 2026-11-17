@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/西戎传/于阗",
-   "quote": null,
+   "quote": "『、疏勒四國。安西都護府治所，在龜茲國城內，管戍兵二萬四千人，馬二千七百疋，衣賜六十二萬疋段。焉耆治所，在安西府東八百里。于闐，在安西府南二千里。疏勒，在安西府西二千餘里。防制突騎施、堅昆、斬啜，管瀚海、天山、伊吾三軍。北庭節度使所治，在北庭都護府，管兵二萬人，馬五千疋，衣賜四十八萬疋段。突騎施牙帳，在北庭府西北三千餘里。堅昆，在北庭府北七千里。東北去斬啜千七百里。瀚海軍，在北庭府城內，管兵萬二千人，馬』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hetian",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/温州府",
-   "quote": null,
+   "quote": "『田縣之大溪。北有沐溪巡檢司，遷縣南大漈仍故名。又西有盧山巡檢司，後廢。東有龍首關，又有龍匯關、白鹿關，俱嘉靖中置。===溫州府===溫州府元溫州路，屬浙東道宣慰司。洪武初，爲府。領縣五。西北距布政司八百九十里。永嘉倚。西有岷岡山，又有鐵場嶺。南有大羅山。東濱海。又永寧江在城北，一名甌江，一名永嘉江，自蒼括諸溪匯流入府界，又東注於海。江中有孤嶼山，與北岸羅浮相望。又西北有安溪，東北有楠溪，俱注於甌江。城西』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wenzhou",
   "type": "place"

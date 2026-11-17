@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/南阳府",
-   "quote": null,
+   "quote": "『北有沙門鎮，移項城縣西之香臺巡檢司於此。蘭陽府東少北。北濱大河，有李景高口。，河決於此。儀封府東少北。元屬睢州。五月改屬南陽府，後來屬。故城在縣北，二月圮於河，徙日樓村，即今治也。東北有黃陵岡，大河舊經其下，入曹縣界。，河決於此，尋塞之，改徙岡南入睢州界。又賈魯故河亦在縣北，，河決入焉。新鄭府西南。元屬均州。七月改屬。西南有大隗山，一名具茨山，潩水出焉，一名魯固河，下流入潁。又南有陘山。北有大河。又有溱』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanyang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/长沙府",
-   "quote": null,
+   "quote": "『流入，下流至漢陽縣入於江。保康府東南。十一月以房縣之潭頭坪置。北有粉水，東南有常平堡，移南漳縣之七里頭巡檢司於此。===長沙府===長沙府元天臨路，屬湖南道宣慰司。太祖甲辰年爲潭州府。六月更名長沙。領州一，縣十一。東北距布政司八百八十里。長沙倚。治西北。四月建潭王府，二十三年除。，谷王府自北直宣府遷於此，十五年除。二十二年建襄王府，遷於襄陽。三月建吉王府。縣舊治城外，洪武初，徙城中。十八年復徙北門外。徙』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changsha",
   "type": "place"

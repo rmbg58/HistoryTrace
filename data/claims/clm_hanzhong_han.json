@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/南郑",
-   "quote": null,
+   "quote": "『道，始安，夫夷，營浦，都梁，泠道，泉陵，洮陽，鍾武。漢中郡，戶十萬一千五百七十，口三十萬六百一十四。縣十二：西城，旬陽，南鄭，褒中，房陵，安陽，成固，沔陽，鍚，武陵，上庸，長利。廣漢郡，戶十六萬七千四百九十九，口六十六萬二千二百四十九。縣十三：梓潼，汁方，涪，雒，綿竹，廣漢，葭明，郪，新都，甸氐道，白水，剛氐道，陰平道。蜀郡，戶二十六萬八千二百七十九，口百二十四萬五千九百二十九。縣十五：成都，郫，繁，』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hanzhong",
   "type": "place"

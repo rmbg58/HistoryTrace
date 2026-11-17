@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/明州",
-   "quote": null,
+   "quote": "『金華，望。義烏，望。永康，緊。武義，上。浦江，上。唐浦陽縣，梁錢寘奏改。蘭溪，望。東陽。望。===慶元府===慶元府，本明州，奉化郡，建隆元年，-{陞}-奉國軍節度。本上州，大觀元年，-{陞}-爲望。紹興初，置沿海-{制}-置使。八年，以浙東安撫使兼-{制}-司；十一年，罷；隆興元年，-{復}-置。淳熙元年，魏惠憲王自宣州移鎭，置長史、司馬。紹熙五年，以-{甯}-宗潛邸，-{陞}-爲府。崇-{甯}-戸』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ningbo",
   "type": "place"

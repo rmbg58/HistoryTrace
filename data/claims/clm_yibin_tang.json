@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/戎州",
-   "quote": null,
+   "quote": "『界，管小州十：靜、獯、王、濮、林、尹、位、長、寶、寧，並党項野利氏種落。}}州都督府寄在慶州界，管小州七：党、橋、烏、西戎州、野利州、米州、還州。}}州都督府寄在慶州界，管小州七：永利州、威州、旭州、莫州、西滄州、儒州、琮州。===鄜州===}}上，隋上郡。，改為鄜州，領洛交、洛川、三川、伏陸、內部、鄜城六縣。二年，以內部、鄜城隸坊州。三年，置直羅縣。，置都督府。六年，又改為大都督府。九年，復為都督府』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yibin",
   "type": "place"

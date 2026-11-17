@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/南阳府",
-   "quote": null,
+   "quote": "『渡東入祥符。天然渠逕黃練集，東北入封丘。其河、濟故瀆西北。河自山西垣曲入郡境，凡行六百四十六里。太平、延州二鎮。縣驛一。南陽府：沖，繁，難。隸南汝光道。南陽鎮總兵駐。清初沿明制，領州二，縣十一。道光中，淅川升廳。東北距省治六百十里。廣五百八十里，袤三百四十里。北極高三十三度六分。京師偏西三度五十五分。領州二，縣十。南陽沖，繁，難。倚。西北：精山、紫山。東北：豐山、蒲山。淯水俗名白河，自南召入，逕其北。水』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanyang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/永州府",
-   "quote": null,
+   "quote": "『北至雙江口，漠渡水北流西屈注之。又西合春江，即雲秋水，東北合洣水入茶陵，是為茶陵江。其東沔渡水，北為洮水，下流合於洣水。永州府：沖，繁。隸辰沅永靖道。總兵駐。舊屬湖廣布政使司。康熙三年來屬。北距省治六百七十里。廣三百四十里。袤五百九十里。北極高二十六度九分。京師偏西四度五十三分。領州一，縣七。江藍同知一，嘉慶十九年移治江華縣濤墟市，後又遷於錦田所城。通判一，道光十二年移治新田縣楊家鋪。零陵沖，繁，難。倚』——《清史稿》(清史稿/卷68)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"

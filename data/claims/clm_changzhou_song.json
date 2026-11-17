@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/常州",
-   "quote": null,
+   "quote": "『望。奉化，望。慈溪，上。定海，上。象山，下。昌國。下。熙-{寧}-六年，析鄞縣地置，有鹽監。紹興間，-{陞}-望。===常州===常州，望。毗陵郡，軍事。崇-{甯}-戸一十六萬五千一百一十六，口二十四萬六千九百九。貢白紵、紗、席。縣四：晉陵，望。武進，望。宜興，望。唐義興縣。太平興國初改。無錫。望。===江陰軍===江陰軍，同下州。熙-{甯}-四年，廢江陰軍爲縣，隸常州。建炎初，以江陰縣-{復}-置軍』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changzhou",
   "type": "place"

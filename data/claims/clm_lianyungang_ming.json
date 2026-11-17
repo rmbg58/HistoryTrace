@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/海州",
-   "quote": null,
+   "quote": "『崇禎末，移於縣西之白洋河鎮。沭陽府北。元屬海寧州。洪武初改屬。東南有沭水，自山東郯城縣流入，其下流爲漣水。又北有桑墟湖。海州元曰海寧州。洪武初，復曰海州，以州治朐山縣省入。北有於公、白溝等浦，皆產鹽。南有惠澤、西北有高橋二巡檢司。南距府二百七十里。領縣一：贛榆州北。西北有羽山。東濱海。東北有荻水鎮、南有臨洪鎮二巡檢司。邳州元屬歸德府。洪武初，以州治下邳縣省入。四年二月改屬中都。十五年來屬。北有艾山，接』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"

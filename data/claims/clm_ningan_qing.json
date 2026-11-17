@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/宁古塔",
-   "quote": null,
+   "quote": "『部所屬輝發、烏拉、葉赫，兼有哈達北境及東海部地。清初，建滿洲城於俄漠惠之野鄂多理城。順治十年，置昂邦章京及副都統二人鎮守寧古塔。康熙元年，改寧古塔將軍。十五年徙，改吉林將軍。先是十年徙副都統一人駐吉林，三十三年徙伯都訥。雍正三年，復置吉林阿勒楚喀副都統。五年，增三姓副都統。光緒七年，置琿春副都統，吉林、賓州、五常三廳。八年，吉林廳陞府。後增長春、新城、依蘭，各領縣有差。三十三年建行省，改將軍為巡撫，盡裁』——《清史稿》(清史稿/卷56)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ningan",
   "type": "place"

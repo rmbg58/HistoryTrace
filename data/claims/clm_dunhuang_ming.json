@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/沙州卫",
-   "quote": null,
+   "quote": "『碾北地。三月置莊浪分衛。七月改置碾北衛，後廢，而徙西寧衛右千戶所於此。成化中更名。南有碾伯河。西北距行都司千二百三十里。沙州衛元沙州路，屬甘肅行省。洪武初廢。置衛。正統間廢。南有鳴沙山。東南有三危山。又東有龍勒山，又有渥窪水。西有瓜州，元屬沙州路，洪武初廢。東距行都司千三百六十里。鎮夷守禦千戶所以甘州衛地置。罷。復置所，舊在西北，移於今治。南有黑河，即張掖河也。西南有鹽池。北有兔兒關。東南距行都司三百里』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dunhuang",
   "type": "place"

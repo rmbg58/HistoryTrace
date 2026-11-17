@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/兰州府",
-   "quote": null,
+   "quote": "『重險：蕭關、嘉峪、玉門。其驛道：一，東南逾六盤達陝西長武；一，西北渡河出嘉峪關達新疆哈密。電線：西北通迪化，東南通西安。蘭州府：沖，繁，難。陝甘總督，布政、提學、提法三使，巡警、勸業道駐。明為州，屬臨洮府，領金、渭源、河州。乾隆三年，徙臨洮府來治，更名，以所隸河州、狄道、渭源三州縣改屬，升狄道為州，置皋蘭縣為府治，兼割鞏昌府屬之靖遠隸之。東北距京師四千四十里。廣千二百二十五里，袤八百里。北極高三十六度八』——《清史稿》(清史稿/卷64)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lanzhou",
   "type": "place"

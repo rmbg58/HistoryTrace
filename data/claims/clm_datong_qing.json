@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/大同府",
-   "quote": null,
+   "quote": "『入州。水經注「又南過冠爵津，俗雀鼠谷」者。其南高壁嶺，今韓信嶺。鎮二：夏門、仁義。驛二：㙐石、仁義。驛丞兼巡司駐仁義鎮。大同府：沖，繁，難。總兵駐。初因明制，領州四，縣七。雍正中，增陽高、天鎮，改朔及馬邑隸朔平，蔚及黃昌分隸直隸宣化、易州。南距省治六百二十里。至京師七百二十里。廣二百五十里，袤二百六十里。北極高四十度五分。京師偏西三度十二分。領州二，縣七。大同沖，繁，難。倚。順治五年徙西安堡，九年復。北』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_datong",
   "type": "place"

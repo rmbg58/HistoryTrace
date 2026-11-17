@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/蒲州府",
-   "quote": null,
+   "quote": "『在焉，即孟門山。至小船窩。東南：高天山，清水河出。水經注，羊求水合放馬嶺、雲臺山水，西逕城南入焉。又東南入鄉寧。三垢鎮。蒲州府：沖，繁，難。隸河東道。明，平陽屬州。雍正二年直隸。仍明所領臨晉、榮河、猗氏、萬泉，惟河津削。六年為府，置附郭。尋增虞鄉。東北距省治千一百里。至京師二千二百里。廣百三十里，袤百十里。北極高三十四度五十二分。偏西六度十五分。領縣六。永濟沖，繁，難。倚。明州治，省河東入。雍正六年置。』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongji",
   "type": "place"

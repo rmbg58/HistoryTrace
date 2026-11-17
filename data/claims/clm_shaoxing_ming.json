@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/绍兴府",
-   "quote": null,
+   "quote": "『南有天目山，有天目山巡檢司。又西南爲金石山，即天目最高處。又南有苕溪，出天目山，此爲苕溪之別源。又西有鬆坑巡檢司。===紹興府===紹興府元紹興路，屬浙東道宣慰司。太祖丙午年十二月爲府。領縣八。西北距布政司百三十八里。山陰倚。南有會稽山，其支山爲雲門山，又有法華山。西南爲蘭亭山。西北有塗山。北濱海，有三江口。三江者，一曰浙江；一曰錢清江，即浦陽江下流，其上源自浦江縣流入，至縣西錢清鎮，曰錢清江；一曰曹娥』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shaoxing",
   "type": "place"

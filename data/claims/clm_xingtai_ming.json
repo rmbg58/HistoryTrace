@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/顺德府",
-   "quote": null,
+   "quote": "『一：衡水州南少東。故城在縣西南，遷於今治。西有漳水，南有洚水。又北有滹沱河，舊與漳合，北徙，不經縣界。西南有鹽池。===順德府===順德府元順德路，直隸中書省。爲府。十月屬河南分省。二年三月來屬。領縣九。距京師一千里。編戶二萬一千六百一十四，口一十八萬一千八百二十五。，戶二萬七千六百三十三，口二十八萬一千九百五十七。邢臺倚。西北有夷儀山，又有封山，一曰西山。又有黃榆嶺，上有黃榆關。又漳水在東南，自河南臨』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xingtai",
   "type": "place"

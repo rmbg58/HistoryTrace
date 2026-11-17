@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/兰州",
-   "quote": null,
+   "quote": "『-{種}-諤先取綏州，韓絳繼取銀州，王韶取熙河，章惇取懿、洽，謝景温取徽、誠，熊本取南平，郭逵取廣源，最-{後}-李憲取蘭州，沈括取葭蘆、米脂、浮圖、安疆等砦。雖嘗以河東邊界七百-{里}-地與遼人，當時王安石議，蓋曰：「吾將取之，-{甯}-姑與之也。」迨元祐更張，葭蘆等四砦給賜夏人，而分畫久不能定。紹聖遂罷分畫，督諸路各乘勢攻討進-{築}-。自三年秋八月訖元符二年冬，凡陝西、河東建州一安西，軍二晉-{』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lanzhou",
   "type": "place"

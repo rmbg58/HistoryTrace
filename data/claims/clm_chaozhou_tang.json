@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/潮州",
-   "quote": null,
+   "quote": "『，復為循州。舊領縣五，戶六千八百九十一，口三萬六千四百三十六。天寶領縣六，戶九千五百二十五，無口數。南至廣州四百里，東至潮州五百一十七里，北至虔州隔山嶺一千六百五十里。至東都四千八百里。}}秦、漢龍川縣地，屬南海郡。宋置歸善縣，縣界羅浮山。，省龍川縣併入。}}漢舊縣，屬南海郡也。河源隋縣。循江，一名河源水，自虔州雩都縣流入。}}，在河源縣，-{云}-有龍穿地而出，即水流，漢因置龍川縣。，省石城併入。}』——《舊唐書》(舊唐書/卷41)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chaozhou",
   "type": "place"

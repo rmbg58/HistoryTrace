@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/蔡州",
-   "quote": null,
+   "quote": "『外黃、濟陽六縣，權於州內以倉院置。，廢杞州及濟陽、圍城、外黃三縣，以襄邑屬宋州，陳留、雍丘屬汴州，而移縣入廢杞州。===蔡州===}}上，隋汝南郡。四月，平王世充，置豫州總管府，管豫、道、輿、息、舒五州。豫州領安陽、平輿、真陽、吳房、上蔡五縣。七年，改為都督府，廢輿、道、舒、息四州。，罷都督府，廢平輿、新蔡二縣，復以道州之郾城，息州之新息，朗州之朗山，舒州之褒信、新蔡五縣來屬。，又置平輿、西平兩縣。，』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_runan",
   "type": "place"

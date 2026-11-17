@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/漳州府",
-   "quote": null,
+   "quote": "『西有太湖山。南有丁溪，又有滻溪，合而北流，入興化仙遊境。又西北有高鎮巡檢司，本東西團，後徙治，更名。東南有虎豹關。===漳州府===漳州府元漳州路，屬福建道宣慰司。爲府。領縣十。東北距布政司七百里。龍溪倚。東有岐山。西有天寶山。北有華封嶺，一名龍頭嶺。東南濱海，海中有丹霞等嶼。又東北有九龍江，亦名北溪，其上源出長汀及沙縣，流入縣界，歷龍頭嶺下，謂之峽中，至縣東出峽，爲柳營江，又南有南溪流入焉。又東南爲鎮』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"

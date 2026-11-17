@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/晋州",
-   "quote": null,
+   "quote": "『。二年，又置長泉縣。五年，廢亳城。九年，省邵州，省清廉入垣縣，王屋屬懷州，垣屬絳州}}後魏擒盛縣。改為襄陵，取漢舊名。屬晉州。，屬絳州。===晉州===}}隋臨汾郡。義旗初，改為平陽郡，領臨汾、襄陵、岳陽、冀氏、楊五縣。其年，改楊縣為洪洞。，改為晉州，分襄陵置浮山縣，分洪洞置西河縣。三年，置總管府，管晉、絳、沁、呂四州。移治白馬城。改浮山為神山縣。，廢都督。十二年，移治所於平陽古城。十七年，省西河縣，』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_linfen",
   "type": "place"

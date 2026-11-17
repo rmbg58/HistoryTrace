@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/海州",
-   "quote": null,
+   "quote": "『。，置泗州，領宿預、徐城、淮陽三縣。，省淮陽縣入宿預，以廢邳州之下邳，廢連州之漣水來屬。八年，又以廢仁州之虹縣來屬。，割海州沐陽來屬。，沐陽還海州。，置臨淮縣。，自宿預移治所於臨淮。，改為臨淮郡。，復為泗州，舊領縣五，戶二千二百五十，口二萬六千九百二十。領宿豫、漣水、徐城、虹、下邳。天寶領縣六，戶三萬七千五百二十六，口二十萬五千九百五十九。今領縣三：臨淮、漣水、徐城。其虹縣割隸宿州，宿預、下邳隸徐州。』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"

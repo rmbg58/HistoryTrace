@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/嘉兴",
-   "quote": null,
+   "quote": "『吳郡，隋末陷賊。，平李子通，置蘇州。六年，又陷輔公祏。七年，平公祏，復置蘇州都督，督蘇、湖、杭、暨四州，治于故吳城，分置嘉興縣。八年，廢嘉興入吳縣。九年，罷都督。，復置嘉興縣。領吳城、昆山、嘉興、常熟四縣。，改為吳郡。，復為蘇州。舊領縣四，戶一萬一千八百五十九，口五萬四千四百七十一。天寶領縣六，戶七萬六千四百二十一，口六十三萬二千六百五十五。在京師東南三千一百九十九里，至東都二千五百里。}}秋時吳都闔』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jiaxing",
   "type": "place"

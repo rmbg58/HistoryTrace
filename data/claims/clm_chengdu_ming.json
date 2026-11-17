@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/成都府",
-   "quote": null,
+   "quote": "『百七十八。，戶二十五萬三千八百三，口二百五十九萬八千四百六十。，戶二十六萬二千六百九十四，口三百一十萬二千七十三。===成都府===成都府元成都路。爲府。領州六，縣二十五：成都倚。建蜀王府。華陽倚。北有武擔山。又有外江，自灌縣分流經城北，繞城而南，一名清遠江。又有內江，亦自灌縣分流經城南，繞城而東，亦名石犀渠。合流南注於大江。此府城之內、外江也。東有寧州衛，四月置。東南有馬軍寨巡檢司。雙流府西南。五月省』——《明史》(明史/卷43)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chengdu",
   "type": "place"

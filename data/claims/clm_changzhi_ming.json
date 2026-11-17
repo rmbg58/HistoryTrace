@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/潞安府",
-   "quote": null,
+   "quote": "『河。又西有青龍流、北有赤堅嶺二巡檢司。又西有孟門關。東南距府百六十里。領縣一：寧鄉州南。東南有樓子台山。西有黃河。===潞安府===潞安府元潞州，屬晉寧路。直隸行中書省。九年直隸布政司。二月升爲潞安府。領縣八。西北距布政司四百五十里。長治倚。，沈王府自瀋陽遷此。元上黨縣。省入州。二月復置，更名。東南有壺關山，舊置壺口關於山下。西南有潞水，即濁漳水，自長子縣流入，下流至河南臨漳縣，合清漳水。又西有藍水，東』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changzhi",
   "type": "place"

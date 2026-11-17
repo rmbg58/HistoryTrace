@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/灵州",
-   "quote": null,
+   "quote": "『在涼州西北五百里，管兵千七百人。捍禦北狄，統經略、豐安、定遠、西受降城、東受降城、安北都護、振武等七軍府。朔方節度使，治靈州，管兵六萬四千七百人，馬四千三百疋，衣賜二百萬疋段。經略軍，理靈州城內，管兵二萬七百人，馬三千疋。豐安軍，在靈州西黃河外百八十里，管兵八千人，馬千三百疋。安遠城，在靈州東北二百里黃河外，管兵七千人，馬三千疋。西受降城，在豐州北黃河外八十里，管兵七千人，馬千七百疋。安北都護府治，在』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lingwu",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/泰州",
-   "quote": null,
+   "quote": "『有汜光、白馬、射陽等湖。南有槐樓鎮、西南有衡陽二巡檢司。興化州東。南有運河。東有得勝湖。東北有安豐巡檢司。又東北有鹽場。泰州洪武初，以州治海陵縣省入。東濱海。南濱江。西有運河。東北有西溪鎮、北有寧鄉鎮、東南有海安鎮三巡檢司。西距府百二十里。領縣一：如皋州東南。大江在縣南。運河在縣北。東有掘港、南有石莊、北有西場三巡檢司。又東南有白浦鎮。通州洪武初，以州治靜海縣省入。南有狼山，臨大江，有狼山巡檢司。東南』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taizhou_js",
   "type": "place"

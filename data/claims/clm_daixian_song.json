@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/代州",
-   "quote": null,
+   "quote": "『縣六：晉城，緊。髙平，上。陽城，上。端氏，中。陵川中。沁水。中下。關一：雄定。舊天井關，屬晉城縣。靖康元年改今名。===代州===代州，上，鴈門郡，防-{禦}-。景德二年，廢唐林縣。舊置沿邊安撫司。崇-{甯}-戸三萬三千二百五十八，口一十五萬九千八百五十七。貢麝香、靑、碌。縣四：鴈門，中下。有西陘、胡-{谷}-，鴈門三砦。崞，中下。有樓板、陽武、石峽、土墱四砦。五-{臺}-，中下。繁畤。下。有繁畤、茹』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_daixian",
   "type": "place"

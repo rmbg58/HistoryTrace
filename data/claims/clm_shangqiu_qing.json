@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/归德府",
-   "quote": null,
+   "quote": "『，亦入長葛，梅從之。水經注「長明溝水出苑陵故城西北，東即古制澤、西瑣澤，合龍淵泉、白雁陂」者。永新、郭店二驛。鄭汴鐵路。歸德府：沖，繁，難。隸開歸陳許鄭道。總兵駐。西距省治二百八十里。廣四百七十里，袤三百二十里。北極高三十四度三十二分。京師偏西三十五分。沿明制，領州一，縣八。商丘沖，繁，難。倚。商丘，城西南三里。又城南四十里，穀丘。河水自宋開寶四年至康熙四年決入郡境者以十數，府治與為轉徙，南北不恆。咸豐』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shangqiu",
   "type": "place"

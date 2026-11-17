@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/徽州府",
-   "quote": null,
+   "quote": "『北：駝山、狼山。北：檀城山。渦水自渦陽入，逕城北，再折而東，南流，由懷遠渦口入淮。北淝河逕城北板橋集入鳳陽。雙澗集有汛。徽州府：繁，疲，難。隸徽寧池太廣道。明，徽州府，屬江南。順治初因之，屬江南左布政使司。康熙六年，分隸安徽省。西北距省治五百七十里。廣三百九十里，袤二百二十里。北極高二十九度五十七分。京師偏東二度四分。領縣六。歙縣繁，疲。倚。南：紫陽山。東：問政山。西北：黃山，舊名黟山，盤亙三百餘里，浙』——《清史稿》(清史稿/卷59)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"

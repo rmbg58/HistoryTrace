@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/广信府",
-   "quote": null,
+   "quote": "『平及貴溪三縣地益之。北有萬年山。東有桃源洞，桃源水出焉，經縣西南，下流爲餘水。東北有荷溪鎮、北有石頭街二巡檢司，後俱廢。廣信府元信州路，屬江浙行省。太祖庚子年五月爲廣信府。領縣七。西北距布政司六百三十里。上饒倚。西北有靈山，舊產水晶。南有丁溪山，產鐵。又南有銅山。北有上饒江，自玉山縣流入，經城北，下流至鄱陽縣合於鄱江。又西有櫧溪，源出靈山，亦曰靈溪，流入上饒江。南有八坊場、東北有鄭家坊二巡檢司。玉山府東』——《明史》(明史/卷43)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shangrao",
   "type": "place"

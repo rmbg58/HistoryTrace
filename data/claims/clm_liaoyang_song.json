@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "辽史/地理志/辽阳府",
-   "quote": null,
+   "quote": "『==東京道==東京遼陽府，本朝鮮之地。周武王釋箕子囚，去之朝鮮，因以封之。作八條之教，尚禮義，富農桑，外戶不閉，人不爲盜。傳四十餘世。燕屬真番、朝鮮，始置吏、築障。秦屬遼東外徼。漢初，燕人滿王故空地。武帝元封三年，定朝鮮爲真番、臨屯、樂浪、玄菟四郡。後漢出入青、幽二州，遼東、玄菟二郡，沿革不常。漢末爲公』——《遼史》(遼史/卷38)",
    "source": "src_liaoshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_liaoyang",
   "type": "place"

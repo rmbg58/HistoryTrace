@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/歙州",
-   "quote": null,
+   "quote": "『治桐溪，，移治鐘山}}，分桐廬縣之四鄉，置武盛縣。，改為分水}}後漢分歙縣南鄉安定里，置新定縣。晉改新定為遂安。====歙州====}}隋新安郡。，平汪華，置歙州總管，管歙、睦、衢三州。，罷都督府。，改為新安郡。，復為歙州。舊領縣三，戶六千二十一，口二萬六千六百一十七。天寶領縣五，戶三萬八千三百三十，口二十六萬九千一百九。在京師東南三千六百六十七里，至東都二千八百二十六里。}}漢縣，屬丹陽郡。縣南有歙』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"

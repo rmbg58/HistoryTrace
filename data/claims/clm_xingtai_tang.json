@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/邢州",
-   "quote": null,
+   "quote": "『屬磁州。州廢，屬洺州。永泰初，復置磁州，來屬。}}漢縣。隋復置，隸磁州。}}，廉察使薛嵩特置於滏口之右故臨水縣城。===邢州===}}上，隋襄國郡。，改為邢州總管府，管邢、溫、和、封、蓬、東龍六州。邢州領龍崗、堯山、內丘三縣。四年，平竇建德，罷總管府。割內丘屬趙州，仍省和、溫、封三州，以其所領南和、沙河、平縣三縣來屬。又立任縣。五年，割趙州之內丘、柏仁來屬。，改為钜鹿郡。，復為邢州。舊領縣九，戶二萬一』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xingtai",
   "type": "place"

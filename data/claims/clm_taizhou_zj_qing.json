@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/台州府",
-   "quote": null,
+   "quote": "『南自東陽入，合三洲譚溪，下流為寶溪。北港溪出奉化界蔡嶴山，歷岩頭嶺，別源自寧海緣界合為黃澤溪。彩煙鎮。黃渡有汛。====台州府====台州府：疲，難。隸寧紹台道。海門鎮總兵駐。原名黃岩鎮，總兵駐黃岩。光緒二年移此。西北距省治五百九十里。廣三百七十里，袤二百七十里。北極高二十八度五十三分。京師偏東四度三十九分。領縣六。臨海：繁，疲，難。倚。西南：括蒼山。東：了倭山。南：蓋竹山，道書「十九洞天第二福地」也。』——《清史稿》(清史稿/卷65)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taizhou_zj",
   "type": "place"

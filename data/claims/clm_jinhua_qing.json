@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/金华府",
-   "quote": null,
+   "quote": "『名練溪，併入之。有蒲岐、溫嶺二鎮。松門巡司。鳳尾、盤馬、沙角、寺前鎮、石塘、金清、箬里有汛。===金衢嚴道=======金華府====金華府：衝，繁，難。隸金衢嚴道。副將駐。明初為寧越府，後復改。東北距省治四百五十里。廣三百四十里，袤二百四十四里。北極高二十九度十分。京師偏東二度二十一分。領縣八。金華：衝，繁。倚。北：金華山，縣以此名，古曰常山。東南：至道山，康熙二年，耿逆遣兵踞此。東陽江自義烏入，曰東』——《清史稿》(清史稿/卷65)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jinhua",
   "type": "place"

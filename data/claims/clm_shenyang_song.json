@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "辽史/地理志/沈州",
-   "quote": null,
+   "quote": "『河、大寶山。隸崇德宮，兵事屬東京都部署司。統縣二：貴德縣。本漢襄平縣，渤海爲崇山縣。奉德縣。本渤海緣城縣地，嘗置奉德州。瀋州，昭德軍，中，節度。本挹婁國地。渤海建瀋州，故縣九，皆廢。太宗置興遼軍，後更名。初隸永興宮，後屬敦睦宮，兵事隸東京都部署司。統州一、縣二：樂郊縣。太祖俘薊州三河民，建三河縣，後更名。靈源縣。太祖俘薊州吏民，建漁陽縣，後更名。岩州，白岩軍，下，刺史。本渤海白岩城，太宗撥屬瀋州。初隸』——《遼史》(遼史/卷38)",
    "source": "src_liaoshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shenyang",
   "type": "place"

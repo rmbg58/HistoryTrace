@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/潮州",
-   "quote": null,
+   "quote": "『寧}-，望。晉縣。天禧三年，移治長樂。有夜明銀塲。長樂，上。熙-{寧}-四年，析興-{寧}-縣置。有羅翊等四錫塲。===潮州===潮州，下，潮陽郡，軍事。元-{豐}-戸七萬四千六百八十二。貢蕉布、甲香、鮫魚皮。縣三：海陽，望。有海門等三砦、三河口鹽塲、-{豐}-濟銀塲、橫衡等二錫塲。潮陽，中下。本海陽縣地。紹興二年，廢入海陽。八年-{復}-。掲陽，宣和三年，割海陽三鄕置掲陽縣。紹興二年，廢入海陽。八年』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chaozhou",
   "type": "place"

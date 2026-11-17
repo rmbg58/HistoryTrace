@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/许州",
-   "quote": null,
+   "quote": "『月，置鐵監。登封。畿。監一，阜財。熙-{寧}-七年置，鑄銅錢。====潁昌府====潁昌府，次府，許昌郡，忠武軍節度。本許州。元-{豐}-三年，升爲府。崇-{甯}-四年，爲南輔，隸京畿。大觀四年，罷輔郡。政和四年，-{復}-爲輔郡，隸京畿。宣和二年，-{復}-罷輔郡，依舊隸京西北路。崇-{甯}-戸六萬六千四十一，口一十六萬一百九十三。貢絹、藨席。縣七：長社，次赤。熙-{甯}-四年，省許田縣爲鎭入焉。郾』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuchang",
   "type": "place"

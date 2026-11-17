@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/太原府",
-   "quote": null,
+   "quote": "『，石，隰，慈，麟，府，-{豐}-。軍八：慶祚，威勝，平定，岢嵐，-{寧}-化，火山，保德，晉-{寧}-。縣八十一。===太原府===太原府，太原郡，河東節度。太平興國四年，平劉繼元，降爲緊州，軍事，毀其城，移治-{於}-楡次縣。又廢太原縣，以平定、樂平二縣屬平定軍，交城屬大通監。七年，移治唐明監。舊領河東路經略安撫使。元-{豐}-爲次府，大觀元年升大都督府。崇-{甯}-戸一十五萬五千二百六十三，口一百二』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"

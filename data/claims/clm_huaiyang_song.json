@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/陈州",
-   "quote": null,
+   "quote": "『。大中祥符五年改。眞陽，中。西平，中。平輿。中。====淮-{寧}-府====淮-{寧}-府，輔，淮陽郡，鎭安軍節度。本陳州。政和三年，改輔爲上。宣和元年，升爲府。崇-{甯}-戸三萬二千九十四，口一十五萬九千六百一十七。貢槹、絹。縣五：宛丘，緊。項城，上。商水，中。西華，中。南頓。中。熙-{寧}-六年，省爲鎭，入商水、項城二縣。元祐元年-{復}-。====順昌府====順昌府，上，汝陰郡，舊防-{禦}』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huaiyang",
   "type": "place"

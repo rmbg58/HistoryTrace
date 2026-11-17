@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/寿州",
-   "quote": null,
+   "quote": "『入淮。懷遠府西北。荊山在縣西南。塗山在縣東南。淮水經兩山峽間，有北肥水入焉。又北有渦水亦入淮，謂之渦口。又西南有洛水，與壽州分界，徑縣南新城村入淮。有洛河鎮巡檢司。定遠府南。南有池河。。西有洛河。又有英武衛在北，飛熊衛在東北，俱置。五河府東北。元屬泗州。二月來屬。舊治在縣南，圮於水，徙治西北界。遷於澮河北，即今治也。東濱淮。東南有漴河，西北有澮河、沱河，東北有潼河，並流合淮，謂之五河口。又西有上店巡檢』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shouxian",
   "type": "place"

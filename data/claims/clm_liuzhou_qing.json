@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/柳州府",
-   "quote": null,
+   "quote": "『受西來一水，東至永福曰雒容水，入永福江。有保安營駐防。西：平山巡司，光緒三十二年，以原駐中渡平樂司改置，移駐峒內平山墟。柳州府：沖，難。右江道駐，府隸焉。明洪武元年為府，領州二，領縣十。順治初，因明舊為府。雍正三年，升賓州為直隸州，以府屬之來賓、武宣、遷江、上林四縣隸之。十二年，降賓州隸思恩府，來賓還屬。有柳慶鎮標左右營、柳州城守營駐防。提督舊駐府，光緒十二年移駐龍州，置柳慶鎮總兵官駐。光緒末年廢。東北』——《清史稿》(清史稿/卷73)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_liuzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/江陵府",
-   "quote": null,
+   "quote": "『璧、巴、閬、果、金、商等州。治襄州，管襄、復、均、房、鄧、唐、隨、郢等州。元和中，淮、蔡用兵，析鄧、唐二州別立一節度。治江陵府，管歸、夔、峽、忠、萬、灃、朗等州，使親王領之。治成都府，管彭、蜀、漢、眉、嘉、資、簡、維、茂、黎、雅、松、扶、文、龍、戎、翼、邛、巂、姚、柘、恭、當、悉、奉、疊、靜等州，使親王領之。治梓州，管梓、綿、劍、普、榮、遂、合、渝、瀘等州。治鄂州，管鄂、嶽、蘄、黃、安、申、光等州。治揚』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jingzhou",
   "type": "place"

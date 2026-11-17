@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/安庆府",
-   "quote": null,
+   "quote": "『、湖北。驛路：自安慶北逾北峽關渡淮達江蘇徐州；自江心驛東南出清流關達江浦；自桐城西南達湖北黃梅。鐵路擬設蕪寧路。電線。主安慶府：沖，繁，難。安廬滁和道治所。巡撫，布政、提學、提法三使，巡警、勸業道，同駐。順治初，因明制，屬江南左布政使司。康熙六年，始分建安徽省。十四年，設提督，轄上江營汛。十八年，省提督，併入江南。乾隆二十五年，移左布政使來治。嘉慶八年，以巡撫兼提督，轄二鎮各標。西北距京師二千七百里。廣』——《清史稿》(清史稿/卷59)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_anqing",
   "type": "place"

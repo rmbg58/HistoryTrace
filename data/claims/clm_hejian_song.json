@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/瀛州",
-   "quote": null,
+   "quote": "『南，太平興國元年，改名髙陽關。慶暦八年，始置髙陽關路安撫使，統瀛莫雄貝冀滄、永靜保定-{乾}--{甯}-信安一十州軍。本瀛州，防-{禦}-。大觀二年升爲府，賜軍額。崇-{甯}-戸三萬一千九百三十，口六萬二百六。貢絹。縣三：河間，望。雍熙中，即縣西置平虜砦，景德二年，改爲肅-{寧}-城。樂壽，望。至道三年，自深州來隸。熙-{甯}-六年，省景城爲鎭入焉。束城。上。熙-{寧}-六年，省爲鎭入河間，元祐元年-』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hejian",
   "type": "place"

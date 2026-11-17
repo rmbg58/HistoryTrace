@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/太原府",
-   "quote": null,
+   "quote": "『臺。其巨川：汾、沁、涑、桑乾、滹沱、清漳、濁漳。鐵路：正太。驛道：西達蒙古、陝西潼關，東北至京師。電線達京師，西南西安。太原府：沖，繁，難。隸冀寧道。巡撫，布政、提學、提法司，巡警、勸業道駐。初沿明制，領州五，縣二十。雍正中，平定、忻、代、保德直隸，割十縣分入之；尋興還隸。乾隆二十八年，省清源入徐溝。距京師千二百里為省治。廣六百里，袤七百里。北極高三十七度五十四分。京師偏西三度五十六分。領州一，縣十。陽』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"

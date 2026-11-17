@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/宛",
-   "quote": null,
+   "quote": "『，新郪，歸德，新陽，安昌，安陽，博陽，成陽，定陵。南陽郡，戶三十五萬九千一百一十六，口一百九十四萬二千五十一。縣三十六：宛，犨，杜衍，酇，育陽，博山，涅陽，陰，堵陽，雉，山都，蔡陽，新野，筑陽，棘陽，武當，舞陰，西鄂，穰，酈，安眾，冠軍，比陽，平氏，隨，葉，鄧，朝陽，魯陽，舂陵，新都，湖陽，紅陽，樂成，博望，復陽。南郡，戶十二萬五千五百七十九，口七十一萬八千五百四十。縣十八：江陵，臨沮，夷陵，華容，』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanyang",
   "type": "place"

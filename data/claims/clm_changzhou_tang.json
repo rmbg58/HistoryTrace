@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/常州",
-   "quote": null,
+   "quote": "『九十七里。}}漢縣，屬會稽郡。春秋吳硃方之邑地，吳為京口戍。晉置南徐州。隋為延陵鎮，因改為延陵縣。尋以蔣州之延陵、永年，常州之曲阿三縣置潤州，東潤浦為名。皆治於丹徒縣。}}漢曲阿縣，屬會稽郡。又改名雲陽，後復為曲阿。，于縣置簡州。八年，州廢，縣屬潤州。，改為丹陽縣，取漢郡名}}漢曲阿縣地，晉分置延陵郡。隋移郡丹徒。，移於今所，屬茅州。七年，廢茅州，以縣屬蔣州。八年，改蔣州為揚州。九年，改屬潤州}}楚金』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changzhou",
   "type": "place"

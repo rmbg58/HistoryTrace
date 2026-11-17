@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/汉州",
-   "quote": null,
+   "quote": "『萬二千九百一十五，口二十三萬四百九。貢綾、糸-{寧}-布。縣五：巴西，望。彰明，望。魏城，緊。羅江，緊。鹽泉，中。===漢州===漢州，上，德陽郡，軍事。戸一十二萬九百，口五十二萬七千二百五十二。貢紵布。縣四：雒，望。什邡，望。綿竹，望。德陽，望。===嘉定府===嘉定府，上，本嘉州，犍爲郡，軍事。-{乾}-德四年，廢綏山、羅目、玉津三縣。慶元二年，以-{甯}-宗潛邸，-{陞}-府。開禧元年，-{陞}』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"

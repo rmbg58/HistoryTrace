@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/嘉州",
-   "quote": null,
+   "quote": "『二萬九百，口五十二萬七千二百五十二。貢紵布。縣四：雒，望。什邡，望。綿竹，望。德陽，望。===嘉定府===嘉定府，上，本嘉州，犍爲郡，軍事。-{乾}-德四年，廢綏山、羅目、玉津三縣。慶元二年，以-{甯}-宗潛邸，-{陞}-府。開禧元年，-{陞}-嘉慶軍節度。崇-{甯}-戸七萬一千六百五十二，口二十一萬四百七十二。貢麩金。縣五：龍-{遊}-，上。宣和元年，改曰嘉祥，-{後}--{復}-故。熙-{甯}-五』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_leshan",
   "type": "place"

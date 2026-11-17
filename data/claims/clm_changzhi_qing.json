@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/潞安府",
-   "quote": null,
+   "quote": "『南：泉子，清水河出，北合屏風山水，逕城東，又西北入永寧注河。河水左瀆復入，逕三交鎮，合石口、牛尾泉水，入石樓。有鋤鉤鎮。潞安府：繁，疲，難。隸冀寧道。初沿明制，領縣八。乾隆二十九年，省平順，分入潞城、壺關、黎城。西北距省治四百五十里。至京師千三百里。廣三百里，袤二百七十里。北極高三十六度七分。京師偏西三度二十八分。領縣七。長治繁，難。倚。東：壺口山。東南：五龍。東北：柏谷。西南：福泉。濁漳水自長子入。東』——《清史稿》(清史稿/卷60)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changzhi",
   "type": "place"

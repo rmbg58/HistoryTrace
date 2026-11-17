@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/冀州",
-   "quote": null,
+   "quote": "『。保順軍。周置軍-{於}-滄州無棣縣南三十-{里}-。開寶三年，又以滄棣二州界保順、呉橋二鎭之地益焉，仍棣滄州。====冀州====冀州，上，信都郡，舊團練。慶暦八年，升安武軍節度。崇-{甯}-戸六萬六千二百四十四，口一十萬一千三十。貢絹。縣六：信都，望。-{蓨}-上。南宮，上。皇祐四年，升新河鎭爲縣，廢南宮。六年，省新河爲鎭入焉。棗強，上。熙-{甯}-元年，省爲鎭入信都。十年，-{復}-置。武邑，上』——《宋史》(宋史/卷86)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jizhou",
   "type": "place"

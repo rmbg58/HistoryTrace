@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/宁波府",
-   "quote": null,
+   "quote": "『溪，又東巿嶺，大溪出，下流為豐食溪。梅家山溪出北梅家山，下流為渾水瀆。有天目山巡司。沿干鎮。===寧紹台道=======寧波府====寧波府：衝，繁。寧紹台道治所。提督駐。康熙二十六年，改定海曰鎮海，移置定海於舟山。宣統三年，增置南田。西北距省治四百四十里。廣二百二十四里，袤二百八里。北極高二十九度五十五分。京師偏東四度五十七分。領縣六。鄞：衝，繁，難。倚。西南：四明山。東傍海為鄮山。西南：灌頂、梅園山』——《清史稿》(清史稿/卷65)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ningbo",
   "type": "place"

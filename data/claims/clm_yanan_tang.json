@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/延州",
-   "quote": null,
+   "quote": "『，分馬嶺置。同川，廢北永州，分甯州彭原置於三泉縣故城。，復治同川城，改為同川縣}}隋縣。，為胡賊所破，因廢。，復置。又自延州金城縣移北永州治於此。八年，北永州廢，復以洛源縣屬慶州}}，分合水縣置白馬縣。，改為延慶縣}}隋舊縣。，為胡賊所破，縣廢。復置，又于此置林州總管府，管永州。其林州領華池一縣。五年，改永州為北永州。七年，罷林州總管府。，廢林州，華池隸慶州}}，檢括逃戶置，因名懷安。}}州都督府，寄』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yanan",
   "type": "place"

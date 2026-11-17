@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/掖",
-   "quote": null,
+   "quote": "『犢，平城，密鄉，羊石，樂都，石鄉，上鄉，新成，成鄉，膠陽。東萊郡，戶十萬三千二百九十二，口五十萬二千六百九十三。縣十七：掖，腄，平度，黃，臨朐，曲成，牟平，東牟，脏，育犁，昌陽，不夜，當利，盧鄉，陽樂，陽石，徐鄉。琅邪郡，戶二十二萬八千九百六十，口一百七萬九千一百。縣五十一：東武，不其，海曲，贛榆，朱虛，諸，梧成，靈門，姑幕，虛水，臨原，琅邪，祓，柜，缾，邞，雩段，黔陬，雲，計斤，稻，皋虞，平昌，長』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_laizhou",
   "type": "place"

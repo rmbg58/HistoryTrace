@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/汉中府",
-   "quote": null,
+   "quote": "『：關山汛。鎮十四：杜陽、東涼、新街、縣頭、八渡、神泉、馬鹿、長寧、赤延、故川、香泉、大松、通關河、溫水。驛一：長寧。==漢中府==漢中府：衝，繁，疲，難。陝安道治所。總兵駐。明，領州一，縣八。乾隆三十八年，置留壩廳。嘉慶七年，置定遠廳。道光五年，置佛坪廳。東北距省治一千七百里。廣八百一十里，袤六百五十里。北極高三十三度。京師偏西九度十四分。領廳三，州一，縣八。南鄭衝，繁，難。倚。西南：旱山、黃牛。南：大』——《清史稿》(清史稿/卷63)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hanzhong",
   "type": "place"

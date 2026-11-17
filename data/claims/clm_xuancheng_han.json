@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/宛陵",
-   "quote": null,
+   "quote": "『拳，大末，烏程，句章，餘杭，鄞，錢唐，鄮，富春，冶，回浦。丹揚郡，戶十萬七千五百四十一，口四十萬五千一百七十一。縣十七：宛陵，於骄，江乘，春穀，秣陵，故鄣，句容，涇，丹陽，石城，胡孰，陵陽，蕪湖，黝，溧陽，歙，宣城。豫章郡，戶六萬七千四百六十二，口三十五萬一千九百六十五。縣十八：南昌，廬陵，彭澤，鄱陽，歷陵，餘汗，柴桑，艾，贛，新淦，南城，建成，宜春，海昏，雩都，鄡陽，南野，安平。桂陽郡，戶二萬八千一』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuancheng",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/雍",
-   "quote": null,
+   "quote": "『尚書/禹貢|貢。曰：後受禪於虞，為夏后氏。殷因於夏，亡所變改。周既克殷，監於二代而損益之，定官分職，改禹徐、梁二州合之於雍、青，分冀州之地以為幽、并。故周官有職方氏，掌天下之地，辯九州之國：*東南曰揚州：其山曰會稽，藪曰具區，川曰三江，寖曰五湖；其利金、錫、竹箭；民二男五女；畜宜鳥獸，穀宜稻。*正南曰荊州：其山曰衡，藪曰雲夢，川曰江、漢，寖曰潁、湛；其利丹、銀、齒、革；民一男二女；畜及穀宜，與揚州同』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fengxiang",
   "type": "place"

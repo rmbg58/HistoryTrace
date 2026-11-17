@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/蓟",
-   "quote": null,
+   "quote": "『內，管軍三萬人，馬五千四百疋。威武軍，在檀州城內，管兵萬人，馬三百疋。清夷軍，在媯州城內，管兵萬人，馬三百疋。靜塞軍，在薊州城內，管兵萬六千人，馬五百疋。恆陽軍，在恆州城東，管兵三千五百人。北平軍，在定州城西，管兵六千人。高陽軍，在易州城內，管兵六千人。唐興軍，在莫州城內，管兵六千人。橫海軍，在滄州城內，管兵六千人。鎮撫室韋、靺鞨，統平盧、盧龍二軍，榆關守捉，安東都護府。平盧軍節度使治，在營州，管兵』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_beijing",
   "type": "place"

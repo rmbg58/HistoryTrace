@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/甘州",
-   "quote": null,
+   "quote": "『疋段。赤水軍，在涼州城內，管兵三萬三千人，馬萬三千疋。大鬥軍，在涼州西二百余裏，管兵七千五百人，馬二千四百疋。建康軍，在甘州西二百里，管兵五千三百人，馬五百疋。甯寇軍，在涼州東北千餘里。玉門軍，在肅州西二百里，管兵五千二百人，馬六百疋。墨離軍，在瓜州西北千里，管兵五千人，馬四百疋。豆盧軍，在沙州城內，管兵四千三百人，馬四百疋。新泉軍，在會州西北二百余裏，管兵千人。張掖守捉，在涼州南二里，管兵五百人。交』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangye",
   "type": "place"

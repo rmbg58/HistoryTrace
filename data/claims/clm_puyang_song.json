@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/澶州",
-   "quote": null,
+   "quote": "『}-置轉運使及提點刑獄。先是，改開封府界爲京畿路，是年，又-{於}-京畿四-{面}-置四輔郡：潁昌府爲南輔，鄭州爲西輔，澶州爲北輔，建拱州-{於}-開封襄邑縣爲東輔，-{並}-屬京畿。大觀四年，罷四輔，許、鄭、澶州還隸京西及河北路，廢拱州，-{復}-以襄邑縣隸開封府。政和四年，襄邑縣-{復}-爲拱州，-{後}-與潁昌府、鄭州、開德府-{復}-爲東、南、西、北輔。宣和二年，罷四輔，潁昌府、鄭州、開德府各』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_puyang",
   "type": "place"

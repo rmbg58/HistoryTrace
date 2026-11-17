@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/西宁府",
-   "quote": null,
+   "quote": "『衛入，行峽中；東北入寧朔、靈州。清水河，西南自海城入，左合邊牆溝、紅溝，入中衛注河。漢渠自廳城西首受黃河，下流匯山水河。西寧府：最要，沖，繁，疲，難。西寧道治所。辦事大臣、總兵駐。明，西寧衛。初因明制。雍正二年，省衛，置府及西寧、碾伯二縣。乾隆九年，置巴燕戎格廳。二十六年，置大通縣。五十七年，置貴德、丹噶爾二廳，割蘭州之循化來屬。東南距省治六百二十里。廣三百五十里，袤六百五里。北極高三十六度三十九分。京』——《清史稿》(清史稿/卷64)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xining",
   "type": "place"

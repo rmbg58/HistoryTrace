@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/宜昌府",
-   "quote": null,
+   "quote": "『司，始領府八：武昌，漢陽，黃州，安陸，德安，荊州，襄陽，鄖陽。並設湖北巡撫。雍正六年，升歸州為直隸州。十三年，升夷陵州為宜昌府，降歸州直隸州為州屬焉。以恩施縣治置施南府。乾隆五十六年，升荊門州為直隸州。光緒三十年，升鶴峰州為直隸廳。東至安徽宿松；五百五十里。南至湖南臨湘；四百里。西至四川巫山；千八百九十里。北至河南羅山。二百八十里。廣二千四百四十里，袤六百八十里。面積凡五十八萬九千一百一十六方里。北距京』——《清史稿》(清史稿/卷67)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yichang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/冀州",
-   "quote": null,
+   "quote": "『十里。領縣二：新樂州西南。西南有沙河。曲陽州西北。元屬保定路。來屬。恆山在西北，恆水出焉。又沙河在南，自山西繁峙縣流入。冀州以州治信都縣省入。西北有漳水。北有滹沱河。，滹沱挾漳南注爲州患。，二水自寧晉縣南北流，患始息。又北有洚水，一名枯洚，下流合於漳。西北距府二百八十里。領縣四：南宮州南少西。故城在縣西北，遷於今治。漳水在北。洚水在南。東南有董家廟堡巡檢司。新河州西少南。有清水河，成化後堙。棗強州東少』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jizhou",
   "type": "place"

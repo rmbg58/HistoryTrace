@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/河南府",
-   "quote": null,
+   "quote": "『城在縣東，七月徙於成皋。又遷西北。北濱河，洛水自西，東至滿家溝合汜水入焉。又西有虎牢關，九月改曰古崤關，有巡檢司。===河南府===河南府元河南府路，屬河南江北行中書省。爲府。領州一，縣十三。東距布政司三百八十里。洛陽倚。建伊王府。廢。十月建福王府。北有北邙山，西南有闕塞山，亦曰闕口山，亦曰伊闕山，俗曰龍門山。又西北有谷城山，亦曰簪亭山，湹水所出。又東南有大谷，谷口有關。又大河在北。又有洛水，源自洛南冢』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_luoyang",
   "type": "place"

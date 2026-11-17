@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/肃州",
-   "quote": null,
+   "quote": "『政使司為鞏昌布政使司。七年，又改甘肅布政使司，徙治蘭州。雍正三年，裁行都指揮使司及諸衛所，改置甘州、涼州、寧夏、西寧，升肅州及秦、階二州為直隸州。乾隆三年，廢臨洮府徙蘭州，因更名。二十四年，置安西府。二十九年，裁巡撫，以陝甘總督治蘭州，行巡撫事。三十八年，置鎮西府於巴里坤、迪化直隸州於烏魯木齊。三十九年，降安西府為直隸州。四十二年，升涇州為直隸州。同治十一年，置化平川直隸廳。十二年，升固原州為直隸州。』——《清史稿》(清史稿/卷64)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jiuquan",
   "type": "place"

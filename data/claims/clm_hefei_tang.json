@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/合肥",
-   "quote": null,
+   "quote": "『屬九江郡。隋置定遠縣}}，漢淮陵縣地，屬臨淮。宋置濟陰郡。，改為招義。===廬州===}}，上，隋廬江郡。，改為廬州，領合肥、廬江、慎三縣。七年，廢巢州為巢縣來屬。，改為廬江郡。，復為廬州，自中升為上。舊領縣四，戶五千三百五十八，口二萬七千五百一十三。天寶領縣五，戶四萬三千三百二十三，口二十萬五千三百九十六。在京師東南二千三百八十七里，至東都一千五百六十九里。}}，漢縣，屬九江郡。舊縣在北。夏水出城父』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hefei",
   "type": "place"

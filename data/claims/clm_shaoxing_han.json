@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/山阴",
-   "quote": null,
+   "quote": "『，堂邑，樂陵。會稽郡，戶二十二萬三千三十八，口百三萬二千六百四。縣二十六：吳，曲阿，烏傷，毗陵，餘暨，陽羨，諸暨，無錫，山陰，丹徒，餘姚，婁，上虞，海鹽，剡，由拳，大末，烏程，句章，餘杭，鄞，錢唐，鄮，富春，冶，回浦。丹揚郡，戶十萬七千五百四十一，口四十萬五千一百七十一。縣十七：宛陵，於骄，江乘，春穀，秣陵，故鄣，句容，涇，丹陽，石城，胡孰，陵陽，蕪湖，黝，溧陽，歙，宣城。豫章郡，戶六萬七千四百六十二』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shaoxing",
   "type": "place"

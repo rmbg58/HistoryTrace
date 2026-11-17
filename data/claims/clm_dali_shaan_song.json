@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/同州",
-   "quote": null,
+   "quote": "『-{乾}-德六年，廢入常農，太平興國七年，-{復}-置。欒川。元祐二年，以欒川冶爲鎭，崇-{寧}-三年，改爲縣。====同州====同州，望，馮翊郡，定國軍節度。崇-{甯}-戸八萬一千一十一，口二十三萬三千九百六十五。貢白蒺藜、生熟-{乾}-地黃。縣六：馮翊，緊。澄城，緊。朝邑，緊。郃陽，上。熙-{甯}-四年，省夏陽縣爲鎭入焉。白水，中。韓城。中。元祐二年，置鑄錢監。監一：沙苑。====華州====華』——《宋史》(宋史/卷87)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dali_shaan",
   "type": "place"

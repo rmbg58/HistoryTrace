@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/颍州",
-   "quote": null,
+   "quote": "『府，上，汝陰郡，舊防-{禦}-，-{後}-爲團練。開寶六年，-{復}-爲防-{禦}-。元-{豐}-二年，升順昌軍節度。舊潁州，政和六年，改爲府。崇-{甯}-戸七萬八千一百七十四，口一十六萬六百二十八。貢槹、絁、綿。縣四：汝陰，望。開寶六年，移治-{於}-州城東南十-{里}-。泰和，望。潁上，緊。沈丘。緊。====汝州====汝州，輔，臨汝郡，陸海軍節度。本防-{禦}-州。政和四年，賜軍額。崇-{甯}-』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fuyang",
   "type": "place"

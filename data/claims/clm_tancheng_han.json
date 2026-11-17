@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/郯",
-   "quote": null,
+   "quote": "『博石，房山，慎鄉，駟望，安丘，高陵，臨安，石山。東海郡，戶三十五萬八千四百一十四，口百五十五萬九千三百五十七。縣三十八：郯，蘭陵，襄賁，下邳，良成，平曲，戚，朐，開陽，費，利成，海曲，蘭祺，繒，南成，山鄉，建鄉，即丘，祝其，臨沂，厚丘，容丘，東安，合鄉，承，建陽，曲陽，司吾，于鄉，平曲，都陽，陰平，郚鄉，武陽，新陽，建陵，昌慮，都平。臨淮郡，戶二十六萬八千二百八十三，口百二十三萬七千七百六十四。縣二』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_tancheng",
   "type": "place"

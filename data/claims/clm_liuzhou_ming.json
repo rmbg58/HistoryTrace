@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/柳州府",
-   "quote": null,
+   "quote": "『安鎮、西南有富椽鎮三土巡檢司。東距府百五十里。領縣二：永福，州東南。舊屬府，三月改屬州。西南有太和山，太和江環其下，東入柳州府，爲雒清江。又西南有理定縣，元屬靜江舊路，九月省。又有蘭麻鎮、東北有銅鼓市二巡檢司，廢。義寧，州東北，舊屬府，三月改屬州。北有丁嶺，義江出焉，下流分爲二，東流者爲臨桂縣之相思水，入於灕江，南流者爲永福縣之白石水，即太和江也。西北有桑江口巡檢司。===平樂府===平樂府，元十一月置』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_liuzhou",
   "type": "place"

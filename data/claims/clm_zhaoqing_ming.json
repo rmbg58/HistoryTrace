@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/肇庆府",
-   "quote": null,
+   "quote": "『鐘山。徙縣西程山下。又徙小坪。南有黃連山。北有高良水，又名大獲水，東至州界入湟水。西有宜善巡檢司，即程山下舊縣治。===肇慶府===肇慶府元肇慶路，屬廣江道。爲府。領州一，縣十一。南距布政司二百三十里。高要倚。北有石室山。南有銅鼓山。東有高峽山、爛柯山。城南有西江，又南有新江，東南有蒼梧水，俱流入焉。東南有古耶巡檢司，治龍池都之馮村，後遷縣東之橫槎下都。東有祿步巡檢司，初在下村，後遷上村水口。東有橫槎巡』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhaoqing",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/齐州",
-   "quote": null,
+   "quote": "『年，並高密、膠西兩縣，移就故夷安城。城，舊高密縣也。仍廢膠西縣}}漢縣，屬東海郡。，於縣置莒州。州廢，以縣屬密州。===齊州===}}上，漢濟南郡，隋為齊郡。，改為齊州，領歷城、山茌、祝阿、源陽、臨邑五縣。二年，置總管府，管齊、鄒、東泰、譚、淄、濟六州。，廢都督府及譚州，省源陽縣。又以廢譚州之平陵、臨濟、亭山、章丘四縣來屬。七年，又置都督府，管齊、青、淄、萊、密五州。，改為臨淄郡。五載，為濟南郡。，復』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jinan",
   "type": "place"

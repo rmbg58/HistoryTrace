@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/洪州",
-   "quote": null,
+   "quote": "『符離、譙、亳、臨淮、朐山皆便水運，而隸淮服。其俗與京東、西略同。==江南路==江南東、西路。建炎元年，以江-{寧}-府、洪州-{並}--{陞}-帥府，四年，合江東、西爲江南路，以鄂、-{岳}-來屬。又置三帥：鄂州路，統鄂、-{岳}-、筠、袁、虔、吉州、南安軍；江西路，統江、洪、撫、信州、興國、南康、臨江、建昌軍；建康府路，統建康府、池、饒、宣、徽、太平州、廣德軍。紹興初，-{復}-分東西，以建康府、池』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanchang",
   "type": "place"

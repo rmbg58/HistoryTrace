@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/归德府",
-   "quote": null,
+   "quote": "『水之所匯也。又西有舊縣巡檢司。天長州東南。冶山在縣南。西北有石梁河，下流爲五湖，接高郵州界。東北有城門鄉巡檢司。宿州元屬歸德府。二月來屬。龍山在西南，北肥水出焉。又北有睢河，自河南永城縣流入，下流至宿遷縣合淮，亦曰小河也。南有汴河，亦自永城縣流入，又有澮河與渙水合。又東南有沱水。東南距府二百三十三里。領縣一：靈璧州東。西南有齊眉山。北有磬石山。黃河在東北。南有汴河。北有睢河。又南有固鎮巡檢司。潁州元屬汝』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shangqiu",
   "type": "place"

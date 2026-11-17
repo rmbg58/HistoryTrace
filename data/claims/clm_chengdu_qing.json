@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/成都府",
-   "quote": null,
+   "quote": "『。驛路：自成都東北逾劍閣達陝西沔縣，西渡瀘定橋逾大雪山達西藏江卡。鐵路：川漢，未竣工。電線：自成都東達漢口，西達打箭鑪。成都府：衝，繁，難。明，府。成綿龍茂道治所。光緒三十四年裁總督。布政使、提學使、提法使、鹽運使，巡警道、勸業道，將軍、副都統、提督駐。舊領州六，縣二十五。順治十六年，省羅江入德陽，省彰明入綿。康熙元年，省崇寧入郫，省彭入新繁。九年，省華陽入成都。雍正六年，復設華陽，升綿、茂二州及資縣並』——《清史稿》(清史稿/卷69)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chengdu",
   "type": "place"

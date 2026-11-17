@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/夷陵",
-   "quote": null,
+   "quote": "『陽，舂陵，新都，湖陽，紅陽，樂成，博望，復陽。南郡，戶十二萬五千五百七十九，口七十一萬八千五百四十。縣十八：江陵，臨沮，夷陵，華容，宜城，郢，踬，當陽，中盧，枝江，襄陽，編，秭歸，夷道，州陵，若，巫，高成。江夏郡，戶五萬六千八百四十四，口二十一萬九千二百一十八。縣十四：西陵，竟陵，西陽，襄，邾，軑，鄂，安陸，沙羨，蘄春，鄳，雲杜，下雉，鍾武。廬江郡，戶十二萬四千三百八十三，口四十五萬七千三百三十三。縣』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yichang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/徽州府",
-   "quote": null,
+   "quote": "『。南有黃山，與歙縣分界。西有龍門山，有巡檢司。南有麻川，與舒溪合流入涇縣，爲賞溪。西南有宏潭巡檢司，後移於郭巖前。===徽州府===徽州府元徽州路，屬江浙行省。太祖丁酉年七月曰興安府。吳元年曰徽州府。領縣六。北距南京六百八十里。編戶一十二萬五千五百四十八，口五十九萬二千三百六十四。，戶七千二百五十一，口六萬五千八百六十一。，戶一十一萬八千九百四十三，口五十六萬六千九百四十八。歙倚。西北有黃山，亦曰黟山，』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"

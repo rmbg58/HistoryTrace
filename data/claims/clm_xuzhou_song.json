@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/徐州",
-   "quote": null,
+   "quote": "『密齊濟沂登萊單濮濰淄、淮陽軍廣濟軍淸平軍宣化軍、萊蕪監利國監爲京東路。熙-{寧}-七年，分爲東、西兩路：以靑淄濰萊登密沂徐州、淮陽軍爲東路；鄆兗齊濮曹濟單州、南京爲西路。元-{豐}-元年，割西路齊州屬東路，割東路徐州屬西路。元祐元年，諸提點刑獄不分路，京東東路、京東西路-{並}-爲京東路，京西南路、京西北路-{並}-爲京西路，秦鳳等路、永興軍等路-{並}-爲陝府西路，河北西路、河北東路-{並}-爲河北』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuzhou",
   "type": "place"

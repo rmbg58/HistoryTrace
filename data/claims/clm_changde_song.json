@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/鼎州",
-   "quote": null,
+   "quote": "『興元年，以鄂、-{岳}-、潭、衡、永、郴、道州、桂陽軍爲東路、鄂州置安撫司；鼎、澧、辰、沅、靖、邵、全州、武岡軍爲西路，鼎州置安撫司。二年，罷東、西路，仍分南、北路安撫司，南路治潭州；北路治鄂，尋治江陵。===荊湖北路===北路。府二：江陵，德安，州十：鄂，-{復}-，鼎，澧，峽，-{岳}-，歸，辰，沅，靖。軍二：荊門，漢陽。縣五十六。南渡-{後}-，府三：江陵，常德，德安。州九：鄂，-{岳}-，歸，』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changde",
   "type": "place"

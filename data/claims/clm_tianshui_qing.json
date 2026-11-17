@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/秦州",
-   "quote": null,
+   "quote": "『店、青化。驛一：岐周寶雞沖，繁，難。府西南九十里。秦嶺在南，亦名秦山。東南：陳倉山、石鼓山。西南：和尚原、大散嶺。渭水自秦州緣界入，逕城南而東，右合塔河、洛谷水，左合汧水，又東合潘溪，入岐山。東南：太白河、西南入留壩。上谷水、虢川河、西南凍河即故道水，並西入鳳。東北：利民渠。巡檢駐虢川鎮。又底店、陽平、馬營、益門四鎮。驛二：陳倉、東河。扶風沖，繁。府東百十里。北：岐山，吳雙。東北：梁山。南：飛鳳、賢山』——《清史稿》(清史稿/卷63)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"

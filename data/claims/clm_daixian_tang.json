@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/代州",
-   "quote": null,
+   "quote": "『。天兵軍，理太原府城內，管兵三萬人，馬五千五百疋。雲中守捉，在單于府西北二百七十里，管兵七千七百人，馬二千疋。大同軍，在代州北三百里，管兵九千五百人，馬五千五百疋。橫野軍，在蔚州東北一百四十里，管兵三千人，馬千八百疋。忻州，在太原府北百八十里，管兵七千八百人。代州，至太原府五百里，管兵四千人。嵐州，在太原府西北二百五十里，管兵三千人。岢嵐軍，在嵐州北百里，管兵一千人。臨制奚、契丹，統經略、威武、清夷、』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_daixian",
   "type": "place"

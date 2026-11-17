@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/潮州府",
-   "quote": null,
+   "quote": "『武初，徙於今治。東南有興寧江。南有十二都巡檢司。又西有清溪巡檢司，後廢。興寧府東北。元屬循州。四月來屬。南有興寧江，東入潮州府程鄉縣界。東南有水口巡檢司，治水口隘，後廢，復置於下岸，尋遷於上岸水東。又北有十三都巡檢司，後遷白水砦，尋復故。====連平州====連平州本連平縣。以和平縣惠化都置，析長寧、河源二縣及韶州府翁源縣地益之。尋升爲州。西有銀梅水，源出楊梅坪，即湞水上源。南有長吉里、東南有忠信裏二巡』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chaozhou",
   "type": "place"

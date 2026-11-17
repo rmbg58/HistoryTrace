@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/颍州",
-   "quote": null,
+   "quote": "『}}隋縣，屬譙州。廢，屬亳州。舊治于馬浦城東北三里。，移置於馬浦城}}隋山桑縣，屬譙州。州廢，隸亳州。，改為蒙城。===潁州===}}中，漢汝南郡。隋為汝陰郡。，平王世充，于汝陰縣西北十里置信州，領汝陰、清丘、永安、高唐、永東等六縣。六年，改為潁州，移於今治，省高唐、永樂、永安三縣。，省清丘縣。八年，又以廢渦州之下蔡縣來ＮＰ。，改為汝陰郡。，復為潁州。，以潁州隸滑鄭節度使。舊領縣三，戶二千九百五，口一』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fuyang",
   "type": "place"

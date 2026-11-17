@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "辽史/地理志/朔州",
-   "quote": null,
+   "quote": "『都邑。孝文帝改為司州牧，置代尹，遷都洛邑，改萬年，又置恒州。高齊文宣帝廢州為恒安鎮，今謂之東城，尋復恒州。周復恒安鎮，改朔州。隋仍為鎮。唐武德四年置北恒州，七年廢。貞觀十四年，移雲中定襄縣於此。永淳元年，默啜為民患，移民朔州。開元十八年，置雲州。天寶元年，改雲中郡。乾元元年曰雲州。乾符三年，大同軍節度使李國昌子克用為雲中守捉使，殺防禦使，據州以聞。僖宗赦克用，以國昌為大同軍防禦使，不受命。廣明元年，李』——《遼史》(遼史/卷41)",
    "source": "src_liaoshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"

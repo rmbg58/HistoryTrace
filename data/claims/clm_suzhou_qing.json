@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/苏州府",
-   "quote": null,
+   "quote": "『常鎮通海道。舊本沙洲。乾隆初，設沙務同知。三十三年，割通州之安慶、南安十九沙，崇明之半洋、富民十一沙，及天南沙，置廳。移蘇州府海防同知來治。西距省治五百七十里。廣一百四十里，袤三十七里。北極高三十一度五十五分。京師偏東四度四十五分。東南，瀕海。西，大江，西南自通州入，右與昭文分岸。又東錯崇明，折東北，由界洪復入，東南至蓼角嘴入海。白茆口為江海潮所會。界河承海水西流，環治而南，入於江。===蘇州府===}』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_suzhou",
   "type": "place"

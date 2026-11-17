@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/南昌府",
-   "quote": null,
+   "quote": "『千四百八十二。，戶一百三十六萬三千六百二十九，口六百五十四萬九千八百。，戶一百三十四萬一千五，口五百八十五萬九千二十六。南昌府元龍興路，屬江西行省。太祖壬寅年正月爲洪都府。癸卯年八月改南昌府。領州一、縣七：南昌倚。建豫王府。二十五年改爲代王，遷山西大同。永樂初，寧王府自大寧衛遷此，除。故城在東。今城，明太祖壬寅年改築。東湖在城東南隅。西有贛江，自豐城縣流入，東北入鄱陽湖，出湖口縣，入大江，亦曰章江。又東』——《明史》(明史/卷43)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanchang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/汉州",
-   "quote": null,
+   "quote": "『流逕城北，俱入新都。金堂繁，難。府東北七十里。西：金堂山，縣以此名。南：雲頂山，亦名百城山。東：三學山。綿陽河即綿水，自漢州合雒水入，右納馬木河。又南至焦山陂，西有清白江及其枝津督橋河自新都入，合於城東。其昆橋河即沱江，先後來會，是為中江，又南入簡州。有古城、下市、柏茂三鎮。新都衝，難。府北五十里。南：龍門、赤岸。北：麗元山。沱江即毗橋河，下流自成都入。督橋河、錦水河俱自新繁入。錦水又歧為利水河，併入』——《清史稿》(清史稿/卷69)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/桂州",
-   "quote": null,
+   "quote": "『{寧}-，萬安，吉陽。紹興二十二年，戸四十八萬八千六百五十五，口一百三十四萬一千五百七十二。===靜江府===靜江府。本桂州，始安郡，靜江軍節度。大觀元年，爲大都督府，又升爲帥府。舊領廣南西路兵馬鈐轄，兼本路經略、安撫使。紹興三年，以髙宗潛邸，升府。寶祐六年，改廣西-{制}-置大使，-{後}-四年廢，-{復}-爲廣西路經略、安撫使。元-{豐}-戸四萬六千三百四十三。貢銀、桂心。縣十一：臨桂，緊。嘉祐六』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guilin",
   "type": "place"

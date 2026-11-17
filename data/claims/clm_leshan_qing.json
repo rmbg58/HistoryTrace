@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/嘉定府",
-   "quote": null,
+   "quote": "『隸天全。在州西北。仍明舊。有靈關河，逕司西北，與多功水合。又冷邊長官司，亦隸天全。沈邊長官司，隸清溪，均於宣統三年改流。嘉定府；衝，繁。隸建昌道。明，嘉定州。順治初，因明制，為直隸州。領縣六。康熙十二年陞府，以其地置樂山。嘉慶十三年，設瓘邊廳。北距省治三百九十里。廣六百餘里，袤二百九十里。北極高二十九度二十六分。京師偏西十二度三十一分。領廳一，縣七。樂山衝，繁，倚。城西隅高標山。東：凌雲、烏尤。北：白崖』——《清史稿》(清史稿/卷69)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_leshan",
   "type": "place"

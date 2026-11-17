@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/天津卫",
-   "quote": null,
+   "quote": "『。洪武初，更名。八年四月改屬北平府。十年五月來屬。縣北有小直沽，衛河自西來，與白河合，入於海。又有丁字沽、鹼水沽。又北有天津衛，十一月置。寧津府東南。南有土河，自山東德州流入，又東入山東樂陵縣界。景州洪武初，以州治蓚縣省入。東有衛河。東北有胡盧河。又東有安陵、西北有宋門二巡檢司。又東北有李晏鎮。西北距府百八十五里。領縣三：吳橋州東，少南。西有衛河。東光州東北。七月省入阜城縣。十三年十一月復置。南有衛河，』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_tianjin",
   "type": "place"

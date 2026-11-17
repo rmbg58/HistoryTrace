@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/广州府",
-   "quote": null,
+   "quote": "『九百三十二。，戶四十六萬七千三百九十，口一百八十一萬七千三百八十四。，戶五十三萬七百一十二，口五百四萬六百五十五。===廣州府===廣州府元廣州路，屬廣東道宣慰司。爲府。領州一，縣十五：南海倚。西北有石門山、雙女山。南濱海。又南有三江口。三江者，一曰西江，上流合黔、鬱、桂三水，自廣西梧州府流入；一曰北江，即湞水；一曰東江，即龍川水。俱與西江會，經番禺縣南，入於南海。西北有三江巡檢司，本治側水村，後遷村堡』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guangzhou",
   "type": "place"

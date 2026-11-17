@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/宁国府",
-   "quote": null,
+   "quote": "『有永豐鎮巡檢司。東流府西。西南有馬當山，枕大江，與江西彭澤縣界。南有香口河，流入江，有香口鎮巡檢司，後移於吉陽鎮。===寧國府===寧國府元寧國路，屬江浙行省。太祖丁酉年四月曰寧國府。辛丑年四月曰宣城府。丙午年正月曰宣州府。吳元年四月仍曰寧國府。領縣六。北距南京三百十里。編戶九萬九千七百三十二，口五十三萬二千二百五十九。，戶六萬三百六十四，口三十七萬一千五百四十三。，戶五萬二千一百四十八，口三十八萬七千』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuancheng",
   "type": "place"

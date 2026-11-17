@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/温州",
-   "quote": null,
+   "quote": "『下，隋龍泉郡。，改為隰州，領隰川、溫泉、大寧、石樓四縣。二年，置總管府，領隰、中、昌、南汾、東和、西德六州。三年，又置北溫州屬焉。，省中、昌、西德、北溫四州，又以廢昌州蒲縣來屬，仍督隰、南汾、東和三州。三年，廢都督府。又以廢東和州永和縣來屬。，改為大寧郡。，復為隰州。舊領縣六，戶八千二百二十二，口三萬八千三百九十五。天寶，戶一萬九千四百五十五，口十二萬四千四百二十。在京師東北九百六里，至東都八百八十里』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wenzhou",
   "type": "place"

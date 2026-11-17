@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/淮安府",
-   "quote": null,
+   "quote": "『年，江南更今名，改左布政使為安徽布政使司，駐江寧。右布政使為江蘇布政使司，治蘇州。統江寧、蘇州、常州、松江、鎮江、揚州、淮安府七，徐州直隸州一。雍正二年，升太倉、邳、海、通四州為直隸州。十一年，徐州升府，邳還為州，屬之。乾隆二十五年，移安徽布政使司安慶，增設江寧布政使司，析江寧、淮安、徐、揚四府，通、海二直隸州屬之，與江蘇布政使司對治。三十二年，增海門直隸廳，屬江寧。光緒三十年，又設江淮巡撫，駐清江浦。』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huaian",
   "type": "place"

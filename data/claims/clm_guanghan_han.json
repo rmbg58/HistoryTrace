@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/雒",
-   "quote": null,
+   "quote": "『，川曰江、漢，寖曰潁、湛；其利丹、銀、齒、革；民一男二女；畜及穀宜，與揚州同。*河南曰豫州：其山曰華，藪曰圃田，川曰滎、雒，簧曰波、溠；其利林、漆、絲枲；民二男三女；畜宜六擾，其穀宜五種。*正東曰青州：其山曰沂，藪曰孟諸，川曰淮、泗，寖曰沂、沭；其利蒲、魚；民二男三女；其畜宜雞、狗，穀宜稻、麥。*河東曰兗州：其山曰岱，藪曰泰野，其川曰河、泲，浸曰盧、濰；其利蒲、魚；民二男三女；其畜宜六擾，穀宜四種。』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"

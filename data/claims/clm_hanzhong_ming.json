@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/汉中府",
-   "quote": null,
+   "quote": "『焉。西有弦蒲藪，汭水出焉，下流合於涇水。南有渭水。西南有方山原。又南有隴安、西南有香泉二巡檢司。東南距府百八十里。===漢中府===漢中府元興元路，屬陝西行省。五月爲府。六月改名漢中府。領州一，縣八。東北距布政司九百六十里。南鄭倚。十月建瑞王府。西南有巴嶺山，南連孤雲、兩角、米倉諸山，達四川之巴州。南濱漢水，又曰沔水，源自嶓冢，經縣界，下流至湖廣漢陽府入大江。又有沮水，漢水別源也，又西北有褒水，俱流入漢』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hanzhong",
   "type": "place"

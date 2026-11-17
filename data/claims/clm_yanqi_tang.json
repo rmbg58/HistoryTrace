@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/西戎传/焉耆",
-   "quote": null,
+   "quote": "『百五十八，縣一千五百五十一。至十四年平高昌，又增二州六縣。自北殄突厥頡利，西平高昌，北逾陰山，西抵大漠。其地東極海，西至焉耆，南盡林州南境，北接薛延陀界。凡東西九千五百一十里，南北萬六千九百一十八里。高宗時，平高麗、百濟，遼海已東，皆為州，俄而復叛，不入提封。，分天下郡縣，置二十四都督府以統之。議者以權重不便，尋亦罷之。，分天下為十五道，每道置採訪使，檢察非法，如漢刺史之職：京畿採訪使、理京師城內都畿』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yanqi",
   "type": "place"

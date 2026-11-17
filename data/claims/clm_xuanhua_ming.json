@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/宣府",
-   "quote": null,
+   "quote": "『十有一，宣撫司十，安撫司二十有二，招討司一，長官司一百六十有九，蠻夷長官司五。其邊陲要地稱重鎮者凡九：曰遼東，曰薊州，曰宣府，曰大同，曰榆林，曰寧夏，曰甘肅，曰太原，曰固原。皆分統衛所關堡，環列兵戎。綱維佈置，可謂深且固矣。計明初封略，東起朝鮮，西據吐番，南包安南，北距大磧，東西一萬一千七百五十里，南北一萬零九百四里。自成祖棄大寧，徙東勝，宣宗遷開平於獨石，世宗時復棄哈密、河套，則東起遼海，西至嘉峪，』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuanhua",
   "type": "place"

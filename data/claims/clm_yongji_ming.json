@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/蒲州",
-   "quote": null,
+   "quote": "『四十三年還屬府。東有綿山，即介山也。城北有汾水，又東有谷水流入焉。又北有靈石口巡檢司。西南有陰地關，又有汾水關。====蒲州====蒲州元河中府。改爲蒲州，以州治河東縣省入。中條山在東南，即雷首山也，又名首陽山，跨臨晉、聞喜、垣曲、平陸、芮城、安邑、夏縣、解州之境。又南有歷山。又大河自榆林折而南，經州城西，又經中條山麓，又折而東，謂之河曲。臨河有風陵關巡檢司。又東南有涑水，即絳水下流，又南有嬀汭水，俱』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongji",
   "type": "place"

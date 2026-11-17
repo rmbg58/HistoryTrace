@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/陕州",
-   "quote": null,
+   "quote": "『{禦}-。崇-{甯}-戸三萬二千三百五十六，口一十一萬三千三百二十一。貢鹽花。縣三：解，中。聞喜，望。安邑。緊。====陝州====陝州，大都督府，陝郡。太平興國初，改保平軍，舊兼提舉商、虢州兵馬巡檢事。崇-{甯}-戸四萬七千八百六，口一十三萬五千七百一。貢槹〗、絁、括蔞根、柏子仁。縣七：陝，中。熙-{寧}-六年，省硤石縣爲石壕鎭入焉。平陸，上。夏，上。靈寶，上。熙-{寧}-四年，省湖城縣入焉。芮城，』——《宋史》(宋史/卷87)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_sanmenxia",
   "type": "place"

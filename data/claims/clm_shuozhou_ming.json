@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/朔州",
-   "quote": null,
+   "quote": "『升爲州。北有岢嵐山，其東爲雪山。西南有嵐漪河，北有蔚汾水，下流俱入大河。又西北有岢嵐鎮巡檢司，後廢。又北有天澗堡隘，路通朔州。西北有於坑堡隘，又有洪谷堡隘，俱通保德州。東南距府二百八十里。領縣二：嵐州南少東。元嵐州。洪武初，降爲縣。西南有黃尖山，蔚汾水所出。又北有二郎關、鹿徑嶺二巡檢司。興州西南。元興州。降爲縣。八年十一月來屬。東北有石樓山。西濱大河，南有蔚汾水流入焉。又東有界河口、西南有孟家峪二巡檢』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"

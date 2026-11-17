@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/广州府",
-   "quote": null,
+   "quote": "『治南，與獨鶴水合，是為尖石水也。又東南流為長沙河，過赤水口，入新會。有松柏、沙岡二巡司。：疲，難。府東南二百六十里。，以廣州府新會縣大官田置，析開平縣地益之，來屬。在城有鶴山，縣以是名。東北：崑崙。西北：雲宿。西江自南海入，過縣東北境曰古勞河，又曰蘇海，合古勞小河，東過大雁山入新會。潭江出縣西馬耳山，東南至鑼鼓潭，屈西錯入開平，至新會合恩平江。官田水出東北嶂背山，東南與嵐洞水合，入新會為橋亭水也。雙橋水』——《清史稿》(清史稿/卷72)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guangzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/漳州",
-   "quote": null,
+   "quote": "『來隸。有石牌、安福二銀塲。順昌，上。南唐-{陞}-永順塲爲縣。沙，中。有龍泉銀塲。尤溪，上。有尤溪，寶應等九銀塲。===漳州===漳州，下，漳浦郡，軍事。崇-{寧}-戸一十萬四百六十九。貢甲香、鮫魚皮。縣四：龍溪，望。有呉慣、沐犢、中柵三鹽塲。漳浦，望。有黃敦鹽塲。龍巖，望。有大濟、寶興二銀塲。長泰，望。太平興國五年，自泉州來隸。===汀州===汀州，下，臨汀郡，軍事。淳化五年，以上杭、武平二塲-{並』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"

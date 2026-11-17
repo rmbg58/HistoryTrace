@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/湖州府",
-   "quote": null,
+   "quote": "『入，合中沙渚塘，入海寧。長水塘自海寧、海鹽緣東南界入海鹽、嘉興為界水。鎮五：濮院、爐鎮、皁林、陳庄，又青墩巡司。====湖州府====湖州府：：繁，疲，難。隸杭嘉湖道。明，領州一，縣五。副將、所千總駐。乾隆三十八年，改安吉為縣。東南距省治百八十里。廣百八十二里，袤百三十八里。北極高三十度五十二分。京師偏東三度二十七分。領縣七。烏程：繁，疲，難。倚。南：衡山、金蓋山。西北：弁山。太湖，東北八十里，古震澤，』——《清史稿》(清史稿/卷65)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huzhou",
   "type": "place"

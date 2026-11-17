@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/邓州",
-   "quote": null,
+   "quote": "『北：歧棘。潦河出其東麓，緣南陽界入之，下注淯。照河，出嬌女朵，俗十二里河，匯東西三里淇河，及其西嚴陵河，並達之。縣驛一。鄧州繁，難。府西南百二十里。南：析隈山。西：五隴。西北：靈山、永青。湍水自內鄉入，逕臨湍、冠軍故城，右合得子河，側城東南至槃灘，左納趙河及嚴陵河。水經注「又逕穰縣為六門陂，又東南逕魏武故城西南白牛邑，安眾故城南，涅水注之」者，漢東陽涅陽城在焉。入新野，與淯會，為白河。其西，刁河自內鄉』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dengzhou",
   "type": "place"

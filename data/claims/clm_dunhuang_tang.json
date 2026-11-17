@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/沙州",
-   "quote": null,
+   "quote": "『州東北千餘里。玉門軍，在肅州西二百里，管兵五千二百人，馬六百疋。墨離軍，在瓜州西北千里，管兵五千人，馬四百疋。豆盧軍，在沙州城內，管兵四千三百人，馬四百疋。新泉軍，在會州西北二百余裏，管兵千人。張掖守捉，在涼州南二里，管兵五百人。交城守捉，在涼州西二百里，管兵千人。白亭守捉，在涼州西北五百里，管兵千七百人。捍禦北狄，統經略、豐安、定遠、西受降城、東受降城、安北都護、振武等七軍府。朔方節度使，治靈州，管』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dunhuang",
   "type": "place"

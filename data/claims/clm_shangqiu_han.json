@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/睢阳",
-   "quote": null,
+   "quote": "『，寧平，扶溝，固始，圉，新平，柘。梁國，戶三萬八千七百九，口十萬六千七百五十二。縣八：碭，甾，杼秋，蒙，已氏，虞，下邑，睢陽。東平國，戶十三萬一千七百五十三，口六十萬七千九百七十六。縣七：無鹽，任城，東平陸，富城，章，亢父，樊。魯國，戶十一萬八千四十五，口六十萬七千三百八十一。縣六：魯，卞，汶陽，蕃，騶，薛。楚國，戶十一萬四千七百三十八，口四十九萬七千八百四。縣七：彭城，留，梧，傅陽，呂，武原，甾丘。』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shangqiu",
   "type": "place"

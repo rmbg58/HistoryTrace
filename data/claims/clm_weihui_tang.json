@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/卫州",
-   "quote": null,
+   "quote": "『懷州}}漢縣名。，于縣置殷州，領獲嘉、武德、武陟、修武、新鄉、共城五縣。，省殷州，以獲嘉、武陟、修武屬懷州，新鄉、共城屬衛州。===衛州===}}望，隋汲郡，本治衛縣。，改為衛州。二年，陷竇建德。四年，賊平，仍舊領衛、清淇、湯陰三縣。其年，廢義州，以汲縣來屬。六年，以湯陰屬相州。，州移治於汲縣，又廢殷州，以共城、新鄉、博望三縣來屬。六年，廢博望縣。十七年，廢清淇縣。其年，又以廢黎州之黎陽縣來屬。，改為』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_weihui",
   "type": "place"

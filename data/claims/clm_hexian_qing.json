@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/和州",
-   "quote": null,
+   "quote": "『，逕城北流入秦淮，明故運道也，今淤。一驛：孔家。}}沖。府西北四十里。東北：十三公山、九連山。西：龍洞山。大江西南自安徽和州入，右與江寧分岸。為口四：曰烏江，曰老西江，曰新河，曰老河。受浦子口河，東北入六合。滁水右瀆自安徽滁州入，亦曰後河，東與來安分岸，復盡入境，曰前河，右出支津至東葛鎮，又東北逕岔河集，會沙河入六合。鎮三：高望、香泉、葛城。二驛：江淮、東葛。浦口巡司一。江淮有驛丞，裁。有鐵路。}}簡』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hexian",
   "type": "place"

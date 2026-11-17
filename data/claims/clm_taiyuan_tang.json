@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/晋阳",
-   "quote": null,
+   "quote": "『遼州}}隋縣。武德初，屬并州。三年，改屬榆州，六年，改為遼州。===北京===}}太原府，隋為太原郡。，改為并州總管，領晉陽、太原、榆次、太谷、祁、陽直、壽陽、盂、樂平、交城、石艾、文水、遼山、平城、烏河、榆社十六縣。其年，置清源縣，仍以榆社屬韓州。三年，廢總管。其年，置汾陽；仍以盂、壽陽二縣置受州，治盂縣；樂平、遼山、平城、石艾四縣置遼州，治樂平；太谷、祁二縣置太州，治太谷；仍以文水屬汾州。四年，又』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"

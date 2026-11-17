@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/扬州府",
-   "quote": null,
+   "quote": "『十五年七月移於江北新開路口，仍置巡檢司於舊治。東南濱大江，有江淮衛，正月置。又有西江口巡檢司。六合府西北。元屬真州。直隸揚州府。二十二年二月來屬。東有瓜步山，濱大江，滁河水自西來，入焉。有瓜埠巡檢司。===鳳陽府===鳳陽府元濠州，屬安豐路。太祖吳元年升爲臨濠府。九月建中都，置留守司於此。六年九月曰中立府。七年八月曰鳳陽府。九月建中都城於舊城西，三年十二月始成。周五十里四百四十三步。立門九：正南曰洪武，』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yangzhou",
   "type": "place"

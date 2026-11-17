@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/夷陵州",
-   "quote": null,
+   "quote": "『。枝江府西。五月省入鬆滋縣。十三年五月復置。北濱大江，江中有百里洲，江水經此而分，故曰枝江。北有沮水，南入江，謂之沮口。夷陵州元峽州路，屬荊湖北道宣慰司。太祖甲辰年爲府。九月降爲州，直隸湖廣行省。九年四月改州名夷陵，以州治夷陵縣省入，來屬。大江在南。西北有關曰下牢關，夾江爲險。又有西陵、明月、黃牛三峽，峽中有使君、虎頭、狼尾、鹿角等灘，皆江流至險處也。西北有赤谿，東合大江。南有南津口巡檢司。又東有金竹坪』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yichang",
   "type": "place"

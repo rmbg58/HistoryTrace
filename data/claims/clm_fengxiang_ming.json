@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/凤翔府",
-   "quote": null,
+   "quote": "『=懷慶府元懷慶路，直隸中書省。十月爲府，屬河南分省。領縣六。東南距布政司三百里。河內倚。建衛王府。除。八年，鄭王府自陝西鳳翔府遷此。北有太行山，又有碗子城山，上有關。又有沁河，源出山西沁源縣，流入府境，下流至武陟入大河。又有丹河，自澤州流入，注於沁河。又西有柏鄉城，築。濟源府西。元屬孟州。五月改屬府。南濱大河。西有王屋山，接山西垣曲縣界，濟水出焉。西北有琮山，溴水出焉。又東北有沁水，經兩山之間，一名枋口』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fengxiang",
   "type": "place"

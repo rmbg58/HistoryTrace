@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/永州府",
-   "quote": null,
+   "quote": "『巡檢司，後廢。嘉禾州西南。以桂陽州之倉禾堡置，析臨武縣地益之。東南有巋水，自藍山縣流入，北經石門山，又東北入州界。===永州府===永州府元永州路，屬湖南道宣慰司。爲府。領州一，縣七。東北距布政司千八百二十里。零陵倚。北有湘水，經城西，瀟水自南來合焉，謂之湘口，有湘口關。又南有永水，源出縣西南之永山，北流入於湘水。北有黃楊堡巡檢司，本高溪市，徙治，更名。祁陽府東北。舊治在縣西，十二月徙於今治。北有祁山，』——《明史》(明史/卷44)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/寿春",
-   "quote": null,
+   "quote": "『，居巢，龍舒，臨湖，雩婁，襄安，樅陽，尋陽，灊，睆，湖陵邑，松茲。九江郡，戶十五萬五十二，口七十八萬五百二十五。縣十五：壽春邑，浚遒，成德，橐皋，陰陵，歷陽，當塗，鍾離，合肥，東城，博鄉，曲陽，建陽，全椒，阜陵。山陽郡，戶十七萬二千八百四十七，口八十萬一千二百八十八。縣二十三：昌邑，南平陽，成武，湖陵，東嬢，方與，橐，鉅野，單父，薄，都關，城都，黃，爰戚，郜成，中鄉，平樂，鄭，瑕丘，甾鄉，栗鄉，曲鄉，』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shouxian",
   "type": "place"

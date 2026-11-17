@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/许州",
-   "quote": null,
+   "quote": "『入南直潁州界。又北有沙河，東入南直太和縣界。又東有界首巡檢司。又北有南頓縣，洪武初廢。景泰初，置南頓巡檢司於此。====許州====許州洪武初，以州治長社縣省入。西有潁水。北有潩水。又東有東湖，一名秋湖。又西北有石固鎮，與長葛縣界。東北距府二百二十里。領縣四：臨潁州東南。西有潁水，潩水自縣北流入焉。又西南有小㶏水。襄城州西南。南有首山。東北有潁水。南有汝河。郾城州東南。南有沙水，亦曰大溵水，上流即故汝』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuchang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/虔州",
-   "quote": null,
+   "quote": "『孫州之建昌入豫章縣，而以建昌屬洪州}}舊廢縣。，分建昌置}}，分建昌置武寧縣。，改為豫寧。，復為武寧}}二月置。====虔州====}}中，隋南康郡。，平江左，置虔州。，改為南康郡。，復為虔州。舊領縣四，戶八千九百九十四，口三萬九千九百一。天寶領縣六，戶三萬七千六百四十七，口二十七萬五千四百一十。今縣七。在京師東南四千一十七里，至東都三千四百里。}}州所理，漢縣，屬豫章郡。漢分豫章立廬陵郡，晉改為南康』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ganzhou",
   "type": "place"

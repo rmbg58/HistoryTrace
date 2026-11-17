@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/莱州",
-   "quote": null,
+   "quote": "『三，口一十七萬三千四百八十四。貢金、牛黃、石器。縣四：蓬萊，望。文登，中。黃，望。牟平。緊。有乳山、閻家口二砦。====萊州====萊州，中，東萊郡，防-{禦}-。崇-{甯}-戸九萬七千四百二十七，口一十九萬八千九百八。貢牛黃、海藻、牡礪、石器。縣四：掖，望。萊陽，望。膠水，望。即墨。中====濰州====濰州，上，團練。建隆三年，以靑州北海縣建爲北海軍，置昌邑縣隸之。-{乾}-德三年，升爲州，又增昌』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_laizhou",
   "type": "place"

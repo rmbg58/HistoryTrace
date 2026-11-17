@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/河南府",
-   "quote": null,
+   "quote": "『-{於}-金耀門南置開遠門。舊名通遠。以上皆太平興國四年賜名，天聖初改今名。===西京===西京。唐顯慶間爲東都，開元改河南府，宋爲西京，山陵在焉。宮城周回九-{里}-三百歩。城南三門：中曰五鳳樓，東曰興教，西曰光政。因隋、唐舊名。東一門，曰蒼龍。西一門，曰金虎。北一門，曰拱宸。舊名玄武，大中祥符五年改。五鳳樓内，東西門曰左、右永泰，門外道北有鸞和門，太平興國三年，以車輅院門改。右永泰門西有永福門。興教』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_luoyang",
   "type": "place"

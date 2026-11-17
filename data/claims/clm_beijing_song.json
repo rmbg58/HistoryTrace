@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "辽史/地理志/析津",
-   "quote": null,
+   "quote": "『__TOC__◎地理志四南京道==南京道=====析津府===南京析津府，本古冀州之地。高陽氏謂之幽陵，陶唐曰幽都，有虞析為幽州。商並幽於冀。周分並為幽。《職方》，東北幽州，山鎮醫巫閭，澤藪貘養，川河、泲，浸淄、時。其利魚、鹽，其畜馬、牛、豕，其谷黍、稷、稻。武王封太保奭於燕。秦以其地為漁陽、上谷、右北平、遼西、遼東五郡。漢為燕國，』——《遼史》(遼史/卷40)",
    "source": "src_liaoshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_beijing",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/渝州",
-   "quote": null,
+   "quote": "『改為渠江縣}}梁置。濆山，在縣西四十里，重疊濆比為名。隋末，縣廢。，分置濆山縣，又置濆州。八年，州廢，縣隸渠州。====渝州====}}隋之巴郡。，置渝州，因開皇舊名，領江津、涪陵二縣。其年，以涪陵屬涪州。三年，置萬春縣。改萬春為萬壽縣。，以廢霸州之南平縣來屬。，改為南平郡。乾元初，復為渝州。舊領縣四，戶一萬二千七百一十，口五萬七百一十三。天寶，戶六千九百九十五，口二萬七千六百八十五。在京師西南二千七』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chongqing",
   "type": "place"

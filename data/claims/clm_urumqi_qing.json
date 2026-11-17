@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/迪化",
-   "quote": null,
+   "quote": "『，廢臨洮府徙蘭州，因更名。二十四年，置安西府。二十九年，裁巡撫，以陝甘總督治蘭州，行巡撫事。三十八年，置鎮西府於巴里坤、迪化直隸州於烏魯木齊。三十九年，降安西府為直隸州。四十二年，升涇州為直隸州。同治十一年，置化平川直隸廳。十二年，升固原州為直隸州。光緒十二年，新疆改建行省，割迪化、鎮西往屬。東至陝西；及鄜州、邠州。南至四川；保寧、龍安。西南至青海；北至阿拉善、額濟納二旗。及喀爾喀札薩克圖汗部。廣二千』——《清史稿》(清史稿/卷64)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_urumqi",
   "type": "place"

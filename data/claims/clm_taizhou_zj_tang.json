@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/台州",
-   "quote": null,
+   "quote": "『屬會稽郡。至隋廢。，置鄞州。八年，州廢為鄮縣，屬越州。，於縣置明州}}，慈溪，翁山，已上三縣，皆鄮縣地。，析置。====台州====}}，上，隋永嘉郡之臨海縣。，平李子通，置海州，領臨海、章安、始豐、樂安、寧海五縣。五年，改為台州。六年，沒於輔公祏。七年平賊，仍置台州，省寧海入章安。八年，廢始豐、樂安二縣入臨海。，復分置始豐。舊管二縣。，置寧海縣。，置象山縣。，改為臨海郡。，復為台州。舊領縣二：臨海、』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taizhou_zj",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/袁州",
-   "quote": null,
+   "quote": "『}-舊。永新，望。至和元年，徙吉水縣地置永新縣。永-{豐}-，望。萬安，望。熙-{甯}-四年，以龍泉縣萬安鎭置。====袁州====袁州，上，宜春郡，軍事。崇-{甯}-戸一十三萬二千二百九十九，口三十二萬四千三百五十三。貢𦆭布。縣四：宜春，望。分宜，望。雍熙元年置。有貴山鐵務。萍鄕，望。萬載。緊。開寶末，自筠州來屬。宣和三年，改名建城。紹興元年，-{復}-今名。====撫州====撫州，上，臨川郡，軍』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yichun",
   "type": "place"

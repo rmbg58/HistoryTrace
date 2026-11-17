@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/郴州",
-   "quote": null,
+   "quote": "『與楓江水合，至常寧入湘水。東南：仰天湖，屯湖水出，西北流，左合麻淪江，又北與泉田水合。屈東北，蓮蓬溪水北流來會，又東北入郴州。南牛橋鎮、北泗州寨二廢巡司。臨武簡。州西南一百四十里。北：八源，一名東山。西：舜峰。西南：華陰。又有西山，古名桐柏山，溱水出焉，東北流，左納貝溪，與秀溪水合。屈而北，武溪水合石江水自西來會。又東，赤土溪水南流合焉，東南入宜章。有赤土鎮。瑤山在縣南。藍山簡。州西南一百五十里。北：』——《清史稿》(清史稿/卷68)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chenzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/真定",
-   "quote": null,
+   "quote": "『郡。，改為臨城。}}古無其名，隋置，取贊皇山為名。}}漢常山郡所治，故城在今縣西。===鎮州===}}秦東垣縣。漢高改名真定，置恆山郡，又為真定國。歷代為常山郡。治元氏，後魏道武登常山郡，北望安樂壘美之，遂移郡治于安樂城，今州城是也。周、隋改為恆州，後廢。義旗初，復置恆州，領真定、石邑、行唐、九門、滋陽五縣，州治石邑。，陷竇建德。四年，賊平，徙治所於真定，省滋陽縣，又割廉州之禋城來屬。，改為常山郡。，』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhengding",
   "type": "place"

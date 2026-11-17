@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/齐齐哈尔",
-   "quote": null,
+   "quote": "『入萬全。其東小清水分入龍門。西北有昂古里泊。又諾莫渾博羅山有正黃等四旗牧廠，查喜爾圖插漢地有禮部牧廠，並明天成衛邊外地。齊齊哈爾河有太僕寺右翼牧廠，廣百五十里，明大同邊外地。東北喀喇尼墩井有太僕寺左翼牧廠，明，宣府邊外地。北控果羅鄂博岡，有鑲黃等四旗牧廠，明廢興和千戶所。廳自與俄定恰克圖約為孔道。，劃地五百萬方尺為租界。三鎮：興和城、太平庄、烏里雅蘇臺。有站。：置理事廳。轄官地，及察哈爾東翼正藍、鑲白、正』——《清史稿》(清史稿/卷54)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_qiqihaer",
   "type": "place"

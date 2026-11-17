@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/襄阳府",
-   "quote": null,
+   "quote": "『}-分南、北兩路。===京西南路===南路。府一，襄陽。州七：鄧，隨，金，房，均，郢，唐。軍一，光化。縣三十一。====襄陽府====襄陽府，望，襄陽郡，山南東道節度。本襄州。宣和元年，升爲府。崇-{甯}-戸八萬七千三百七，口一十九萬二千六百五。貢麝香、白-{穀}-、漆器。縣六：襄陽，緊。鄧城，望。-{谷}-城，緊。宜城，中下。中盧，中下。隋義淸縣。太平興國元年改。紹興五年，省入南漳。南漳。中下。===』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xiangyang",
   "type": "place"

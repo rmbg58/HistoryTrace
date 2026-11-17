@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/寿州",
-   "quote": null,
+   "quote": "『城縣併入。===鄆州===}}上，隋東平郡之須昌縣。，平徐圓朗，於鄆城置鄆州，領鄆城、須昌、宿城、钜野、乘丘五縣。又以廢壽州之壽張來屬。其年，置總管府，管鄆、濮、兗、戴、曹五州。，罷都督府，仍以钜野屬戴州。又廢宿城、乘丘二縣。八年，自鄆城移治須昌。，又置宿城縣。，改鄆州為東平郡。，復為鄆州。舊領縣三：須昌、鄆城、壽張；戶四千一百四十一，口二萬一千六百九十二。天寶領縣五，戶四萬四千二百九十九，口二十八萬』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shouxian",
   "type": "place"

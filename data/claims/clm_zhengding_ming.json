@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/真定府",
-   "quote": null,
+   "quote": "『。領縣三：南皮州西南。衛河在縣西。鹽山州東南。東濱海，產鹽。東南有鹽山。慶雲州東南。六月析山東樂安州北地置，來屬。===真定府===真定府元真定路，直隸中書省。十月爲府。屬河南分省。二年正月屬山東。三月來屬。領州五，縣二十七。東北距京師六百三十里。編戶五萬九千四百三十九，口五十九萬七千六百七十三。，戶七萬四千七百三十八，口一百九萬三千五百三十一。真定倚。滹沱河在城南。又北有滋河，自山西靈丘縣流入，經行唐』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhengding",
   "type": "place"

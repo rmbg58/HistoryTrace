@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/上邽",
-   "quote": null,
+   "quote": "『，故道，河池，平樂道，沮，嘉陵道，循成道，下辨道。隴西郡，戶五萬三千九百六十四，口二十三萬六千八百二十四。縣十一：狄道，上邽，安故，氐道，首陽，予道，大夏，羌道，襄武，臨洮，西。金城郡，戶三萬八千四百七十，口十四萬九千六百四十八。縣十三：允吾，浩亹，令居，枝陽，金城，榆中，枹罕，白石，河關，破羌，安夷，允街，臨羌。天水郡，戶六萬三百七十，口二十六萬一千三百四十八。縣十六：平襄，街泉，戎邑道，望垣，罕幵』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/许州",
-   "quote": null,
+   "quote": "『入直隸長垣。舊賈魯七河堙。陽封，管河縣丞駐。管城驛。禹州沖，繁。府西南二百九十里。明初鈞州，後改。雍正二年升，十二年降屬許州府。乾隆六年還隸。北：大騩山。西南：九山。西北：荊山，小洪河出，入長葛；崆峒、鐵母。潁水自登封入，逕康城陽關聚，左合書堂麻地川。右涌水，逕城南，一曰褚河，入襄城，其西土爐河，下流並達之。水經注「故瀆逕三封山，有嵎水」。今泉二：上棘、小韓。清潁一驛。密簡。府南二百八十里。清初自禹來』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuchang",
   "type": "place"

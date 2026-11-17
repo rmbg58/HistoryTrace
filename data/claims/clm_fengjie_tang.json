@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/夔州",
-   "quote": null,
+   "quote": "『、鹽水二縣。四年，廢江州及鹽水縣，以巴山屬睦州。八年，屬東松州。，屬硤州。====歸州====}}隋巴東郡之秭歸縣。，割夔州之秭歸、巴東二縣，分置歸州。三年，分秭歸置興山縣，治白帝城。，改為巴東郡。，復為歸州。舊領縣三，戶三千五百三十一，口二萬一十一。天寶，戶四千六百四十五，口二萬三千四百二十七。在京師南二千二百六十八里，至東都一千八百四十三里。}}漢縣，屬南郡。魏改為臨江郡。吳、晉為建平郡。隋屬巴東』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fengjie",
   "type": "place"

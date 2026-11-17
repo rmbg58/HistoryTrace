@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/成都",
-   "quote": null,
+   "quote": "『撫蠻獠，統團結營及松、維、蓬、恭、雅、黎、姚、悉等八州兵馬，天寶、平戎、昆明、寧遠、澄川、南江等六軍鎮。劍南節度使治，在成都府，管兵三萬九百人，馬二千疋，衣賜八十萬疋段，軍糧七十萬石。團結營，在成都府城內，管兵萬四千人，馬千八百疋。翼州，管兵五百人。茂州，管兵三百人。維州，管兵五百人。天寶軍，在恭州東南九十里，管兵千人。柘州，管兵五百人。松州，管兵二千八百人。平戎城，在恭州南八十里，管兵千人。雅州，管』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chengdu",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/和州",
-   "quote": null,
+   "quote": "『隋舊縣。，於此僑置雲州及雲中、榆林、龍泉三縣。八年，廢雲州及三縣，以龍泉併入臨真，以雲中、榆林併入豐林}}，分延川縣置西和州，領安人、修文、桑原三縣。，廢西和州，以修文、桑原併入安人，屬北基州。八年，廢北基州入延川。二十三年，改為弘風縣。，改為延水}}隋舊縣。，置南平州，領義門縣。四年，廢南平州及縣，併入延川}}，置北平州。廢，十年於廢州置罷交縣。，改名為延昌縣}}寄治延安郡界，隸延州節度使。===綏』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hexian",
   "type": "place"

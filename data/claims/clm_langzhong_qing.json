@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/保宁府",
-   "quote": null,
+   "quote": "『北：石城山。大江自巴入，逕廳東南，又東入長壽。涪江自合州入，逕廳南，又東南，與巴縣分水入大江。東：銅鑼峽關，為水路門戶。保寧府：中，衝，繁。川北道治所。川北鎮總兵駐。明，府。順治初，因明制，領州二，縣八。雍正五年，改梓潼屬綿州直隸州。西南距省治六百二十里。廣七百一十里，袤六百里。北極高三十一度五十九分。京師偏西十度五十分。領州二，縣七。閬中衝，繁。倚。西：閬中山，縣以此得名。東：盤龍、文城。南：鐘山、玉』——《清史稿》(清史稿/卷69)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_langzhong",
   "type": "place"

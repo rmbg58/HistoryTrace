@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/敦煌县",
-   "quote": null,
+   "quote": "『旋升沙州所為衛。六年，徙安西廳治大灣。乾隆二十四年升府，置淵泉縣附郭，省靖逆通判，並赤斤衛置玉門縣。二十五年，以沙州衛為敦煌縣，省淵泉入府治。二十八年，降直隸州，隸安肅道。東距省治二千一百二十里。廣六百二十里，袤六百里。北極高三十九度四十分。京師偏西十八度五十二分。領縣二。雪山自蔥嶺支分，迤邐東趨，綿跨州境，山外皆大戈壁，與青海分界。其北連山無極，與哈密及札薩克圖汗分界。疏勒河，古南極端水，一曰布隆吉河』——《清史稿》(清史稿/卷64)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dunhuang",
   "type": "place"

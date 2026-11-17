@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/梧州",
-   "quote": null,
+   "quote": "『{甯}-五年廢蒙州，以東區、蒙山二縣入焉。龍平，中。開寶五年廢富州，以縣來隸，又以思勤、馬江入焉。熙-{寧}-八年，又隸梧州。元-{豐}-八年-{復}-來隸。宣和中改昭平。淳熙六年-{復}-今名。恭城。下。太平興國元年，徙治-{于}-北鄕龍渚市。景定五年-{復}-舊。===梧州===梧州，下，蒼梧郡，軍事。元-{豐}-戸五千七百二十。貢銀、白石英。縣一：蒼梧，下。熙-{寧}-四年，省戎城縣爲鎭，入蒼梧』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wuzhou",
   "type": "place"

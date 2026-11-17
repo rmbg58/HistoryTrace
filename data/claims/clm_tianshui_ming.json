@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/秦州",
-   "quote": null,
+   "quote": "『。====靜寧州====靜寧州元屬鞏昌總帥府。洪武中來屬。南有隴山。北有橫山，即隴山支阜。南有水洛川，一名石門水，下流至秦州入略陽川。又西有苦水河，即高平川之上源。東距府二百三十里。領縣一：莊浪州東南。元莊浪州，直隸陝西行省。屬鳳翔府。八年三月降爲縣，來屬。西有苦水川。====固原州====固原州本固原守禦千戶所，以故原州城置。升爲衛。置州，屬府。西南有六盤山，上有六盤關，東北有清水河出焉，下流合鎮原』——《明史》(明史/卷42)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"

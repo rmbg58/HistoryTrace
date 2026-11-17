@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/渝州",
-   "quote": null,
+   "quote": "『鹽塲。樂温，下。武龍。下。宣和元年，改武龍縣爲枳縣。紹興元年依舊。===重慶府===重慶府，下，本恭州，巴郡，軍事。舊爲渝州。崇-{甯}-元年，改恭州，-{後}-以髙宗潛藩，-{陞}-爲府。舊領萬壽縣，-{乾}-德五年，廢。雍熙中，又廢南平縣。慶暦八年，以黔州羈縻南、溱二州來隸。皇祐五年，以南州置南川縣。熙-{寧}-七年，以南川縣隸南平軍。元-{豐}-戸四萬二千八十。貢葛布、牡丹皮。縣三：巴，中。有石』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chongqing",
   "type": "place"

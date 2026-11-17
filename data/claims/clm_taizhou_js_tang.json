@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/海陵",
-   "quote": null,
+   "quote": "『都督府。，復為揚州。自後置淮南節度使，親王為都督，領使；長史為節度副大使，知節度事。恆以此為治所。舊領縣四：江都、六合、海陵、高郵、戶二萬三千一百九十九，口九萬四千三百四十七。天寶領縣七，戶七萬七千一百五，口四十六萬七千八百五十七。在京師東南二千七百五十三里，至東都一千七百四十九里。}}，漢縣，屬廣陵國。隋為江都郡。，改為兗州，七年改為邗州，九年改為揚州都督府，皆以江都為治所}}，，分江都縣置，在郭下』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taizhou_js",
   "type": "place"

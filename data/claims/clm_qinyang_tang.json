@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/怀州",
-   "quote": null,
+   "quote": "『河南縣之宣範坊。十八年，廢都督府，省緱氏、嵩陽二縣。，置東都，官員准雍州。是年，廢穀州，以福昌、長水、永甯、澠池等四縣，懷州之河陽、濟源、溫、王屋，鄭州之汜水來屬。，又以許州之陽翟，鄭州之密縣，絳州之垣縣來屬。，以垣縣隸絳州。，又置柏崖、大基二縣。其年，省柏崖縣。，復置緱氏縣。，復置嵩陽縣。，改東都為神都。，置永昌縣。，置武臨縣。，置武泰縣，尋廢。仍改鄭州之滎陽、武泰來屬。三年，置來廷縣。，改神都復為』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_qinyang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/应天府",
-   "quote": null,
+   "quote": "『地屬河南江北等處行中書省，又分置淮東道宣慰使司治揚州路屬焉；江南地屬江浙等處行中書省。明太祖丙申年七月置江南行中書省。治應天府。八月建南京，罷行中書省，以應天等府直隸中書省，衛所直隸大都督府。十一年正月改南京爲京師。十三年正月己亥罷中書省，以所領直隸六部。癸卯改大都督府爲五軍都督府，以所領直隸中軍都督府。正月仍稱南京。統府十四，直隸州四，屬州十七，縣九十有七。爲裏萬三千七百四十有奇。北至豐、沛，與山東、』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanjing",
   "type": "place"

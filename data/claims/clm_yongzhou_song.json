@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/永州",
-   "quote": null,
+   "quote": "『縣爲鎭入焉，元祐元年-{復}-。江華，緊。有黃富鐵塲。-{寧}-遠，緊。唐延唐縣。-{乾}-德三年改。永明。上。====永州====永州，中，零陵郡，軍事。熙-{寧}-六年，廢福田、樂山二砦。八年，廢零陵砦。崇-{甯}-戸八萬九千三百八十七，口二十四萬三千三百二十二。貢葛、石燕。縣三：零陵，望。祁陽，中。東安。中。雍熙元年，-{陞}-東安塲爲縣。有東安砦。====郴州====郴州，中，桂陽郡，軍事。紹』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/卫辉府",
-   "quote": null,
+   "quote": "『直隸清豐。衛實淇水，水經注「過內黃縣南為白溝，逕並陽城為黃澤，逕戲陽城東」。地理志清河水。隋，永濟渠。高堤一鎮。縣驛一。衛輝府：沖，繁。隸河北道。上北河，衛糧通判駐。清初沿明制，領縣六。雍正中，割開封之延津、直隸大名之濬、滑來隸，胙城省。乾隆中，割開封之封丘、歸德之考城來隸。光緒初，考城仍還隸。東南距省治百六十里。廣三百九十里，袤百七十八里。北極高三十五度二十七分。京師偏西二度十二分。領縣九。汲沖，繁。』——《清史稿》(清史稿/卷62)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_weihui",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/桂州",
-   "quote": null,
+   "quote": "『州，管兵萬五千四百人，輕稅本鎮以自給。經略軍，在廣州城內，管兵五千四百人。清海軍，在恩州城內，管兵二千人。桂管經略使，治桂州，管兵千人。容管經略使，治容州，管兵千一百人。安南經略使，治安南都護府，即交州，管兵四千二百人。邕管經略使，管兵七百人。福州刺史領之，管兵千五百人。萊州刺史領之，管兵千人。東牟守捉。登州刺史領之，管兵千人。至德之後，中原用兵，刺史皆治軍戎，遂有防禦、團練、制置之名。要衝大郡，皆有』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guilin",
   "type": "place"

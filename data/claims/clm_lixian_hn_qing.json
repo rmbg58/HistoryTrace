@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/澧州",
-   "quote": null,
+   "quote": "『析置湖南布政使司，為湖南省，移偏沅巡撫駐長沙。雍正二年，改偏沅巡撫為湖南巡撫，並歸湖廣總督兼轄。七年，置永順府，升岳州之澧州。十年，升衡州之桂陽州。乾隆元年，升辰州之沅州為府。嘉慶二年，升辰州之乾州、鳳凰、永綏三廳。二十二年，置晃州廳。光緒十八年，置南州廳。領府九，直隸廳五，直隸州四，屬州三，縣六十四。東至江西義寧；三百五十里。西至貴州銅仁；一千七百三十五里。南至廣東連州；八百二十里。北至湖北監利。三』——《清史稿》(清史稿/卷68)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lixian_hn",
   "type": "place"

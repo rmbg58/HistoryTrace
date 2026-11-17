@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/江夏",
-   "quote": null,
+   "quote": "『。}}隋縣，屬安陸郡。，置溫州，因後魏。領京山、富水二縣。，廢鄀州，以長壽來屬。十七年，復於縣置郢州。長壽漢竟陵縣地，屬江夏郡。，於縣置郢州。，廢郢州，以長壽屬鄀州。八年，又屬溫州。十七年，又屬郢州。富水隋舊。武德初，屬溫州。州廢，屬郢州。}}隋沔陽郡。，改為復州，治竟陵縣，，移治沔陽。，改為竟陵郡。，復為復州。舊領縣三，戶一千四百九十四，口六千二百一十八。天寶，戶八千二百一十，口四萬四千八百八十五。』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_wuhan",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/灵州",
-   "quote": null,
+   "quote": "『山。西北：白露山，即白于山，洛水出焉。右合貝川水、郎兒溝，又東，左合吳倉坡水，東南入保安。南：三山水，一名耿家河，自甘肅靈州入，復合黃家泉，西南入甘肅環縣。北有邊牆，自甘肅花馬池入，東南至靖邊。西：鹽場堡，縣丞駐，後省。靖邊沖，難。府西北三百里。明成化十一置靖邊營，屬延綏鎮。順治初為靖邊所。雍正二年設同知，九年，以安邊、安塞、鎮羅、鎮靖、龍州五堡地置，屬榆林府。乾隆初來隸。西南：大白蓮花山。東：箭桿山』——《清史稿》(清史稿/卷63)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lingwu",
   "type": "place"

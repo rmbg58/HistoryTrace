@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/陈州",
-   "quote": null,
+   "quote": "『里。}}郭下。隋潁川縣。，改為長社，取舊名}}隋分許昌縣置，取舊名}}舊縣}}隋置洧州，後廢為縣，屬許州}}隋縣。，置北陳州。其年，州廢，縣屬洧州。九年，洧州廢，來屬}}隋舊縣。，隸溵州。，州廢來屬}}漢縣，治所在古城內，屬仙州。，隸許州。，移治于吳城鎮}}本屬豫州。來屬。===汴州===}}上，隋滎陽郡之浚儀縣也。，平王世充，置汴州總管府，管汴、洧、杞、陳四州，領浚儀、新裏、小黃、開封、封丘等五縣。』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huaiyang",
   "type": "place"

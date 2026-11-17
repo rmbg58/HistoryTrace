@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/汉州",
-   "quote": null,
+   "quote": "『萬四千。天寶領縣六，戶九萬八千一十八，口六十六萬三千一百七十一。今領縣五。在京師東北二千二百里，至東都一千三百二里。}}漢州鄉縣地，屬涿郡。隋為河間縣}}漢縣，屬涿郡。隋舊。，于縣置蒲州，領高陽、博野、清苑三縣，屬蠡州。八年，二縣又割屬蒲州。九年，復隸蠡州。，廢蒲州，以靺、高陽二縣屬瀛州}}漢東平舒縣，屬渤海郡。後去「東」字，隋不改。，屬景州，，屬瀛州}}漢束州縣，屬渤海郡。隋曰束城，屬河間郡}}漢縣』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"

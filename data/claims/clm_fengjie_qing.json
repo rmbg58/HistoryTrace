@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/夔州府",
-   "quote": null,
+   "quote": "『合流，謂之龍嘴河，即中清河上源也。北有清江。境內水多伏流。有南坪、建南二巡司。建始簡。府東北一百二十里。初因明制，屬四川夔州府。乾隆元年改屬。南：文山。西：石乳。東：州基山。西：石乳山，上有關，馬水河出，西南右合桐木溪、木瓜河，逕祿山，右會廣潤河，至撒毛，入恩施。南有清江，入逕麻根塔口、景陽河，又東入巴東。有龍駒河。大岩嶺鎮，縣丞駐。荊門直隸州：沖，繁，疲，難。隸安襄鄖荊道。明屬承天府。順治初，沿明制，』——《清史稿》(清史稿/卷67)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fengjie",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/福州",
-   "quote": null,
+   "quote": "『，管兵千人。容管經略使，治容州，管兵千一百人。安南經略使，治安南都護府，即交州，管兵四千二百人。邕管經略使，管兵七百人。福州刺史領之，管兵千五百人。萊州刺史領之，管兵千人。東牟守捉。登州刺史領之，管兵千人。至德之後，中原用兵，刺史皆治軍戎，遂有防禦、團練、制置之名。要衝大郡，皆有節度之額；寇盜稍息，則易以觀察之號。領汝州，東都留守兼之。治孟州，領孟、懷二州。治汴州，管汴、宋、亳、潁四州。治滑州，管滑、』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fuzhou",
   "type": "place"

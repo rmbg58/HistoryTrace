@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/柳州",
-   "quote": null,
+   "quote": "『寶五年，廢皇化縣，俄又廢州，以桂平隸貴州。六年，-{復}-置。元-{豐}-戸六千一百四十一。貢銀。縣一：桂平，下。===柳州===柳州，下，龍城郡，軍事。-{咸}-淳元年，徙治柳城縣之龍江。元-{豐}-戸八千七百三十。貢銀。縣三：馬平，中。洛容，中。嘉祐四年，廢象縣入洛容。柳城，中。梁龍城縣。景德三年改。===貴州===貴州，下，懷澤郡，軍事。元-{豐}-戸七千四百六十。貢銀。縣一：-{鬱}-林，中下』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_liuzhou",
   "type": "place"

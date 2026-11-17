@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/敦煌",
-   "quote": null,
+   "quote": "『延，顯美。酒泉郡，戶萬八千一百三十七，口七萬六千七百二十六。縣九：祿福，表是，樂涫，天孪，玉門，會水，池頭，綏彌，乾齊。敦煌郡，戶萬一千二百，口三萬八千三百三十五。縣六：敦煌，冥安，效穀，淵泉，廣至，龍勒。安定郡，戶四萬二千七百二十五，口十四萬三千二百九十四。縣二十一：高平，復累，安俾，撫夷，朝那，涇陽，臨涇，鹵，烏氏，陰密，安定，參讀，三水，陰槃，安武，祖厲，爰得，眴卷，彭陽，鶉陰，月支道。北地郡，』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dunhuang",
   "type": "place"

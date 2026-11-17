@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/桂林府",
-   "quote": null,
+   "quote": "『達湖南永州；西南逾崑崙關達龍州；東南達廣東封川。電線：東北達長沙，東南達廣州，西通慶遠。鐵路：自龍州出鎮南關達安南諒山。桂林府：沖，繁，難。隸桂平梧郁道。巡撫，布政、提學、提法，勸業、巡警道駐。光緒三十二年，桂平梧郁兼管鹽法道，徙駐梧州。提督徙駐南寧。明洪武五年，改靜江府為桂林府，領州二，縣七。順治初，因明舊為省治。乾隆六年，析義寧縣地置龍勝廳。光緒三十二年，析永寧州永福、融、柳城、雒容四縣地置中渡廳。』——《清史稿》(清史稿/卷73)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guilin",
   "type": "place"

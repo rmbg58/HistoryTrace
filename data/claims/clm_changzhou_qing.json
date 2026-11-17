@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/常州府",
-   "quote": null,
+   "quote": "『南迤東環城流，西有采綯港。鎮四：高橋、江灣、大場、羅店。舊砲台、胡巷口、楊行、江灣、月浦有汛。縣丞駐高橋。有鐵路。===常州府===}}：沖，繁，疲，難。隸常鎮通海道。順治初，因明制，縣五。雍正二年，總督查弼納以蘇、松、常賦重事繁，疏請太倉等十三州縣各析為二，析武進置陽湖，無錫置金匱，宜興置荊溪。東南距省治二百八十里。廣一百六十里，袤一百八十里。北極高三十一度五十二分。京師偏東三度二十四分。領縣八。}}』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changzhou",
   "type": "place"

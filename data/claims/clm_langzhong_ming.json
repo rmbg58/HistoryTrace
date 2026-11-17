@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/保宁府",
-   "quote": null,
+   "quote": "『。西北有保子關、徹底關。西南有鎮夷關。東南距府四百五十里。領縣一：保州西北。分保寧縣地置。東有汶江。西北有鎮安關。===保寧府===保寧府元屬廣元路。直隸行省。領州二，縣八。西南距布政司七百里。閬中倚。建雍王府。遷於湖廣衡州府。四年八月建壽王府。遷於湖廣德安府。舊治在縣東，明玉珍徙於此。東有蟠龍山，其北有鋸山關。又有靈山，其麓爲梁山關。南有嘉陵江，即西漢水，自陝西寧羌州流入，至巴縣合大江，亦曰閬水，又曰』——《明史》(明史/卷43)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_langzhong",
   "type": "place"

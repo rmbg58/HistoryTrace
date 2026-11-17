@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/郴州",
-   "quote": null,
+   "quote": "『十四萬三千三百二十二。貢葛、石燕。縣三：零陵，望。祁陽，中。東安。中。雍熙元年，-{陞}-東安塲爲縣。有東安砦。====郴州====郴州，中，桂陽郡，軍事。紹興初，改隸荊湖東路，二年，仍來屬。崇-{甯}-戸三萬九千三百九十二，口一十三萬八千五百九十九。貢𦆭。縣四：郴，緊，有新塘、浦溪二銀坑。桂陽，中。唐義昌縣，-{後}-唐改郴義。太平興國初，又改。有延壽銀坑。宜章，中。唐義章縣。太平興國初改。永興。中』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chenzhou",
   "type": "place"

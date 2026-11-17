@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/潮州府",
-   "quote": null,
+   "quote": "『：雲蓋山。四面濱海。北臘嶼、虎嶼，在海中。西南有赤嶼、白嶼，其田產鹽。有南澳巡司。：衝，繁，難。隸惠潮嘉道。舊程鄉縣，隸潮州府。，升為嘉應州，直隸廣東布政使司。，升為嘉應府，復置程鄉縣為府治。十七年，仍改為直隸州，省程鄉縣。西南距省治千二百八十二里。廣百五十七里，袤百五十四里。北極高二十四度十二分。京師偏西十九分。領縣四。東：百花。東南：酉陽，一名九峰山。東北：王壽山。南：梅江即興寧江，東北流，逕州治南』——《清史稿》(清史稿/卷72)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_chaozhou",
   "type": "place"

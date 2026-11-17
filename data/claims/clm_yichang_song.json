@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/峡州",
-   "quote": null,
+   "quote": "『，江陵郡，荊南節度。舊領荊湖北路兵馬鈐轄，兼提舉本路及施、夔州兵馬巡檢事。建炎二年，-{陞}-帥府。四年，置荊南府、歸、峽州、荊門、公安軍鎭撫使，紹興五年罷。始-{制}-安撫使兼營田使，六年，爲經略安撫使；七年，罷經略，止除安撫使。淳熙元年，還爲荊南府。未-{幾}-，-{復}-爲江陵府-{制}-置使。景定元年，移治-{於}-鄂。-{咸}-淳十年，荊湖、四川宣撫使兼江陵府事。崇-{甯}-戸八萬五千八百一』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yichang",
   "type": "place"

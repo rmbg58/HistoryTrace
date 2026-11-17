@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/江陵府",
-   "quote": null,
+   "quote": "『宇縣分裂，莫之能一。宋太祖受周禪，初有州百一十一，縣六百三十八，戸九十六萬七千三百五十三。建隆四年，取荊南，得州、府三（江陵府，歸、峽），縣一十七，戸一十四萬二千三百。平湖南，得州一十五、監一（潭、衡、邵、郴、道、永、全、-{岳}-、澧、朗、蔣、辰、錦、溪、敘，桂陽監），縣六十六，戸九萬七千三百八十八。-{乾}-德三年，平蜀，得州、府四十六（益、彭、眉、嘉、邛、蜀、綿、漢、資、簡、梓、黎、雅、陵、戎、瀘』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jingzhou",
   "type": "place"

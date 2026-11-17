@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/邓州",
-   "quote": null,
+   "quote": "『。鄧城，望。-{谷}-城，緊。宜城，中下。中盧，中下。隋義淸縣。太平興國元年改。紹興五年，省入南漳。南漳。中下。====鄧州====鄧州，望，南陽郡，武勝軍節度。舊爲上郡。政和二年，升爲望郡。建隆初，廢臨瀨縣。崇-{甯}-戸一十一萬四千一百二十七，口二十九萬七千五百五十。貢白菊花。縣五：穰，上。南陽，中下。慶暦四年，廢方城縣爲鎭入焉；元-{豐}-元年，改爲縣，隸唐州。内鄕，中下。順陽。中下。太平興國六』——《宋史》(宋史/卷85)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dengzhou",
   "type": "place"

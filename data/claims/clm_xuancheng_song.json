@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/宣州",
-   "quote": null,
+   "quote": "『紹興初，置沿海-{制}-置使。八年，以浙東安撫使兼-{制}-司；十一年，罷；隆興元年，-{復}-置。淳熙元年，魏惠憲王自宣州移鎭，置長史、司馬。紹熙五年，以-{甯}-宗潛邸，-{陞}-爲府。崇-{甯}-戸一十一萬六千一百四十，口二十二萬一十七。貢綾、-{幹}-山蕷、烏{則-{蟲}-}魚骨。縣六：鄞，望。奉化，望。慈溪，上。定海，上。象山，下。昌國。下。熙-{寧}-六年，析鄞縣地置，有鹽監。紹興間，-{』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuancheng",
   "type": "place"

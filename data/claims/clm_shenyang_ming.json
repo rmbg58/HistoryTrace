@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/沈阳中卫",
-   "quote": null,
+   "quote": "『中左千戶所，轄連山驛山至杏山驛，西有小沙河中右千戶所，轄東關驛至曹莊驛，俱正月置。又南有鹽、鐵二場。東距都司七百七十里。瀋陽中衛元瀋陽路。洪武初廢。三十一年閏五月置衛。建沈王府。遷於山西潞州。東有東牟山。南有渾河，又東有瀋水入焉。又西有遼河。又東北有撫順千戶所，置。所東有撫順關。北有蒲河千戶所，亦置。南距都司百二十里。瀋陽左衛、瀋陽右衛俱洪武中置。建文初廢。七月復置，後仍廢。瀋陽中屯衛閏五月置。建文中廢。』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shenyang",
   "type": "place"

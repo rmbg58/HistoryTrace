@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/宿州",
-   "quote": null,
+   "quote": "『。貢縐紗、絹。縣七：譙，望。城父，望。酇，望。永城，望。衞眞，望。唐眞源縣。大中祥符七年改。鹿邑，緊。蒙城。望。====宿州====宿州，上，符離郡，建隆元年，-{陞}-防-{禦}-。開寶元年，建爲保靜軍節度。元領五縣，紹興中，割虹縣隸楚州，-{後}-沒-{於}-金。崇-{甯}-戸九萬一千四百八十三，口一十六萬七千三百七十九。貢絹。縣四：符離，望。蘄，望。臨渙，緊。大中祥符七年，割隸亳州，天禧元年來隸』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_suzhou_yu",
   "type": "place"

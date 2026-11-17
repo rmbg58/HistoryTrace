@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/宿州",
-   "quote": null,
+   "quote": "『，難。府西五十里。南：丁公山。西：岱山。西北為岱山湖。又東南有龍山河。資河自銅山入，東南逕軸山西，左出支津入靈壁，正渠入宿州。其西望川湖，逕大海子東，亦入宿。鎮二：白土、永安。一驛：桃山。張山店巡司一。}}沖，繁，疲，難。府西北一百六十里。東北：芒碭山。利民溝一曰小神湖，東南流，屈而西，入永城。西沙河，西南逕鼎新集，入河南夏邑。城北為黃河故道。周家寨、蟠龍集有汛。}}簡。府西北一百五十里。東南：華山。』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_suzhou_yu",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/同州府",
-   "quote": null,
+   "quote": "『、堤坪河入石泉。有四畝地、五郎關汛。主簿駐江口，嘉慶七年自長安斗門鎮移此。四畝地巡檢，嘉慶十三年移駐新城，十八年廢。==同州府==同州府：沖，繁，難。隸潼商道。明，同州屬西安府，領縣五。雍正三年，升直隸州。十三年升府，置附郭縣。耀、白水還隸，又降華州暨所屬之華陰、蒲城、潼關來隸。乾隆十二年，潼關升廳。西南距省治二百四十里。廣一百八十八里，袤二百九十里。北極高三十四度五十分。京師偏西六度三十七分。領廳一，』——《清史稿》(清史稿/卷63)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dali_shaan",
   "type": "place"

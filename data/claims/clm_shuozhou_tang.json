@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/朔州",
-   "quote": null,
+   "quote": "『又置總管，管並、介、受、遼、太、榆、汾七州。其年，改為上總管。五年，又改代、石二總管。其年，改上總管為大總管。六年，又改朔州總管，仍割汾州之文水來屬。其年，廢太州，以太谷、祁二縣來屬。七年，改為大都督府。其年，置羅陰縣，仍省陽直縣，改汾陽為陽曲縣，又以文水屬汾州。，省烏河、羅陰二縣，又以文水來屬。八年，以廢受州之壽陽、盂、樂平、石艾，又割順州之燕然，凡五縣來屬。督並、汾、箕、嵐四州。十四年，廢燕然縣。』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"

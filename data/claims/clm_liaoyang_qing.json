@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/辽阳州",
-   "quote": null,
+   "quote": "『：京奉，東清，安奉。京奉鐵路行境內六十里，車站二，曰馬三家，曰瀋陽，在小西關外，卽京奉全路尾站。商埠，八月中美約開。}}遼陽州：三月克遼陽，四月遷都於此。十年移瀋陽。設遼陽府，遼陽縣附郭。十四年，府移縣來隸。六月，縣升為州，仍隸府。有城守尉。南：千山山脈，東自懷仁老嶺入，為遼東半島之脊，山南之水，獨行入海，遼東山脈主峰也。北：太子河，自本溪入，西流至遼中境，迤南入海城。左受細河、藍河、湯河、沙河、鞍山河』——《清史稿》(清史稿/卷55)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_liaoyang",
   "type": "place"

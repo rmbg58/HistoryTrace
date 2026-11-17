@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/梓州",
-   "quote": null,
+   "quote": "『、漢、眉、嘉、資、簡、維、茂、黎、雅、松、扶、文、龍、戎、翼、邛、巂、姚、柘、恭、當、悉、奉、疊、靜等州，使親王領之。治梓州，管梓、綿、劍、普、榮、遂、合、渝、瀘等州。治鄂州，管鄂、嶽、蘄、黃、安、申、光等州。治揚州，管揚、楚、滁、和、舒、壽、廬等州，使親王領之。治潤州，管潤、蘇、常、杭、湖等州。或為觀察使。治越州，管越、衢、婺、溫、台、明等州。或為觀察使。治福州，管福、建、泉、汀、漳等州。治宣州，管』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_santai",
   "type": "place"

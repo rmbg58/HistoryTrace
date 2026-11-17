@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/肇庆府",
-   "quote": null,
+   "quote": "『龍床嶺，西南與葫蘆溪合，西南流為海安港，入海。有寧海、東場二巡司。又有新興鹽場，後廢。：繁，難。隸高雷陽道。舊陽江縣，隸肇慶府。，升為直隸廳。，改為直隸州。東北距省治七百三十里。廣一百三十里，袤一百一十五里。北極高二十一度五十二分。京師偏西四度三十分。領縣二。北：北甘山。東南：北津山。又海朗，一名鎮海山。南濱海。海陵山在海中。西：漠陽江自陽春入，左合輪水河，東南至河口市，左合第八河，右歧為西河，又東南至』——《清史稿》(清史稿/卷72)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhaoqing",
   "type": "place"

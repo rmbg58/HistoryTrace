@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/楚州",
-   "quote": null,
+   "quote": "『，割徐城南界兩鄉于沙熟淮口置臨淮縣。，移治郭下}}隋縣。，置漣州，仍分置金城縣。，廢漣州，並省金城縣，以縣屬泗州。，改為楚州。，還屬泗州}}漢徐縣。隋為徐城縣，屬泗州，治于大徐城。，移就臨淮縣。===海州===}}中，隋東海郡。，置海州總管府，領海、漣、環、東楚四州。海州領朐山、龍沮、新樂、曲陽、沐陽、厚丘、懷仁、利城、祝其九縣。六年，改新樂為祝其。七年，以東楚州屬揚府，又以沂州來屬。八年，廢環州及龍』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huaian",
   "type": "place"

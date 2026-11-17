@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/定州",
-   "quote": null,
+   "quote": "『十里。領縣三：文安州南少東。西有易水。東北有得勝、火燒等澱。大城州東南。東北有黃汊河，源自交河，分流至縣境，入三角澱。保定州南少西。九月省入霸州。十三年十一月復置。玉帶河在北，東流入會通河。西南有磁河，東南與玉帶河合。涿州洪武初以州治范陽縣省入。西有獨鹿山。北有涿水，西北有挾河，合焉。南有範水。東北距府百四十里。領縣一。房山州北，少西。西有大房山。北有大安山。西南有青龍潭，其下流爲挾河，一名韓村河，至』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/和州",
-   "quote": null,
+   "quote": "『時塞，俗亦稱潁爲小黃河。西北又有沈丘鎮巡檢司。東距府四百四十里。領縣二：潁上州東南。東有潁河。南有淮河。東北有西肥水。太和州西北。南有潁水，亦名沙河。北有西肥水。又有洪山、北原和二巡檢司。亳州元屬歸德府。洪武初，以州治譙縣省入，尋降爲縣，屬歸德州。六年屬潁州。十月復升爲州。西有渦河，自河南鹿邑縣流入，北有馬尚河，流合焉。南有西肥水，即夏肥水也。又東南有城父縣，洪武中廢。又有義門巡檢司。東南距府四百五十』——《明史》(明史/卷40)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hexian",
   "type": "place"

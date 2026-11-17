@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/虔州",
-   "quote": null,
+   "quote": "『。唐潯陽縣，南唐改。德安，緊。瑞昌，中。湖口，中。彭澤。中。監一：廣-{寧}-。鑄銅錢。====贛州====贛州，上。本虔州，南康郡，昭信軍節度。大觀元年，-{陞}-爲望郡。建炎間，置管内安撫使，紹興十五年罷，-{復}-置江西兵馬鈐轄，兼提舉南安軍、南雄州兵甲司公事。二十三年，改今名。崇-{甯}-戸二十七萬二千四百三十二，口七十萬二千一百二十七。貢白𦆭。縣十：贛，望。有蛤湖銀塲。虔化，望。紹興二十三年』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ganzhou",
   "type": "place"

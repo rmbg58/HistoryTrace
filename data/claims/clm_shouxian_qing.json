@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/寿州",
-   "quote": null,
+   "quote": "『六年，分隸安徽省。雍正三年，升潁、亳、泗三州為直隸州，分潁上、霍丘屬潁，太和、蒙城屬亳，盱眙、天長、五河屬泗。十一年，分壽州置鳳台縣。十三年，潁州府以亳州及所隸二縣屬之。乾隆二十年，省臨淮入鳳陽。四十二年，省虹縣入泗州。南距省治六百七十里。廣四百二十八里，袤四百八十里。北極高三十二度五十五分。京師偏東一度十二分。領州二，縣五。鳳陽沖，繁，疲。倚。明始析臨淮置。尋又割虹縣地益之，為府治。國初廢臨淮縣，省』——《清史稿》(清史稿/卷59)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shouxian",
   "type": "place"

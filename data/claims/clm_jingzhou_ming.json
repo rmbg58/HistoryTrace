@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/荆州府",
-   "quote": null,
+   "quote": "『置。又衛東有鐵場。東北有鹽場。北距都司六百里。廣寧衛元廣寧府路。江武初廢。二十三年五月置衛。三月建遼王府。建文中改封湖廣荊州府。西有醫無閭山。南濱海。東有路河，東北有珠子河，下流皆注於遼河。又板橋河在西，南流入海。北有白土廠關，又有分水嶺關。西北有魏家嶺關。又北有懿州，元屬遼陽路。正月置廣寧後屯衛於此。，州廢。徙衛於義州衛城。又西南有閭陽關，東北有望平縣，元俱屬廣寧路。又西北有川州，元屬大寧路。又東北有』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jingzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/肇庆府",
-   "quote": null,
+   "quote": "『{復}-舊。元-{豐}-戸二千七百七十九。貢銀。縣二：封川，下。開建，下。開寶五年，廢入封川。六年，-{復}-置。===肇慶府===肇慶府，望，髙要郡，肇慶軍節度。本端州，軍事。元符三年，升興慶軍節度。大觀元年，升下爲望。重和元年，賜肇慶府名，仍改軍額。元-{豐}-戸二萬五千一百三。貢銀、石硯。縣二：髙要，中。有沙利銀塲、浮蘆鐵塲。四會，中。舊隸廣州，熙-{寧}-六年來屬。有金塲、銀塲。===新州===』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhaoqing",
   "type": "place"

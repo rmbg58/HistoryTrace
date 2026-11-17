@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/许",
-   "quote": null,
+   "quote": "『萬二千四百九十一，口二百二十一萬九百七十三。縣二十：陽翟，昆陽，潁陽，定陵，長社，新汲，襄城，郾，郟，舞陽，潁陰，崇高，許，傿陵，臨潁，父城，成安，周承休，陽城，綸氏。汝南郡，戶四十六萬一千五百八十七，口二百五十九萬六千一百四十八。縣三十七：平輿，陽安，陽城，郦強，富波，女陽，鮦陽，吳房，安成，南頓，朗陵，細陽，宜春，女陰，新蔡，新息，灈陽，期思，慎陽，慎，召陵，弋陽，西平，上蔡，浸，西華，長平，宜』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuchang",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/泰州",
-   "quote": null,
+   "quote": "『{苧}-布、莞席、銅鏡。縣一：江都。緊。熙-{寧}-五年，省廣陵縣入焉。南渡-{後}-，增縣二：廣陵，緊。泰興。中。舊隸泰州，紹興五年來屬。十年，又屬泰州。十二年，又來隸，以柴墟鎭延冷邨隸海陵。二十九年，盡仍舊。====亳州====亳州，望。譙郡，本防-{禦}-。大中祥符七年，建爲集慶軍節度。南渡-{後}-，沒-{於}-金。崇-{甯}-戸一十三萬一百一十九，口一十八萬三千五百八十一。貢縐紗、絹。縣七：』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_taizhou_js",
   "type": "place"

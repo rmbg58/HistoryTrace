@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/福州府",
-   "quote": null,
+   "quote": "『二十二分。宣統三年，編戶二百三十七萬六千八百五十五，口一千四百二十二萬九千九百六十三。領府九，直隸州二，廳一，縣五十七。福州府：衝，繁，疲，難。清為省治。閩浙總督兼巡撫，布政、提法、交涉、提學四司，鹽、糧、巡警、勸業四道，福州將軍、副都統駐。道光二十三年，與英訂約五口通商之一。租界在閩江北岸，曰南臺，與府城對。航路：廈門、福州、三都澳。驛路：北逾仙霞嶺達浙江江山；西南達廣東黃岡。電線由福州北通杭州，西南』——《清史稿》(清史稿/卷70)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_fuzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/湖州",
-   "quote": null,
+   "quote": "『十六萬四千五百六十六。貢羅、綾。縣三：丹徒，緊。有圌山砦。丹陽，緊。熙-{寧}-五年，省延陵縣爲鎭入焉。金壇。緊。===湖州===湖州，上，呉興郡，景祐元年，-{陞}-昭慶軍節度。寶慶元年，改安吉州。崇-{甯}-戸一十六萬二千三百三十五，口三十六萬一千六百九十八。貢白𦆭、漆器。縣六：烏程，望。歸安，望。太平興國七年，析烏程地置縣。安吉，望。長興，望。德淸，緊。武康。上。太平興國三年，自杭州來隸。===』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huzhou",
   "type": "place"

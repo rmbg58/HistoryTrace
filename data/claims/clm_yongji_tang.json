@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/河中府",
-   "quote": null,
+   "quote": "『、慶、鄜、坊、丹、延、衍等州。治涇州，管涇、原、渭、武四州。治靈州，管鹽、夏、綏、銀、宥、豐、會、麟、勝、單于府等州。治河中府，管蒲、晉、絳、慈、隰等州。治潞州，領潞、澤、邢、洺、磁五州。治太原府，管汾、遼、沁、嵐、石、忻、憲等州。雲州刺史領之，管雲、蔚、朔三州。治魏州，管魏、貝、博、相、澶、衛六州。治滄州，管滄、景、德三州。治恆州，領恆、趙、冀、深四州。治定州，領易、祁二州。治幽州，管幽、涿、瀛、莫、』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongji",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/饶州",
-   "quote": null,
+   "quote": "『改名盈川，因以為縣名。}}，分信安置，屬婺州。，改屬衢州。，屬信州，又還衢州。====信州====}}上，割衢州之常山、饒州之弋陽、建州之三鄉、撫州之一鄉，置信州，又置上饒、永豐二縣。領縣四，戶四萬。在京師東南五千八百里，至東都二千九百五十里。}}置，州所理也。，省永豐縣入}}舊屬饒州，，來屬。}}十一月，分弋陽西界置。玉山證聖二年，分常山、須江置，屬衢州。，割屬信州。====睦州====}}隋遂安郡』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_poyang",
   "type": "place"

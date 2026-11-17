@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/西戎传/疏勒",
-   "quote": null,
+   "quote": "『萬疋段，軍食則百九十萬石，大凡千二百一十萬。開元已前，每年邊用不過二百萬，天寶中至於是數。撫甯西域，統龜茲、焉耆、於闐、疏勒四國。安西都護府治所，在龜茲國城內，管戍兵二萬四千人，馬二千七百疋，衣賜六十二萬疋段。焉耆治所，在安西府東八百里。于闐，在安西府南二千里。疏勒，在安西府西二千餘里。防制突騎施、堅昆、斬啜，管瀚海、天山、伊吾三軍。北庭節度使所治，在北庭都護府，管兵二萬人，馬五千疋，衣賜四十八萬疋段』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_kashi",
   "type": "place"

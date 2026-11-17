@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/赣",
-   "quote": null,
+   "quote": "『陽，不夜，當利，盧鄉，陽樂，陽石，徐鄉。琅邪郡，戶二十二萬八千九百六十，口一百七萬九千一百。縣五十一：東武，不其，海曲，贛榆，朱虛，諸，梧成，靈門，姑幕，虛水，臨原，琅邪，祓，柜，缾，邞，雩段，黔陬，雲，計斤，稻，皋虞，平昌，長廣，橫，東莞，魏其，昌，茲鄉，箕，椑，高廣，高鄉，柔，即來，麗，武鄉，伊鄉，新山，高陽，昆山，參封，折泉，博石，房山，慎鄉，駟望，安丘，高陵，臨安，石山。東海郡，戶三十五萬八』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ganzhou",
   "type": "place"

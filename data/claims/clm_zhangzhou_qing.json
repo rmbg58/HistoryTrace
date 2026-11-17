@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/漳州府",
-   "quote": null,
+   "quote": "『杭，會大豐壩水復入，合合溪、香溪、跳魚溪、躍鱗溪、湯湖溪，再錯復入，合小大阜漈水仍入之。三層嶺、太平砦二巡司。興化廢司。漳州府：衝，繁，疲，難。汀漳龍道。漳州總兵駐。明，領縣十。清初因之。雍正十二年，升龍岩為直隸州。漳平、寧洋割隸。嘉慶元年，析平和、詔安地增置雲霄廳。東北距省治六百八十里。廣二百七十里，袤二百九十里。北極高二十四度三十二分。京師偏東一度二十分。領縣七，廳一。龍溪衝，繁，疲，難。倚。城西北』——《清史稿》(清史稿/卷70)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"

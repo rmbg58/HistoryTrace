@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/赣州府",
-   "quote": null,
+   "quote": "『湘東市。東有盧溪鎮。萬載府北。北有龍江，下流即瑞州府之蜀江。東北有康樂水入焉。西有鐵山界巡檢司。又有高村鎮巡檢司，尋廢。贛州府元贛州路，屬江西行省。太祖乙巳年爲府。領縣十二。西北距布政司一千一百八十里。贛倚。南有崆峒山，章、貢二水夾山左右，經城之東西。貢水一名東江，自福建長汀縣流入府界。章水一名西江，自湖廣宜章縣流入府界。至城北，合流爲贛江。北有桂源巡檢司，後遷攸鎮。東北有磨刀寨巡檢司，後遷石院鋪。南有』——《明史》(明史/卷43)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_ganzhou",
   "type": "place"

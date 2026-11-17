@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/歙州",
-   "quote": null,
+   "quote": "『城，望。南陵，望。-{甯}-國。緊。旌德，緊。太平，中。涇。緊。====徽州====徽州，上，新安郡，軍事。宣和三年，改歙州爲徽州。崇-{寧}-戸一十萬八千三百一十六，口一十六萬七千八百九十六。貢白-{苧}-、紙。縣六：歙，望。休-{寧}-，望。祁門，望。婺源，望。績溪，望。黟。緊。====池州====池州，上，池陽郡，軍事，建炎四年，分江東、西置安撫使，領建康、太平、宣、微、饒、廣德。-{後}-以建』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"

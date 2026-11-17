@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/浚仪",
-   "quote": null,
+   "quote": "『百五十萬九千五十。縣十七：陳留，小黃，成安，寧陵，雍丘，酸棗，東昏，襄邑，外黃，封丘，長羅，尉氏，傿，長垣，平丘，濟陽，浚儀。潁川郡，戶四十三萬二千四百九十一，口二百二十一萬九百七十三。縣二十：陽翟，昆陽，潁陽，定陵，長社，新汲，襄城，郾，郟，舞陽，潁陰，崇高，許，傿陵，臨潁，父城，成安，周承休，陽城，綸氏。汝南郡，戶四十六萬一千五百八十七，口二百五十九萬六千一百四十八。縣三十七：平輿，陽安，陽城，郦』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"

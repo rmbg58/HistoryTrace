@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/江宁府",
-   "quote": null,
+   "quote": "『年，編戶三百二十一萬三千四百八十三，口九百三十五萬六千七百五十五。領府八，直隸州三，直隸廳一，州三，廳四，縣六十。===江寧府===}}：沖，繁，難。隸江寧道。明，應天府。江寧布政、交涉、提學三使，江安糧儲、江南勸業、巡警、鹽法四道，江寧將軍、副都統，織造兼督龍江西新稅關駐。順治初，因明制，縣八。雍正八年，改溧陽屬鎮江。北距京師二千四百四十五里。廣二百里，袤三百里。北極高三十二度四分。京師偏東二度二十八』——《清史稿》(清史稿/卷58)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanjing",
   "type": "place"

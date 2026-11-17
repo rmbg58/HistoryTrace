@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/冀州",
-   "quote": null,
+   "quote": "『罷都督府，仍省漳陰縣。其年，廢莘、毛、澶三州，盡以所領縣屬魏州。十七年，省元城、武陽、觀城三縣。十八年，省繁水縣。，改為冀州大都督府，以冀王為都督，管冀、貝、德、相、棣、滄、魏七州。，依舊為魏州，罷都督府。，置武聖縣。，又置元城縣。，改為魏郡。，復為魏州。舊領縣十三，戶三萬四百四十，口十三萬六千六百一十二。天寶領縣十，戶十五萬一千五百九十六，口一百一十萬九千八百七十。在京師東北一千五百九十里，去東都七』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jizhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/潼川府",
-   "quote": null,
+   "quote": "『:脱脱|脱脱等|previous=../卷088|巻八十八|next=../卷090|巻九十|notes=福建路成都府路潼川府路利州路夔州路}}==福建路==福建路。州六：福，建，泉，南劍，漳，汀。軍二：邵武，興化。縣四十七。南渡-{後}-，-{陞}-建州爲府。紹興三十二年，戸一百三十九萬五百六十五，口二百八十二萬八千八百五十二。===福州===福州，大都督府，長樂郡，威武軍節度。舊領福建路鈐轄，建炎三』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_santai",
   "type": "place"

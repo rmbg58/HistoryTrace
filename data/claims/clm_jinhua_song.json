@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/婺州",
-   "quote": null,
+   "quote": "『烏程，望。歸安，望。太平興國七年，析烏程地置縣。安吉，望。長興，望。德淸，緊。武康。上。太平興國三年，自杭州來隸。===婺州===婺州，上，東陽郡，淳化元年，改保-{寧}-軍節度。崇-{甯}-戸一十三萬四千八十，口二十六萬一千六百七十八。貢綿、藤紙。縣七：金華，望。義烏，望。永康，緊。武義，上。浦江，上。唐浦陽縣，梁錢寘奏改。蘭溪，望。東陽。望。===慶元府===慶元府，本明州，奉化郡，建隆元年，-{』——《宋史》(宋史/卷88)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jinhua",
   "type": "place"

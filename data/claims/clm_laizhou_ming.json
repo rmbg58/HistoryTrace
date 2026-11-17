@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/莱州府",
-   "quote": null,
+   "quote": "『西北有大弁山，與雕厓山連，沂水出焉，南流經沂州界入泗。東北有沭水。日照州東北。東濱海，有鹽場。東南有夾倉鎮巡檢司。===萊州府===萊州府元萊州，屬般陽路。升爲府。六年降爲州。九年五月復升爲府。領州二，縣五。西距布政司六百四十里。掖倚。北濱海，有鹽場。又有三山島，在海南岸。東北有萬里沙。西南有掖水，北入海。東南有小沽河。又東北有王徐砦守禦千戶所，嘉靖中置。又西有海倉、北有柴葫寨二巡檢司。====平度州=』——《明史》(明史/卷41)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_laizhou",
   "type": "place"

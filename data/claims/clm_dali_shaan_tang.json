@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/同州",
-   "quote": null,
+   "quote": "『，管兗、海、沂、密四州。治徐州，管徐、泗、濠、宿四州。治青州，管淄、青、登、萊四州。治陝州，管陝、虢二州。華州刺史領之。同州刺史領之。治鳳翔府，管鳳翔府、隴州。治邠州，管邠、甯、慶、鄜、坊、丹、延、衍等州。治涇州，管涇、原、渭、武四州。治靈州，管鹽、夏、綏、銀、宥、豐、會、麟、勝、單于府等州。治河中府，管蒲、晉、絳、慈、隰等州。治潞州，領潞、澤、邢、洺、磁五州。治太原府，管汾、遼、沁、嵐、石、忻、憲等』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dali_shaan",
   "type": "place"

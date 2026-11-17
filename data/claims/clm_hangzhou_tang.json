@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/杭州",
-   "quote": null,
+   "quote": "『入長城，屬湖州。}}置，屬桃州。七年，廢入長城。，復分長城縣置。}}，分武康置武原縣。，改為臨溪。，改為德清縣。====杭州====}}，上，隋餘杭郡。，平李子通，置杭州，領錢塘、富陽、餘杭三縣。六年，復沒於輔公祏。七年平賊，復置杭州。八年，廢潛州，以於潛縣來屬。，分錢塘置鹽官縣。，改為餘杭郡。，復為杭州。舊領縣五，戶三萬五百七十一，口十五萬三千七百二十。天寶領縣九，戶八萬六千二百五十八，口五十八萬五』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_hangzhou",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/宣州",
-   "quote": null,
+   "quote": "『、蘇、常、杭、湖等州。或為觀察使。治越州，管越、衢、婺、溫、台、明等州。或為觀察使。治福州，管福、建、泉、汀、漳等州。治宣州，管宣、歙、池等州。治洪州，管洪、饒、吉、江、袁、信、虔、撫等州。喪亂後，時升為節度使。治潭州，管潭、衡、郴、、連、道、永、邵等州。治黔州，管涪、溪、思、費、辰、錦、播、施、珍、夷、業、溱、南、巫等州。治廣州，管廣、韶、循、崗、恩、春、賀、潮、端、藤、康、封、瀧、高、義、新、勤、』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_xuancheng",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/广州",
-   "quote": null,
+   "quote": "『：廣，韶，循，潮，連，封，新，南恩，梅，雄，惠。紹興三十二年，戸五十一萬三千七百一十一，口七十八萬四千七百七十四。===廣州===廣州，中，都督府，南海郡，淸海軍節度。開寶五年，廢-{咸}--{寧}-、番禺、蒙化、-{游}-水四縣。大觀元年，升爲帥府。舊領廣南東路兵馬鈐轄，兼本路經略、安撫使。元-{豐}-戸一十四萬三千二百六十一。貢胡椒、石-{發}-、糖霜、檀香、肉豆蔻、丁香母子、零陵香、補骨脂、舶上』——《宋史》(宋史/卷90)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_guangzhou",
   "type": "place"

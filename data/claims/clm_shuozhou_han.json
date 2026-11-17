@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/马邑",
-   "quote": null,
+   "quote": "『萬三千一百三十八，口二十九萬三千四百五十四。縣十四：善無，沃陽，繁畤，中陵，陰館，樓煩，武州，鬓陶，劇陽，崞，平城，埒，馬邑，彊陰。代郡，戶五萬六千七百七十一，口二十七萬八千七百五十四。縣十八：桑乾，道人，當城，高柳，馬城，班氏，延陵，狋氏，且如，平邑，陽原，東安陽，參合，平舒，代，靈丘，廣昌，鹵城。上谷郡，戶三萬六千八，口十一萬七千七百六十二。縣十五：沮陽，泉上，潘，軍都，居庸，雊瞀，夷輿，寧，昌平』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"

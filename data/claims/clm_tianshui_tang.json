@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/秦州",
-   "quote": null,
+   "quote": "『環、崖、儋、振、瓊、萬安等州。上元年後，河西、隴右州郡，悉陷吐蕃。大中、咸通之間，隴右遺黎，始以地圖歸國，又析置節度。治秦州，管秦、成、階等州。治涼州，管西、洮、鄯、臨、河等州。治沙州，管沙、瓜、甘、肅、蘭、伊、岷、廓等州。乾符之後，天下亂離。禮樂征伐，不自朝廷。禹跡九州，瓜分臠剖，或並或析，不可備書。今舉地理。唐土東至安東府，西至安西府，南至日南郡，北至單于府。南北如前漢之盛，東則不及，西則過之。漢』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"

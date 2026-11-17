@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/卢奴",
-   "quote": null,
+   "quote": "『百二十六，口十七萬八千六百一十六。縣四：真定，稿城，肥纍，綿曼。中山國，戶十六萬八百七十三，口六十六萬八千八十。縣十四：盧奴，北平，北新成，唐，深澤，苦陘，安國，曲逆，望都，新市，新處，毋極，陸成，安險。信都國，戶六萬五千五百五十六，口三十萬四千三百八十四。縣十七：信都，歷，扶柳，辟陽，南宮，下博，武邑，觀津，高隄，廣川，樂鄉，平隄，桃，西梁，昌成，東昌，脩。河間國，戶四萬五千四十三，口十八萬七千六百』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"

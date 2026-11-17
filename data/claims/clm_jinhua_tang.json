@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/婺州",
-   "quote": null,
+   "quote": "『為都督，督越、婺、鄞、嵊、麗五州。越州領會稽、諸暨、山陰、餘姚四縣。八年，廢鄞州為鄮縣，嵊州為剡縣，來屬。麗州為永康，屬婺州。省山陰縣。督越、婺二州。，更督越、婺、泉、建、台、括六州。，改越州為會稽郡。，復為越州。舊領縣五，戶二萬五千八百九十，口十二萬四千一十。天寶領縣七，戶九萬二百七十九，口五十二萬九千五百八十九。在京師東南三千七百二十里，至東都二千八百七十里。}}漢郡名。宋置東揚州，理于此，齊、梁』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jinhua",
   "type": "place"

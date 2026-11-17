@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/阆州",
-   "quote": null,
+   "quote": "『。}}，漢郪縣地，隋置飛烏鎮，又改為縣，取飛烏山為名也。}}，，分鹽亭、武安二縣置。}}，，分郪、飛烏二縣地置也。===閬州===}}，隋巴西郡。，改為隆州，領閬中、南部、蒼溪、南充、相如、西水、三城、奉國、儀隴、大寅十縣。其年，又立新井、思恭二縣。四年，以南充、相如屬果州，儀隴、大寅屬蓬州。又置新政。七年，又以奉國屬西平州。還以奉國來屬。又省思恭入閬中縣。，改為閬州。，改為閬中郡。，復為閬州。舊領縣』——《舊唐書》(舊唐書/卷41)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_langzhong",
   "type": "place"

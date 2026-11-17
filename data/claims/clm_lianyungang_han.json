@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "汉书/地理志/朐",
-   "quote": null,
+   "quote": "『桃鄉，式。齊郡，戶十五萬四千八百二十六，口五十五萬四千四百四十四。縣十二：臨淄，昌國，利，西安，鉅定，廣，廣饒，昭南，臨朐，北鄉，平廣，臺鄉。北海郡，戶十二萬七千，口五十九萬三千一百五十九。縣二十六：營陵，劇魁，安丘，瓡，淳于，益，平壽，劇，都昌，平望，平的，柳泉，壽光，樂望，饒，斟，桑犢，平城，密鄉，羊石，樂都，石鄉，上鄉，新成，成鄉，膠陽。東萊郡，戶十萬三千二百九十二，口五十萬二千六百九十三。縣』——《漢書》(漢書/卷28)",
    "source": "src_hanshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"

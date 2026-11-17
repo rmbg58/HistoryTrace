@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/澶州",
-   "quote": null,
+   "quote": "『澶四州。尋陷賊。四年，平竇建德，復置黎州，領臨河、內黃、湯陰、觀城、頓丘、繁陽、澶水八縣。其年，以澶水、觀城、頓丘三縣置澶州，又以湯陰屬相州。，省繁陽，又以澶水來屬。十七年，廢黎州及澶水縣，以黎陽屬衛州，內黃、臨河屬相州。===相州===}}漢魏郡也。後魏道武改為相州，隋為魏郡。，置相州總官府，領安陽、鄴、林慮、零泉、相、臨漳、洹水、堯城八縣。二年，割林慮置岩州。四年，廢總管府，仍省零泉縣。五年，廢岩』——《舊唐書》(舊唐書/卷39)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_puyang",
   "type": "place"

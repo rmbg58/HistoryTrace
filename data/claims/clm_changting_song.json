@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "宋史/地理志/汀州",
-   "quote": null,
+   "quote": "『有呉慣、沐犢、中柵三鹽塲。漳浦，望。有黃敦鹽塲。龍巖，望。有大濟、寶興二銀塲。長泰，望。太平興國五年，自泉州來隸。===汀州===汀州，下，臨汀郡，軍事。淳化五年，以上杭、武平二塲-{並}-爲縣，元符元年，析長汀、-{寧}-化置淸流縣。崇-{甯}-戸八萬一千四百五十四。貢-{蠟}-燭。縣五：長汀，望。有上寶錫塲，歸禾、拔口二銀務，莒溪鐵務。-{寧}-化，望。有龍門新舊二銀坑。上杭，上。有-{鐘}-寮金』——《宋史》(宋史/卷89)",
    "source": "src_songshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changting",
   "type": "place"

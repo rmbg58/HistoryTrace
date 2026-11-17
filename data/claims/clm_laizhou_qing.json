@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "清史稿/地理志/莱州府",
-   "quote": null,
+   "quote": "『夏村河、局河。又東，綿花島。又東北，宮家島、腰島，至寧海界。西北：觀山，古觀水出，俗廢。發城河，今入萊陽。行村寨有巡司。萊州府：衝，繁。舊隸登萊青膠道。明，領州二，縣五。光緒三十一年，膠直隸，割高密、即墨。西距省治六百八十里。廣二百九十里，袤四百三十里。北極高三十七度十分。京師偏東三度四十二分。領州一，縣三。掖衝，繁。倚。掖山，東二十里，今大基，掖水出，逕城南，合三里河。又二十里，崮山。西北：斧山。府北』——《清史稿》(清史稿/卷61)",
    "source": "src_qingshigao_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_laizhou",
   "type": "place"

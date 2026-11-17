@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "明史/地理志/延平府",
-   "quote": null,
+   "quote": "『慶元縣流經此，又西合於西溪。又東南有壽嶺巡檢司。甌寧倚。西有西溪，源出崇安縣，東會諸溪之水，流入縣境，又東合於東溪，南入延平府界。西北有營頭街巡檢司。建陽府西北。西北有西山。東南有錦江，亦曰交溪，有二源，合流於縣東東山下，南流達於建溪。崇安府西北。南有武夷山，中有清溪，九曲流入崇溪。西北有分水嶺，上有分水關巡檢司。其水西流者入江西境，東流者入縣境，即崇溪源。俗謂之大溪，經城西而南出，亦謂之西溪。其別源出』——《明史》(明史/卷45)",
    "source": "src_mingshi_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_nanping",
   "type": "place"

@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/永州",
-   "quote": null,
+   "quote": "『又置白馬、蟠交二縣。七年，改總管為都督府。，廢都督府及合川縣，仍割林州之華池縣來屬。二年，置洛源縣。四年，復置都督府及北永州，以洛源屬北永州。五年，又罷都督府，以慶州隸原州都督府。八年，又以廢北永州之洛源縣來屬。，復置都督府。二十六年，昇為中都督府。，改為安化郡。，改為順化郡。，改為慶州。舊領縣八，戶七千九百一十七，口三萬五千一十九。天寶領縣十，戶二萬三千九百四十九，口一十二萬四千三百三十六。在京師西』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"

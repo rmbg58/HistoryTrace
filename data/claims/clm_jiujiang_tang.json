@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/浔阳",
-   "quote": null,
+   "quote": "『縣，屬豫章郡。淦，音紺，又音甘。}}廢縣。，分太和置。====江州====}}中，隋九江郡。，平林士弘，置江州，領湓城、潯陽、彭澤三縣。五年，置總管，管江、鄂、智、浩四州，並管昌、洪四總管府。又分湓城置楚城縣，分彭澤置都昌縣。八年，廢浩州及樂城縣入彭澤縣，又廢湓城入潯陽。，罷都督府。八年，廢楚城縣入潯陽。，改為潯陽郡。，復為江州。舊領縣三，戶六千三百六十，口二萬五千五百九十九。天寶，戶二萬九千二十五，』——《舊唐書》(舊唐書/卷40)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_jiujiang",
   "type": "place"

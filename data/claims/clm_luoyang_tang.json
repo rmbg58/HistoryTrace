@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/洛阳",
-   "quote": null,
+   "quote": "『，口八萬九千一百一十一。在京師東北一千里，至東都一千八百一十九里。}}隋曰上縣。，改為龍泉}}隋縣。，置北吉州，領歸義、洛陽二縣，羅州領石羅、開善、萬福三縣；匡州領安定、源泉二縣。，三州及縣並廢，地併入延福}}隋廢縣。，復置。六年，又分置雲州，領信義、淳義二縣；龍州領風鄉、義良二縣。，二州及縣俱廢，地併入綏德}}隋舊縣。，又置魏平縣，屬南平州。又置魏州，領安故、安泉二縣。七年，又于魏平城中置綏州總管府』——《舊唐書》(舊唐書/卷38)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_luoyang",
   "type": "place"
