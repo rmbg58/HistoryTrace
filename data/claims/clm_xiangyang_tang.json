@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/襄州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/襄州(地理志(零填充卷名))",
+   "quote": "『尊像。上元二年七月甲辰，延英殿御座上生白芝，一莖三花。白，喪象也。大和九年冬，鄭注之金帶有菌生。近草妖也。開成四年六月，襄州山竹有實成米，民採食之。光啟元年七月，河中解、永樂生草，葉自相樛結，如旌旗之狀，時人以為「旗子草」。一年七月，鳳翔麟游草生如旗狀。占曰：「其野有兵。」羽蟲之孽。武德初，隋將堯君素守蒲州，有鵲巢其砲機。貞觀十七年春，齊王祐為齊州刺史，好畜鴨，有狸嚙鴨，頭斷者四十餘。是歲四月丙戌，立』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xiangyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xiangyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「襄州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

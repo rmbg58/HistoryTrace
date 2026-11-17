@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/凤翔府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷037/鳳翔府(地理志(零填充卷名))",
+   "quote": "『山取塗，人不病涉，謂之偏路，行旅便之。戶八千九百二十六，口五萬三千八十。縣六。上洛，豐陽，洛南，商洛，上津，乾元。===鳳翔府===鳳翔府，扶風郡，赤上輔。本岐州，至德元載更郡曰鳳翔，二載復郡故名，號西京，為府。上元二年罷京，元年曰西都，未幾復罷都。土貢：榛實、龍鬚席、蠟燭。戶五萬八千四百八十六，口三十八萬四百六十三。縣九。天興，岐山，扶風，麟遊，普潤，寶雞，虢，郿，盩厔。===邠州===邠州，新平郡，』——《新唐書》(新唐書/卷037)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fengxiang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fengxiang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「鳳翔府」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

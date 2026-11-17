@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/灵州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/靈州(地理志(零填充卷名))",
+   "quote": "『年七月，巂州地震，山摧壅江，水噎流。貞觀七年十月乙丑，京師地震。十二年正月壬寅，松、叢二州地震，壞廬舍。二十年九月辛亥，靈州地震，有聲如雷。二十三年八月癸酉朔，河東地震，晉州尤甚，壓殺五十餘人；乙亥，又震。十一月乙丑，又震。永徽元年四月己巳朔，晉州地震；己卯，又震。六月庚辰，又震，有聲如雷。二年十月，又震。十一月戊寅，定襄地震。帝始封晉王，初即位而地屢震，天下將由帝而動搖象也。儀鳳二年正月庚辰，京師地』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lingwu_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lingwu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「靈州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

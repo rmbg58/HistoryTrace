@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/定州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/定州(地理志(零填充卷名))",
+   "quote": "『，躍于地即變為狗，壯大雄目，張牙視林甫，林甫射之，中，殺然有聲，隨箭沒。貞元七年，趙州柏鄉民李崇貞家黃犬乳犢。會昌三年，定州深澤令家狗生角。大中初，狗生角。京房曰：「執正失將害之應。」又曰：「君子危陷，則狗生角。」咸通中，會稽有狗生而不能吠，擊之無聲。狗職吠以守禦，其不能者，象鎮守者不能禦寇之兆。成汭為荊南節度使，城中犬皆夜吠，日者向隱以為城郭將丘墟。中和二年秋，丹徒狗與彘交。占曰：「諸侯有謀害國者。』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dingzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「定州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

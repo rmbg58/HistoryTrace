@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/临淄",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷038/臨淄(地理志(零填充卷名))",
+   "quote": "『均作「梁山」，「刀」字疑衍。鄆城，鉅野，盧，平陰，東阿，陽穀，中都。===齊州===齊州濟南郡，上。本齊郡，天寶元年更名臨淄，五載又更名。土貢：絲、葛、絹、綿、防風、滑石、雲母。戶六萬二千四百八十五，口三十六萬五千九百七十二。縣六。歷城，章丘，臨邑，臨濟，長清，禹城。===曹州===曹州濟陰郡，上。土貢：絹、綿、大蛇粟、葶藶。戶十萬三百五十二，口七十一萬六千八百四十八。縣六。濟陰，考城，宛句，乘氏，南』——《新唐書》(新唐書/卷038)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_linzi_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_linzi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「臨淄」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

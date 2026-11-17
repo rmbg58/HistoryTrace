@@ -167,7 +167,7 @@ def main() -> int:
                 continue
             j, q = hit
             if not dry:
-                att["quote"] = f"『{q}』——《{book}》({book}/卷{j:02d})"
+                att["quote"] = f"『{q}』——《{book}》({book}/卷{j:03d})"
                 if c["status"] == "machine-checked":
                     c["status"] = "cross-checked"
                 (CLAIMS / f"{cid}.json").write_text(

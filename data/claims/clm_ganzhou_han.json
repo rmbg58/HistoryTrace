@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/赣",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷111/贛(郡國志(東漢,地名延續旁證))",
+   "quote": "『利城〗〖合鄕〗〖祝其〗有羽山。春秋時曰祝其，夾-{谷}-地。{{*|左傳定十年會齊侯夾-{谷}-，孔子相。}}〖厚丘〗〖贛楡〗本屬琅邪，建初五年-{復}-。===琅邪國===秦置。建武中省城陽國，以其縣屬。雒陽東一千五百-{里}-。十三城，戸二萬八百四，口五十七萬九百六十七。〖開陽〗故屬東海，建初五年屬。〖東武〗〖琅邪〗{{*|山海經-{雲}-有琅邪-{臺}-，在勃海閒，琅邪之東。郭璞曰：「琅邪臨海』——《後漢書》(後漢書/卷111)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_ganzhou_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_ganzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「贛」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

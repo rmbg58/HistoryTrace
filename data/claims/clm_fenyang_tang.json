@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汾州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷032/汾州(地理志(零填充卷名))",
+   "quote": "『賊營中。十一月壬戌，有流星大如斗，東北流，長數丈，蛇行屈曲，有碎光迸出。占曰：「是謂枉矢。」廣德二年六月丁卯，有妖星隕于汾州。十二月丙寅，自乙夜至曙，星流如雨。大曆二年九月乙丑，晝有星如一斗器，色黃，有尾長六丈餘，出南方，沒于東北。東北于中國，則幽州分也。三年九月乙亥，有星大如斗，北流，有光燭地，占為貴使。六年九月甲辰，有星西流，大如一升器，光燭地，有尾，迸光如珠，長五丈，出婺女，入天市南垣滅。八年六』——《新唐書》(新唐書/卷032)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fenyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fenyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「汾州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

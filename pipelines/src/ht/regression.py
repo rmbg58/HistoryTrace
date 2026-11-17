@@ -12,6 +12,7 @@
 
 from __future__ import annotations
 
+import re
 import time
 from typing import Any
 
@@ -35,7 +36,7 @@ def regression(limit: int | None = None) -> dict[str, Any]:
     from .verify import run_verify_command as _unused  # noqa: F401  # verify 单独跑
 
     claims = load_claims()
-    cross = [c for c in claims if c.get("status") == "cross-checked"]
+    cross = [c for c in claims if c.get("status") in ("cross-checked", "verified-multi-source")]
     if limit:
         cross = cross[:limit]
 
@@ -53,7 +54,24 @@ def regression(limit: int | None = None) -> dict[str, Any]:
             _book, page = parsed
             term = att["locus"].split("/")[-1].strip()
             try:
-                wikitext = fetch_page_wikitext(page)
+                from opencc import OpenCC
+
+                term = OpenCC("s2t").convert(term)
+            except ImportError:
+                pass
+            try:
+                # 页名规范化:旧批次尾注可能缺零填充(卷28 → 卷028)
+                m = re.match(r"^(.*卷)(\d+)$", page)
+                candidates = [page]
+                if m:
+                    candidates.insert(0, f"{m.group(1)}{int(m.group(2)):03d}")
+                wikitext = ""
+                for cand in candidates:
+                    time.sleep(1.5)  # 请求间隔(限流防护)
+                    wikitext = fetch_page_wikitext(cand)
+                    if wikitext:
+                        page = cand
+                        break
                 still = extract_context(wikitext, term)
                 results.append({"claimId": cid, "page": page, "status": "stable" if still else "drifted"})
             except (OSError, LookupError, KeyError) as e:

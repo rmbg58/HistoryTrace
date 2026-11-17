@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/甘州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/甘州(地理志(零填充卷名))",
+   "quote": "『，畿內尤甚，遣使安諭之，與貞觀十七年占同。天寶後，詩人多為憂苦流寓之思，及寄興于江湖僧寺。而樂曲亦多以邊地為名，有伊州、甘州、涼州等，至其曲遍繁聲，皆謂之「入破」。又有胡旋舞，本出康居，以旋轉便捷為巧，時又尚之。破者，蓋破碎云。建中三年秋，江淮訛言有毛人食其心，人情大恐。朱泚既僭號，名其舊第曰潛龍宮，移內府珍貨以實之。占者以為易稱「潛龍勿用」，此敗祥也。大和九年，京師訛言鄭注為上合金丹，生取小兒心肝，』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhangye_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhangye",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「甘州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

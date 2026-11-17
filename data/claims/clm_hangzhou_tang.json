@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/杭州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/杭州(地理志(零填充卷名))",
+   "quote": "『；河南諸州水。七月，洛水溢。二年秋，湖南及河東、河南、淮南、浙東西、福建等道州五十五水災。七年二月，江州江溢。十年七月，杭州海溢。十一年七月戊子，夜澍雨，京師平地水尺餘，溝渠漲溢，壞民居千餘家。十二年秋，京畿及宋、亳、滑三州大雨水，害稼，河南尤甚，平地深五尺，河溢。，幽、鎮、魏、博大雨，易水、滹沱橫流，自山而下，轉石折樹，水高丈餘，苗稼蕩盡。六月丁酉，大風雨，京城通衢水深數尺，有溺死者。東都、河南、荊』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hangzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「杭州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

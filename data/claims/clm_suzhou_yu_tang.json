@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宿州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷038/宿州(地理志(零填充卷名))",
+   "quote": "『和三年改從「濠」。土貢：絁、綿、絲布、雲母。戶二萬一千八百六十四，口十三萬八千三百六十一。縣三。鍾離，定遠，招義。===宿州===宿州，上。元和四年析徐州之苻離、蘄，泗州之虹置。大和三年州廢，七年復置。初治虹，後徙治苻離。土貢：絹。縣四。苻離，虹，蘄，臨渙。===鄆州===鄆州東平郡，緊。本治鄆城，貞觀八年徙治須昌。土貢：絹、防風。戶八萬三千四十八，口五十萬一千五百九。縣九。須昌，壽張，刀梁山通典卷一』——《新唐書》(新唐書/卷038)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_suzhou_yu_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_suzhou_yu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「宿州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

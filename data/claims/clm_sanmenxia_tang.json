@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/陕州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/陝州(地理志(零填充卷名))",
+   "quote": "『鼠穴居，去穴登木，賤人將貴之象。乾符三年秋，河東諸州多鼠，穴屋、壞衣，三月止。鼠，盜也，天戒若曰：「將有盜矣。」乾寧末，陝州有蛇鼠鬬于南門之內，蛇死而鼠亡去。金沴木。武德元年八月戊戌，突厥始畢可汗衙帳無故自壞。中宗即位，金雞竿折。樹雞竿所以肆赦，始發大號而雞竿折，不祥。神龍中，有羣狐入御史大夫李承嘉第，其堂無故壞；又秉筆而管直裂，易之又裂。開元五年正月癸卯，太廟四室壞。天寶十四載十二月，哥舒翰帥師守潼』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_sanmenxia_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_sanmenxia",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「陝州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

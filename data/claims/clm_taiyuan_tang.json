@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/晋阳",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/晉陽(地理志(零填充卷名))",
+   "quote": "『浴堂門。十二月，延州人賀文妻一產四男。十月，狂人劉德廣入含元殿。，渭州有人生角寸許。占曰：「天下有兵。」十三年四月，太原晉陽民家有嬰兒，兩頭異頸，四手聯足。此天下不一之妖。是歲，民皇甫及年十四，暴長七尺餘，長啜大嚼，三倍如初，歲餘死。秋，蜀郡婦人尹生子首如豕，目在脽下。占曰：「君失道。」，隰州溫泉民家有死者，既葬且半月，行人聞聲呼地下，其家發之，則復生，歲餘乃死。二年春，鳳翔郿縣女子未齓化為丈夫，旬日』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taiyuan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「晉陽」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

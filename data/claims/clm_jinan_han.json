@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/历城",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷112/歷城(郡國志(東漢,地名延續旁證))",
+   "quote": "『四十四，口四十五萬三千三百八。東平陵，有鐵。有譚城。有天山。著，-{於}-陵，臺，菅，有賴亭。土鼓，梁鄒，鄒平，東朝陽，歷城，有鐵。有巨裏聚。===平原郡===平原郡，高帝置。雒陽北一千三百-{里}-。九城，戸十五萬五千五百八十八，口百萬二千六百五十八。平原，高唐，濕水出。般，鬲，侯國。夏時有鬲君，滅浞，立少康。祝阿，春秋時曰祝柯。有野井亭。樂陵，濕陰，安德，侯國。厭次，本富平。明帝更名。===樂安國』——《後漢書》(後漢書/卷112)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jinan_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jinan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「歷城」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

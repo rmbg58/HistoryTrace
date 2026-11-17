@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/楚州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/楚州(地理志(零填充卷名))",
+   "quote": "『二載，昭陵石馬汗出。昔周武帝之克晉州也，齊有石像，汗流濕地，此其類也。乾元二年七月乙亥晝，渾天儀有液如汗下流。上元二年，楚州獻寶玉十三：曰「玄黃天符」，形如笏，長八寸，有孔，云辟兵疫；曰「玉雞毛」，白玉也；曰「穀璧」，亦白玉也，粟粒自然，無雕鐫迹；曰「西王母白環」二；曰「如意寶珠」，大如雞卵；曰「紅靺鞨」，大如巨粟；曰「琅玕珠」二，形如玉環，四分缺一；曰「玉印」，大如半手，理如鹿，陷入印中；曰「皇后採』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huaian_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huaian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「楚州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

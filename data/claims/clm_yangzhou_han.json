@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/广陵",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷111/廣陵(郡國志(東漢,地名延續旁證))",
+   "quote": "『。〖武原〗〖傅陽〗有[_]水。〖呂〗〖留〗{{*|西-{征}-記曰城中有張良廟。}}〖梧〗〖菑丘〗〖廣戚〗故屬沛。===廣陵郡===景帝置爲江都，武帝更名。建武中省泗水國，以其縣屬。雒陽東一千六百四十-{里}-。十一城，戸八萬三千九百七，口四十一萬百九十。〖廣陵{{*|呉王濞所都，城周十四-{里}-半。}}〗有東陵亭。{{*|博物記曰：「女子杜-{姜}-，左道通神，縣以爲妖，閉獄桎梏，卒變形莫知所極。』——《後漢書》(後漢書/卷111)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yangzhou_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「廣陵」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

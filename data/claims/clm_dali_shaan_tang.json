@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/同州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/同州(地理志(零填充卷名))",
+   "quote": "『亥，大風震電，藍田山摧裂百餘步，畿內山也。國主山川，山摧川竭，亡之證也。占曰：「人君德消政易則然。」大曆九年十一月戊戌，同州夏陽有山徙于河上，聲如雷。十三年，郴州黃芩山摧，壓死者數百人。建中二年，霍山裂。元和八年五月丁丑，大隗山摧。十五年七月丁未，苑中土山摧，壓死二十人。光啟三年四月，維州山崩，累日不止，塵坌亙天，壅江水逆流。占曰：「國破。」山鳴。武德二年三月，太行山聖人崖有聲。占曰：「有寇至。」開元』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dali_shaan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dali_shaan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「同州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

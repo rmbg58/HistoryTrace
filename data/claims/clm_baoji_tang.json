@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宝鸡",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷037/寶雞(地理志(零填充卷名))",
+   "quote": "『，未幾復罷都。土貢：榛實、龍鬚席、蠟燭。戶五萬八千四百八十六，口三十八萬四百六十三。縣九。天興，岐山，扶風，麟遊，普潤，寶雞，虢，郿，盩厔。===邠州===邠州，新平郡，緊。義寧二年析北地郡之新平、三水置。邠，故作「豳」，開元十三年以字類「幽」改。土貢：剪刀、火筯、蓽豆、澡豆、白蜜、地膽。戶二萬二千九百七十七，口十二萬五千二百五十。縣四。新平，三水，永壽，宜祿。右京畿採訪使，治京城內。===隴州===』——《新唐書》(新唐書/卷037)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_baoji_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_baoji",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「寶雞」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/旧唐书·西戎/龟兹",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷040/龜茲(地理志(零填充卷名))",
+   "quote": "『府，初治西州。顯慶二年平賀魯，析其地置濛池、崑陵二都護府，分種落列置州縣，西盡波斯國，皆隸安西，又徙治高昌故地。三年徙治龜茲都督府，而故府復為西州。咸亨元年，吐蕃陷都護府。長壽二年收復安西四鎮。至德元載更名鎮西。後復為安西。土貢：𥐼砂、緋氈、偏桃人。吐蕃既侵河、隴，惟李元忠守北庭，郭昕守安西，與沙陀、迴紇相依，吐蕃攻之久不下。建中二年，元忠、昕遣使間道入奏，詔各以為大都護，並為節度。貞元三年，吐蕃攻沙』——《新唐書》(新唐書/卷040)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_kuche_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_kuche",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「龜茲」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

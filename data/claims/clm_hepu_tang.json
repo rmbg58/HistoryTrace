@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/廉州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷031/廉州(地理志(零填充卷名))",
+   "quote": "『蠡之西，得長沙、武陵，又逾南紀，盡鬱林、合浦之地，自沅、湘上流，西達黔安之左，皆全楚之分。自富、昭、象、龔、繡、容、白、廉州已西，亦鶉尾之墟。古荊、楚、鄖、鄀、羅、權、巴、夔與南方蠻貊之國。翼與咮張同象，當南河之北，軫在天關之外，當南河之南，其中一星主長沙，逾嶺徼而南，為東甌、青丘之分。安南諸州在雲漢上源之東陽，宜屬鶉火。而柳、七星、張皆當中州，不得連負海之地，故麗于鶉尾。角、亢，壽星也。初，軫十度，』——《新唐書》(新唐書/卷031)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hepu_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hepu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「廉州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

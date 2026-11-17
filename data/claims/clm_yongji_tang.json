@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/河中府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷039/河中府(地理志(零填充卷名))",
+   "quote": "『十九，縣百一十。其名山：雷首、介、霍、五臺。其大川：汾、沁、丹、潞。厥賦：布、襺。厥貢：布、席、豹尾、熊鞹、鵰羽。===河中府===河中府河東郡，赤。本蒲州，上輔。治桑泉，徙治河東。置中都，為府；是年罷都，復為州。復為府。土貢：氈、𪌭扇、龍骨、棗、鳳棲梨。戶七萬八百，口四十六萬九千二百一十三。縣十三。置，廢。}}河東，置，廢。南有風陵關，置。有歷山。}}河西，析河東置，尋省。更同州之朝邑曰河西，來屬。復』——《新唐書》(新唐書/卷039)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yongji_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yongji",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「河中府」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

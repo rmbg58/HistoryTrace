@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/饶州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/饒州(地理志(零填充卷名))",
+   "quote": "『月，甲弩庫火。永徽五年十二月乙巳，尚書司勳庫火。顯慶元年九月戊辰，恩州、吉州火，焚倉廩、甲仗、民居二百餘家。十一月己巳，饒州火。證聖元年正月丙申夜，明堂火，武太后欲避正殿，徹樂。宰相姚璹以為火因人，非天災也，不宜貶損。后乃御端門觀酺，引建章故事，復作明堂以厭之。是歲，內庫災，燔二百餘區。萬歲登封元年三月壬寅，撫州火。久視元年八月壬子，平州火，燔千餘家。景龍四年二月，東都凌空觀災。開元五年十一月乙卯，定』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_poyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_poyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「饒州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

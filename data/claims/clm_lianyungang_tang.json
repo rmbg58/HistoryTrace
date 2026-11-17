@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/海州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/海州(地理志(零填充卷名))",
+   "quote": "『，大寒。八年十月，東都大寒，霜厚數寸，雀鼠多死。十二年九月己丑，雨雪，人有凍死者。十五年八月己卯，同州雨雪，害稼。二月，海州海水冰，南北二百里，東望無際。正月，雨雪踰月，寒甚。九年十二月，京師苦寒。，春寒，大雪，江左尤甚，民有凍死者。冬，隰、石、汾等州大雨雪，平地深五尺。二月辛巳，曹州大雪，平地二尺。三月，浙西大雪，平地三尺餘，甚氣如煙，其味苦。十二月，又大雪，江海冰。九月壬戌朔，大風，寒如仲冬。是冬』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lianyungang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「海州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

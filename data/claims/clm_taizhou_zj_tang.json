@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/台州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/台州(地理志(零填充卷名))",
+   "quote": "『元年十二月癸酉，氛霧終日不解。甲戌，雨木冰。儀鳳三年十一月乙未，昏霧四塞，連夜不解。丙申，雨木冰。垂拱四年三月，雨桂子于台州，旬餘乃止。占曰：「天雨草木，人多死。」長壽二年十月，萬象神宮側檉杉皆變為柏。柏貫四時，不改柯易葉，有士君子之操；檉杉柔脆，小人性也。象小人居君子之位。延載元年十月癸酉，白霧，木冰。景龍四年三月庚申，雨木冰。景雲二年，高祖故第有柿樹，自天授中枯死，至是復生。開元二十一年六月，蓬州』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taizhou_zj_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taizhou_zj",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「台州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

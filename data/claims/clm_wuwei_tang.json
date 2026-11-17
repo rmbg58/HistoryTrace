@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/凉州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/涼州(地理志(零填充卷名))",
+   "quote": "『素為隋守蒲州，兵器夜皆有光如火。火鑠金，金所畏也，敗亡之象。劉武周據幷州，兵勢甚盛，城上矟刃夜每有火光。貞觀十七年八月，涼州昌松縣鴻池谷有石五，青質白文成字曰：「高皇海出多子李元王八十年太平天子李世民千年太子李治書燕山人士樂太國主尚汪譂奬文仁邁千古大王五王六王七王十風毛才子七佛八菩薩及上果佛田天子文武貞觀昌大聖延四方上不治示孝仙戈八為善。」太宗遣使祭之曰：「天有成命，表瑞貞石，文字昭然，曆數惟永，既旌』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuwei_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuwei",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「涼州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

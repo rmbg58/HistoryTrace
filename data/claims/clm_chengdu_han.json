@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/成都",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷112/成都(郡國志(東漢,地名延續旁證))",
+   "quote": "『山都，侯國。酈，侯國穰，朝陽，蔡陽，侯國。安眾，侯國。築陽，侯國。有涉都鄉。武當，有和成聚。順陽，侯國，故博山。有須聚。成都，襄鄉，南鄉，丹水，故屬弘農。有章密鄉。有三戸亭。析，故屬弘農，故楚白羽邑。有武關，在縣西。有豐鄉城。===南郡===南郡，秦置。雒陽南一千五百-{里}-。十七城，戸十六萬二千五百七十，口七十四萬七千六百四。江陵，有津鄉。巫，西有白帝城。秭歸，本國。中盧，侯國。編，有藍口聚。當陽』——《後漢書》(後漢書/卷112)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chengdu_han",
  "object": {
@@ -33,7 +39,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chengdu",
   "type": "place"
@@ -49,6 +55,13 @@
   {
    "basis": "维基文库侧引文核对一致;ctext 侧无引文(API key 未配),分支一『两侧一致』未全满足,维持 G3;待 ctext 引文回填后升 G4",
    "by": "ht-verify@auto(ADR-009 修正)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  },
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「成都」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
    "date": "2026-11-18",
    "decision": "accept",
    "round": "R3"

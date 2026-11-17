@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/和州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷039/和州(地理志(零填充卷名))",
+   "quote": "『安原。}}大寧，更名，是年置中州，幷置大義、白龍二縣。州廢，省大義、白龍，以大寧來屬。有孔山。西有馬鬬關。}}永和，置東和州，六年析置樓山縣。州廢，省樓山，以永和來屬。西北有永和關。}}石樓，以縣置西德州，幷置長壽、臨河二縣。州廢，省長壽、臨河，以石樓隸東和州，州廢來屬。北有上平津。}}溫泉。置北溫州，幷置新城、高唐二縣。州廢，省新城、高唐，以溫泉來屬。有鐵。}}===北都===北都，置，罷，復置，曰』——《新唐書》(新唐書/卷039)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hexian_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hexian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「和州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

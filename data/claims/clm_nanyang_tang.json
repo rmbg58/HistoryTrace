@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/邓州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/鄧州(地理志(零填充卷名))",
+   "quote": "『入西上陽宮，宮人死者十七八，畿內諸縣田稼廬舍蕩盡，掌閑衞兵溺死千餘人，京師興道坊一夕陷為池，居民五百餘家皆沒不見。是年，鄧州三鴉口大水塞谷，或見二小兒以水相沃，須臾，有蛇大十圍，張口仰天，人或斫射之，俄而暴雷雨，漂溺數百家。十年五月辛酉，伊水溢，毀東都城東南隅，平地深六尺；河南許、仙、豫、陳、汝、唐、鄧等州大水，害稼，漂沒民居，溺死者甚眾。六月，博州、棣州河決。十二年六月，豫州大水。八月，兗州大水。十』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「鄧州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

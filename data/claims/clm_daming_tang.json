@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/魏州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/魏州(地理志(零填充卷名))",
+   "quote": "『地震，有聲如雷，藍田山裂水湧。中和三年秋，晉州地震，有聲如雷。光啟二年春，成都地震，月中十數。占曰：「兵、饑。」十二月，魏州地震。乾寧二年三月庚午，河東地震。山摧。貞觀八年七月，隴右山摧。山者高峻，自上而隕之象也。垂拱二年九月己巳，雍州新豐縣露臺鄉大風雨，震電，有山湧出，高二十丈，有池周三百畝，池中有龍鳳之形，禾麥之異，武后以為休應，名曰「慶山」。荊州人俞文俊上言：「天氣不和而寒暑隔，人氣不和而贅疣生』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_daming_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_daming",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「魏州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

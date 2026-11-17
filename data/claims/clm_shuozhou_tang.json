@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/朔州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/朔州(地理志(零填充卷名))",
+   "quote": "『淮南江河溢。三年三月，東都、河南、江陵、汴揚等州大水。四年八月，灞水暴溢，殺百餘人。八年秋，自江淮及荊、襄、陳、宋至于河朔州四十餘，大水，害稼，溺死二萬餘人，漂沒城郭廬舍，幽州平地水深二丈，徐、鄭、涿、薊、檀、平等州，皆深丈餘。八年六月，淮水溢，平地七尺，沒泗州城。十一年十月，朗、蜀二州江溢。十二年四月，福、建二州大水，嵐州暴雨，水深二丈。十三年七月，淮水溢于亳州。十八年春，申、光、蔡等州大水。夏，朗』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shuozhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「朔州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

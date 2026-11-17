@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/回浦",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷112/回浦(郡國志(東漢,地名延續旁證))",
+   "quote": "『）〔冶〕閩越地光武更名殿本「治」作「冶」，王先謙謂作「冶」是，今據改。今按：通鑑胡注引洪氏隸釋，謂中有脫文，當作「章安故回浦，章帝更名，東侯官故冶，閩越地，光武更名」，-{於}-文乃足。此郡之末有「東部侯國」四字，卻是衍文。説詳通鑑漢獻帝建安元年注。又按：集解引惠棟説，謂「閩越地」宋書州郡志作「閩中地」。又按：集解引錢大昕説，謂案鄭宏傳，舊交阯七郡，貢獻轉運皆從東冶汎海而至。所-{云}-東冶，即會稽之』——《後漢書》(後漢書/卷112)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taizhou_zj_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taizhou_zj",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「回浦」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

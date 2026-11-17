@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/徐州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷032/徐州(地理志(零填充卷名))",
+   "quote": "『。參，唐星也。十一年九月乙未，有彗星于房，長三尺。咸通五年五月己亥，夜漏未盡一刻，有彗星出于東北，色黃白，長三尺，在婁。徐州分也。九年正月，有彗星于婁、胃。十年八月，有彗星于大陵，東北指。占為外夷兵及水災。乾符四年五月，有彗星。光啟元年，有彗星于積水、積薪之間。二年五月丙戌，有星孛于尾、箕，歷北斗、攝提。占曰：「貴臣誅。」大順二年四月庚辰，有彗星于三台，東行入太微，掃大角、天市，長十丈餘，五月甲戌不見』——《新唐書》(新唐書/卷032)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xuzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「徐州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

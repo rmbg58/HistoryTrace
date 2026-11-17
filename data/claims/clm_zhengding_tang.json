@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/真定",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷031/真定(地理志(零填充卷名))",
+   "quote": "『餘二千五百四十九，秒八太。中，昴六度。終，畢九度。自魏郡濁漳之北，得漢趙國、廣平、鉅鹿、常山，東及清河、信都，北據中山、真定，全趙之分。又北逾眾山，盡代郡、鴈門、雲中、定襄之地與北方羣狄之國。北紀之東陽，表裏山河，以蕃屏中國，為畢分。循北河之表，西盡塞垣，皆髦頭故地，為昴分。冀之北土，馬牧之所蕃庶，故天苑之象存焉。觜觿、參、伐，實沈也。初，畢十度，餘八百四十一，秒四之一。中，參七度。終，東井十一度。自』——《新唐書》(新唐書/卷031)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhengding_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhengding",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「真定」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

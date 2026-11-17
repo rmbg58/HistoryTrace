@@ -3,7 +3,7 @@
   "distributable": [
     "src_hanshu_ws", "src_hanshu_ctext",
     "src_shiji_ws", "src_houhanshu_ws", "src_tongjian_ws",
-    "src_jiutangshu_ws",
+    "src_jiutangshu_ws", "src_xintangshu_ws",
     "src_songshi_ws",
     "src_mingshi_ws",
     "src_qingshigao_ws",

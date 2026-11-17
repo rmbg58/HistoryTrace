@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/洛阳",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷031/洛陽(地理志(零填充卷名))",
+   "quote": "『五尺」，舊書卷三五天文志作「九尺」，經計算，舊書是。其沒地纔十五餘度，夕沒亥西，晨出丑東，校其里數，已在回紇之北，又南距洛陽九千八百一十五里，則極長之晝，其夕常明。然則骨利幹猶在其南矣。:吳中常侍王蕃，考先儒所傳，以戴日下萬五千里為句股，斜射陽城，考周徑之率以揆天度，當千四百六里二十四步有餘。今測日晷，距陽城五千里已在戴日之南，則一度之廣皆三分減二，南北極相去八萬里，其徑五萬里。宇宙之廣，豈若是乎？然』——《新唐書》(新唐書/卷031)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_luoyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_luoyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「洛陽」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

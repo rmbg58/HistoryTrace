@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/延州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/延州(地理志(零填充卷名))",
+   "quote": "『五六。咸通七年，荊州民家牛生犢，五足。十五年夏，渝州江陽有水牛生驢駒，駒死。光啟元年，河東有牛人言，其家殺而食之。二年，延州膚施有牛死復生。黃眚黃祥。貞觀七年三月丁卯，雨土。二十年閏三月己酉，有黃雲闊一丈，東西際天。黃為土功。永徽三年三月辛巳，雨土。景龍元年六月庚午，陝州雨土。十二月丁丑，雨土。天寶十三載二月丁丑，雨黃土。大曆七年十二月丙寅，雨土。貞元二年四月甲戌，雨土。八年二月庚子，雨土。大和八年十』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yanan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yanan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「延州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

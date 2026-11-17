@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/福州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/福州(地理志(零填充卷名))",
+   "quote": "『之，血也。貞元二年十一月壬午，日沒，有赤氣五，出于黑雲中，亙天。十二年九月癸卯，夜有赤氣如火，見北方，上至北斗。十七年，福州劍池水赤如血。二十一年正月甲戌，雨赤雪于京師。元和十四年二月，鄆州從事院門前地有血，方尺餘，色甚鮮赤，不知所從來，人以為自空而墮也。長慶元年七月戊午，河水赤，三日止。寶曆元年十二月乙酉夜，西北有霧起，須臾遍天，霧止，有赤氣，或淺或深，久而乃散。大和元年四月庚戌，北方有赤氣，中有數』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fuzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「福州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

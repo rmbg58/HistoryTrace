@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/莱州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/萊州(地理志(零填充卷名))",
+   "quote": "『桃杏華，有實。景福中，滄州城塹中冰有文，如畫大樹華葉芬敷者，時人以為其地當有兵難。近華孽也。臝蟲之孽。貞觀二十一年八月，萊州螟。開元二十二年八月，榆關虸蚄蟲害稼，入平州界，有羣雀來食之，一日而盡。二十六年，榆關虸蚄蟲害稼，羣雀來食之。三載，青州紫蟲食田，有鳥食之。廣德元年秋，虸蚄蟲害稼，關中尤甚，米斗千錢。貞元十年四月，江西溪澗魚頭皆戴蚯蚓。長慶四年，絳州虸蚄蟲害稼。大和元年秋，河東、同虢等州虸蚄蟲害』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_laizhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_laizhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「萊州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

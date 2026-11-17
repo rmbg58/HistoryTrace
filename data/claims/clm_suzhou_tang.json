@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/苏州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷031/蘇州(地理志(零填充卷名))",
+   "quote": "『，南列微平七外屏。」隋書卷二０天文志和開元占經引甘石星經均謂屏二星在玉井南，外屏七星在奎南。北宋蘇頌新儀象法要星圖和南宋蘇州石刻天文圖，屏和外屏位置亦如此。「外」字疑衍。雷電在赤道外五度，霹靂在赤道外四度，八魁在營室，長垣、羅堰當黃道。今測，文昌四星在柳，一星在輿鬼，一星在東井。北斗樞在張十三度，琁在張十二度半，機在翼十三度，權在翼十七度太，衡在軫十度半，開陽在角四度少，杓在角十二度少。天關、天尊、天』——《新唐書》(新唐書/卷031)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_suzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_suzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「蘇州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

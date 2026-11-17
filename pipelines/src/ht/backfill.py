@@ -12,6 +12,9 @@ from __future__ import annotations
 import json
 import re
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +28,9 @@ CONTEXT_AFTER = 140
 
 
 def fetch_page_wikitext(title: str) -> str:
+    import json as _json
+    import time
+
     params = {
         "action": "query",
         "prop": "revisions",
@@ -33,13 +39,20 @@ def fetch_page_wikitext(title: str) -> str:
         "format": "json",
         "titles": title,
     }
-    req = urllib_request(f"{WIKI}?{__import__('urllib.parse', fromlist=['urlencode']).urlencode(params)}")
-    import json as _json
-
-    with req_open(req, timeout=30) as resp:
-        data = _json.load(resp)
-    for page in data["query"]["pages"].values():
-        return page["revisions"][0]["slots"]["main"]["*"]
+    for attempt in range(4):
+        req = urllib_request(f"{WIKI}?{urllib.parse.urlencode(params)}")
+        try:
+            with req_open(req, timeout=60) as resp:
+                data = _json.load(resp)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 3:
+                time.sleep(15 * (attempt + 1))
+                continue
+            raise
+        for page in data["query"]["pages"].values():
+            if "revisions" in page:
+                return page["revisions"][0]["slots"]["main"]["*"]
+        return ""
     raise LookupError(f"页面不存在: {title}")
 
 

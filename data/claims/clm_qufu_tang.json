@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/兖州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/兗州(地理志(零填充卷名))",
+   "quote": "『；河南許、仙、豫、陳、汝、唐、鄧等州大水，害稼，漂沒民居，溺死者甚眾。六月，博州、棣州河決。十二年六月，豫州大水。八月，兗州大水。十四年秋，天下州五十，水，河南、河北尤甚，河及支川皆溢，懷、衞、鄭、滑、汴、濮人或巢或舟以居，死者千計；潤州大風自東北，海濤沒瓜步。十五年五月，晉州大水。七月，鄧州大水，溺死數千人；洛水溢，入鄜城，平地丈餘，死者無算，壞同州城市及馮翊縣，漂居民二千餘家。八月，澗、穀溢，毀澠』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qufu_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qufu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「兗州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

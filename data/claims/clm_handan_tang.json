@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/邯郸",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷039/邯鄲(地理志(零填充卷名))",
+   "quote": "『更名。土貢：絁、綿、紬、油衣。戶九萬一千六百六十六，口六十八萬三千二百八十。縣六。永年，平恩，臨洺，以臨洺、武安、肥鄉、邯鄲置紫州，四年州廢，縣皆隸磁州，六年以臨洺、肥鄉來屬。狗山有太宗故壘，討劉黑闥于此。}}雞澤，置。有普樂縣，武德初置，後陷竇建德，遂廢。有漳、洺南隄二，沙河南隄一，築。}}肥鄉，省清漳入肥鄉，池水入曲周。}}曲周。置。}}===惠州===惠州，上，本礠州，以相州之滏陽、臨水、成安置』——《新唐書》(新唐書/卷039)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_handan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_handan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「邯鄲」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

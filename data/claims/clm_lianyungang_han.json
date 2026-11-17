@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/朐",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷111/朐(郡國志(東漢,地名延續旁證))",
+   "quote": "『千五百-{里}-。十三城，戸十四萬八千七百八十四，口七十萬六千四百一十六。〖郯〗本國，刺史治。〖蘭陵〗有次室亭。〖戚〗〖朐〗有鐵。有伊盧鄕。{{*|史記曰，-{鍾}-離昧（冢）〔家〕在伊盧。}}〖襄賁〗〖昌慮〗有藍鄕。〖承〗〖陰平〗〖利城〗〖合鄕〗〖祝其〗有羽山。春秋時曰祝其，夾-{谷}-地。{{*|左傳定十年會齊侯夾-{谷}-，孔子相。}}〖厚丘〗〖贛楡〗本屬琅邪，建初五年-{復}-。===琅邪國』——《後漢書》(後漢書/卷111)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lianyungang_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「朐」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

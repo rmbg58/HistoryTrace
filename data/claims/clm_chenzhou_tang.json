@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/郴州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/郴州(地理志(零填充卷名))",
+   "quote": "『，大風拔木。神龍元年三月乙酉，睦州大風拔木。崔玄暐封博陵郡王也，大風折其輅蓋。二年六月乙亥，滑州大風拔木。景龍元年七月，郴州大風，發屋拔木。八月，宋州大風拔木，壞廬舍。二年十月辛亥，滑州暴風發屋。三年三月辛未，曹州大風拔木。開元二年六月，京師大風發屋，大木拔者十七八。四年六月辛未，京師、陝、華大風拔木。九年七月丙辰，揚州、潤州暴風雨，發屋拔木。十四年六月戊午，大風拔木發屋，端門鴟尾盡落。端門，號令所從』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chenzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chenzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「郴州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

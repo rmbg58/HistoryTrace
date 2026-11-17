@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/潮州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷036/潮州(地理志(零填充卷名))",
+   "quote": "『「潮」，衲、十行、汲、局本同，殿本作「朝」，舊書卷三七五行志、會要卷四四均作「湖」。按潤、常、湖三州毗連，同屬江南東道，潮州則屬嶺南道，地望不合，疑「潮」乃「湖」之誤。害稼。八月甲午，渭水溢，毀中橋。十二年六月乙酉，京師大雨，水，含元殿一柱傾，市中水深三尺，毀民居二千餘家；河南、河北大水，洺、邢尤甚，平地二丈；河中、江陵、幽澤潞晉隰蘇台越州水，害稼。十三年六月辛未，淮水溢。十五年秋，洪、吉、信、滄等州』——《新唐書》(新唐書/卷036)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chaozhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chaozhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「潮州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

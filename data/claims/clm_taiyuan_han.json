@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/晋阳",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷109/晉陽(郡國志(東漢,地名延續旁證))",
+   "quote": "『餘載至齊桓公二年張森楷校勘記謂案東遷至齊桓公二年七十九年，非三十餘載，文有訛。今案：「三」疑「七」之訛。三三八七頁一五行晉陽之（國）〔圍〕據殿本改。三三八八頁三行不過三十萬按：「三」字原訛「二」，逕改正。三三八八頁四行武帝乘其資畜按：汲本、殿本「乘」作「承」。三三八八頁六行縣邑千（四）〔五〕百八十七殿本考證齊召南謂按前漢書地理志，縣、邑千三百一十四，道三十二，侯國二百四十一，然則合計千五百八十七也，本』——《後漢書》(後漢書/卷109)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taiyuan_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「晉陽」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

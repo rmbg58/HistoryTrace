@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/云州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷039/雲州(地理志(零填充卷名))",
+   "quote": "『入河東；故河東之天安，即朔方之天安，但同為大安城之訛。置。又有代北軍，置。}}鴈門，五臺，繁畤，崞，唐林。名。}}===雲州===雲州雲中郡，下都督府。自朔州北定襄城徙治定襄縣。為默啜所破，徙其民于朔州。復置。土貢：犛牛尾、鵰羽。戶三千一百六十九，口七千九百三十。縣一。雲中。置北恆州，置北恆州「六」，各本原作「元」。按舊書卷三九地理志、寰宇記卷四九皆謂平劉武周，六年置北恆州。又據元和志卷一四，置北恆州』——《新唐書》(新唐書/卷039)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_datong_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_datong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「雲州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

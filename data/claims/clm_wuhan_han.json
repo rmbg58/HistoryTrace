@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/沙羡",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷112/沙羨(郡國志(東漢,地名延續旁證))",
+   "quote": "『萬八千四百三十四，口二十六萬五千四百六十四。西陵，西陽，軑，侯國。鄳，竟陵，侯國。有鄖鄉。有章山，本內方。-{雲}-杜，沙羨，邾，下雉，蘄春，侯國。鄂，平春，侯國。南新市，侯國。安陸，===零陵郡===零陵郡，武帝置。雒陽南三千三百-{里}-。十三城，戸二十一萬二千二百八十四，口百萬一千五百七十八。泉陵，零陵，有陽朔山，湘水出。營道，南有九疑山。營浦，泠道，洮陽，都梁，有路山。夫夷，侯國。始安，侯國。』——《後漢書》(後漢書/卷112)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuhan_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuhan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「沙羨」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/怀州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/懷州(地理志(零填充卷名))",
+   "quote": "『皆流血。九年春，許州鵲哺烏雛。十年四月，有大鳥飛集宮中，食雜骨數日，獲之，不食死。六月辛未晦，水鳥集左藏庫。十三年十月，懷州𪄢鵊巢內有黃雀往來哺食。十四年秋，有異鳥，色青，類鳩、鵲，見於宋州郊外，所止之處，羣鳥翼衞，朝夕嗛稻粱以哺之，睢陽人適野聚觀者旬日。十八年六月，烏集徐州之滕縣，嗛柴為城，中有白烏一，碧烏一。元和元年，常州鸛巢于平地。四年十二月，羣烏夜集于太行山上。十三年春，淄青府署及城中烏、鵲互』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qinyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qinyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「懷州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

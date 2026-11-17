@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/长安",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷032/長安(地理志(零填充卷名))",
+   "quote": "『朔，日有食之，在軫十八度。軫為車騎。證聖元年二月己酉朔，日有食之，在營室五度。聖曆三年五月己酉朔，日有食之，在畢十五度。長安二年九月乙丑朔，日有食之，幾既，在角初度。三年三月壬戌朔，日有食之，在奎十度。占曰：「君不安。」九月庚寅朔，九月庚寅朔按二十史朔閏表，是年八月庚申朔，九月己丑朔。朱文鑫歷代日食考唐代日食表記是年「八月庚申朔日食」；又據本卷上下文所記見食日期推算，此次日食，亦在八月庚申朔。此疑誤。』——《新唐書》(新唐書/卷032)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xian_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「長安」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

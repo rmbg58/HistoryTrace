@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/肃州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷040/肅州(地理志(零填充卷名))",
+   "quote": "『===甘州張掖郡，下。土貢：麝香，野馬革，冬柰，苟𣏌實、葉。戶六千二百八十四，口二萬二千九十二。縣二。張掖，刪丹。===肅州===肅州酒泉郡，下。武德二年析甘州之福祿、瓜州之玉門置。土貢：麩金、野馬革、蓯蓉、柏脈根。戶二千二百三十，口八千四百七十六。縣三。酒泉，福祿，玉門。===伊州===伊州伊吾郡，下。本西伊州，貞觀六年更名。土貢：香棗、陰牙角、胡桐律。戶二千四百六十七，口萬一百五十七。縣三。伊吾，』——《新唐書》(新唐書/卷040)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiuquan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiuquan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「肅州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

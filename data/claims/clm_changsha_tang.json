@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/潭州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/潭州(地理志(零填充卷名))",
+   "quote": "『寅，撫州火。久視元年八月壬子，平州火，燔千餘家。景龍四年二月，東都凌空觀災。開元五年十一月乙卯，定陵寢殿火。是歲，洪州、潭州災，延燒州署，州人見有物赤而暾暾飛來，旋即火發。十五年七月甲戌，興教門樓柱災。是年，衡州災，延燒三百餘家，州人見有物大如甕，赤如燭籠，所至火即發。十八年二月丙寅，大雨雪，俄而雷震，左飛龍廏災。占曰：「天火燒廏，兵大起。」十月乙丑，東都宮佛光寺火。天寶二年六月，東都應天門觀災，延燒』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changsha_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changsha",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「潭州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

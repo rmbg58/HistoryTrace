@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/渝州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/渝州(地理志(零填充卷名))",
+   "quote": "『年秋，李密、王世充隔洛水相拒，密營中鼠，一夕渡水盡去。占曰：「鼠無故皆夜去，邑有兵。」貞觀十三年，建州鼠害稼。二十一年，渝州鼠害稼。顯慶三年，長孫无忌第有大鼠見於庭，月餘出入無常，後忽然死。龍朔元年十一月，洛州猫鼠同處。鼠隱伏象盜竊，猫職捕嚙，而反與鼠同，象司盜者廢職容姦。弘道初，梁州倉有大鼠，長二尺餘，為猫所嚙，數百鼠反嚙猫。少選，聚萬餘鼠，州遣人捕擊殺之，餘皆去。景雲中，有蛇鼠鬬于右威衞營東街槐樹』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chongqing_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chongqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「渝州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

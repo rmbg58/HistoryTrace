@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宋州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/宋州(地理志(零填充卷名))",
+   "quote": "『而王氏始萌，蓋馴致其禍也。咸通六年七月，徐州彭城民家雞生角。角，兵象，雞，小畜，猶賤類也。下體生上之痾。咸通十四年七月，宋州襄邑有獵者得雉，五足，三足出背上。足出于背者，下干上之象；五足者，眾也。青眚青祥。貞觀十七年四月，立晉王為太子，有青氣繞東宮殿。始冊命而有祲，不祥。十八年六月壬戌，有青黑氣廣六尺，貫于辰戌，其長亙天。大和九年，鄭注篋中藥化為蠅數萬飛去。注始以藥術進，化為蠅者，敗死之象。近青眚也。』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shangqiu_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shangqiu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「宋州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

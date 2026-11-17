@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/婺州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷032/婺州(地理志(零填充卷名))",
+   "quote": "『。占曰：「聲如雷者，怒象。」十九年四月己酉，有流星向北斗杓而滅。永徽三年十月，有流星貫北極。四年十月，睦州女子陳碩真反，婺州刺史崔義玄討之，有星隕于賊營。乾封元年正月癸酉，有星出太微，東流，有聲如雷。咸亨元年十一月，西方有流星聲如雷。調露元年十一月戊寅，流星入北斗魁中；乙巳，流星燭地有光，使星也。神龍三年二月丙辰，有流星聲如頹牆，光燭天地。景龍二年二月癸未，有大星隕于西南，聲如雷，野雉皆雊。景雲元年八』——《新唐書》(新唐書/卷032)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jinhua_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jinhua",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「婺州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

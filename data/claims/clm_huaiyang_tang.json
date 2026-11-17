@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/陈州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/陳州(地理志(零填充卷名))",
+   "quote": "『謀亂，既成而火。大和二年十一月甲辰，禁中昭德寺火，延至宣政東垣及門下省，宮人死者數百人。三年十月癸丑，仗內火。四年三月，陳州、許州火，燒萬餘家。十月，浙西火。十一月，揚州海陵火。八年三月，揚州火。皆燔民舍千區。五月己巳，飛龍神駒中廏火。十月，揚州市火，燔民舍數千區。十二月，禁中昭成寺火。開成二年六月，徐州火，延燒民居三百餘家。四年十二月乙卯，乾陵火。丁丑晦，揚州市火，燔民舍數千家。會昌元年五月，潞州市』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huaiyang_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huaiyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「陳州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

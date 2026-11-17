@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/代州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/代州(地理志(零填充卷名))",
+   "quote": "『麟游縣有羔生而無尾。是月乙丑，太原獻羖羊，無頭而不死。開元二年正月，原州獻肉角羊。二年三月，富平縣有肉角羊。會昌二年春，代州崞縣羊生二首連頸，兩尾。占曰：「二首，上不一也。」咸通三年夏，平陶民家羊生羔如犢。乾符二年，洛陽建春門外因暴雨，有物墮地如羖羊，不食，頃之入地中，其跡月餘不滅，或以為雨土也。占曰：「當旱。」赤眚赤祥。武德七年，河間王孝恭征輔公祏，宴羣帥于舟中，孝恭以金盌酌江水，將飲之，則化為血。』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_daixian_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_daixian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「代州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

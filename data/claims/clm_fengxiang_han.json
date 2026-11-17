@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/雍",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷109/雍(郡國志(東漢,地名延續旁證))",
+   "quote": "『阳山。有注城。〖荧阳〗有鸿沟水。有广武城。有虢亭，虢叔国。有陇城。有薄亭。有敖亭。有荧泽。〖卷〗有长城，经阳武到密。有垣雍城，或曰古衡雍。有扈城亭。〖原武〗〖阳武〗〖中牟〗有圃田泽。有清口水。有管城。有曲遇聚。有蔡亭。〖开封〗〖菀陵〗有[C97B]林。有制泽。有琐候亭。〖平阴〗〖穀城〗[E767]水出。有函谷关。〖缑氏〗有邬聚。有轘辕关。〖巩〗有寻谷水。有东訾聚，今名訾城。有坎[C279]聚。有黄亭』——《後漢書》(後漢書/卷109)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fengxiang_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fengxiang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「雍」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

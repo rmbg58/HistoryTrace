@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/澧州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷040/澧州(地理志(零填充卷名))",
+   "quote": "『名。土貢：紵錫布、熊、羆、山雞、茶、柑、橘、蜜、蠟。戶萬五千六百二十，口七萬五千。縣四。奉節，雲安，巫山，大昌。====澧州====澧州澧陽郡，上。土貢：紋綾、紵綀縳巾、犀角、竹簟、光粉、柑、橘、恆山、蜀漆。戶萬九千六百二十，口九萬三千三百四十九。縣四。澧陽，安鄉，石門，慈利。====朗州====朗州武陵郡，下。土貢：葛、紵綀簟、柑、犀角。戶九千三百六，口四萬三千七百六十。縣二。武陵，龍陽。====忠』——《新唐書》(新唐書/卷040)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lixian_hn_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lixian_hn",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「澧州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

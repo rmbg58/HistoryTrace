@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/许",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷109/許(郡國志(東漢,地名延續旁證))",
+   "quote": "『今左傳杜注作「在河東解縣西」，不言「二十里」。三三九九頁一四行杜預曰猗氏縣東北有瑕城按：今左傳僖十二年無此注。僖三十年「許君焦、瑕」，杜注「晉河外五城之二邑」，即此，然不云「猗氏縣東北」也。三四○○頁七行在縣東八十里按：左傳杜注云「在平陽絳邑縣東」，不言「八十里」。三四○○頁一一行得石槨按：汲本、殿本「槨」作「棺」。三四○○頁一六行晉武公〔自〕曲沃徙此據集解引馬與龍說補。按：馬與龍謂注「曲沃」上脫「』——《後漢書》(後漢書/卷109)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xuchang_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xuchang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「許」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

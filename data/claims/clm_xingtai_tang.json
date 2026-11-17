@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/邢州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷039/邢州(地理志(零填充卷名))",
+   "quote": "『：角弓、鳳翮席、胡粉。縣四。頓丘，清豐，析頓丘、昌樂置，以孝子張清豐名。}}觀城，省入昌樂、臨黃，復置。}}臨黃。===邢州===邢州鉅鹿郡，上。本襄國郡，更名。土貢：絲布、磁器、刀、文石。戶七萬一百八十九，口三十八萬二千七百九十八。縣八。龍岡，析龍岡、內丘置青山縣，省入焉。}}沙河，置溫州，四年州廢，來屬。有鐵。}}南和，置和州，四年州廢，來屬。}}鉅鹿，置起州，幷析置白起縣。四年州廢，省白起，以鉅』——《新唐書》(新唐書/卷039)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xingtai_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xingtai",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「邢州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

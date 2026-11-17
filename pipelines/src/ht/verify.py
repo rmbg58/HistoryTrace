@@ -38,19 +38,22 @@ class VerifyReport:
 
 
 def _computed_confidence(claim: dict[str, Any], registry: dict[str, dict[str, Any]]) -> str:
-    """机器置信(协议 §5 G4 判据分支一:≥2 C 级以上来源一致 + 全引文 + 无未决异文)。"""
+    """机器置信(协议 §5 G4 判据分支一:≥2 C 级以上来源一致 + C 级引文齐 + 无未决异文)。
+
+    D/E 级旁证不参与 G4 判据(无引文也不阻塞),但计入 G3 的多源计数。
+    """
     atts = claim.get("attestations", [])
     if not atts:
         return "G1"
-    tiers = [registry[a["source"]]["tier"] for a in atts if a["source"] in registry]
-    quotes_ok = all(a.get("quote") for a in atts)
-    if (
-        len(atts) >= 2
-        and tiers
-        and all(t in ("A", "B", "C") for t in tiers)
-        and quotes_ok
-        and not claim.get("disputes")
-    ):
+    c_quoted = [
+        a
+        for a in atts
+        if a.get("quote")
+        and a["source"] in registry
+        and registry[a["source"]]["tier"] in ("A", "B", "C")
+    ]
+    # G4 分支一:≥2 条 C 级带引文来源一致(其余无引文的 URN 对齐/D 级旁证不阻塞)
+    if len(c_quoted) >= 2 and not claim.get("disputes"):
         return "G4"
     if len(atts) >= 2:
         return "G3"
@@ -110,7 +113,12 @@ def verify() -> VerifyReport:
             report.downgraded.append(cid)
         if G_ORDER[claimed] >= G_ORDER["G4"]:
             has_verdict = any(v["decision"] == "accept" for v in claim.get("verdicts", []))
-            has_quotes = all(att.get("quote") for att in claim.get("attestations", []))
+            c_quoted = [
+                a
+                for a in claim.get("attestations", [])
+                if a.get("quote") and a["source"] in registry and registry[a["source"]]["tier"] in ("A", "B", "C")
+            ]
+            has_quotes = len(c_quoted) >= 2
             if not (has_verdict and has_quotes):
                 report.issues.append(
                     Issue(cid, "error", "G4 必须有人工 accept 裁决且全部 attestation 带引文", "R1-g4")

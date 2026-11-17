@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/秦州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷035/秦州(地理志(零填充卷名))",
+   "quote": "『南六州地震。景龍四年五月丁丑，剡縣地震。景雲三年正月甲戌，幷、汾、絳三州地震，壞廬舍，壓死百餘人。開元二十二年二月壬寅，秦州地震。西北隱隱有聲，坼而復合，經時不止，壞廬舍殆盡，壓死四千餘人。二十六年三月癸巳，京師地震。至德元載十一月辛亥朔，河西地震裂有聲，陷廬舍，張掖、酒泉尤甚，至二載三月癸亥乃止。大曆二年十一月壬申，京師地震，自東北來，其聲如雷者。三年五月丙戌，又震。十二年，恆、定二州地大震，三日乃』——《新唐書》(新唐書/卷035)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_tianshui_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「秦州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

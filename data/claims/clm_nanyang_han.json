@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/宛",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "後漢書/卷111/宛(郡國志(東漢,地名延續旁證))",
+   "quote": "『-{志}--{云}-「有子路祠。」}}有祭城。{{*|杜預曰鄭祭封人仲邑。陳留-{志}-曰：「有蘧伯玉墓及祠。」又西南有宛亭。左傳僖二十八年衞人盟宛濮，杜預曰近濮水。}}〖己吾〗有大棘鄕。有首鄕。{{*|左傳（桓八）〔僖五〕年齊侯（師）〔會〕-{於}-首止，杜預曰在襄邑東南，有首（止城）〔鄕〕。}}〖考城〗故菑，{{*|陳留-{志}-曰：「古戴國地名。」杜預曰：「戴在外黃東南。」爾雅曰：「木立死曰菑』——《後漢書》(後漢書/卷111)",
+   "source": "src_houhanshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanyang_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(漢書)引文 + 後漢書郡國志(東漢,地名延續旁證)同載「宛」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

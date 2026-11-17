@@ -1,0 +1,12 @@
+{
+  "id": "src_xintangshu_ws",
+  "type": "text",
+  "title": "新唐书",
+  "jurisdiction": "全书(本项目用地理志)",
+  "edition": "维基文库录入本(零填充卷名,如 新唐書/卷037)",
+  "tier": "C",
+  "license": "CC-BY-SA-4.0(录入层);原文公有领域",
+  "access": { "method": "mediawiki-api", "key": "zh.wikisource.org 新唐書" },
+  "retrieved_at": "2026-11-18",
+  "note": "唐期第二来源(与旧唐书互证,他校法);地理志=卷031-040(零填充)"
+}

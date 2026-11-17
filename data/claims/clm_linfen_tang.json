@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/晋州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷034/晉州(地理志(零填充卷名))",
+   "quote": "『樹復榮。是年十一月己巳，寒甚，雨木冰，數日不解。永泰元年三月庚子，夜霜，木有冰。大曆二年十一月，紛霧如雪，草木冰。九年，晉州神山縣慶唐觀枯檜復生。興元元年春，亳州真源縣有李樹，植已十四年，其長尺有八寸，至是枝忽上聳，高六尺，周迴如蓋九尺餘。李，國姓也。占曰：「木生枝聳，國有寇盜。」是歲，中書省枯柳復榮。貞元元年十二月，雨木冰。四年正月，雨木于陳留，十里許，大如指，長寸餘，中空，所下者立如植。木生于下，』——《新唐書》(新唐書/卷034)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_linfen_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_linfen",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「晉州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

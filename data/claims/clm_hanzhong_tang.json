@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/兴元府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷032/興元府(地理志(零填充卷名))",
+   "quote": "『成二年九月丁酉，有星大如斗，長五丈，自室、壁西北流，入大角下沒，行類枉矢，中天有聲，小星數百隨之。十一月丁丑，有大星隕于興元府署寢室之上，光燭庭宇。三年五月乙丑，有大星出于柳、張，尾長五丈餘，再出再沒。四年二月己亥，四年二月己亥按二十史朔閏表，是年二月癸丑朔，無己亥。丁夜至戊夜，四方中天流星小大凡二百餘，並西流，有尾迹，長二丈至五丈。八月辛未，流星出羽林，有尾迹，長八丈餘，有聲如雷。羽林，天軍也。十二月』——《新唐書》(新唐書/卷032)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hanzhong_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hanzhong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「興元府」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

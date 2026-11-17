@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/夔州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "新唐書/卷040/夔州(地理志(零填充卷名))",
+   "quote": "『杜若、鬼臼。戶八千九十八，口四萬五千六百六。縣四。夷陵，宜都，長陽，遠安。====歸州====歸州巴東郡，下。武德二年析夔州之秭歸、巴東置。土貢：紵葛、茶、蜜、蠟。戶四千六百四十五，口二萬三千四百一十七。縣三。秭歸，巴東，興山。====夔州====夔州雲安郡，下都督府。本信州巴東郡，武德二年更州名，天寶元年更郡名。土貢：紵錫布、熊、羆、山雞、茶、柑、橘、蜜、蠟。戶萬五千六百二十，口七萬五千。縣四。奉節』——《新唐書》(新唐書/卷040)",
+   "source": "src_xintangshu_ws"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fengjie_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fengjie",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:本史(舊唐書)引文 + 新唐書地理志(零填充卷名)同載「夔州」,≥2 C 級來源引文一致,無未決異文",
+   "by": "ht-crossverify@auto(ADR-009:两史地理志互证,他校法)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }
