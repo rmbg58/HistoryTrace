@@ -38,5 +38,20 @@
   "id": "plc_changzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 判据分支一:≥2 C 级来源一致 + 无未决异文;引文为《漢書·卷028》郡县列表原文直证",
+   "by": "ht-backfill@auto(ADR-009:对校型核验,引文与《漢書》卷028 原文逐字一致;ctp:han-shu 对齐;≥2 C 级来源一致且无未决异文)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  },
+  {
+   "basis": "维基文库侧引文核对一致;ctext 侧无引文(API key 未配),分支一『两侧一致』未全满足,维持 G3;待 ctext 引文回填后升 G4",
+   "by": "ht-verify@auto(ADR-009 修正)",
+   "date": "2026-11-18",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

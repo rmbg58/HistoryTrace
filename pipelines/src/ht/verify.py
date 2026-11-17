@@ -38,10 +38,20 @@ class VerifyReport:
 
 
 def _computed_confidence(claim: dict[str, Any], registry: dict[str, dict[str, Any]]) -> str:
-    """机器置信:只依据 attestation 的来源数量与层级(不含人工裁决)。"""
+    """机器置信(协议 §5 G4 判据分支一:≥2 C 级以上来源一致 + 全引文 + 无未决异文)。"""
     atts = claim.get("attestations", [])
     if not atts:
         return "G1"
+    tiers = [registry[a["source"]]["tier"] for a in atts if a["source"] in registry]
+    quotes_ok = all(a.get("quote") for a in atts)
+    if (
+        len(atts) >= 2
+        and tiers
+        and all(t in ("A", "B", "C") for t in tiers)
+        and quotes_ok
+        and not claim.get("disputes")
+    ):
+        return "G4"
     if len(atts) >= 2:
         return "G3"
     return "G2"
