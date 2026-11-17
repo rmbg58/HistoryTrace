@@ -1,0 +1,26 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+
+# 数据管线:外部来源下载缓存(许可受限,永不入库:CHGIS/CBDB/dump 等)
+data/_downloaded/
+
+# 数据管线:派生缓存(可由 ht build 重建)
+data/_cache/
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+
+# 日志与系统
+*.log
+.DS_Store
+
+# devinit 可选运行时目录
+.devinit/runtime/

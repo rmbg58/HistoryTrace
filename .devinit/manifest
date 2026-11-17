@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "devinitVersion": "1.9.0",
+  "profile": "standard",
+  "canonical": {
+    "overview": "docs/gov/00-OVERVIEW.md",
+    "architecture": "docs/gov/01-ARCHITECTURE.md",
+    "conventions": "docs/gov/02-CONVENTIONS.md",
+    "modules": "docs/gov/03-MODULES.md",
+    "decisions": "docs/gov/04-DECISIONS.md",
+    "state": "docs/gov/STATE.md",
+    "design": "docs/gov/05-DESIGN.md"
+  },
+  "foundation": {
+    "archetype": "web-app",
+    "template": { "id": "none", "version": "none", "source": "none" },
+    "stackProfile": "前端:Vite + 原生 TypeScript + MapLibre GL JS + PMTiles,古风自绘 UI(无组件库);数据管线:Python(>=3.12,uv 管理)CLI `ht`;数据即代码:data/claims git 版本化",
+    "designSystem": "docs/gov/05-DESIGN.md",
+    "externalServices": ["ctext.org API(可选,低频点查,匿名或 env 密钥)"],
+    "portability": "构建产物为纯静态文件,可部署任意静态托管;data/claims 为纯 JSON 可整体导出;无数据库、无账号锁定"
+  },
+  "kit": {
+    "id": "personal-dev-kit",
+    "version": "0.1.0",
+    "source": "/Users/yuantk/Developer/dev-kit"
+  },
+  "adapters": {
+    "instructionFiles": ["AGENTS.md"],
+    "agentDirectory": null,
+    "settingsFile": null,
+    "hookFile": null
+  },
+  "validation": {
+    "verify": "待确认(脚手架后定;planned: pnpm -C web lint && pnpm -C web exec tsc --noEmit && uv run pytest && uv run ht verify)",
+    "test": "待确认(planned: uv run pytest; pnpm -C web test)",
+    "build": "待确认(planned: pnpm -C web build; uv run ht build)",
+    "lint": "待确认(planned: pnpm -C web lint; uv run ruff check)"
+  },
+  "policy": {
+    "stateMaxLines": 99,
+    "staleAfterHours": 24,
+    "staleAction": "review_only"
+  }
+}
