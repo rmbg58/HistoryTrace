@@ -69,5 +69,16 @@ def import_wikisource(title: str, out: Path | None) -> None:
     click.echo(f"saved {dest} (revid={revid}, {len(text)} 字)")
 
 
+@main.command("import-cliopatria")
+def import_cliopatria() -> None:
+    """从本地 Cliopatria 缓存提取朝代疆界快照(→ web/public/data/boundaries.json)。"""
+    from .cliopatria import build_boundaries
+
+    stats = build_boundaries()
+    for dyn, s in stats.items():
+        click.echo(f"  {dyn} ({s['year']}): {s['polities']} polities")
+    click.echo("boundaries.json OK")
+
+
 if __name__ == "__main__":
     main()

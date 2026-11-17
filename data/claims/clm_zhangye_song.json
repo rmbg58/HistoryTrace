@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "宋史/夏国传上/甘州",
+   "quote": null,
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "殆知阁镜像/正史地理志/甘州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_zhangye_song",
+ "object": {
+  "name": "甘州",
+  "note": "先甘州回鹘,1036 年后属西夏",
+  "role": "回鹘/西夏占"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 960,
+  "latest": 1127,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_zhangye",
+  "type": "place"
+ },
+ "verdicts": []
+}

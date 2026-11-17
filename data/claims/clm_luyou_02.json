@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "宋史/陆游传",
+   "quote": null,
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/渭南文集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_luyou_02",
+ "object": {
+  "lat": 33.07,
+  "lng": 107.03,
+  "name": "南郑",
+  "note": "从军南郑,参王炎幕府"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1172,
+  "latest": 1172,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_luyou",
+  "type": "person"
+ },
+ "verdicts": []
+}

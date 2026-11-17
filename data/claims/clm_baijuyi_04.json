@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/白居易传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/白氏长庆集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_baijuyi_04",
+ "object": {
+  "lat": 31.2989,
+  "lng": 120.5853,
+  "name": "苏州",
+  "note": "除苏州刺史"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 825,
+  "latest": 826,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_baijuyi",
+  "type": "person"
+ },
+ "verdicts": []
+}

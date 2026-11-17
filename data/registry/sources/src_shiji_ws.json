@@ -1,0 +1,11 @@
+{
+  "id": "src_shiji_ws",
+  "type": "text",
+  "title": "史记",
+  "jurisdiction": "全书",
+  "edition": "维基文库录入本",
+  "tier": "C",
+  "license": "CC-BY-SA-4.0(录入层);原文公有领域",
+  "access": { "method": "mediawiki-api", "key": "zh.wikisource.org 史記" },
+  "retrieved_at": "2026-11-18"
+}

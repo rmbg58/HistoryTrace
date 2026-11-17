@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/白居易传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/白氏长庆集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_baijuyi_02",
+ "object": {
+  "lat": 29.7052,
+  "lng": 116.0005,
+  "name": "九江",
+  "note": "贬江州司马,作琵琶行"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 815,
+  "latest": 818,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_baijuyi",
+  "type": "person"
+ },
+ "verdicts": []
+}

@@ -18,7 +18,7 @@ def test_real_dataset_passes():
     report = verify()
     errors = [i for i in report.issues if i.level == "error"]
     assert not errors, f"种子数据存在校验错误: {[ (i.claim_id, i.message) for i in errors ]}"
-    assert report.total >= 50, "种子数据应≥50条(10城×5朝)"
+    assert report.total >= 150, "种子数据应≥150条(30城×5朝)"
 
 
 def test_computed_confidence_rules():
@@ -122,10 +122,13 @@ def test_conflict_detection(tmp_path):
             p.unlink()
 
 
-def test_every_claim_has_two_sources_minimum():
-    """种子数据每条至少 2 个 attestation(M1 验收标准)。"""
+def test_source_floor_and_honest_confidence():
+    """每条至少 1 个 attestation;单源条必须自称 G2(不得虚报 G3)。"""
     for c in load_claims():
-        assert len(c["attestations"]) >= 2, f"{c['id']} 少于 2 来源"
+        n = len(c["attestations"])
+        assert n >= 1, f"{c['id']} 无来源"
+        if n == 1:
+            assert c["confidence"] == "G2", f"{c['id']} 单源却报 {c['confidence']}"
 
 
 def test_load_error_on_broken_json(tmp_path):

@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "宋史/苏轼传",
+   "quote": null,
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/东坡七集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_sushi_07",
+ "object": {
+  "lat": 19.51,
+  "lng": 109.58,
+  "name": "儋州",
+  "note": "再贬儋州(昌化军)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1097,
+  "latest": 1100,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_sushi",
+  "type": "person"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,25 @@
+{
+  "note": "作品文本为公有领域(唐宋原作);录入为自建数据(CC BY-SA 4.0)。year 为通行系年,依据见 yearNote;无把握者 null(协议:系年默认 G2 以下)。",
+  "works": [
+    { "id": "wrk_libai_jingyesi", "poetId": "prs_libai", "title": "静夜思", "lines": "床前明月光,疑是地上霜。\n举头望明月,低头思故乡。", "year": null, "yearNote": "无编年依据,通行本系年缺", "placeId": null },
+    { "id": "wrk_libai_baidicheng", "poetId": "prs_libai", "title": "早发白帝城", "lines": "朝辞白帝彩云间,千里江陵一日还。\n两岸猿声啼不住,轻舟已过万重山。", "year": 759, "yearNote": "乾元二年流放夜郎途中遇赦,王琦注本编年通行说", "lng": 109.574, "lat": 31.042, "placeName": "白帝城(夔州)" },
+    { "id": "wrk_libai_lushan", "poetId": "prs_libai", "title": "望庐山瀑布", "lines": "日照香炉生紫烟,遥看瀑布挂前川。\n飞流直下三千尺,疑是银河落九天。", "year": null, "yearNote": "游庐山年代有开元与天宝两说", "lng": 115.98, "lat": 29.55, "placeName": "庐山" },
+    { "id": "wrk_libai_shudaonan", "poetId": "prs_libai", "title": "蜀道难(节)", "lines": "噫吁嚱,危乎高哉!\n蜀道之难,难于上青天!", "year": null, "yearNote": "作年旧说开元十九年送友入蜀,争议大", "placeId": "plc_chengdu" },
+    { "id": "wrk_dufu_chunwang", "poetId": "prs_dufu", "title": "春望", "lines": "国破山河在,城春草木深。\n感时花溅泪,恨别鸟惊心。", "year": 757, "yearNote": "至德二载身陷长安时作,编年无大争议", "placeId": "plc_xian" },
+    { "id": "wrk_dufu_denggao", "poetId": "prs_dufu", "title": "登高", "lines": "无边落木萧萧下,不尽长江滚滚来。\n万里悲秋常作客,百年多病独登台。", "year": 767, "yearNote": "大历二年夔州重九登高,编年通行说", "lng": 109.574, "lat": 31.042, "placeName": "夔州" },
+    { "id": "wrk_dufu_caotang", "poetId": "prs_dufu", "title": "茅屋为秋风所破歌(节)", "lines": "安得广厦千万间,\n大庇天下寒士俱欢颜!", "year": 761, "yearNote": "上元二年成都草堂作", "placeId": "plc_chengdu" },
+    { "id": "wrk_dufu_wenguan", "poetId": "prs_dufu", "title": "闻官军收河南河北", "lines": "剑外忽传收蓟北,初闻涕泪满衣裳。\n却看妻子愁何在,漫卷诗书喜欲狂。", "year": 763, "yearNote": "广德元年春梓州作", "lng": 105.19, "lat": 31.09, "placeName": "梓州" },
+    { "id": "wrk_wangwei_songyuaner", "poetId": "prs_wangwei", "title": "送元二使安西", "lines": "渭城朝雨浥轻尘,客舍青青柳色新。\n劝君更尽一杯酒,西出阳关无故人。", "year": null, "yearNote": "作年不可确考", "placeId": "plc_xian" },
+    { "id": "wrk_wangwei_shanju", "poetId": "prs_wangwei", "title": "山居秋暝", "lines": "空山新雨后,天气晚来秋。\n明月松间照,清泉石上流。", "year": null, "yearNote": "辋川时期作,确年不详", "lng": 109.32, "lat": 34.15, "placeName": "辋川" },
+    { "id": "wrk_wangwei_chongyang", "poetId": "prs_wangwei", "title": "九月九日忆山东兄弟", "lines": "独在异乡为异客,每逢佳节倍思亲。", "year": 717, "yearNote": "通行说作于十七岁长安游历时", "placeId": "plc_xian" },
+    { "id": "wrk_baijuyi_caoyuan", "poetId": "prs_baijuyi", "title": "赋得古原草送别", "lines": "离离原上草,一岁一枯荣。\n野火烧不尽,春风吹又生。", "year": 788, "yearNote": "通行说为贞元三年前应考习作,一说十六岁作", "placeId": "plc_xian" },
+    { "id": "wrk_baijuyi_pipa", "poetId": "prs_baijuyi", "title": "琵琶行(节)", "lines": "同是天涯沦落人,相逢何必曾相识!", "year": 816, "yearNote": "元和十一年江州司马任上作", "placeId": "plc_jiujiang" },
+    { "id": "wrk_baijuyi_qiantang", "poetId": "prs_baijuyi", "title": "钱塘湖春行", "lines": "几处早莺争暖树,谁家新燕啄春泥。\n乱花渐欲迷人眼,浅草才能没马蹄。", "year": 824, "yearNote": "长庆杭州刺史任内作", "placeId": "plc_hangzhou" },
+    { "id": "wrk_sushi_shuidiao", "poetId": "prs_sushi", "title": "水调歌头·明月几时有(节)", "lines": "人有悲欢离合,月有阴晴圆缺,\n此事古难全。但愿人长久,千里共婵娟。", "year": 1076, "yearNote": "熙宁九年密州中秋作,小序自证", "lng": 119.75, "lat": 36.77, "placeName": "密州" },
+    { "id": "wrk_sushi_nian-nu-jiao", "poetId": "prs_sushi", "title": "念奴娇·赤壁怀古(节)", "lines": "大江东去,浪淘尽,\n千古风流人物。", "year": 1082, "yearNote": "元丰五年黄州作,通行说", "lng": 114.87, "lat": 30.45, "placeName": "黄州" },
+    { "id": "wrk_sushi_yinhu", "poetId": "prs_sushi", "title": "饮湖上初晴后雨", "lines": "水光潋滟晴方好,山色空蒙雨亦奇。\n欲把西湖比西子,淡妆浓抹总相宜。", "year": 1073, "yearNote": "熙宁六年杭州通判任上作", "placeId": "plc_hangzhou" },
+    { "id": "wrk_luyou_shier", "poetId": "prs_luyou", "title": "示儿", "lines": "死去元知万事空,但悲不见九州同。\n王师北定中原日,家祭无忘告乃翁。", "year": 1210, "yearNote": "临终绝笔,编年无争议", "lng": 120.58, "lat": 30.0, "placeName": "山阴" },
+    { "id": "wrk_luyou_shanxi", "poetId": "prs_luyou", "title": "游山西村(节)", "lines": "山重水复疑无路,柳暗花明又一村。", "year": 1167, "yearNote": "乾道三年罢官居山阴作", "lng": 120.58, "lat": 30.0, "placeName": "山阴" },
+    { "id": "wrk_luyou_shufen", "poetId": "prs_luyou", "title": "书愤(节)", "lines": "楼船夜雪瓜洲渡,铁马秋风大散关。", "year": 1186, "yearNote": "淳熙十三年山阴作;大散关指 1172 南郑从军旧事", "lng": 120.58, "lat": 30.0, "placeName": "山阴" }
+  ]
+}

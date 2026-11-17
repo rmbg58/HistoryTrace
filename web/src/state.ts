@@ -9,7 +9,14 @@ export interface AppState {
   /** placeId → 沿革条目(按时间排序) */
   lineages: Map<string, LineageEntry[]>;
   selectedPlaceId: string | null;
+  panelTab: PanelTab;
+  events: EventMeta[];
+  footprints: PoetFootprint[];
+  activePoetId: string | null;
+  activeEventId: string | null;
 }
+
+export type PanelTab = "lineage" | "events" | "poets";
 
 export interface PlaceMeta {
   id: string;
@@ -17,6 +24,50 @@ export interface PlaceMeta {
   lng: number;
   lat: number;
   province: string;
+}
+
+export interface EventMeta {
+  id: string;
+  name: string;
+  type: string;
+  summary: string;
+  year: number;
+  place: { name: string; lng: number | null; lat: number | null };
+  confidence: string;
+  attestations: { source: string; locus: string; quote: string | null }[];
+}
+
+export interface FootprintStop {
+  year: number;
+  toYear: number;
+  name: string;
+  lng: number | null;
+  lat: number | null;
+  event: string;
+  confidence: string;
+}
+
+export interface WorkMeta {
+  id: string;
+  poetId: string;
+  title: string;
+  lines: string;
+  year: number | null;
+  yearNote: string;
+  placeId?: string | null;
+  lng?: number | null;
+  lat?: number | null;
+  placeName?: string | null;
+}
+
+export interface PoetFootprint {
+  id: string;
+  name: string;
+  dynasty: string;
+  years: string;
+  desc: string;
+  stops: FootprintStop[];
+  works: WorkMeta[];
 }
 
 type Listener = (s: AppState) => void;
@@ -27,6 +78,11 @@ const state: AppState = {
   places: [],
   lineages: new Map(),
   selectedPlaceId: null,
+  panelTab: "lineage",
+  events: [],
+  footprints: [],
+  activePoetId: null,
+  activeEventId: null,
 };
 
 const listeners = new Set<Listener>();
@@ -46,5 +102,5 @@ export function setState(patch: Partial<AppState>): void {
 }
 
 export function selectPlace(id: string | null): void {
-  setState({ selectedPlaceId: id });
+  setState({ selectedPlaceId: id, panelTab: "lineage" });
 }

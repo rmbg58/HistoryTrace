@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/文苑传下/王维",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/王右丞集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_wangwei_02",
+ "object": {
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "name": "长安",
+  "note": "安禄山陷长安,被拘菩提寺"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 756,
+  "latest": 756,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_wangwei",
+  "type": "person"
+ },
+ "verdicts": []
+}

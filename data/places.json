@@ -9,6 +9,26 @@
     { "id": "plc_guangzhou", "name": "广州", "lng": 113.2644, "lat": 23.1291, "province": "广东" },
     { "id": "plc_wuhan", "name": "武汉", "lng": 114.3055, "lat": 30.5928, "province": "湖北" },
     { "id": "plc_hangzhou", "name": "杭州", "lng": 120.1551, "lat": 30.2741, "province": "浙江" },
-    { "id": "plc_kaifeng", "name": "开封", "lng": 114.3075, "lat": 34.797, "province": "河南" }
+    { "id": "plc_kaifeng", "name": "开封", "lng": 114.3075, "lat": 34.797, "province": "河南" },
+    { "id": "plc_taiyuan", "name": "太原", "lng": 112.5489, "lat": 37.8706, "province": "山西" },
+    { "id": "plc_jinan", "name": "济南", "lng": 117.1201, "lat": 36.6512, "province": "山东" },
+    { "id": "plc_changsha", "name": "长沙", "lng": 112.9388, "lat": 28.2282, "province": "湖南" },
+    { "id": "plc_nanchang", "name": "南昌", "lng": 115.8579, "lat": 28.682, "province": "江西" },
+    { "id": "plc_fuzhou", "name": "福州", "lng": 119.2965, "lat": 26.0745, "province": "福建" },
+    { "id": "plc_ningbo", "name": "宁波", "lng": 121.544, "lat": 29.8683, "province": "浙江" },
+    { "id": "plc_wenzhou", "name": "温州", "lng": 120.6994, "lat": 28.0001, "province": "浙江" },
+    { "id": "plc_jiujiang", "name": "九江", "lng": 116.0005, "lat": 29.7052, "province": "江西" },
+    { "id": "plc_anqing", "name": "安庆", "lng": 117.0433, "lat": 30.5438, "province": "安徽" },
+    { "id": "plc_hefei", "name": "合肥", "lng": 117.2272, "lat": 31.8206, "province": "安徽" },
+    { "id": "plc_xuzhou", "name": "徐州", "lng": 117.2858, "lat": 34.2044, "province": "江苏" },
+    { "id": "plc_guilin", "name": "桂林", "lng": 110.2902, "lat": 25.2742, "province": "广西" },
+    { "id": "plc_lanzhou", "name": "兰州", "lng": 103.8343, "lat": 36.0611, "province": "甘肃" },
+    { "id": "plc_tianshui", "name": "天水", "lng": 105.7249, "lat": 34.5809, "province": "甘肃" },
+    { "id": "plc_wuwei", "name": "武威", "lng": 102.6378, "lat": 37.9283, "province": "甘肃" },
+    { "id": "plc_zhangye", "name": "张掖", "lng": 100.4497, "lat": 38.9259, "province": "甘肃" },
+    { "id": "plc_dunhuang", "name": "敦煌", "lng": 94.6616, "lat": 40.1421, "province": "甘肃" },
+    { "id": "plc_datong", "name": "大同", "lng": 113.3001, "lat": 40.0768, "province": "山西" },
+    { "id": "plc_linfen", "name": "临汾", "lng": 111.519, "lat": 36.0881, "province": "山西" },
+    { "id": "plc_handan", "name": "邯郸", "lng": 114.5391, "lat": 36.6259, "province": "河北" }
   ]
 }

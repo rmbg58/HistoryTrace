@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "明史/地理志/凉州卫",
+   "quote": null,
+   "source": "src_mingshi_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "殆知阁镜像/正史地理志/凉州卫",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_wuwei_ming",
+ "object": {
+  "name": "凉州卫",
+  "note": "",
+  "role": "陕西行都司辖"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1368,
+  "latest": 1643,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_wuwei",
+  "type": "place"
+ },
+ "verdicts": []
+}

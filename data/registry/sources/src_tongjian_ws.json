@@ -1,0 +1,12 @@
+{
+  "id": "src_tongjian_ws",
+  "type": "text",
+  "title": "资治通鉴",
+  "jurisdiction": "全书(编年体,事件时间优先采信来源)",
+  "edition": "维基文库录入本",
+  "tier": "C",
+  "license": "CC-BY-SA-4.0(录入层);原文公有领域",
+  "access": { "method": "mediawiki-api", "key": "zh.wikisource.org 資治通鑑" },
+  "retrieved_at": "2026-11-18",
+  "note": "协议 §8:时间地点不一致时,时间优先采信编年体"
+}

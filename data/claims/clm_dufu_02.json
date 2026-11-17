@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/杜工部集·年谱",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_dufu_02",
+ "object": {
+  "lat": 34.5809,
+  "lng": 105.7249,
+  "name": "秦州",
+  "note": "弃官西行,客秦州"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 759,
+  "latest": 759,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_dufu",
+  "type": "person"
+ },
+ "verdicts": []
+}

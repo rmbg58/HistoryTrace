@@ -6,7 +6,7 @@ import json
 from datetime import date
 from typing import Any
 
-from . import WEB_PUBLIC_DATA
+from . import DATA_DIR, WEB_PUBLIC_DATA
 from .loader import LoadError, load_claims, load_dynasties, load_places, load_registry
 from .verify import G_ORDER, _computed_confidence
 
@@ -62,12 +62,85 @@ def build_lineage(claims: list[dict[str, Any]], registry: dict[str, dict[str, An
     return {"entries": entries}
 
 
+def build_events(claims: list[dict[str, Any]], registry: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    """事件索引:occurred_at claims + events.json 编辑信息。"""
+    meta = {
+        e["id"]: e for e in json.loads((DATA_DIR / "events.json").read_text(encoding="utf-8"))["events"]
+    }
+    events = []
+    for claim in claims:
+        eid = claim["subject"]["id"]
+        info = meta.get(eid)
+        if info is None:
+            raise LoadError(f"occurred_at claim 引用未登记的事件: {eid}")
+        atts = [
+            {
+                "source": registry[a["source"]]["title"],
+                "locus": a["locus"],
+                "quote": a.get("quote"),
+            }
+            for a in claim["attestations"]
+        ]
+        obj = claim["object"]
+        events.append(
+            {
+                "id": eid,
+                "name": info["name"],
+                "type": info.get("type", "event"),
+                "summary": info.get("summary", ""),
+                "year": claim["period"]["earliest"],
+                "place": {"name": obj.get("name", ""), "lng": obj.get("lng"), "lat": obj.get("lat")},
+                "confidence": _effective_confidence(claim, registry),
+                "attestations": atts,
+            }
+        )
+    events.sort(key=lambda e: e["year"])
+    return events
+
+
+def build_footprints(claims: list[dict[str, Any]], registry: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    """诗人行迹:person_at claims 聚合 + 作品。"""
+    poets = json.loads((DATA_DIR / "poets.json").read_text(encoding="utf-8"))["poets"]
+    works = json.loads((DATA_DIR / "works.json").read_text(encoding="utf-8"))["works"]
+    by_poet: dict[str, list[dict[str, Any]]] = {}
+    for claim in claims:
+        by_poet.setdefault(claim["subject"]["id"], []).append(claim)
+    out = []
+    for poet in poets:
+        pid = poet["id"]
+        stops = []
+        for claim in sorted(by_poet.get(pid, []), key=lambda c: c["period"]["earliest"]):
+            obj = claim["object"]
+            stops.append(
+                {
+                    "year": claim["period"]["earliest"],
+                    "toYear": claim["period"]["latest"],
+                    "name": obj.get("name", ""),
+                    "lng": obj.get("lng"),
+                    "lat": obj.get("lat"),
+                    "event": obj.get("note", ""),
+                    "confidence": _effective_confidence(claim, registry),
+                }
+            )
+        out.append(
+            {
+                **poet,
+                "stops": stops,
+                "works": [w for w in works if w["poetId"] == pid],
+            }
+        )
+    return out
+
+
 def build(out_dir: Any = None) -> dict[str, Any]:
-    """生成 places/lineages/index 三类产物。返回统计信息。"""
+    """生成 places/lineages/events/footprints/index 产物。返回统计信息。"""
     registry = load_registry()
     places = load_places()["places"]
     dynasties = load_dynasties()
-    claims = [c for c in load_claims() if c["predicate"] == "name_in_period"]
+    all_claims = load_claims()
+    claims = [c for c in all_claims if c["predicate"] == "name_in_period"]
+    event_claims = [c for c in all_claims if c["predicate"] == "occurred_at"]
+    person_claims = [c for c in all_claims if c["predicate"] == "person_at"]
 
     out = WEB_PUBLIC_DATA if out_dir is None else out_dir
     lineages_dir = out / "lineages"
@@ -96,6 +169,17 @@ def build(out_dir: Any = None) -> dict[str, Any]:
             encoding="utf-8",
         )
 
+    events = build_events(event_claims, registry)
+    footprints = build_footprints(person_claims, registry)
+    (out / "events.json").write_text(
+        json.dumps({"events": events}, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    (out / "footprints.json").write_text(
+        json.dumps({"poets": footprints}, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
     index = {
         "generatedAt": generated_at,
         "dynasties": dynasties,
@@ -103,7 +187,13 @@ def build(out_dir: Any = None) -> dict[str, Any]:
             {"id": p["id"], "name": p["name"], "lng": p["lng"], "lat": p["lat"], "province": p.get("province", "")}
             for p in places
         ],
-        "counts": {"claims": len(claims), "places": len(places), "byConfidence": counts},
+        "counts": {
+            "claims": len(all_claims),
+            "places": len(places),
+            "events": len(events),
+            "poets": len(footprints),
+            "byConfidence": counts,
+        },
     }
     (out / "index.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8"

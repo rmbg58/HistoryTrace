@@ -7,7 +7,7 @@
   "required": ["id", "subject", "predicate", "object", "period", "attestations", "confidence", "status", "provenance"],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string", "pattern": "^clm_[a-z0-9_]+$" },
+    "id": { "type": "string", "pattern": "^(clm|evt)_[a-z0-9_]+$" },
     "subject": {
       "type": "object",
       "required": ["type", "id"],

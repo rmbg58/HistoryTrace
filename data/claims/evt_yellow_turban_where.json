@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "后汉书/皇甫嵩朱儁列传",
+   "quote": null,
+   "source": "src_houhanshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/后汉书",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "evt_yellow_turban_where",
+ "object": {
+  "lat": 37.22,
+  "lng": 114.68,
+  "name": "巨鹿"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 184,
+  "latest": 184,
+  "precision": "year"
+ },
+ "predicate": "occurred_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "evt_yellow_turban",
+  "type": "event"
+ },
+ "verdicts": []
+}

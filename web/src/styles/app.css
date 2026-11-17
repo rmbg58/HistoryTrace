@@ -432,6 +432,215 @@
     font-style: italic;
   }
 
+  /* ---- 图例 ---- */
+  .legend {
+    position: absolute;
+    left: var(--space-6);
+    bottom: var(--space-6);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    padding: var(--space-3) var(--space-4);
+    background: color-mix(in srgb, var(--paper) 88%, transparent);
+    border: var(--hairline);
+    border-radius: var(--radius);
+    font-size: 11px;
+    color: var(--ink-soft);
+    letter-spacing: 0.04em;
+  }
+
+  .legend > div {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .legend .lg-line {
+    width: 22px;
+    height: 0;
+    border-top: 2px solid var(--ink);
+  }
+
+  .legend .lg-ghost {
+    width: 22px;
+    height: 0;
+    border-top: 1.5px dashed var(--ink-faint);
+  }
+
+  .legend .lg-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--ink);
+  }
+
+  .legend .lg-cap {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--cinnabar);
+  }
+
+  /* ---- 面板 tabs ---- */
+  .panel-tabs {
+    display: flex;
+    gap: var(--space-2);
+  }
+
+  .ptab {
+    font-family: var(--font-display);
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    padding: 4px 14px;
+    border-radius: var(--radius);
+    border: 1px solid transparent;
+    color: var(--ink-faint);
+    transition: color var(--motion-fast) ease-out, border-color var(--motion-fast) ease-out;
+  }
+
+  .ptab:hover {
+    color: var(--ink-strong);
+    border-color: var(--ink-line);
+  }
+
+  .ptab.is-active {
+    color: var(--cinnabar);
+    border-color: var(--cinnabar);
+    background: var(--cinnabar-soft);
+  }
+
+  .tab-title {
+    font-family: var(--font-display);
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: var(--ink-strong);
+    padding: var(--space-2) var(--space-1) 0;
+  }
+
+  .tab-title .sub {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+  }
+
+  /* ---- 事件印章 ---- */
+  .ev-marker {
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    font-family: var(--font-display);
+    font-size: 11px;
+    color: var(--paper);
+    background: var(--cinnabar);
+    border: 1px solid var(--paper);
+    border-radius: 2px;
+    transform: rotate(-4deg);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px var(--cinnabar);
+    transition: opacity var(--motion-fast) ease-out;
+  }
+
+  .ev-marker.is-dim {
+    opacity: 0.35;
+    background: var(--ink-soft);
+    box-shadow: 0 0 0 1px var(--ink-soft);
+  }
+
+  /* ---- 诗人行迹 ---- */
+  .fp-stop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    cursor: pointer;
+  }
+
+  .fp-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 2px solid var(--paper);
+    box-shadow: 0 0 0 1px var(--ochre);
+  }
+
+  .fp-label {
+    font-family: var(--font-display);
+    font-size: 12px;
+    color: var(--ink-soft);
+    text-shadow: 0 0 3px var(--paper), 0 0 6px var(--paper);
+    white-space: nowrap;
+  }
+
+  .play-btn {
+    margin-top: var(--space-2);
+    font-size: 12px;
+    color: var(--cinnabar);
+    border: 1px solid var(--cinnabar);
+    border-radius: var(--radius);
+    padding: 4px 12px;
+    letter-spacing: 0.08em;
+  }
+
+  .play-btn:hover {
+    background: var(--cinnabar-soft);
+  }
+
+  .entry.is-future {
+    opacity: 0.4;
+  }
+
+  .works-title {
+    font-family: var(--font-display);
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    color: var(--ink-faint);
+    padding: var(--space-2) var(--space-1) 0;
+    border-top: var(--hairline);
+  }
+
+  .poem {
+    font-family: var(--font-display);
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--ink);
+    margin-top: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    background: color-mix(in srgb, var(--paper-aged) 55%, transparent);
+    border-left: 2px solid var(--ochre);
+  }
+
+  /* ---- 作品气泡 ---- */
+  .work-popup .wp-title {
+    font-family: var(--font-display);
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--cinnabar);
+    border-bottom: var(--hairline);
+    padding-bottom: var(--space-1);
+    margin-bottom: var(--space-2);
+  }
+
+  .work-popup .wp-item {
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin-bottom: var(--space-2);
+  }
+
+  .work-popup .wp-item b {
+    font-family: var(--font-display);
+    color: var(--ink-strong);
+  }
+
+  .work-popup .poem {
+    display: block;
+    margin-top: 2px;
+    font-size: 12.5px;
+  }
+
   /* ---- 加载态 ---- */
   .loading {
     position: absolute;
@@ -482,5 +691,9 @@
   .timeline {
     bottom: calc(42vh + 12px);
     padding: var(--space-2) var(--space-4);
+  }
+
+  .legend {
+    display: none;
   }
 }

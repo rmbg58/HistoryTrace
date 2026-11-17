@@ -1,0 +1,14 @@
+{
+  "events": [
+    { "id": "evt_qin_unification", "name": "秦灭六国·一统", "type": "unification", "summary": "秦王政二十六年,初并天下,称皇帝。" },
+    { "id": "evt_han_found", "name": "刘邦称帝·汉建立", "type": "founding", "summary": "刘邦即皇帝位氾水之阳,国号汉。" },
+    { "id": "evt_yellow_turban", "name": "黄巾起义", "type": "rebellion", "summary": "张角以太平道起事于巨鹿,天下响应。" },
+    { "id": "evt_an_lushan", "name": "安史之乱爆发", "type": "rebellion", "summary": "安禄山反于范阳,东都旋陷,唐由盛转衰。" },
+    { "id": "evt_chenqiao", "name": "陈桥兵变", "type": "founding", "summary": "赵匡胤黄袍加身,代周建宋。" },
+    { "id": "evt_jingkang", "name": "靖康之变", "type": "war", "summary": "金人破汴京,徽钦二帝北狩,北宋亡。" },
+    { "id": "evt_ming_found", "name": "明朝建立", "type": "founding", "summary": "朱元璋即帝位于应天府,国号大明。" },
+    { "id": "evt_zheng_he", "name": "郑和首下西洋", "type": "voyage", "summary": "郑和率宝船队自刘家港启航,通使西洋。" },
+    { "id": "evt_qing_entry", "name": "清军入关", "type": "war", "summary": "清世祖定鼎燕京,自沈阳迁都北京。" },
+    { "id": "evt_opium_war", "name": "鸦片战争爆发", "type": "war", "summary": "英舰犯广东海面,中国近代史开端。" }
+  ]
+}

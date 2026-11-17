@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "宋史/太祖纪",
+   "quote": null,
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/宋史",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "evt_chenqiao_where",
+ "object": {
+  "lat": 35.28,
+  "lng": 114.52,
+  "name": "陈桥驿(今封丘)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 960,
+  "latest": 960,
+  "precision": "year"
+ },
+ "predicate": "occurred_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "evt_chenqiao",
+  "type": "event"
+ },
+ "verdicts": []
+}

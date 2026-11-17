@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "宋史/夏国传上/沙州",
+   "quote": null,
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "殆知阁镜像/正史地理志/沙州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_dunhuang_song",
+ "object": {
+  "name": "沙州",
+  "note": "归义军节度;1036 年后西夏",
+  "role": "归义军·后西夏占"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 960,
+  "latest": 1127,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_dunhuang",
+  "type": "place"
+ },
+ "verdicts": []
+}

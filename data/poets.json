@@ -1,0 +1,10 @@
+{
+  "poets": [
+    { "id": "prs_libai", "name": "李白", "dynasty": "唐", "years": "701–762", "desc": "字太白,号青莲居士。诗风飘逸,世称诗仙。" },
+    { "id": "prs_dufu", "name": "杜甫", "dynasty": "唐", "years": "712–770", "desc": "字子美,号少陵野老。诗沉郁顿挫,世称诗圣。" },
+    { "id": "prs_wangwei", "name": "王维", "dynasty": "唐", "years": "701–761", "desc": "字摩诘。诗中有画,晚年长斋奉佛。" },
+    { "id": "prs_baijuyi", "name": "白居易", "dynasty": "唐", "years": "772–846", "desc": "字乐天,号香山居士。诗浅切平易。" },
+    { "id": "prs_sushi", "name": "苏轼", "dynasty": "宋", "years": "1037–1101", "desc": "字子瞻,号东坡居士。诗词文书画皆冠绝一时。" },
+    { "id": "prs_luyou", "name": "陆游", "dynasty": "宋", "years": "1125–1210", "desc": "字务观,号放翁。存诗九千余首,志在恢复。" }
+  ]
+}

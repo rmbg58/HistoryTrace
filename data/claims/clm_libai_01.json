@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/文苑传下/李白",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/李太白文集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_libai_01",
+ "object": {
+  "lat": 31.26,
+  "lng": 113.69,
+  "name": "安陆",
+  "note": "娶许氏,酒隐安陆十年"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 727,
+  "latest": 736,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_libai",
+  "type": "person"
+ },
+ "verdicts": []
+}

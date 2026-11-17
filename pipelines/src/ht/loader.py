@@ -62,7 +62,10 @@ def load_whitelist() -> dict[str, list[str]]:
 
 def load_claims() -> list[dict[str, Any]]:
     claims: list[dict[str, Any]] = []
-    for path in sorted((DATA_DIR / "claims").glob("clm_*.json")):
+    paths = sorted(
+        [*DATA_DIR.glob("claims/clm_*.json"), *DATA_DIR.glob("claims/evt_*.json")]
+    )
+    for path in paths:
         claim = load_json(path)
         validate_against_schema(claim, "claim", path)
         claims.append(claim)

@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "汉书/地理志/历城",
+   "quote": null,
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.8,
+   "locus": "ctp:han-shu 地理志/历城",
+   "quote": null,
+   "source": "src_hanshu_ctext"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_jinan_han",
+ "object": {
+  "name": "历城",
+  "note": "郡治东平陵(今章丘境)",
+  "role": "济南郡辖"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "plc_jinan",
+  "type": "place"
+ },
+ "verdicts": []
+}

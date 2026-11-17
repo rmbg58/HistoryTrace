@@ -46,3 +46,18 @@
 - **影响**:web/src/map/stage.ts、web/src/styles/app.css、pipelines/scripts/gen_seed.py。
 - **维护与退出**:marker 方案在城邑数 >500 或需要避让算法时迁移 symbol 层;依赖升级常规。
 - **取代**:无(细化 ADR-001/003 的实现层)。
+
+## ADR-005: M2/M3/M4 实现细节:Cliopatria 疆界、事件与行迹(2026-11-18)
+
+- **背景**:M2 需要历史疆界,M3/M4 需要事件与诗人行迹的数据建模与渲染。
+- **决策**:
+  1. **疆界数据源选 Cliopatria v0.0.1(Zenodo,CC-BY-4.0,49MB)** 而非 ArcGIS 对齐版 v1.1——后者仅覆盖至 1497(无清期);v0.0.1 有全年份(清快照取 1778)。数据缓存 `data/_downloaded/` 不入库,`ht import-cliopatria` 提取 5 朝快照(按 dynasty 中位年)输出约 1MB `boundaries.json`。精度定位为**示意参考层**:单一来源未逐条考据,web 淡彩+墨线且图例明示"示意·单源"(协议 G2 思想);政体名英→汉用展示层映射表。
+  2. **暂不引入 PMTiles**:5 朝快照按朝代切 GeoJSON source 完全够用;规模增大后迁移(OT-006)。幽灵边界 = 前一朝代快照淡虚线层。
+  3. **事件建模**:events.json(编辑索引:name/summary/type)+ 每事件一条 `occurred_at` claim(object 带 lng/lat,attestation 双源;编年体《资治通鉴》作时间优先来源)。
+  4. **诗人行迹**:person_at claims(6 诗人 35 站),置信度按 attestation 数自动定档——**考据性站点(如李杜相逢、陆游生于淮上)只有单源旁证,诚实降为 G2**,不虚报 G3。作品(works.json)20 首公有领域名作带通行系年与依据说明,系年 claim 化留 M5(OT-007)。
+  5. claims 文件名前缀放宽:事件 claims 用 `evt_*`,loader 同时读取 `clm_*` 与 `evt_*`(schema id pattern 同步放宽)。
+  6. 行迹渲染 = GeoJSON LineString 淡金虚线 + HTML 站点标记,**随时间轴渐显(year≤当前)**,播放 = 定时推进 state.year 并逐站弹作品墨笺(同屏单气泡)。
+- **备选**:自绘疆界(不可编造地理数据);CBDB 行迹(RESTRICTED,不可分发);全量 chinese-poetry 接入(227MB,暂只需名篇)。
+- **影响**:pipelines(cliopatria.py/build.py)、web(stage/panel/main)、data(schema/loader 边界)。
+- **维护与退出**:Cliopatria 许可署名已入 registry 与 boundaries.meta;版本升级重跑 import 即可。
+- **取代**:无(细化 ADR-001)。

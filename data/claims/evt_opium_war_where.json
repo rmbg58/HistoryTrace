@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "清史稿/宣宗本纪",
+   "quote": null,
+   "source": "src_qingshigao_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/清史稿",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "evt_opium_war_where",
+ "object": {
+  "lat": 22.8,
+  "lng": 113.6,
+  "name": "广东海面(虎门)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1840,
+  "latest": 1840,
+  "precision": "year"
+ },
+ "predicate": "occurred_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "evt_opium_war",
+  "type": "event"
+ },
+ "verdicts": []
+}

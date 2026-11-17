@@ -1,0 +1,12 @@
+{
+  "id": "src_cliopatria",
+  "type": "geodata",
+  "title": "Cliopatria 历史政体边界",
+  "jurisdiction": "3400 BCE–2024 CE 全球政体多边形",
+  "edition": "v0.0.1(Zenodo);对齐版 v1.1 仅至 1497,清期取 v0.0.1",
+  "tier": "C",
+  "license": "CC-BY-4.0(引用:Bennett et al. 2025, Scientific Data 12,247;DOI 10.5281/zenodo.13363121)",
+  "access": { "method": "url", "key": "zenodo.org/records/13363121(本地缓存 data/_downloaded)" },
+  "retrieved_at": "2026-11-18",
+  "note": "可分发(白名单)。产物为示意边界:单一来源未逐条考据,web 按 G2 思想视觉降级为参考层"
+}

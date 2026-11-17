@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "史记/秦始皇本纪",
+   "quote": null,
+   "source": "src_shiji_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/史记",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "evt_qin_unification_where",
+ "object": {
+  "lat": 34.3298,
+  "lng": 108.7089,
+  "name": "咸阳(今咸阳)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -221,
+  "latest": -221,
+  "precision": "year"
+ },
+ "predicate": "occurred_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "evt_qin_unification",
+  "type": "event"
+ },
+ "verdicts": []
+}

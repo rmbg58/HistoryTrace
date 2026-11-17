@@ -1,0 +1,42 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "资治通鉴/唐纪三十三",
+   "quote": null,
+   "source": "src_tongjian_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/玄宗纪",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "evt_an_lushan_where",
+ "object": {
+  "lat": 39.45,
+  "lng": 116.35,
+  "name": "范阳(今北京西南)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 755,
+  "latest": 755,
+  "precision": "year"
+ },
+ "predicate": "occurred_at",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "evt_an_lushan",
+  "type": "event"
+ },
+ "verdicts": []
+}
