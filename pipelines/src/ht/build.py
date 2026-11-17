@@ -99,7 +99,7 @@ def build_events(claims: list[dict[str, Any]], registry: dict[str, dict[str, Any
 
 
 def build_footprints(claims: list[dict[str, Any]], registry: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
-    """诗人行迹:person_at claims 聚合 + 作品。"""
+    """诗人行迹:person_at claims 聚合 + 作品(OT-007:作品→站点关联在构建期预计算)。"""
     poets = json.loads((DATA_DIR / "poets.json").read_text(encoding="utf-8"))["poets"]
     works = json.loads((DATA_DIR / "works.json").read_text(encoding="utf-8"))["works"]
     by_poet: dict[str, list[dict[str, Any]]] = {}
@@ -111,24 +111,31 @@ def build_footprints(claims: list[dict[str, Any]], registry: dict[str, dict[str,
         stops = []
         for claim in sorted(by_poet.get(pid, []), key=lambda c: c["period"]["earliest"]):
             obj = claim["object"]
-            stops.append(
-                {
-                    "year": claim["period"]["earliest"],
-                    "toYear": claim["period"]["latest"],
-                    "name": obj.get("name", ""),
-                    "lng": obj.get("lng"),
-                    "lat": obj.get("lat"),
-                    "event": obj.get("note", ""),
-                    "confidence": _effective_confidence(claim, registry),
-                }
-            )
-        out.append(
-            {
-                **poet,
-                "stops": stops,
-                "works": [w for w in works if w["poetId"] == pid],
+            stop = {
+                "year": claim["period"]["earliest"],
+                "toYear": claim["period"]["latest"],
+                "name": obj.get("name", ""),
+                "lng": obj.get("lng"),
+                "lat": obj.get("lat"),
+                "event": obj.get("note", ""),
+                "confidence": _effective_confidence(claim, registry),
             }
-        )
+            stops.append(stop)
+        poet_works = [dict(w) for w in works if w["poetId"] == pid]
+        # 构建期关联:作品挂到地理上最近的站点(written_at 同址或距离 <0.7°)
+        for w in poet_works:
+            if w.get("lng") is None or w.get("lat") is None:
+                continue
+            best, best_d = None, 0.7
+            for i, s in enumerate(stops):
+                if s["lng"] is None or s["lat"] is None:
+                    continue
+                d = max(abs(w["lng"] - s["lng"]), abs(w["lat"] - s["lat"]))
+                if d < best_d:
+                    best, best_d = i, d
+            if best is not None:
+                stops[best].setdefault("workIds", []).append(w["id"])
+        out.append({**poet, "stops": stops, "works": poet_works})
     return out
 
 

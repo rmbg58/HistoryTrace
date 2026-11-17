@@ -77,13 +77,9 @@ function resolveWorksCoords(footprints: PoetFootprint[], places: PlaceMeta[]): v
 function worksAtStop(poet: PoetFootprint, idx: number): void {
   const stop = poet.stops[idx];
   if (!stop || stop.lng === null || stop.lat === null) return;
-  const near = poet.works.filter(
-    (w) =>
-      w.lng != null &&
-      w.lat != null &&
-      Math.abs(w.lng - stop.lng!) < 0.7 &&
-      Math.abs(w.lat - stop.lat!) < 0.7,
-  );
+  // OT-007:作品→站点关联由 ht build 预计算(stop.workIds)
+  const byId = new Map(poet.works.map((w) => [w.id, w]));
+  const near = (stop.workIds ?? []).map((id) => byId.get(id)).filter((w): w is NonNullable<typeof w> => !!w);
   const html = near.length
     ? `<div class="work-popup"><div class="wp-title">${stop.name}·诗踪</div>${near
         .map(

@@ -45,6 +45,8 @@ export interface FootprintStop {
   lat: number | null;
   event: string;
   confidence: string;
+  /** OT-007:ht build 预计算的作品关联(构建期按坐标最近站点匹配) */
+  workIds?: string[];
 }
 
 export interface WorkMeta {
