@@ -3,7 +3,7 @@
   {
    "certainty": 0.8,
    "locus": "旧唐书/地理志/潭州",
-   "quote": null,
+   "quote": "『潭中縣地属林郡隋置馬平縣於縣置昆州又改為栁州也龍城隋縣置龍州領龍城栁嶺二縣廢龍州省栁嶺縣象貞觀中置洛曹舊洛封縣改洛容皆漢潭州地貞觀後析置融州下隋始安郡之義熙縣平蕭銑置融州復開皇舊名領義熙臨牂黄水安脩四縣六年改義熙為融水省安修入臨牂天寳元年改為融水郡復為融州舊領縣三户二千七百九十四口三千三百三十五天寳户一千二百三十二至京師五千二百七十里至東都四千四百七十里東至桂州四百九十一里南至栁州三十里至武零山二百里』——《舊唐書》(舊唐書 (四庫全書本)/卷041)",
    "source": "src_jiutangshu_ws"
   },
   {
@@ -33,7 +33,7 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "machine-checked",
+ "status": "cross-checked",
  "subject": {
   "id": "plc_changsha",
   "type": "place"

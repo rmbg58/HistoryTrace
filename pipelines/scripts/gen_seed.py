@@ -597,6 +597,7 @@ SEED: dict[tuple[str, str], tuple[str, str, str, list | None]] = {
     ("hami", "ming"): ("哈密卫", "关西七卫", "永乐四年 1406 置", None),
     ("shache", "han"): ("莎车", "莎车国", "", None),
     ("yinchuan", "song"): ("兴庆府", "西夏都城", "1033 年由兴州升府", None),
+    ("yinchuan", "ming"): ("宁夏镇", "九边重镇·宁夏卫", "", None),
     ("fengjie", "tang"): ("夔州", "夔州", "", None),
     ("fengjie", "song"): ("夔州", "夔州路治", "", None),
     ("fengjie", "ming"): ("夔州府", "四川布政使司辖", "", None),
@@ -714,7 +715,24 @@ def main() -> int:
                 "pipeline_runs": [],
             },
         }
-        (OUT / f"clm_{city}_{dyn}.json").write_text(
+        # 再生成时保留已回填的真实引文(backfill 成果不因种子重跑而丢失)
+        seed_path = OUT / f"clm_{city}_{dyn}.json"
+        if seed_path.exists():
+            try:
+                prev = json.loads(seed_path.read_text(encoding="utf-8"))
+                prev_quotes = {
+                    a["source"]: a["quote"]
+                    for a in prev.get("attestations", [])
+                    if a.get("quote")
+                }
+                for a in claim["attestations"]:
+                    if not a.get("quote") and a["source"] in prev_quotes:
+                        a["quote"] = prev_quotes[a["source"]]
+                if prev.get("status") == "cross-checked":
+                    claim["status"] = "cross-checked"
+            except (json.JSONDecodeError, KeyError):
+                pass
+        (OUT / f"{claim['id']}.json").write_text(
             json.dumps(claim, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8"
         )
         n += 1

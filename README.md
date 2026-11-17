@@ -46,6 +46,9 @@ uv sync                        # 安装依赖
 uv run ht verify               # R0 许可白名单 + R1 一致性校验
 uv run ht build                # claims → web/public/data 静态产物
 uv run ht report               # 数据质量报告
+uv run ht proofread --dyn han --limit 20   # L1 对校(维基文库 insource)
+uv run ht backfill --dyn han --limit 5     # 引文回填(命中页真实原文→复核队列)
+uv run ht regression            # R4 回归(cross-checked 引文重检)
 uv run ht era 贞观 14          # 年号纪年换算 → 640
 uv run pytest                  # 数据管线测试
 
@@ -56,14 +59,14 @@ pnpm dev                       # 开发预览(先跑过 ht build)
 pnpm typecheck && pnpm test && pnpm build
 ```
 
-当前进度(M1–M6 已完成):**127 个锚点城市**(含辽中京、西夏兴庆府、西域安西四镇、渤海国上京等跨政权条目)+ 10 条大史事 + **10 位诗人** 48 站行迹 + 28 首名作系年 = **638 条 claims**,全部带来源佐证与置信分级;引文回填与复核队列(docs/gov/threads/review-queue.md)已建立。交互支持:
+当前进度(M1–M7 已完成):**127 个锚点城市**(含辽中京、西夏兴庆府、西域安西四镇、渤海国上京等跨政权条目)+ 10 条大史事 + **10 位诗人** 48 站行迹 + 28 首名作系年 = **639 条 claims**;L1 对校→引文回填(10 条真实引文,cross-checked)→R4 回归(9/9 稳定)全链路已闭环,复核队列(docs/gov/threads/review-queue.md)待人工裁决升 G4。交互支持:
 
 - 朝代/年份切换:Cliopatria 疆界快照(墨线+淡彩,前朝幽灵虚线)+ 127 城古名联动
 - 点选城邑:历代名称沿革卡,展开来源佐证笺注(部分已回填真实引文,cross-checked)
 - 事件层:大史事朱印落点,当朝高亮;点看摘要与佐证
 - 诗人足迹:李白/杜甫/王维/白居易/苏轼/陆游/柳宗元/韩愈/李清照/辛弃疾,行迹随时间轴渐显,可播放;作品墨笺气泡(系年 claim 化,G2 诚实)
 
-下一阶段(M7):用户裁决复核队列升 G4、锚点 127→200+(持续考据)、R4 回归自动化、部署(OT-001)。
+下一阶段(M8):用户裁决复核队列升 G4、锚点 127→200+(持续考据)、部署上线(OT-001 方案已记录,推荐 GitHub Pages)。
 
 ---
 

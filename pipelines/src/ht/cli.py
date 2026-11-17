@@ -131,6 +131,21 @@ def backfill(dyn: str | None, limit: int, dry_run: bool) -> None:
     click.echo(f"backfill {'(dry-run) ' if dry_run else ''}OK: {done}/{len(report)} 回填")
 
 
+@main.command()
+@click.option("--limit", type=int, default=None, help="限制复检条数")
+@click.option("--json-out", type=click.Path(path_type=Path), default=None, help="结果写 JSON")
+def regression(limit: int | None, json_out: Path | None) -> None:
+    """R4 回归:全量重校 cross-checked 引文是否仍见于来源页。"""
+    from .regression import regression as run_regression
+    from .regression import render
+
+    reg = run_regression(limit=limit)
+    if json_out:
+        json_out.parent.mkdir(parents=True, exist_ok=True)
+        json_out.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    click.echo(render(reg))
+
+
 if __name__ == "__main__":
     main()
 

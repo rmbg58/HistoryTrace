@@ -35,6 +35,7 @@
 | 数据构建(→web/public/data) | `cd pipelines && uv run ht build` |
 | L1 对校(维基文库) | `cd pipelines && uv run ht proofread --dyn han --limit 20` |
 | 疆界快照提取 | `cd pipelines && uv run ht import-cliopatria` |
+| R4 回归(引文重检) | `cd pipelines && uv run ht regression` |
 | 质量报告 / 纪年换算 | `uv run ht report` / `uv run ht era 贞观 14` |
 | Python 测试 / Lint | `uv run pytest` / `uv run ruff check .`(均在 pipelines/) |
 | 前端类型检查 / 测试 / 构建 | `pnpm typecheck` / `pnpm test` / `pnpm build`(均在 web/) |
