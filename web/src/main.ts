@@ -1,6 +1,15 @@
 import "./styles/tokens.css";
 import "./styles/app.css";
 
+// 全局错误捕获(线上诊断;__errs 由页面内诊断脚本读取)
+(window as unknown as { __errs: string[] }).__errs = [];
+window.addEventListener("error", (e) => {
+  (window as unknown as { __errs: string[] }).__errs.push(`err:${e.message}`);
+});
+window.addEventListener("unhandledrejection", (e) => {
+  (window as unknown as { __errs: string[] }).__errs.push(`rej:${String(e.reason)}`);
+});
+
 import { renderPanel } from "./components/panel";
 import { renderTimeline } from "./components/timeline";
 import type { Dynasty, LineageEntry } from "./lib/lineage";
