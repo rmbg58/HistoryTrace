@@ -69,6 +69,7 @@ Updated: 2026-11-19 | Last audited commit: M12 提交 | 阶段: **已上线**(Gi
 |------|------|----------|------------------|
 | 2026-11-18 | M9:卷页直抓考据——清史稿地理志省-卷映射实测锁定(直隸53…貴州75,新疆57);gen_qing_geojuan.py 直抓 16 卷全文定位 54 候选,24 城命中录入(quote=地理志真原文);31 未命中诚实放弃(部分候选名不符清制);151 城 663 claims 全绿 | data, pipelines | M9 提交 |
 | 2026-11-18 | M8:引文搜索缺陷修复——`intitle:漢書` 子串误匹配後漢書/南明史稿/宋史紀事本末等(10 条旧引文全部作废清除);parse_search_response 加书名前缀过滤,重考后队列 8 条(含真《漢書·卷028》地理志原文 2 条:成都/毗陵);verify.yml CI 建立(push/PR 全量校验+手动 R4 regression,不含部署);OT-001 部署推荐记录待用户确认 | data, pipelines, .github | M8 提交 |
+| 2026-11-19 | **M14**:宋期 3 条顺延补齐(相州/博州/沂州,宋史卷085-086 零填充教训再证);+亳州(唐,舊唐書卷38 真源);**新诗人 5 位**(杜牧/李商隐/元稹/王昌龄/孟浩然,19 站 person_at+11 首系年),works 39 首,poets 15 位;**161 城 701 claims 全绿**(G4 371/G3 209/G2 3);双平台同步部署 | data, pipelines, web | M14 提交 |
 | 2026-11-19 | **M13 体验大版本**(反馈 1-6 全落地):现代省界参考层(DataV 35 省+省名标注)+朝代主题疆界(汉青/唐金/宋绿/明朱/清黛);全局搜索(城含历代名/诗人/史事);知识图谱径向关联图(城→朝代/史事/诗人,诗人→行迹/作品)+四 tab;播放速度循环+站点涟漪+朝代色带;masthead 朱砂印章;数据源+书格(A 级)/DataV/poetry-api 登记;双平台重新部署+线上终验截图 | web, data, docs | M13 提交 |
 | 2026-11-19 | **M12 部署闭环**:GitHub 仓库 rmbg58/HistoryTrace 建仓+push(16→17 提交);verify.yml 扩展 Pages 部署 job + R4 每周 cron;CI 三连修(断言 160/678、G4 断言、pnpm 12 onlyBuiltDependencies);**站点上线 https://rmbg58.github.io/HistoryTrace/**(160 城+疆界+事件线上验证);G4 148 条经两史互证闭环(无需 ctext) | .github, web, docs | M12 提交 |
 | 2026-11-18 | M7:无效引文回滚重考(常德府艺文志页/顺天府吴晗论文页 2 条 reject→卷页优先重回填);`ht regression` R4 回归命令(cross-checked 引文重检+regex 修复页名内嵌括号,实测 9/9 稳定);银川+明宁夏镇;gen_seed 重跑保留已回填 quote(修复覆盖冲突);OT-001 部署推荐记录 | data, pipelines, docs | M7 提交 |
