@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/延平府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/延平府",
+   "quote": "『元縣流經此又西合於西溪又東南有壽嶺廵檢司甌寧倚西有西溪源出崇安縣東會諸溪之水流入縣境又東合於東溪南入延平府界西北有營頭街廵檢司建陽府西北西北有西山東南有錦江亦曰交溪有二源合流於縣東東山下南流逹於建溪崇安府西北南有武夷山中有清溪九曲流入崇溪西北有分水嶺上有分水闗廵檢司其水西流者入江西境東流者入縣境即崇溪源俗謂之大溪經城西而南出亦謂之西溪其别源出縣東北之岑陽山亦曰東溪西南流合於西溪又南令武夷水而入建陽縣界即』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanping_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanping",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

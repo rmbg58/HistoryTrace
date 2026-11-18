@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/潮州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/潮州府",
+   "quote": "『b:KR2a0038_WYG_045-17a>司後廢興寧府東北元属循州洪武二年四月來属南有興寕江東入潮州府程鄉縣界東南有水口巡檢司治水口隘復廢復置於下岸尋遷於上岸水東又北有十三都巡檢司後遷白水砦尋復故　連平州本連平縣崇禎六年以和平縣惠化都置析長寧河源二縣及韶州府翁源縣地益之尋升為州西有銀梅水源出楊梅坪即湞水上源南有長吉里東南有忠信里有二巡檢司東北距府百八十里領縣二　河源州北舊属府崇禎六年改属州故城在西南』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chaozhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chaozhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

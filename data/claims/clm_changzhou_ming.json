@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/常州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/常州府",
+   "quote": "『檢司萬厯元年復於唐行鎮置縣即今治也北有呉淞江東有顧㑹等浦西南有澱山湖又西有安莊鎮澱山巡檢司置於此　　常州府元常州路屬江浙行省太祖丁酉年三月丁亥曰長春府己丑曰常州府萬厯末避諱曰嘗州府領縣五西北距南京三百六十里洪武二十六年編户一十五萬二千一百六十四口七十七萬五千五百一十三𢎞治四年户五萬一百三十一口二十二萬八千三百六十三萬<pb:KR2a0038_WYG_040-39a>厯六年户二十五萬四千四百六十口一百萬二』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

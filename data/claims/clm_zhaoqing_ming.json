@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/肇庆府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/肇慶府",
+   "quote": "『益之縣南有宋溪源并出靈山下流入上饒江東有了巖寨巡檢司後廢　　建昌府元建昌路属江西行省太祖壬寅年正月為肇慶府尋曰建昌府領縣五西北距布政司四百里　南城倚永樂二十二年建荆王府正統十年遷於湖廣蘄州成化二十三年建益王府西南有麻姑山東有旴江一名建昌江自南豐縣流入下流入金谿縣東有藍田北有伏牛二巡檢司又南有曽潭北有岳口二巡檢司廢又東南有杉闗<pb:KR2a0038_WYG_043-33b>接福建光澤縣界南豐府南少西元南』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhaoqing_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhaoqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

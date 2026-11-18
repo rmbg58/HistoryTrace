@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/嘉兴府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/嘉興府",
+   "quote": "『南有前溪自淳安縣流入東注於天目溪東有呉村巡檢司後廢<pb:KR2a0038_WYG_044-28b>嘉興府元嘉興路属江浙行省太祖丙午年十一月為府直隸京師十四年十一月改隸浙江領縣七西南距布政司百九十五里　嘉興府南有南湖亦曰鴛鴦湖流合運河又有長水塘西南接海寜東北接海鹽縣界又東有雙溪東出為華亭塘南直松江府之漕舟由此入運河秀水倚宣徳五年三月析嘉興縣地置西有運河北經□家湖逹南直呉江縣之運河東北有杉青閘又有王江涇二』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiaxing_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiaxing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

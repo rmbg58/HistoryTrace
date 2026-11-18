@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/蓟",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/薊",
+   "quote": "『成廣陽國髙帝燕國昭帝元鳳元年為廣陽郡宣帝本始元年更為國莽曰廣有戸二萬七百四十口七萬六百五十八○縣四　薊故燕國召公所封莽曰伐戎方城　廣陽　陰鄉莽曰陰順甾川國故齊文帝十八年别為國後并北海○劉敞曰按甾川與漢俱不見井北海時至建武年乃省<pb:KR2a0007_WYG_028-83b>甾川入北海耳戸五萬二百八十九口二十二萬七千三十一○縣三　劇義山蕤水所出北至夀光入海莽曰俞應劭曰故肥國今肥亭是東安平菟頭山女水出』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_beijing_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_beijing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汀州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷040/汀州",
+   "quote": "『廢縣名　建陽　隋廢縣垂拱四年分建安置　將樂　隋廢縣垂拱四年五月分邵武復置　沙　隋廢縣永徽六年分建安置汀州下　開元二十四年開福撫二州山洞置汀州天寳元年改為臨汀郡乾元元年復為汀州天寳領縣三戸四千六百八十口一萬三千七百二在京師東南六千一百七十三里至東都五千三百七十里長汀　州治所　龍巖　寜化　　上巳三縣竝開元二十四年開山洞置<pb:KR2a0026_WYG_040-34b>漳州　垂拱二年十二月九日置天寳元年改』——Kanripo《舊唐書》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changting_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changting",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

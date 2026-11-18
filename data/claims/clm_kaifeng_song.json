@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/开封",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/開封",
+   "quote": "『終之以燕雲以其既得而旋失故附見于後而凡四京之城闕宫室及南渡行在之所其可考者冠乎篇首為地理志云東京汴之開封也梁為東都後唐罷晉復為東京宋因周之舊為都建隆三年廣皇城東北隅命有司畫洛陽宫殿按圖修之皇居始壯麗矣雍熙三年欲廣宫城詔殿前指揮使劉延翰等經度之以居民多不欲徙遂罷<pb:KR2a0032_WYG_085-6a>宫城周迴五里南三門中曰乾元宋初依梁晉之舊名曰明徳太平興國三年改丹鳯大中祥符八年改正陽明道二年改宣』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_kaifeng_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

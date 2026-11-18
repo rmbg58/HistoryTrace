@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/寿州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/壽州",
+   "quote": "『2b>三十三南渡後府二安慶壽春州六廬蘄和濠光黄軍四安豐鎮巢懐遠六安為淮西路壽春府壽春郡緊忠正軍節度本壽州開寶中廢霍山盛唐二縣政和六年升為府八年以府之六安縣為六安軍紹興十二年升安豐為軍以六安霍邱壽春三縣來隷三十二年升壽春為府以安豐軍隷焉隆興二年軍使兼知安豐縣事乾道三年罷壽春復為安豐軍崇<pb:KR2a0032_WYG_088-13a>寧户一十二萬六千三百八十三口二十四萬六千三百八十一貢葛布石斛縣四下蔡緊』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shouxian_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shouxian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

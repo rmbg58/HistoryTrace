@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/顺天府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/順天府",
+   "quote": "『都衛與行中書省同治八年十月改都衛為北平都指揮使司九年六月改行中書省為承宣布政使司永樂元年正月建北京於順天府稱為行在二月罷北平布政使司以所領直𨽻北京行部罷北平都指揮使司以所領直𨽻北京留守行後軍督都府十九年正月改北京為京師罷北京留守<pb:KR2a0038_WYG_040-4b>行後軍都督府直𨽻後軍都督府衛所有實土者附見無實土者不載罷北京行部直𨽻六部正綂六年八月罷稱行在定為京師府八直𨽻州二屬州十七縣一百一十』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_beijing_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_beijing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

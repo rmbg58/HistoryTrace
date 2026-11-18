@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/真定",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/真定",
+   "quote": "『上之風必偃言從教而化自東井六度至亢六度謂之夀星之次鄭之分野與韓同分趙地昴畢之分壄趙分晉得趙國北有信都真定常山中山又得涿郡之髙陽鄚州鄉師古曰鄭音莫東有廣平鉅鹿清河河間又得勃海郡之東平舒中邑文安束州成平章武河以北也南至浮水繁陽内黄斥丘西有太原定襄雲中五原上黨上黨本韓之别郡也逺韓近趙後卒<pb:KR2a0007_WYG_028-100b>降趙皆趙分也自趙夙後九世稱侯四世敬侯徙都邯鄲至曾孫武靈王稱王五世為秦所』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhengding_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhengding",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

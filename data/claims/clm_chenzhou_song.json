@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/郴州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/郴州",
+   "quote": "『八萬九千三百八十七口二十四萬三千三百二十二貢葛石燕縣三零陵望祁陽中東安中雍熙元年升東安場為縣有東安砦郴州中桂陽郡軍事紹興初改隷荆湖東路二年仍來<pb:KR2a0032_WYG_088-33a>屬崇寧户三萬九千三百九十二口一十三萬八千五百九十九貢紵縣四郴緊有新塘浦溪二銀坑桂陽中唐義昌縣後唐改郴義太平興國初又改有延壽銀坑宜章中唐義章縣太平興國初改永興中舊高亭縣熙寜六年改南渡後增縣二興寧嘉定二年析郴縣資興程』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chenzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chenzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/广州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/廣州府",
+   "quote": "『厯六年戸五十三萬七百一十二口五百四萬六百五十五<pb:KR2a0038_WYG_045-11b>　　廣州府元廣州路属廣東道宣慰司洪武元年為府領州一縣十五　　南海倚西北有石門山雙女山南濵海又南有三江口三江者一曰西江上流合黔鬰桂三水自廣西梧州府流入一曰北江即湞水一曰東江即龍川水俱與西江會經番禺縣南入於南海西北有三江巡檢司本治側水村後遷村堡又有金利西南有神安又有黄鼎又有江浦四巡檢司又南有五斗口巡檢司後遷磨刀口』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_guangzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_guangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

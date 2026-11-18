@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/磁州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/磁州",
+   "quote": "『復焉太平興國七年又隸靜安軍雍熙二年廢還屬三年廢四年復置改今名束鹿望淳化中自眞定來屬安平望饒陽望武强望磁州上滏陽郡團練舊名慈政和三年改作磁崇寧戸三萬六千四百九十一口九萬六千九百二十二貢磁石縣三滏陽上熙寧六年省昭徳縣為鎭入焉邯鄲上武安上有固鎭永安黄澤海回四砦祁州中蒲隂郡團練端拱初以鎭州鼓城來屬景徳元<pb:KR2a0032_WYG_086-10b>年移治於定州蒲隂以無極隸定州熙寧六年省深澤縣為鎭入鼓城元祐』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_handan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_handan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

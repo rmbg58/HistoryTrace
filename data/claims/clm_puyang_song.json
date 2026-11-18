@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/澶州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/澶州",
+   "quote": "『6a>京畿路復置轉運使及提㸃刑獄先是改開封府界為京畿路是年又於京畿四面置四輔郡潁昌府為南輔鄭州為西輔澶州為北輔建拱州於開封襄邑縣為東輔並屬京畿大觀四年罷四輔許鄭澶州還隷京西及河北路廢拱州復以襄邑縣隷開封府政和四年襄邑縣復為拱州後與潁昌府鄭州開徳府復為東南西北輔宣和二年罷四輔潁昌府鄭州開徳府各還舊隷拱州隷京東西路舊開封府界依舊為京畿開封府崇寧户二十六萬一千一百一十七口四十四<pb:KR2a0032_WY』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_puyang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_puyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/冀州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/冀州",
+   "quote": "『　新樂州西南西南有沙河曲陽州西北元屬保定路洪武二年來屬恆山在西北恆水出焉又沙河在南自山西繁峙縣流入　冀州洪武二年以州治信都縣省入西北有漳水北有滹沱河成化十八年滹沱挾漳南注為州患正徳十二年二水自寜晉縣南北流患始息又北有洚水一名枯洚下流合於漳西北距府<pb:KR2a0038_WYG_040-13a>二百八十里領縣四　南宫州南少西故城在縣西北成化十六年遷於今治漳水在北洚水在南東南有董家廟堡巡檢司新河州西少南』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jizhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jizhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

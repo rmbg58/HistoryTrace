@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/饶州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/饒州",
+   "quote": "『上開寳末自昇州與銅陵並來隷銅陵上建德上唐至德縣吳改石埭上東流中下太平興國三年自江州來隷監一永豐鑄銅錢饒州上鄱陽郡軍事崇寧户一十八萬一千三百口三十三萬六千八百四十五貢麩金竹簟縣六鄱陽望餘干望浮梁望樂平望德興緊安仁中開寳八年以餘干縣地置安仁場端拱<pb:KR2a0032_WYG_088-18b>元年升為縣監一永平鑄銅錢信州上上饒郡軍事崇寧戸一十五萬四千三百六十四口三十三萬四千九十七貢蜜葛粉水晶器縣六上饒望』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_poyang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_poyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

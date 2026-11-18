@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/漳州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷040/漳州",
+   "quote": "『安莆田龍溪三縣置武榮州三年州廢三縣還泉州久視元年又以三縣置武榮州景雲二年改為泉州開元二十九年割龍溪屬漳州天寳元年改泉州為清溪郡乾元元年復為泉州天寳領縣四户二萬三千八百六口十六萬二<pb:KR2a0026_WYG_040-33a>百九十五在京師東南六千二百一十六里至東都五千四百一十三里晉江　開元八年分南安置今為州之治所　南安隋縣武徳五年置豐州領南安莆田二縣貞觀元年廢豐州縣屬泉州聖歴二年屬武榮州州廢來屬　』——Kanripo《舊唐書》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhangzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/戎州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷041/戎州",
+   "quote": "『<pb:KR2a0026_WYG_041-2a>州之九隴綿竹導江来屬仍改萬春為温江六年罷南寧都督更置戎州都督屬益州八年兼領南金州都督十年又督益綿簡嘉陵雅眉卭八州茂嶲二都督十七年置蜀縣龍朔二年升為大都督府仍置廣都縣咸亨二年置金堂儀鳳二縣其年又置唐昌濛陽二縣垂拱三年分雒九隴等十三縣置彭蜀二州其年又置犀浦縣聖歴三年又置東陽縣天寳元年改益州為蜀郡依舊大都督府督劍南三十八郡十五載玄宗幸蜀駐蹕成都至徳二年十月駕廻』——Kanripo《舊唐書》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yibin_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yibin",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

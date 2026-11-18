@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/江州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/江州",
+   "quote": "『南東路江南西路　荆湖南路　　　　　　荆湖北路兩浙路熙寧七年分為兩路尋合為一九年復分十年復合府二平江鎮江州十二杭越湖婺明常溫台處衢嚴秀縣七十九南渡後復分臨安平江鎮江嘉興四府<pb:KR2a0032_WYG_088-1b>安吉常嚴三州江隂一軍為西路紹興慶元瑞安三府婺台衢處四州為東路紹興三十二年戸二百二十四萬三千五百四十八口四百三十二萬七千三百二十二臨安府大都督府本杭州餘杭郡淳化五年改寧海軍節度大觀元年升為』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiujiang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiujiang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

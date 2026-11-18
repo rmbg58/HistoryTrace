@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/杭州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/杭州府",
+   "quote": "『元路屬焉太祖戊戍年十二月置中書分省治寜越府癸夘年二月移治嚴州府丙午年十二月罷分省置浙江等處行中書省治杭州府洪武三年十二月置杭州都衛與行中書省同治八年十月改都衛為浙江都指揮使司九年六月改行中書省為承宣布政使司領府十一屬州一縣七十五為里一萬零八百九十九西至開化與江南界南至平陽與福建界北至太湖與江南界東至海距南京九百里京師三千二百里洪武二十六年編户一百一十三萬八千二百<pb:KR2a0038_WYG_044-』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hangzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

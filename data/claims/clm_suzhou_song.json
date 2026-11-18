@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/平江府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/平江府",
+   "quote": "『隂望嵊望舊剡縣宣和八年改諸暨望有龍泉一銀坑餘姚望上虞望蕭山緊新昌緊乾道八年以楓橋鎮置義安縣淳熙元年改平江府望吳郡太平興國三年改平江軍節度本蘇州政和三年升為府紹興初節制許浦軍崇寧户一十五萬二千八百二十一口四十四萬八千三百一十二貢<pb:KR2a0032_WYG_088-3a>葛蛇床子白石脂花席縣六吳望長洲望崑山望常熟望吳江緊嘉定上嘉定十五年析崑山縣置以年為名鎮江府望丹陽郡鎮江軍節度開寶八年改本潤州政和三年』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_suzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_suzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/九江府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/九江府",
+   "quote": "『為縣西有盬溪水一名若耶溪南流至上高縣入於蜀江又北有蕂江下流與塩溪水合西有黄岡河北有大姑嶺二廵檢司　　九江府元江州路属江西行省太祖辛丑年為九江府領縣五南距布政司三百里　徳化倚南有廬山亦曰匡廬東南有鄱陽湖湖中有大孤山縣北濱大江亦曰潯陽江北岸為湖廣黄梅縣南岸經湖口彭澤二縣而入南直東流縣境江中有桑落洲與南直宿松縣界又西有湓浦自瑞昌縣流入經城西注於大江所謂湓口也又東南有女兒浦源出廬山東北入鄱陽湖西有城子鎮巡檢司又』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiujiang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiujiang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

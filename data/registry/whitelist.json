@@ -13,6 +13,7 @@
     "src_datav_geoatlas",
     "src_shuge",
     "src_poetry_api",
+    "src_kanripo",
     "src_own_manual"
   ],
   "restricted": ["src_chgis_v6", "src_cbdb"]

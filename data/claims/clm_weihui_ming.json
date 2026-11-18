@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/卫辉府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/衛輝府",
+   "quote": "『洪武十年五月改屬府南濵大河溴水自西北流入焉又西南有濟水舊自濟源縣流經沇河鎮南注於河後其道盡入河中　　衛輝府元屬衛輝路直隸中書省洪武元年八月為府十月河南<pb:KR2a0038_WYG_042-12a>分省領縣六東南距布政司一百六十里　汲倚𢎞治四年八月建汝王府嘉靖二十年除隆慶五年二月建潞王府北有衛河源出輝縣下流至北直静海縣入海行二千餘里又東北有淇門鎮胙城府東少南洪武十年五月省入汲縣十三年十一月復置新鄉府西』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_weihui_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_weihui",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

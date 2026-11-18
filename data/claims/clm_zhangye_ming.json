@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/甘州卫",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/甘州衛",
+   "quote": "『清源河出焉逕縣東南入渭　蘭州元屬鞏昌總帥府洪武二年九月降為縣來屬成化十三年九月復為州建文元年肅王府自甘州衛遷此南有臯蘭山北濵大河所謂金城河也湼水自西洮水阿干河俱自南先後流入焉又西南有灕水合於洮水北有金城闗下有鎮逺浮橋有河橋巡檢司西北有京玉闗南有阿干鎮闗西南有鳯林闗南距府二百十里領縣一　金州東少南元金州屬鞏昌總帥府洪武二年九月降為縣屬府成化十三年改屬州舊城在南洪武中移於今治北有大河東北流亂山中入靖虜衛界又』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhangye_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhangye",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

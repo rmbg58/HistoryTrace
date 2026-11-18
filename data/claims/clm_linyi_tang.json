@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/舊唐書/沂州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷038/沂州",
+   "quote": "『利城祝其九縣六年改新樂為祝其七年以東楚州屬<pb:KR2a0026_WYG_038-68a>揚府又以沂州來屬八年廢環州及龍沮祝其曲陽廪丘利城六縣仍以廢環州之東海來屬九年廢漣州貞觀元年罷都督府天寳元年以海州為東海郡乾元元年復為海州舊領縣四朐山東海沭陽懐仁户八千九百九十九口四萬三千六百九十三天寳户二萬八千五百四十九口十八萬四千九在京師東二千五百七十里至東都一千七百五十四里朐山　郭下漢朐縣後加山字　東海　漢』——Kanripo《舊唐書》卷038",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_linyi_tang",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_linyi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷038 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

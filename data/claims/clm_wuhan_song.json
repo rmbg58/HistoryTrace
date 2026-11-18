@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/江夏",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/江夏",
+   "quote": "『水鎮下沱市建寧次畿乾德三年升白舊巡為縣并置萬庾縣萬庾尋廢熙寜六年省建寜入石首元祐元年復南渡後省鄂州緊江夏郡武昌軍節度初為武清軍至道二年始改建炎二年兼鄂岳制置使四年兼江南鄂州路安撫<pb:KR2a0032_WYG_088-25b>尋改鄂州路安撫紹興二年改兼荆湖北路安撫六年管内安撫十一年罷嘉定十一年置沿江制置副使淳祐五年兼荆湖北路安撫使九年罷景定元年改荆湖制置使咸淳七年罷崇寜戸九萬六千七百六十九口一十四萬』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuhan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuhan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/西安府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/西安府",
+   "quote": "『處行中書省治甘州路洪武二年四月置陜<pb:KR2a0038_WYG_042-14a>西等處行中書省治西安府三年十二月置西安都衛與行中書省同治八年十月改都衛為陜西都指揮使司九年六月改行中書省為承宣布政使司領府八屬州二十一縣九十有五為里三千五百九十七東至華隂與河南山西界南至紫陽與湖廣四川界北至河套西至肅州外為邉地距南京二千四百三十里京師二千六百五十里洪武二十五年編戸二十九萬四千五百二十六口二百三十一萬六千五』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xian_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/同州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷087/同州",
+   "quote": "『平興國七年復置欒川元祐二年以欒川治為鎮崇寕三年改為縣<pb:KR2a0032_WYG_087-4a>同州望馮翊郡定國軍節度崇寕戸八萬一千一十一口二十三萬三千九百六十五貢白蒺藜生熟乾地黄縣六馮翊緊澄城緊朝邑緊郃陽上熙寕四年省夏陽縣為鎮入焉白水中韓城中元祐二年置鑄錢監監一沙苑華州望華隂郡建隆初為鎮國軍節度皇祐五年改鎮潼軍節度崇寕戸九萬四千七百五十口二十六萬九千三百八十貢茯苓細辛茯神縣五鄭上下邽望蒲城望唐奉』——Kanripo《宋史》卷087",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dali_shaan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dali_shaan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷087 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

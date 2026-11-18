@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/大同",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷087/大同",
+   "quote": "『:KR2a0032_WYG_087-31a>橋震武城浮橋政和六年賜名善治堡政和六年震武城通濟橋堡賜名大同堡本名古骨龍城應接堡政和六年賜名徳通城本瞎令古城政和七年劉法既解震武軍圍建築賜名石門堡瞎令古城北地名石門子政和七年賜名積石軍本溪哥城元符間為吐蕃溪巴温所據大觀三年臧征撲哥以城降即其地建軍東至廓州界八十里西至青海一百餘里南至蓋龍峗八十里北至西寧州界八十里懐和砦巳見西寧州東至廓州界八十五里西至青海一百三』——Kanripo《宋史》卷087",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_datong_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_datong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷087 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/上邽",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/上邽",
+   "quote": "『王以下無都西鄭之事瓚説非也會音工外反湖有周天子祠二所故曰胡武帝建元年更名湖下邽應劭曰秦武公伐邽戎置有上邽故加下師古曰邽音圭取邽戎之人而來為<pb:KR2a0007_WYG_028-16a>此縣南陵文帝七年置沂水出藍田谷北至覇陵入霸水霸水亦出藍田谷北入渭師古曰兹水秦穆公更名以章霸功視子孫沂音先厯反視讀曰示○宋祁曰沂越本作泝章淳化本作革奉眀宣帝置也霸陵故芷陽文帝更名莽曰水章也杜陵故杜伯國宣帝更名有周右將軍』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_tianshui_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

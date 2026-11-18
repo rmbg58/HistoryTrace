@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/代州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/代州",
+   "quote": "『川中沁水中下關一雄定舊天井關<pb:KR2a0032_WYG_086-15a>屬晉城縣靖康元年改今名代州上鴈門郡防禦景徳二年廢唐林縣舊置沿邊安撫司崇寧戸三萬三千二百五十八口一十五萬九千八百五十七貢麝香青碌縣四鴈門中下有西陘胡谷鴈門三砦崞中下有樓板陽武石峽土墱四砦五臺中下繁畤下有繁畤茹越大石義興治寶興軍瓶形梅回麻谷八砦忻州下定襄郡團練崇寧戸一萬八千一百八十六口四萬二千二百三十二貢解玉砂麝縣二秀容緊熙寧五』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_daixian_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_daixian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/永州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷038/永州",
+   "quote": "『蟠交二縣七年改總管為都督府貞觀元年廢都督府及合川縣仍割林州之華池縣來屬二年置樂原縣四年復置都督府及北永州以洛原屬北永州五年又罷都督府以慶州隷原州都督府八年又以廢永州之洛原縣來屬開<pb:KR2a0026_WYG_038-27a>元四年復置都督府二十六年昇為中都督府天寳元年改為安化郡至德元年改為順化郡乾元元年改為慶州舊領縣八户七千九百一十七口三萬五千一十九天寳領縣十户二萬三千九百四十九口一十二萬四千三百』——Kanripo《舊唐書》卷038",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yongzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷038 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

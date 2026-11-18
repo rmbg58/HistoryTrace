@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/太原府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/太原府",
+   "quote": "『麟府豐軍八慶祚威勝平定岢嵐寧化火山<pb:KR2a0032_WYG_086-13a>保徳晉寧縣八十一太原府太原郡河東節度太平興國四年平劉繼元降為緊州軍事毁其城移治於榆次縣又廢太原縣以平定樂平二縣屬平定軍交城屬大通監七年移治唐明監舊領河東路經畧安撫使元豐為次府大觀元年升大都督府崇寧戸一十五萬五千二百六十三口一百二十四萬一千七百六十八貢大銅鑑甘草人參礜石縣十陽曲次赤有百井陽興二砦太谷次畿榆次次畿壽陽次畿盂次』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taiyuan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

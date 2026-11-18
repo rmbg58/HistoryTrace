@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/陈仓",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/陳倉",
+   "quote": "『曰瓚説是也此栒讀與荀同自别邑耳非伐晉者隃麋有黄帝子祠莽曰扶亭師古曰隃音踰○宋祁曰南本黄帝下無子字下同陳倉有上公眀星黄帝孫舜妻盲冡祠有羽陽官秦武王起也杜陽杜水南入渭莽曰通杜師古曰大雅綿之詩曰人之初生自土<pb:KR2a0007_WYG_028-18b>漆沮齊詩作自杜言公劉避狄而來居杜與漆沮之地○宋祁曰詩作當作詩曰汧吴山在西古文以為汧山雍州山北有蒲谷鄉弦中谷雍州弦蒲藪汧水出西北入渭芮水出西北東入涇詩芮&K』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_baoji_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_baoji",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

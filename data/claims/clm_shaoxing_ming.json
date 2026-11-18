@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/绍兴府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/紹興府",
+   "quote": "『州南有天目山有天目山巡檢司又西南為金石山即天目最高處又南有苕溪出天目山此為苕溪之别源又西有松杭巡檢司紹興府元紹興路属浙東道宣慰司太祖丙午年十二月為府領縣八西北距布政司百三十八里　山陰倚南有會稽山其支山為雲門山又有法華山西南有蘭亭山西北有塗山北濵海有三江口三江者一曰浙江一曰錢清江即浦陽江下流<pb:KR2a0038_WYG_044-31a>其上源自浦江縣流入至縣西錢清鎮曰錢清江一曰曹娥江即郯溪下流其上源自』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shaoxing_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shaoxing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

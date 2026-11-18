@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/莒",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/莒",
+   "quote": "『不考詰也二百里皆同○劉敞曰予謂唐虞九州州方千里通三千里也要荒乃在九州外矣夷者言稍以夷禮通之於春秋譬杞莒也蔡讀如蔡蔡叔之蔡蠻者兼言蠻俗矣於春秋譬楚越也流讀如流共工之流此兩者之分夷近而蠻逺蔡輕而流重王制曰千里之外曰采曰流采亦當作蔡聲之誤耳東漸于海西被于流沙朔南洎聲教訖于四海師古曰漸入也被加也朔北方也訖盡也言東入于海西加流沙北方南方皆及聲教盡於四海也一曰漸浸洎及也○宋祁曰洎疑作&KR0034;註同禹錫𤣥圭』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_juxian_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_juxian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

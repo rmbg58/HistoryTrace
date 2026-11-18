@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/成都府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/成都府",
+   "quote": "『户二十五萬三千八百三口二百五十九萬八千四百六十萬厯六年户二十六萬二千六百九十四口三百一十萬二千七十三成都府元成都路洪武四年為府領州六縣二十五　成都倚洪武十一年建蜀玉府華陽倚北有武檐山又有外江自灌縣分流經城北遶城而南一名清逺江又有内江亦自灌縣分流經城南遶城而東亦名石犀渠合流南注於大江此府城之内外江也東有寜州衞洪武十一年四月置東南有馬軍寨巡檢司雙流府西南洪武十年五月省入華陽縣十三年十一月後置<pb:KR2a』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chengdu_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chengdu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

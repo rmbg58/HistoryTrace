@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/颍州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/潁州",
+   "quote": "『潁水亦名沙河北有西肥水又有洪山北原和二巡檢司亳州元屬歸徳府洪武初以州治譙縣省入尋降為縣屬歸徳州六年屬潁州<pb:KR2a0038_WYG_040-33a>𢎞治九年十月復升為州西有渦河自河南鹿邑縣流入北有馬尚河流合焉南有西肥水即夏肥水也又東南有城父縣洪武中廢又有義門巡檢司東南距府四百五十里　　淮安府元淮安路屬淮東道宣慰司太祖丙午年四月為府領州二縣九西南距南京五百里洪武二十六年編户八萬六百八十九口六十三萬』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fuyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fuyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

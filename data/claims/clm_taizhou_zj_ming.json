@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/台州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/台州府",
+   "quote": "『山尋遷縣東南西有爵溪巡檢司遷治姜嶼渡南有石浦巡檢司遷治青山頭又東有趙□巡檢司自寜海縣遷此俱仍故名　　台州府元台州路属浙東道宣慰司洪武初為府領縣六西北距布政司四百四十里　臨海倚西南有括蒼山一名真隠山又東南有海門山有金鰲山皆濵海南有澄江一名靈江流合天台仙居諸山之水至黄巖縣入海又大海在東中有芙蓉山高麗頭山<pb:KR2a0038_WYG_044-34a>又有杜瀆塩場又海門衛亦在縣東洪武二十年二月置其北為前千户』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taizhou_zj_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taizhou_zj",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

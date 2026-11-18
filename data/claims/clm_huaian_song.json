@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/楚州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/楚州",
+   "quote": "『元年復高郵軍舊領淮南東路兵馬鈐轄建炎元年升帥府二年高宗駐蹕四年為真揚鎮撫使尋罷嘉定中淮東制置開幕府於楚州仍兼安撫<pb:KR2a0032_WYG_088-7b>崇寜戸五萬六千四百八十五口十萬七千五百七十九貢白紵布莞席銅鏡縣二江都緊熙寜五年省廣陵縣入焉南渡後增縣二廣陵緊泰興中舊隷泰州紹興五年來屬十年又屬泰州十二年又來隷以柴墟鎮延冷村隷海陵二十九年盡仍舊亳州望譙郡本防禦大中祥符七年建為集慶軍節度南渡後没于』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huaian_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huaian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

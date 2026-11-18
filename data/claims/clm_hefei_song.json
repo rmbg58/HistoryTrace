@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/庐州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/廬州",
+   "quote": "『府乾道三年為倚郭六安軍政和八年升縣為軍紹興十三年廢為縣景定五年復為軍端平元年又為縣後復為軍縣一六安中廬州望保信軍節度大觀二年升為望舊領淮南西路兵馬鈐轄建炎二年兼本路安撫使紹興初寄治巢縣乾道二年置司于和州五年復舊崇寧戸八萬三千五十六口一十七萬八千三百五十九貢紗絹蠟石斛縣<pb:KR2a0032_WYG_088-13b>三合肥上舒城下梁中本慎縣紹興三十二年避孝宗諱改今名蘄州望蘄春郡防禦建炎初為盜所據紹興五』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hefei_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hefei",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

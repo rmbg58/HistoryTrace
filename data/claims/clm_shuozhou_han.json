@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/马邑",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/馬邑",
+   "quote": "『陶孟康曰音注○宋祁曰□景夲作汪音枉劇陽莽曰善陽崞莽曰崞張孟康曰音郭平城東部都尉治莽曰平順埒莽曰填狄亭馬邑莽曰章昭師古曰晉太康地記云秦時建此城輒崩不成有馬周旋馳走反覆父老異之因依以築城遂名為馬邑彊陰諸聞澤在東北莽曰伏隂代郡秦置莽曰厭狄有五原關常山關屬幽州應劭曰故代國户五萬六千七百七<pb:KR2a0007_WYG_028-74b>十一口二十七萬八千七百五十四○縣十八　桑乾莽曰安徳孟康曰乾音干道人莽曰道仁』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shuozhou_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shuozhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

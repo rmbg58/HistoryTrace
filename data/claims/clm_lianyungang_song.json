@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/海州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/海州",
+   "quote": "『紹興元年隷漣水三年又來屬淮隂中紹興五年廢為鎮六年復嘉定七年徙治八里莊寶應緊寳慶三年升為寳應州而縣如故海州上東海郡團練建炎間入于金紹興七年復隆興初割以畀金隷山東路以漣水縣來屬嘉定十二年復寶慶末李全據之紹定四年全死又復端平二年徙治東海縣淳祐十二年全子璮又據之治朐山景定二年璮降置西海州崇寧戸五萬四千八百三十口九萬九千七百五十貢絹獐皮鹿皮縣四朐山緊懐仁中沭陽中東海中<pb:KR2a0032_WYG_088-9』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lianyungang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

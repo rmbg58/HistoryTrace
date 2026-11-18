@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/邓州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/鄧州",
+   "quote": "『魯山縣界有鴉路鎮巡<pb:KR2a0038_WYG_042-10b>檢司成化十二年十二月移於窪石口　鄧州元治穰縣洪武二年二月縣廢十三年十一月復置縣十四年五月復省入州南有析隈山西北有白崖山北有湍水又東有湼水亦名趙河自北來入焉東北距府百二十里領縣三　内鄉州北少西東有熊耳山湍水所出西南有淅水又有丹水又北有菊潭東北有金斗山巡檢司後廢又西北有西硤口闗巡檢司又西南有黨子口闗又西有武闗路出陜西商州新野州東南西有清水』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dengzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dengzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

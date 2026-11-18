@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/寿州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/壽州",
+   "quote": "『武功州西南西南有太白山又有武功山東南有惇物山南有渭水又西有漢谷水又有武亭水自縣東北流合焉俱滙於湋水永壽州北東有涇水西南有錦川河下流為漢谷水有土副巡檢司又有穆陵闗　邠州元直𨽻陜西行省洪武中來屬以州治新平縣省入北有涇水西南有白土州亦名漆水東南注於渭水與入洛之漆異東南距府三百五十里領縣三　淳化州東南有黄嶔山西<pb:KR2a0038_WYG_042-17b>有涇水東有清水南流入耀州界三水州東北成化十三年九月』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shouxian_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shouxian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

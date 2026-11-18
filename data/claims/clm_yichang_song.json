@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/峡州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/峽州",
+   "quote": "『江陵府次府江陵郡荆南節度舊領荆湖北路兵馬鈐轄兼提舉本路及施夔州兵馬巡檢事建炎二年升帥府四年置荆南府歸峽州荆門公安軍鎮撫使紹興五年罷始制安撫使兼營田使六年為經略安撫使七年罷經略止除安撫使淳熙元年還為荆南府未幾復為江陵府制置使景定元年移治于鄂咸淳十年荆湖四<pb:KR2a0032_WYG_088-25a>川宣撫使兼江陵府事崇寧戸八萬五千八百一口二十二萬三千二百八十四貢綾紵碧澗茶芽柑橘縣八江陵次赤公安次畿潛』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yichang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yichang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

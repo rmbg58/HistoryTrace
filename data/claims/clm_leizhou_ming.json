@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/雷州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/雷州府",
+   "quote": "『北之地聚村又遷於芷□口石城州西元属化州路洪武九年四月属髙州府十四年五月改属州南濱海西有零縁巡檢司　　雷州府元雷州路属海北海南道宣慰司洪武元年為府領縣三東距<pb:KR2a0038_WYG_045-20a>布政司千四百五十里　海康倚東濱海南有擎雷水自擎雷山南流東入於海西有海康守禦千戸所洪武二十七年十月置西南有清道東南有黒石二巡檢司遂溪府北東西濱海西南有樂民守禦千戸所洪武二十七年十月置西北有湛川巡檢司治故湛』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_leizhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_leizhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

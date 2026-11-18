@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汉中府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/漢中府",
+   "quote": "『水出焉西有弦蒲藪汭水出焉下流合於涇水南有渭水西南有方山原又南有隴安西南有香泉二巡檢司東南距府百八十里漢中府元興元路屬陜西行省洪武三年五月為府六月改名漢中府領州二縣十四東北距布政司九百六十里　南鄭倚萬厯二十九年十月建瑞王府西南有巴嶺山南連孤雲兩角米倉諸山達四川之巴州南濵漢水南曰沔水源自嶓冢經縣界下流至湖廣漢陽府入大江又有沮水漢水别源也又西北有褒水俱流入漢水南有清石闗巡檢司褒城府西北洪武十年六月省入南鄭縣後』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hanzhong_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hanzhong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

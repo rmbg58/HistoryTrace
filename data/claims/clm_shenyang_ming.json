@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/沈阳中卫",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/瀋陽中衛",
+   "quote": "『連山驛至杏山驛西有沙河中右千戸所轄東闗驛至曹莊驛俱宣徳五年正月置又南有鹽鐵二場東距都司七百七十里　　瀋陽中衛元瀋陽路洪武初廢三十一年閠五月置衛洪武二十四年建瀋王府永樂六年遷於山西潞州東有東牟山南有渾河又東有瀋水入焉又西有遼河又東北有撫順千户所洪武二十一年置所東有撫順闗又北有蒲河千户所亦洪武二十一年置南距都司百二十里<pb:KR2a0038_WYG_041-17b>　　瀋陽左衛　瀋陽右衛　俱洪武初置建文初廢』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shenyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shenyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/清陽",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/清陽",
+   "quote": "『萬一千七百七十四口八<pb:KR2a0007_WYG_028-37a>十七萬五千四百二十二○縣十四　清陽王都東武城　繹幕應劭曰繹音亦師古曰本音弋尺反靈河水别出為鳴犢河東北至蓨入屯氏河莽曰播師古曰蓨音條其下亦同厝莽曰厝治應劭曰安帝以孝徳皇后葬于厝改曰甘陵也師古曰音趨亦反鄃莽曰善陸師古曰音輸貝丘都尉治應劭曰左氏傳齊襄公田于貝丘是信成張甲河首受屯氏别河東北至蓨入漳水&KR2007;題師古曰&KR2007;古』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qinghe_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qinghe",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

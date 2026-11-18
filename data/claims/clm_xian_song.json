@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/京兆府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷087/京兆府",
+   "quote": "『啇寧坊丹環軍一保安縣八十三其後延州慶州改為府又增銀州醴州及定邊綏徳清平慶成四軍凡府四州十五軍五縣九十京兆府京兆郡永興軍節度夲次府大觀元年升大都督府舊領永興軍路安撫使宣和二年詔永興軍守臣等銜不用軍額稱京兆府崇寧戸二十三萬四千六百九十九口五十三萬七千二百八十八貢鞾氊蠟席酸棗仁地骨皮縣十三長安次赤樊川次赤舊萬年縣宣和七年改鄠次畿藍田次畿咸陽次畿涇陽次畿櫟陽次畿高陽次畿興平次畿臨潼次畿<pb:KR2a0032_』——Kanripo《宋史》卷087",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xian_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷087 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

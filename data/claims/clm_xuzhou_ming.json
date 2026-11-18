@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/徐州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/徐州",
+   "quote": "『灣鎮羊寨鄉三巡檢司清河府西縣治濱黄河崇禛未遷治縣東南之甘羅城南有淮河東北與黄河合謂之清口舊謂之泗口自徐州至此皆泗水故道為黄河所奪者也南有洪澤湖有洪澤巡檢司又東有馬頭鎮巡檢司鹽城府東南東濱海有鹽埸北有射陽湖西有清溝西北有喻口鎮二巡檢司安東府東北元安東州洪武二年正月降為縣東北朐山在南東北有鬰洲山在海中洪武初置東海巡檢司於此後移於州南之新壩西南有漣河又有尋墟湖濱海南有淮水東北過雲梯闗折旋入於海自清口至此皆淮』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xuzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

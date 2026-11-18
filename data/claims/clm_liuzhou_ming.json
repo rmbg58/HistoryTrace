@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/柳州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/柳州府",
+   "quote": "『富椽鎮三土巡檢司東距府百五十里領縣二　永福州東南舊属府隆慶五年三月改属州西南有太和山太和江環其下東入柳州府為雒清江又西南有理定縣元属静江舊路正統五年九月省又有蘭麻鎮東北有銅鼓市二巡檢司廢義寧州東北舊属府隆慶五年三月改属州北有丁嶺義江出焉下流分為二東流者為臨桂縣之相思水入於灕江南流者為永福縣之白石水即太和江也西北有桑江口巡檢司<pb:KR2a0038_WYG_045-25b>　　平樂府元大徳五年十一月置洪』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_liuzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_liuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

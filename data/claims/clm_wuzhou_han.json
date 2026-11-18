@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/广信",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/廣信",
+   "quote": "『九十二口十三萬九千三百七十八○縣十　零陵陽海山湘水所出北至酃入江過郡二行二千五百三十里又有離水東南至廣信入欝林行九百八十里營道九疑山在南莽曰九疑亭始安　夫夷　營浦　都梁侯國路山資水所出東北至益陽入沅過郡二行千八百里泠道莽曰泠陵應劭曰泠水出丹陽宛陵西北入江臣瓚曰宛陵在豫章北界相去三千里又隔諸水不得從下逆至泠道而復入江也師古曰瓚説是泠音零泉陵侯國莽曰溥閏洮陽莽曰洮治如淳曰洮音韜鍾武莽曰鍾桓應劭曰今重安<p』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuzhou_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/凤翔府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷087/鳳翔府",
+   "quote": "『YG_087-1b>陜府啇觧同華耀虢鄜延丹坊環慶邠寧州為永興軍等路轉運使於永興軍提㸃刑獄於河中府置司鳳翔府秦階隴鳳成涇原渭熈河洮岷州鎮戎徳順通遠軍為秦鳳等路轉運使於秦州提㸃刑獄於鳳翔府置司仍以永興鄜延環慶秦鳳涇原熈河分六路各置經略安撫司永興軍路府二京兆河中州十五陜延同華耀邠鄜觧<pb:KR2a0032_WYG_087-2a>慶虢啇寧坊丹環軍一保安縣八十三其後延州慶州改為府又增銀州醴州及定邊綏徳清平慶成四』——Kanripo《宋史》卷087",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fengxiang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fengxiang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷087 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

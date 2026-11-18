@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/秦州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/秦州",
+   "quote": "『水東北流合於三交川静寧州元屬鞏昌總帥府洪武中來屬南有隴山北有横山即隴山支阜南有水洛川一名石門水下流至秦州入略陽川又西有苦水河即髙平川之上源東距府二百三十里領縣一　莊浪州東南元莊浪州直隸陜西行省洪武三年屬鳯翔府八年三月降為縣來屬西有苦水川　固原州本固原守禦千戸所景泰三年以故原州城置成化四年升為衛𢎞治十五年置州屬府西南有六盤山上有六盤闗東北有清水河出焉下流合鎮原縣之葫蘆河又北有黒水北流入於大河又東西有二朝』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_tianshui_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_tianshui",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

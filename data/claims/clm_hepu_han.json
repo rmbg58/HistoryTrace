@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/合浦",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/合浦",
+   "quote": "『曰麊音彌孟康曰音螟蛉師古曰音麋零曲昜師古曰昜古陽字北帶稽徐師古曰稽音古奚反西于　龍編師古曰編音鞭朱䳒合浦郡武帝元鼎六年開莽曰桓合屬交州戸萬五千三百九十八口七萬八千九百八十○縣五　徐聞　高涼　合浦有關莽曰<pb:KR2a0007_WYG_028-80a>桓亭臨允牢水北入高要入鬱過郡三行五百三十里莽曰大允朱盧都尉治九眞郡武帝元鼎六年開有小水五十二并行八千五百六十里戸三萬五千七百四十三口十六萬六千一十三有界』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hepu_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hepu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

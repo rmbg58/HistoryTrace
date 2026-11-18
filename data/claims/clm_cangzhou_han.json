@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/浮陽",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/浮陽",
+   "quote": "『帝置莽曰迎河屬幽州師古曰在勃海之濱因以為名戸二十五萬六千三百七十七口九十萬五千一百一十九○縣二十六　浮陽莽曰浮城陽信　東光有胡蘇亭阜城莽曰吾城○宋祁曰阜城南本作阜成千童應劭曰靈帝改曰饒安○宋祁曰千當作平重合　南皮莽曰迎河亭師古曰闞駰云章武有北皮亭故此云南定侯國章武有鹽官莽曰桓章中邑莽曰檢隂高成都尉治也高樂莽曰為鄉參戸侯國成平虖池河民曰徒駭河莽曰澤亭桞侯國臨樂侯國莽曰樂亭東平舒師古曰代郡有平舒故此加東重』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_cangzhou_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_cangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

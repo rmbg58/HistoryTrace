@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/海州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/海州",
+   "quote": "『未移於縣西之白洋河鎮沭陽府北元屬海寧州洪武初改屬東南有沭水自山東郯城縣流入其下流為漣水又北有桑墟湖　海州元曰海寧州洪武初復曰海州以州治朐山縣省入北有于公白溝等浦皆産鹽南有恵澤西北有高橋二巡檢司南距府二百七十里領縣一　贑榆州北西北有羽山東濱海東北有获水鎮南有臨洪鎮二巡檢司　邳州元屬歸徳府洪武初以州治下邳縣省入四年二月改屬中都十五年來屬北有艾山接山東沂水縣界西有沂水自沂州西流至下邳入泗又西北有泇河萬厯三十』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lianyungang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lianyungang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

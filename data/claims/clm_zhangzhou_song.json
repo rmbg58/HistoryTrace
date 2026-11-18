@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/漳州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷090/漳州",
+   "quote": "『上太平興國四年自建州來隷有石牌安福二銀塲順昌上南唐升永順塲為縣沙中有龍泉銀塲尤溪上有尤溪寳應等九銀塲漳州下漳浦郡軍事崇寧戸一十萬四百六十九貢甲<pb:KR2a0032_WYG_090-3a>香鮫魚皮縣四龍溪望有吳慣沐犢中栅三鹽塲漳浦望有黄敦鹽塲龍巖望有大濟寳興二銀塲長泰望太平興國五年自泉州來隷汀州下臨汀郡軍事淳化五年以上杭武平二塲並為縣元符元年析長汀寧化置清流縣崇寧戸八萬一千四百五十四貢蠟燭縣五長汀望』——Kanripo《宋史》卷090",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhangzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷090 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/秀州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/秀州",
+   "quote": "『渡改今名桐廬上太平興國二年自杭州來隷分水中遂安中壽昌中監一神泉熙寜七年置鑄銅錢尋罷慶元三年復嘉興府本秀州軍事政和七年賜郡名曰嘉禾慶元元年以孝宗所生之地升府嘉定元年升嘉興軍節度崇寜戸一十二萬二千八百一十三口二十二萬八千六百七十六貢綾縣四嘉興望華亭緊海鹽上有鹽監沙腰蘆瀝二鹽<pb:KR2a0032_WYG_088-6b>塲崇德中兩浙路蓋禹貢揚州之域當南斗須女之分東西際海西控震澤北又濵于海有魚鹽布帛秔稻之產』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiaxing_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiaxing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

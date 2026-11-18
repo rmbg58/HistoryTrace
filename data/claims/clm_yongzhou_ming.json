@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/永州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/永州府",
+   "quote": "『後廢嘉禾州西南崇禎十二年以桂揚州之倉禾堡置析臨武縣地益之東南有巋水自藍山縣流入北經石門山又東北入州界永州府元永州路属湖南道宣慰司洪武元年為府領州一縣七東北距布政司千八百二十里　零陵倚北有湘水經城西瀟水自南來合焉謂之湘水有湘口闗又南有永水源出縣西南之永山北流入於湘水北有黄楊堡巡檢司木商溪市隆慶元年徙治更名祁陽府東北舊治在縣西景泰元年十二月徙於今治北有祁山上有黄羆鎮西北冇四望山西有湘水又城北有祁水源出卲陽縣』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yongzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

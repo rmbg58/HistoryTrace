@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/潞州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/潞州",
+   "quote": "『大都督府上黨郡昭義軍節度太平興國初改昭徳舊領河東路兵馬鈐轄兼提舉澤晉綘州威勝軍屯駐泊本城兵馬廵檢事本潞州建中靖國元年改為軍崇寧三年升為府仍還昭徳舊節崇寧戸五萬二千九百九十七口一十三萬三千一百四十六貢人參蜜墨縣八上黨望屯留上襄垣上潞城上壺關中長子中<pb:KR2a0032_WYG_086-14a>渉中黎城中天聖三年徙治渉之東南白馬驛熙寧五年省入潞城縣元祐元年復平陽府望平陽郡建雄軍節度本晉州政和六年升為府』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changzhi_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changzhi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

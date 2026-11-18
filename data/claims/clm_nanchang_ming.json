@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/南昌府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/南昌府",
+   "quote": "『年户一百三十四萬一千五百口五百八十五萬千二十六<pb:KR2a0038_WYG_043-28b>　　南昌府元龍興路属江西行省太祖壬寅年正月為洪都府癸夘年八月改南昌府領州一縣七　南昌倚洪武十一年建豫王府二十五年改為代王遷山西大同永樂初寜王府自大寜衛選此正徳十四年除故城在東今城明太祖壬寅年改築東湖在城東南隅西有贛江自豐城縣流入東北入鄱陽湖出湖口縣入大江亦田章江又東南有武陽水上源自南豐縣旴江北流經此又東北入宮』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanchang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanchang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

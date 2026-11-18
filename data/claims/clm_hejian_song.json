@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/瀛州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/瀛州",
+   "quote": "『安軍舊名關南太平興國元年改名高陽關慶歴八年始置高陽關路安撫使統瀛莫雄貝冀滄永靜保定乾寧信安一十州軍本瀛州防禦大觀二年升為府賜軍額崇寧戸一萬一千九百三十口六萬二百六貢絹縣三河間望雍熙中卽縣治置平虜砦景徳二年改為肅寧城樂壽望至道三年自深州來隸熙寧<pb:KR2a0032_WYG_086-3b>六年省景城為鎭入焉束城上熙寧六年省為鎭入河間元祐元年復博州上博平郡防禦淳化三年河決移治於孝武渡西崇寧戸四萬六千四百』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hejian_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hejian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

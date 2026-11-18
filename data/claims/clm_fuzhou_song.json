@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/福州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷090/福州",
+   "quote": "『軍二邵武興化縣四十七南渡後升建州為府紹興三十二年戸一百三十九萬五百六十五口二百八十二萬八千八百五十二福州大都督府長樂郡威武軍節度舊領福建路鈐轄<pb:KR2a0032_WYG_090-1b>建炎三年升帥府崇寧戸二十一萬一千五百五十二貢荔枝鹿角菜紫菜元豐貢紅花蕉布縣十二閩望侯官望福清望古田望唐縣有寳興銀塲古田金坑永福望有黄洋保德二銀塲長溪望有王林銀塲及鹽塲長樂緊有海壇山鹽塲羅源中舊永貞縣閩清中寧德中王審』——Kanripo《宋史》卷090",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fuzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷090 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

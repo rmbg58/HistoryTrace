@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/海陵",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/海陵",
+   "quote": "『西平莽曰永聚高平侯國莽曰成丘開陵侯國莽曰成鄉昌陽侯國廣平侯國莽曰平寧蘭陽侯國莽曰建節襄平侯國莽曰相平海陵有江海會祠莽曰亭間輿莽曰羙徳堂邑有鐡官樂陵侯國會稽郡秦置高帝六年為荆國十二年更名吴景帝四年屬江都屬揚州○劉敞曰景帝四年封江都王并得鄣郡而不得吴名曰江都然則會稽不得云屬江都戸二十二萬三千三十<pb:KR2a0007_WYG_028-46a>八口百三萬二千六百四○縣二十六　吴故國周大伯所邑具區澤在西揚州』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taizhou_js_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taizhou_js",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

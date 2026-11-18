@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/野王",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/野王",
+   "quote": "『姦盜<pb:KR2a0007_WYG_028-108a>衞地營室東壁之分壄也今之東郡及魏郡黎陽河内之野王朝歌皆衞分也衞本國既為狄所滅師古曰衞懿公為狄人所滅事在春秋閔公二年文公徙楚丘三十餘年子成公徙於帝丘故春秋經曰衛&KR1971;于帝丘師古曰&KR1971;古遷字今之濮陽是也本顓頊之虚故謂之帝丘夏后之世昆吾氏居之成公後十餘世為韓魏所侵盡亡其旁邑獨有濮陽後秦滅濮陽置東郡徙之於野王始皇既并天下猶獨置衞君二』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qinyang_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qinyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

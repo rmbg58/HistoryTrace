@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/南剑州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷090/南劍州",
+   "quote": "『閩<pb:KR2a0032_WYG_090-2b>桃源縣有倚洋一鐵塲安溪下有青陽鐵塲德化下有赤水鐵塲南劍州上劍浦郡軍事太平興國四年加南字崇寧戸一十一萬九千五百六十一貢土茴香元豐貢茶縣五劍浦緊舊龍津縣南唐改有大演石城二銀塲雷大等五茶焙將樂上太平興國四年自建州來隷有石牌安福二銀塲順昌上南唐升永順塲為縣沙中有龍泉銀塲尤溪上有尤溪寳應等九銀塲漳州下漳浦郡軍事崇寧戸一十萬四百六十九貢甲<pb:KR2a0032_W』——Kanripo《宋史》卷090",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanping_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanping",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷090 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

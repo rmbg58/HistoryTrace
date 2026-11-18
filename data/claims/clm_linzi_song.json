@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/临淄",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/臨淄",
+   "quote": "『安撫使崇寧戸九萬五千一百五十八口一十六萬二千八百三十七貢仙紋綾梨棗縣六益都望夀光望臨朐緊博興上千乘上臨淄上<pb:KR2a0032_WYG_085-18a>密州上本防禦州建隆元年復為防禦開寳五年升為安化軍後降防禦六年復為節度崇寧户一十四萬四千五百六十七口三十二萬七千三百四十貢絹牛黄縣五諸城望安丘望唐輔郡梁改安丘晉膠西縣開寳四年復今名莒望髙密上膠西元祐三年以板橋鎮為膠西縣兼臨海軍使濟南府上濟南郡興徳軍節』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_linzi_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_linzi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

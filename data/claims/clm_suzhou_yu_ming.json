@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宿州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/宿州",
+   "quote": "『淮水之所滙也又西有舊縣巡檢司天長州東南冶山在縣南西北有石梁河下流為五湖接高郵州界東北有城門鄉巡檢司　宿州元屬歸徳府洪武四年二月來屬龍山在西南北肥水出焉又北有雎河自河南永城縣流入下流至宿遷縣合淮亦曰小河也南有汴河亦自永城縣流入又有澮河與渙水合又東南有沱水東南距府二百三十三里領縣<pb:KR2a0038_WYG_040-32b>一　靈璧州東西南有齊眉山北有磬石山黄河在東北南有汴河北有睢河又南有固鎮巡檢司　』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_suzhou_yu_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_suzhou_yu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

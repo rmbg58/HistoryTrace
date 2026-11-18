@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/徽州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/徽州府",
+   "quote": "『南南有黄山與歙縣分界西有龍門山有巡檢司南有麻川與舒溪合流入涇縣為賞溪西南有宏潭巡檢司後移於郭巖前　　徽州府元徽州路屬江浙行省太祖丁酉年七月曰興安府呉元年曰徽州府領縣六北距南京六百八十里洪武二十六年編户一十二萬五千五百四十八口五十九萬二千三百六十四𢎞治四年户七千二百五十一口六萬五千八百六十一萬厯六年户一十一萬八千九百四<pb:KR2a0038_WYG_040-45b>十三口五十六萬六千九百四十八　歙倚西北』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huangshan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

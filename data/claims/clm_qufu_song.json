@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/兖州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/兗州",
+   "quote": "『州大觀四年復来隷政和四年又撥隸拱州宣和六年復来隸宋城赤穀熟畿下邑畿楚丘畿虞城畿襲慶府魯郡泰寜軍節度本兗州大中祥符元年升為<pb:KR2a0032_WYG_085-20b>大都督政和八年升為府崇寜户七萬一千七百七十七口三十一萬七千七百三十四貢大花綾墨雲母紫石英防風茯苓縣七瑕上大觀四年以瑕丘縣為瑕縣奉符上本漢乾封縣開寳五年移治岱岳鎮大中祥符元年改泗水上龔上大觀四年以龔丘縣為龔縣仙源中魏曲阜縣大中祥符五年改』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qufu_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qufu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

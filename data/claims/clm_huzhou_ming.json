@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/湖州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/湖州府",
+   "quote": "『安之烏鎮桐鄉府西少南宣徳五年三月以崇徳縣之鳯鳴鄉置北有運河與崇徳縣接界又有爛溪北達呉江縣之鶯脰湖西達湖州府潯溪北有阜林鎮巡檢司平湖府東宣徳五年三月以海塩縣之當堡鎮置東南有故邑山南有雅山俗曰瓦山又當湖在縣治東下流山海塩澉浦口入海其西為市西河自嘉興縣流入入於當湖其分流南出者則由縣東南乍浦入海北出者則由縣東北瀘瀝浦入海浦傍有蘆瀝塩塲又北有東泖即華亭三泖之上汛東有臼沙灣廵檢司治廣陳除後遷縣東南獨山又東南冇乍浦鎮』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

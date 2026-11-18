@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/叙州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/敘州府",
+   "quote": "『曰小烏江流入彭水縣界仁懐州西萬厯二十九年四月以舊懐陽縣地置東南有芙蓉江西南有仁水其下流俱注於烏江　　敘州府元敘州路属敘南等處蠻夷宣撫司至元二十三年正月降為縣洪武六年六月置府領州一縣九北距布政司千二百里　宜賔倚𢎞治四年八月建申王府末之國除西有朱提山舊産銀西南有石城山又西北有朝陽崖大江經其下又東經城東南馬湖江來合焉又西南有石門江俗呼横江北入馬湖江又東南有黑水一名南廣溪北入江又西北<pb:KR2a0038_W』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yibin_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yibin",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

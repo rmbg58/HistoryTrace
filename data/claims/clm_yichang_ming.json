@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/夷陵州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/夷陵州",
+   "quote": "『洪武十年五月省入松滋縣十三年五月復置北濵大江江中有百里洲江水經此而分故曰枝江北有沮水南入江謂之沮口　夷陵州元峽州路属荆湖北道宣慰司太祖甲辰年為府九月降為州直隸湖廣行省九年四月改州名夷陵以州治夷陵縣省入來屬大江在南西北有闗曰下牢闗夾江為險又有西陵明月黄牛三峽峽中有使君虎頭狼尾鹿角等灘皆江流至險處也西北有赤谿東合大江南有南津口廵檢司又東有金竹坪巡檢司後廢又西有西津闗東北有白虎闗東距<pb:KR2a0038_』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yichang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yichang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

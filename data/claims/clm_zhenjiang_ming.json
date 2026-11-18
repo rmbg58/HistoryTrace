@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/镇江府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/鎮江府",
+   "quote": "『府東北成化八年九月以江陰縣馬馱沙置大江舊分二派繞縣南北天啟後潮沙壅積縣北大江漸為平陸西南有新港巡檢司鎮江府元鎮江路屬江浙行省太祖丙申年三月曰江淮府十二月曰鎮江府領縣三西距南京城二百里洪武二十六<pb:KR2a0038_WYG_040-40a>年編户八萬七千三百六十四口五十二萬二千三百八十三𢎞治四年户六萬八千三百四十四口一十七萬一千五百八萬厯六年户六萬九千三十九口一十六萬五千五百八十九　丹徒倚北有北固山濱』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhenjiang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhenjiang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

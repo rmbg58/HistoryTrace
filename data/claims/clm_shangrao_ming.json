@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/广信府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/廣信府",
+   "quote": "『溪三縣地益之北有萬年山東有桃源洞桃源水出焉經縣西南下流為餘水東北有荷溪鎮北有石頭街二巡檢司後俱廢　　廣信府元信州路属江浙行省太祖庚子年五月為廣信府領縣七西北距布政司六百三十里　上饒倚西北有靈山舊産水晶南有丁溪山産鐡又南有銅山北有上饒江自玉山縣流入經城北下流至潘陽縣合於鄱江又西有櫧溪源出靈山亦曰靈溪流入上饒江南有八坊埸東北有鄭家坊二廵檢司玉山府東有三清山又有懐玉山玉<pb:KR2a0038_WYG_043』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_shangrao_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_shangrao",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汉州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷038/漢州",
+   "quote": "『人馬五百疋恒陽軍在恒州城東管兵三千五百人北平軍在定州城西管兵六千人高陽軍在易州城内管兵六千人唐興軍在漢州城内管兵六千人横海軍在滄州城内管兵六千人平盧軍節度使鎮撫室韋靺鞨統平盧盧龍二軍榆闗守捉安東都䕶府平盧軍節度使治在營州管兵萬七千五百人馬五千五百疋平盧軍在營州城内管兵萬六千人馬四千二百疋盧龍軍在平州城内管兵萬人馬三百疋榆闗守捉在營州城西四百八十里管兵三百人馬百疋安東都䕶府在營州東二百七十里管兵八千五百』——Kanripo《舊唐書》卷038",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_guanghan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷038 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

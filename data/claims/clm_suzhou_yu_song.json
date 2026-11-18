@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宿州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/宿州",
+   "quote": "『父望酇<pb:KR2a0032_WYG_088-8a>望永城望衞真望唐真源縣大中祥符七年改鹿邑緊䝉城宿州上符離郡建隆元年升防禦開寶元年建為保靜軍節度元領五縣紹興中割虹縣隷楚州後沒于金崇寧户九萬一千四百八十三口一十六萬七千三百七十九貢絹縣四符離望蘄望臨渙緊大中祥符七年割隷亳州天禧七年來隷靈壁元符元年以虹之零壁鎮為縣七月復為鎮七年二月零壁復為縣政和七年改零壁為靈壁楚州緊山陽郡團練乾德初以盱眙屬泗州開寶七年』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_suzhou_yu_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_suzhou_yu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

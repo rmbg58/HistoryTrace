@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/凉州卫",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/涼州衛",
+   "quote": "『都司後來屬北有金山麗水出焉西南有白嶺山亦曰雪山西有水磨川上有水磨闗又東南有蹇占河西北距行都司三百十里涼州衛元西涼州屬永昌路洪武九年十月置衛屬陜西都司後來屬南有天梯山三岔河出焉東南有洪池嶺又東北有白亭海有瀦野澤又西有土彌干川即五澗水也亦出天梯山下流合於三岔河又東有雜木口闗又有涼州土衛洪武七年十月置西北距行都司五百里<pb:KR2a0038_WYG_042-32b>　　鎮番衛本臨河衛洪武中以小河灘城置三十年』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuwei_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuwei",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

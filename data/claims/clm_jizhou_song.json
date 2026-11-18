@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/冀州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/冀州",
+   "quote": "『寧六年省臨津縣入焉保順軍周置軍於滄州無棣縣南三十里開寶三年又以滄隸二州界保順吳撟二鎭之地益焉仍隸滄州冀州上信都郡舊團練慶歴八年升安武軍節度崇寧<pb:KR2a0032_WYG_086-3a>戸六萬六千二百四十四口一十萬一千三十貢絹縣六信都望蓨上南宫上皇祐四年升新河鎭為縣廢南宫六年省新河為鎭入焉棗强上熙寧元年省為鎭入信都十年復置武邑上衡水中河間府上河間郡瀛海軍節度至道三年以高陽隸順安軍舊名關南太平興國元』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jizhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jizhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

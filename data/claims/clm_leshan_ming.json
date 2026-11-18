@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/嘉定州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/嘉定州",
+   "quote": "『北有許浦西北有溪浦黄泗浦為五大浦皆分太湖西北之水注於大江南有運河有許浦白茅黄泗福山四巡檢司嘉定府東元嘉定州洪武二年降為縣東濱海南有運河又南有呉淞江西南有白鶴江西南有青龍江南有蟠龍江皆&KR1672;呉淞江入海又劉河在縣北即婁江也又東南有呉淞江守禦千户所洪武十九年置又有寶山守禦千户所本恊守呉淞中千户所嘉靖三十六年置萬厯五年更名又東有顧逕東南冇江灣二巡檢司又西南有呉塘南有南翔二巡檢司後廢　太倉州本太倉衛太祖』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_leshan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_leshan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

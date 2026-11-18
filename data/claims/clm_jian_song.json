@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/吉州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/吉州",
+   "quote": "『羅綾縣三丹徒緊有圜山砦丹陽熙寜五年省延陵縣為鎮入焉金壇緊湖州上吳興郡景祐元年升昭慶軍節度寶慶元年改安吉州崇寧户一十六萬二千三百三十五口三十六<pb:KR2a0032_WYG_088-3b>萬一千六百九十八貢白紵漆器縣六烏程望歸安望太平興國七年析烏程地置縣安吉望長興望德清緊武康上太平興國三年自杭州來隷婺州上東陽郡淳化元年改保寜軍節度崇寧户一十三萬四千八十口二十六萬一千六百七十八貢綿藤紙縣七金華望義烏望永』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jian_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

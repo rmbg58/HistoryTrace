@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/饶州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/饒州府",
+   "quote": "『8_WYG_040-44a>即池口河之源也又舒溪在南下流合蕪湖縣之魯港入江建徳府西南南有龍口河東南入饒州府之獨山湖又有堯城縣下流為東流縣之江口河入江又西南有永豐鎮巡檢司東流府西西南有馬當山枕大江與江西彭澤縣界南有香口河流入江有香口鎮巡檢司後移於吉陽鎮　　寧國府元寧國路屬江浙行省太祖丁酉年四月曰寧國府辛丑年四月曰宣城府丙午年正月曰宣州府呉元年四月仍曰寧國府領縣六北距南京三百十里洪武二十六年編户九萬九千七百』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_poyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_poyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

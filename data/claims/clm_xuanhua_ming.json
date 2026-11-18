@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宣府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/宣府",
+   "quote": "『有一宣撫司十安撫司二十有二招討司一長官司一百六十有九蠻夷長官司五其邊陲要地稱重鎮者凡九曰遼東曰薊州曰宣府曰大同曰榆林曰寜夏曰甘肅曰太原曰固原皆分統衛所闗堡環列兵戎綱維布置可謂深且固矣計明初封畧東起朝鮮西據土畨南包安南北距大磧東西一萬一千七百五十五南北一萬零九百四里自成祖棄大寧徙東<pb:KR2a0038_WYG_040-3a>勝宣宗遷開平於獨石世宗時復棄哈密河套則東起遼海西至嘉峪南至瓊崖北扺雲朔東西萬』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xuanhua_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xuanhua",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

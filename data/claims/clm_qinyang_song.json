@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/怀州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/懷州",
+   "quote": "『和五年升為州號濬川軍節度改今額崇寧戸三千一百七十六口三千二百二縣二衞上熙寧六年廢為鎭入黎陽後復黎陽中懷州雄河内郡防禦建隆元年升為團練俄為防禦崇寧戸三萬二千三百一十一口八萬八千一百八十五貢牛膝皂角縣三河内緊熙寧六年省武徳縣為鎭入焉脩武上熙寧六年省為鎭入武陟元祐元年復武陟中衞州望汲郡防禦崇寧戸二萬三千三百四口四萬六<pb:KR2a0032_WYG_086-9b>千三百六十五貢絹綿縣四汲中新鄉緊熙寧六年廢為』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qinyang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qinyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

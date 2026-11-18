@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/扬州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/揚州",
+   "quote": "『望華亭緊海鹽上有鹽監沙腰蘆瀝二鹽<pb:KR2a0032_WYG_088-6b>塲崇德中兩浙路蓋禹貢揚州之域當南斗須女之分東西際海西控震澤北又濵于海有魚鹽布帛秔稻之產人性柔慧尚浮屠之敎俗奢靡而無積聚厚於滋味善進取急圖利而竒技之巧出焉餘杭四明通蕃互市珠貝外國之物頗充於中藏云淮南路舊為一路熙寜五年分為東西兩路<pb:KR2a0032_WYG_088-7a>東路州十揚亳宿楚海泰泗滁真通軍二高郵漣水縣三十八南』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yangzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

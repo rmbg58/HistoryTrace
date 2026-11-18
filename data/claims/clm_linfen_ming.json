@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/平阳府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/平陽府",
+   "quote": "『:KR2a0038_WYG_041-22a>正月復升為州西濱大河東北有得馬水巡檢司後廢東南距府五百里平陽府元晉寧路屬河東山西路宣慰司洪武元年改為平陽府領州六縣二十八東北距布政司五百九十里　臨汾倚西有姑射山西南有平山晉水平水皆出於此東流入於汾襄陵府西南西南有三隥山東有汾水南有太平闗有巡檢司洪桐府北少東東有九箕山西有汾水浮山府東少南西有浮山北有澇水東南有潏水下流俱入汾趙城府北元屬霍州洪武三年改屬西冇羅雲山又』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_linfen_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_linfen",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

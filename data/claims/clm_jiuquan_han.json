@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/禄福",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/祿福",
+   "quote": "『劭曰其水若酒故曰酒泉也師古曰舊俗傳云城下有金泉泉味如酒戸萬八千一百三十七口七萬六千七百二十六○縣九　祿福呼蠶水出南羌中東北至會水入羌谷莽曰顯徳表是莽曰載武樂涫莽曰樂亭天䧇師古曰音衣此地有天䧇阪故以名玉門莽曰輔平亭師古曰闞駰云漢罷玉<pb:KR2a0007_WYG_028-69a>門關屯徙其人於此會水北部都尉治偃水障東部都尉治東部障莽曰蕭武師古曰闞駰云衆水所會故曰會水池頭　綏彌如淳曰今曰安彌乾齊西部都尉』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiuquan_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiuquan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

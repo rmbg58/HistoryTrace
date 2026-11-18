@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/河南府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/河南府",
+   "quote": "『2a>賜名其後又於金輝門南置開逺門舊名通逺以上皆太平興國四年賜名天聖初改今名西京唐顯慶間為東都開元改河南府宋為西京山陵在焉宮城周廻九里三百歩城南三門中曰五鳯樓東曰興敎西曰光政因隋唐舊名東一門曰蒼龍西一門曰金虎北一門曰拱宸舊名元武大中祥符五年改五鳯樓内東西門曰左右永泰門外道北有鸞和門太平興國三年以車輅院門改右永泰門西有永福門興教光政門内各三門曰左右安禮左右興善左右銀臺蒼龍金虎門内第二隔門曰膺福千<pb:K』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_luoyang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_luoyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

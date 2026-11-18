@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/曲阜县",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/曲阜縣",
+   "quote": "『三百五十里　滋陽倚洪武三年四月建魯王府元曰嵫陽洪武初省入州十八年復置成化間改為滋陽泗水在東又有沂水自曲阜縣西流來合焉曲阜府東東南有尼山沂水所出又東有防山北有泗水又有洙水西南流入於沂水又北有孔林寧陽府北西北有汶水支流為洸水洸水者洙水也洸洙相入受通稱也俱西南入運河又東北有堽城堰即汶洸分流處也鄒府東南元屬滕州洪武二年七月改屬東南有嶧山亦曰邾嶧又曰鄒嶧東北有昌平山西南有鳬山又有泗河泗水府東東有陪尾山泗水出焉經縣』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_qufu_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_qufu",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/太原府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/太原府",
+   "quote": "『萬五千二百四十九口四百三十六萬四百七十六萬厯六年戸五十九萬六千九十七口五百三十一萬九千三百五十九　　太原府元冀寧路屬河東山西道宣慰使洪武元年十二月改為太原府領州五縣二十　陽曲倚洪武三年四月建晉王府於城外東北維西有汾水自<pb:KR2a0038_WYG_041-19b>静樂縣流經此下流至榮河縣合大河西北有天門闗巡檢司東北有石嶺闗巡檢司太原府西南元曰平晉治在今東北洪武四年移於汾水西故晉陽城之南闗八年更名太原』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taiyuan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taiyuan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

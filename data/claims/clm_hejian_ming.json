@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/河间府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/河間府",
+   "quote": "『百二十里領縣一　淶水州東北東有淶水亦曰拒馬河源出西山代郡下流合易水北有乾河口西北有黄兒莊二巡檢司　　河間府元河間路直𨽻中書省洪武元年十月為府屬河南分省二年三月來屬領州二縣十六北距京師四百十里𢎞治四年編户四萬二千五百四十八口三十七萬八千六百五十八萬厯六年户四萬五千二十四口四十一<pb:KR2a0038_WYG_040-10b>萬九千一百五十二　河間倚西南有滹沱河西有滱水西南有景和鎮巡檢司獻府南元獻州洪武初』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hejian_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hejian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

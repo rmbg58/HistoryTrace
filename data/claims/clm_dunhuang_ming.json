@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/沙州卫",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/沙州衛",
+   "quote": "『月置莊浪分衛七月改置碾北衛後廢而徙西寜衛右千戸所於此成化中更名南有碾伯河西北距行都司千二百三十里　　沙州衛元沙州路属甘肅行省洪武初廢永樂元年置衛正統間廢南有鳴沙山東南有三危山又東有龍勒山又有渥洼水西有𤓰州元属沙州路洪武初廢東距行都司千三百六十里　　鎮夷守禦千戸所洪武三十年以甘州衛地置建文二<pb:KR2a0038_WYG_042-34a>年罷永樂元年復置所舊在西北天順八年移於今治南有黒河即張掖河也西南有』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dunhuang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dunhuang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

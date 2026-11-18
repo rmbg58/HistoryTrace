@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/明史/東昌府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/東昌府",
+   "quote": "『費州西北西北有䝉山西南有大沫崓又有祊水東北有䝉陽水下流俱入於沂河西南有闗陽鎮西北有毛陽鎮二巡檢司　　東昌府元東昌路直𨽻中書省洪武初為府領州三縣十五東距布政司二百九十里　聊城倚城東有㑹通河西南有武水枯河即漯河也為㑹通河所截中湮堂邑府西東北有㑹通河西有舊黄河博平府東北洪武三年三月省尋復置西南有㑹通河東北有故黄河茌平府東北西有故黄河又西北有故馬頰河莘府西南北有弇山舊有泉湧出曰弇山泉清平府北元屬徳州洪武元年屬恩』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_liaocheng_ming",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_liaocheng",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

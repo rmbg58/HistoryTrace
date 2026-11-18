@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汀州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/汀州府",
+   "quote": "『入尤溪縣境又東南有花橋巡檢司又西南有桃源店廵檢司本屬漳平縣後來屬北有英寨西南有安仁隘二巡檢司後廢　　汀州府元汀州路屬福建道宣慰司洪武元年為府領縣八東距布<pb:KR2a0038_WYG_045-6a>政司九百七十五里　長汀倚北有卧龍山又北有新樂山貢水出焉流入江西界西有新路嶺東有鄞江即東溪亦曰左溪自寧化縣流入下流經廣東大埔縣入海中有五百灘亦謂之汀水又東南有正溪西冇西溪北有北溪南有南溪俱合於東溪又西有古城寨』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changting_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changting",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

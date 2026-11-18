@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/阆州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷090/閬州",
+   "quote": "『建炎以後嘗置蓬巴洋州安撫使尋罷崇寧戸四萬五千四百九十口九萬八千五百六十七貢隔織縣三興道望西鄉上眞符中閬州上閬中郡乾德四年改安德軍節度紹興十四年隷東路端平三年兵亂淳祐三年移治大獲山崇寧戸四萬三千九百三十六口一十萬九百七貢蓮綾縣七<pb:KR2a0032_WYG_090-18b>閬中望閬水迂曲繞縣三面故名紹興十八年省玉井鎭入焉蒼溪緊南部緊新井緊奉國中熙寧四年省岐平縣為鎭入焉新政中西水中下熙寧四年省晉安縣為』——Kanripo《宋史》卷090",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_langzhong_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_langzhong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷090 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

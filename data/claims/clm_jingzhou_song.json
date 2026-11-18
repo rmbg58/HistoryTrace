@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/江陵府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/江陵府",
+   "quote": "『㝢縣分裂莫之能一宋太祖受周禪初有州百一十一縣六百三十八户九十六萬七千三百五十三建隆四年取荆南得州府三江陵府歸峽縣一十七户一十四萬二千三百平湖<pb:KR2a0032_WYG_085-1b>南得州一十五監一潭衡邵郴道永全岳澧朗蔣辰錦溪敘桂陽監縣六十六户九萬七千三百八十八乾徳三年平蜀得州府四十六　益彭眉嘉卭蜀綿漢資簡遂黎雅陵戎瀘維茂昌榮果閬渠合龍普利興文劍蓬璧夔忠萬集開渝　涪黔施逹洋興元府縣一百九十八户五十』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jingzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jingzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

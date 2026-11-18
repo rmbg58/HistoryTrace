@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/袁州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/袁州府",
+   "quote": "『本新淦縣之峽江巡檢司嘉靖五年四月改為縣析新淦縣六鄉地益之南有玉笥山又有贛江亦名峽江有黄金水流合焉　　袁州府元袁州路属江西行省太祖庚子年為府領縣四東北距布政司三百九十里　宜春倚南有蟠龍山又有仰山又秀江在城北源出平鄉縣流經府西亦曰稠江即袁江之上源也西有黄圃南有澗富嶺二巡檢司分宜府東東有鍾山峽西<pb:KR2a0038_WYG_043-36b>有昌山峽秀江經兩峽中入新喻縣境為喻水萍鄉府西元萍鄉州洪武初降為縣東』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yichun_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yichun",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

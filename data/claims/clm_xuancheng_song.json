@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/宣州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/宣州",
+   "quote": "『度本上州大觀元年升為望紹興初置沿海制置使八年以浙東安撫使兼制司十一年罷隆興元年復置淳熙元年魏惠憲王自宣州移鎮置長史司馬紹熙五年以寧宗潜邸升為府崇寧户一十一萬六千一百四十口二十二萬一十七貢綾乾山蕷烏魚骨縣六鄞望奉化望慈溪上定海上象山下昌國下熙寧六年析鄞縣地置有鹽監紹興間升望常州望毗陵郡軍事崇寧户一十六萬五千一百一十六口二十四萬六千九百九貢白紵紗席縣四晉陵望<pb:KR2a0032_WYG_088-4b>』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xuancheng_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xuancheng",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

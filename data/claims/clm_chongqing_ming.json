@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/重庆府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/重慶府",
+   "quote": "『武九年七月西有九盤山東有東流溪下流合於渠江夔州府元䕫州路屬四川南道宣慰司洪武四年為府九年四月降為州屬重慶府十年五月直隸布政司十三年十一月復為府領州一縣十二西距布政司千九百里　奉節倚洪武九年四月省十三年十一月復置東北有赤甲山東有白帝山又有白鹽山南濵江東岀為瞿唐峽峽口曰灧㴿堆又西有南鄉峽虎鬚灘東有龍脊灘皆江流至險處又東有大瀼水東瀼水俱流入江南有尖山又有<pb:KR2a0038_WYG_043-8b>金子山二』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chongqing_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chongqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

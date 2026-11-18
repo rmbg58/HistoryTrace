@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/舊唐書/博州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷039/博州",
+   "quote": "『因之武徳五年置毛州割魏州之館陶冠氏堂邑貝州之臨清清水又分置沙丘縣貞觀元年廢毛州省沙丘清水二縣以堂邑屬博州臨清屬貝州館陶冠氏屬魏州冠氏　春秋邑名隋分館陶縣東界置武徳四年屬毛州州廢來屬　莘　漢陽平縣地隋置新州武徳五年改為莘州領莘臨黄武陽武水四縣貞觀元年廢莘州<pb:KR2a0026_WYG_039-29b>以莘臨黄武陽屬魏州武水屬博州　臨黄　漢觀縣地隋為臨黄縣武徳四年屬莘州州廢來屬　朝城隋武陽縣貞觀十七年』——Kanripo《舊唐書》卷039",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_liaocheng_tang",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_liaocheng",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷039 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

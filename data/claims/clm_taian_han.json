@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/奉高",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/奉高",
+   "quote": "『帝置屬兗州戸十七萬二千八十六口七十二萬六千六百四有工官汶水出萊毋西入濟師古曰汶音問毋與無同○縣二十四奉高有眀堂在西南四里武帝元封二年造有工官博有泰山廟岱山在西北求山上茬應劭曰茬山在東北音淄師古曰又音仕疑反○宋祁曰茬當作茌盧都尉治濟北王都也肥成應劭曰肥子國蛇丘隧鄉故隧國春秋曰齊人殲于隧也師古曰蛇音移隧音遂剛故闡莽曰柔應劭曰春秋秋取酄及闡今闡亭是也師古曰酄音驩柴　蓋臨樂子山洙水所出西北至蓋入池水又沂水南至』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_taian_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_taian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

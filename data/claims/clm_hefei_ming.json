@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/庐州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/廬州府",
+   "quote": "『芽山東南有長蕩湖一名洮湖有湖溪巡檢司北有白鶴溪<pb:KR2a0038_WYG_040-40b>　　廬州府元廬州路屬河南江北行省太祖甲辰年七月為府置江淮中書行省於此尋罷領州二縣六距南京五百十里洪武二十六年編户四萬八千七百二十口三十六萬七千二百𢎞治四年户三萬六千五百四十八口四十八萬六千五百四十九萬厯六年户四萬七千三百七十三口六十二萬二千六百九十八　合肥倚西有鷄鳴山肥水所出東南流入巢湖西南有紫蓬山東有浮槎山』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hefei_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hefei",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

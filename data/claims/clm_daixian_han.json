@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/廣武",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/廣武",
+   "quote": "『平　祁晉大夫賈辛邑莽曰示上艾緜曼水東至蒲吾入虖池水師古曰虖音呼池音徒何反慮虒師古曰音廬夷陽邑莽曰繁穰廣武河主賈屋山在北都尉治莽曰信桓師古曰賈屋山即史記所云趙襄子北登夏屋者上黨郡秦置屬幷州有上黨闗壺口闗石研闗天井闗師古曰研音形戸七萬三千七百九十八口三十三萬七千七百六十六○縣十四長子周史辛甲所封鹿谷山濁漳水所出東至鄴入清漳師古曰長讀曰長短之長今俗為長幼之長非也屯留桑欽言絳水出西南東入海師古曰屯音純○宋祁曰』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_daixian_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_daixian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

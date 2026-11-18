@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/许州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/許州",
+   "quote": "『清畿開寳元年移治白波鎮熙寧八年閏四月置鐵監登封畿監一阜財熙寜七年置鑄銅錢潁昌府次府許昌郡忠武軍節度本許州元豐三年升為府崇寜四年為南輔隸京畿大觀四年罷輔郡政和四年復為輔郡隷京畿宣和三年復罷輔郡依舊隸京<pb:KR2a0032_WYG_085-27a>西北路崇寧户六萬六千四十一口一十六萬一百九十三貢絹藨席縣七長社次赤熙寜四年省許田縣為鎮入焉郾城次畿陽翟次畿長葛次畿臨潁次畿舞陽次畿郟中元隸汝州崇寧四年來隸鄭』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xuchang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xuchang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

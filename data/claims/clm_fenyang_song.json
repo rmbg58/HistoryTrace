@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汾州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/汾州",
+   "quote": "『元祐元年定襄復為縣有石嶺關忻口雲内徒合四砦定襄中下<pb:KR2a0032_WYG_086-15b>汾州望西河郡軍事崇寧戸五萬一千六百九十七口一十八萬五千六百九十八貢土絁石膏縣五西河望有永利西監平遥望介休上靈石中有陽涼南關陽涼北關孝義上太平興國元年改為中陽後復為孝義熙寧五年省為鎭入介休元祐元年復遼州下樂平郡熙寧七年州廢省平城和順二縣為鎭入遼山縣隷平定軍省榆社縣為鎭入威勝軍武鄉縣元豐八年復置州縣鎭並復來』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fenyang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fenyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

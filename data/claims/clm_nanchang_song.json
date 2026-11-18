@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/洪州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/洪州",
+   "quote": "『壽皆為巨鎮而真州當運路之要符離譙亳臨淮朐山皆便水運而隷淮服其俗與京東西略同江南東西路建炎元年以江寧府洪州並升帥府四年合江東西為江南路以鄂岳來屬又置三帥鄂州路統鄂岳筠袁䖍吉州南安軍江西路統江洪撫信州興國南康臨江建昌軍建康府路統建康府池饒宣徽太平州廣德軍紹興初復分東西以建康府池饒徽宣撫信<pb:KR2a0032_WYG_088-16b>太平州廣德建昌軍為江南東路以江洪筠袁䖍吉州興國南康臨江南安軍為江南西路』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanchang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanchang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

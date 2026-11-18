@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/梧州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷041/梧州",
+   "quote": "『二里東南至廣州八百七十六里東至連州二百六十里南至封州三百六十里北至道州四百里北至富州三百二十里西南至梧州四百二十二里也臨賀　州所治漢縣属蒼梧郡臨賀水吳置臨賀郡宋<pb:KR2a0026_WYG_041-59a>改為臨慶國齊復為臨賀郡隋置賀州隋末廢為縣武徳四年復置賀州　桂嶺　漢臨賀縣地隋舊也　馮乗　漢縣属蒼梧郡有荔平關　封陽　漢縣属蒼梧郡　富川　漢富川縣天寳改為富水後復為富川也　蕩山　新置端州　隋信安郡』——Kanripo《舊唐書》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

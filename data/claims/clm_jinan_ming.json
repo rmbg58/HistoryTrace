@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/济南府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/濟南府",
+   "quote": "『道宣慰司治益都路屬焉洪武元年四月置山東等處行<pb:KR2a0038_WYG_041-1b>中書省治濟南府三年十二月置青州都衞治青州府八年十月改都衞為山東都指揮使司九年六月改行中書省為承宣布政使司領府六屬州十五縣八十九為里六千四百有竒南至郯城與南直界北至無棣與北直界西至定陶與北直河南界東至海距南京一千八百五十里京師九百里洪武二十六年編户七十五萬三千八百九十四口五百二十五萬五千八百七十六𢎞治四年户七十七萬』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jinan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jinan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

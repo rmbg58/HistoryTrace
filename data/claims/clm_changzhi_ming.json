@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/潞安府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/潞安府",
+   "quote": "『又西有青龍渡北有赤堅嶺二巡檢司又西有孟門闗東南距府百六十里領縣一　寧鄉州南東南有樓子臺山西有黄河　　潞安府元潞州屬晉寧路洪武二年直隸行中書省九年直隸布政司嘉靖八年二月升為潞安府領縣八西北距布<pb:KR2a0038_WYG_041-25b>政司四百五十里　長治倚永樂六年瀋王府自瀋陽遷此元上黨縣洪武二年省入州嘉靖八年二月復置更名東南有壺闗山舊置壺闗口於山下西南有潞水即濁漳水自長子縣流入下流至河南臨漳縣合清』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changzhi_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changzhi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

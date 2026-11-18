@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/湖州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷039/湖州",
+   "quote": "『郡<pb:KR2a0026_WYG_039-86a>　湖陽　漢縣屬南陽郡隋不改屬舂陵郡武徳四年於縣置湖州領湖陽上馬二縣貞觀元年廢湖州省上馬以湖陽屬唐州　方城　前漢堵陽縣屬南陽郡後漢改為順陽隋改為方城縣屬淯陽郡武徳二年於縣置北澧州領方城真昌二縣貞觀初省真昌縣八年改北澧州為魯州領縣不改九年省魯州以方城屬唐州　泌陽　後魏石馬縣後訛為上馬縣貞觀元年廢開元十六年割湖陽復置上馬縣天寶元年改為泌陽縣均州下　隋淅陽郡』——Kanripo《舊唐書》卷039",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huzhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷039 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/高密",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/高密",
+   "quote": "『秩戸七萬二千二口三十二萬三千三百三十一○縣八　即墨有天室山祠莽曰即善昌武　下密有三石山祠應劭曰密水出高密壯武莽曰曉武郁秩有鐵官挺師古曰挺音徒鼎反觀陽應劭曰在觀水之陽師古曰觀音工喚反鄒盧莽曰<pb:KR2a0007_WYG_028-84a>始斯高密國故齊文帝十六年別為膠西國宣帝本始元年更為髙密國戸四萬五百三十一口十九萬二千五百三十六○縣五　髙密莽曰章牟昌安　石泉莽曰飬信夷安莽曰原亭應劭曰故萊夷維邑成鄉莽』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_gaomi_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_gaomi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

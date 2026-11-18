@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/旧唐书·西戎/焉耆",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷040/焉耆鎮",
+   "quote": "『吐蕃北庭都䕶府　本龜兹國顯慶中自西川移府治於此<pb:KR2a0026_WYG_040-87b>東至焉耆鎮守八百里西至疎勒鎮守二千里南至于闐二千里東北至北庭府二千里南至吐蕃界八百里北至突騎施界鴈沙川一千里安西都䕶府鎮兵二萬四千人馬二千七百匹都䕶兼鎮西節度使安西都䕶所統四鎮龜兹都督府　本龜兹國其王姓白理白山之南去瓜州三千里勝兵數千貞觀二十二年阿史那社尒破之<pb:KR2a0026_WYG_040-88a>』——Kanripo《舊唐書》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G2",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yanqi_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yanqi",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

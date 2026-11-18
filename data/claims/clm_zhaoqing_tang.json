@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/端州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷041/端州",
+   "quote": "『　馮乗　漢縣属蒼梧郡有荔平關　封陽　漢縣属蒼梧郡　富川　漢富川縣天寳改為富水後復為富川也　蕩山　新置端州　隋信安郡武徳元年置端州領髙要樂城銅陵平興博林五縣其年以樂城属康州銅陵属春州七年置清泰縣貞觀十三年省博林清㤗二縣天寳元年為髙要郡乾元元年復為端州舊領縣二户四千四百九<pb:KR2a0026_WYG_041-59b>十一口二萬四千三百三天寳户九千五百口二萬一千一百二十東至廣州二百四十里南至新州一百四十』——Kanripo《舊唐書》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhaoqing_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhaoqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

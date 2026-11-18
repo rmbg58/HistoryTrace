@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/金华府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/金華府",
+   "quote": "『蒲岐三巡檢司南有沙角巡檢司本治支頭山下後遷今治西南有小鹿巡檢司遷治楚門所之横山後西有温嶺巡檢司廢　　金華府元婺州路属浙東宣慰司太祖戊戍年十二月為寜越府庚<pb:KR2a0038_WYG_044-35a>子年正月曰金華府領縣八東北距布政司四百五十里　金華倚北有金華山南有銅山舊産銅城南有東陽江亦曰婺港自東陽縣流經此又有南溪自縉雲縣來合焉謂之雙溪亦曰穀溪合流至蘭谿而會於信安江蘭谿府西元蘭谿州洪武三年三月降為縣』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jinhua_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jinhua",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

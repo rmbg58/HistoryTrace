@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/襄阳府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/襄陽府",
+   "quote": "『兩路南路府一襄陽州七鄧隨金房均郢唐軍一光化縣三十一<pb:KR2a0032_WYG_085-24a>襄陽府望襄陽郡山南東道節度本襄州宣和元年升為府崇寜户八萬七千三百七口一十九萬二千六百五貢麝香白穀漆器縣六襄陽緊鄧城望穀城緊宜城中下中盧中下隋義清縣太平興國元年改紹興五年省入南漳南漳中下鄧州望南陽郡武勝軍節度舊為上郡政和二年升為望郡建隆初廢臨瀬縣崇寜户一十一萬四千一百一十七口二十九萬七千五百五十貢白菊花縣五』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xiangyang_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xiangyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

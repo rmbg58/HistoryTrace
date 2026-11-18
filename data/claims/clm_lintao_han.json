@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/狄道",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/狄道",
+   "quote": "『此郡在隴之西故曰隴西坻音丁計反又音底戸五萬三千九百六十四口二十三萬六千八百二十四有鐵官鹽官○縣十一　狄道白石山在東莽曰操虜師古曰其地有狄種故云狄道上邽應劭曰史記故邽戎邑也師古曰邽音圭安故　氐<pb:KR2a0007_WYG_028-66a>道禹貢飬水所出至武都為漢莽曰亭道師古曰氐夷種名也氐之所居故曰氐道氐音丁奚反飬音弋向反字本作漾或作瀁首陽禹貢鳥䑕同穴山在西南渭水所出東至船司空入河過郡四行千八百七十里』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lintao_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lintao",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

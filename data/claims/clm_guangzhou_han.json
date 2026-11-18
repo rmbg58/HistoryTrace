@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/番禺",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/番禺",
+   "quote": "『租南海郡秦置秦敗尉佗王此地武帝元鼎六年開屬交州户萬九千六百一十三口九萬四千二百五十三有圃羞官○縣六　番禺尉佗都有鹽官如淳曰番音潘禺音愚博羅　中宿有洭浦官師古曰洭音匡龍川師古曰裴氏廣州記云本博羅縣之東鄉也有龍穿地而出即穴流泉因以為號四會　揭陽莽曰南海亭韋昭曰揭音其逝反師古曰音竭鬱林郡故秦桂林郡属尉佗武帝元鼎六年開更名有小谿川水七并行三千一百一十里莽曰鬱平屬交州戸萬二千四百一十五口七萬一千一百六十二<pb』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_guangzhou_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_guangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

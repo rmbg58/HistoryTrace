@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/渝州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷090/渝州",
+   "quote": "『十八貢絹縣三涪陵下有白馬鹽塲樂温下武龍下宣和元年改武龍縣為枳縣紹興元年依舊重慶府下本恭州巴郡軍事舊為渝州崇寧元年改恭<pb:KR2a0032_WYG_090-25a>州後以高宗潛藩升為府舊領萬壽縣乾德五年廢雍熙中又廢南平縣慶厯八年以黔州羈縻南溱二州來隷皇祐五年以南州置南川縣熙寧七年以南川縣隷南平軍元豐戸四萬二千八十貢葛布牡丹皮縣三巴中有石英峯玉藍溪祈興四鎭江津中下乾德五年移治馬騣鎭壁山下羈縻州一溱州領』——Kanripo《宋史》卷090",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_chongqing_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_chongqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷090 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

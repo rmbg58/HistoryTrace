@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/天津卫",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/天津衛",
+   "quote": "『州洪武初更名八年四月改屬北平府十年五月來屬縣北有小直沽衛河自西來與白河合入於海又有丁字沽鹹水沽又北有天津衛永樂二年十一月置寜津府東南南有土河自山東徳州流入又東入山東樂陵縣界　景州洪武初以州治蓚縣省入東有衛河東北有胡盧河又東有安陵西北有宋門二巡檢司又東北有李晏鎮西北距府百八十五里領縣三　呉橋州東少南西有衛河東光州東北洪武七年七月省入阜城縣十三年十一月復置南有衛河又有胡盧河故城州南少西有衛河自山東武城縣流入』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_tianjin_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_tianjin",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

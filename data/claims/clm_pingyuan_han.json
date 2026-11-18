@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/平原",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/平原",
+   "quote": "『R2a0007_WYG_028-38b>莽曰居寧應劭曰音條文安　景成侯國束州　建成　章鄉侯國蒲領侯國平原郡高帝置莽曰河平屬青州戸十五萬四千三百八十七口六十六萬四千五百四十三○縣十九　平原有篤馬河東北入海五百六十里鬲平當以為鬲津莽曰河平亭師古曰讀與隔同高唐桑欽言漯水所出師古曰漯音它合反○宋祁曰漯改作濕下同重丘　平昌侯國羽侯國莽曰羽貞般莽曰分眀如淳曰般音如面般之般韋昭曰音逋垣反師古曰爾雅説九河云鉤般郭璞以』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_pingyuan_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_pingyuan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

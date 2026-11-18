@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/定州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/定州",
+   "quote": "『尋復來隷臨漳緊熙寧五年省鄴縣入焉林慮中中山府次府博陵郡建隆元年以易北平並來屬太平興國初改定武軍節度本定州慶歴八年始置定州路安撫使統定保深祁廣信安肅順安永寧八州政和三年升為府改賜郡名曰中山崇寧戸六萬五千九百三十五口一十八萬六千三百五貢羅大花綾縣七安喜緊無極緊曲陽上唐上望都中新樂中北平中下砦一軍城隸曲陽縣北平軍慶歴二年以北平砦建軍四年復隸州卽北平縣治置軍使隸州<pb:KR2a0032_WYG_086-8b』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dingzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

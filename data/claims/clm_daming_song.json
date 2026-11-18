@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/大名府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/大名府",
+   "quote": "『北曰廻鑾南一門曰崇禮北一門曰静安中有隔城又有門二東曰承慶西曰祥輝其東又有關城南北各一門北京慶暦二年建大名府為北京宮城周三里一百九<pb:KR2a0032_WYG_085-14b>十八歩即真宗駐蹕行宮城南三門中曰順豫東曰省風西曰展義東一門曰東安西一門曰西安順豫門内東西各一門曰左右保成次北班瑞殿殿前東西門二東曰凝祥西曰麗澤殿東南時廵殿門次北時廵殿次靖方殿次慶寧殿時廵殿前東西門二東曰景清西曰景和京城周四十八里』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_daming_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_daming",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

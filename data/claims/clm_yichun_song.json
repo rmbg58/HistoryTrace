@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/袁州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/袁州",
+   "quote": "『和望龍泉望宣和三年改泉江紹興復舊永新望至和元年徙吉水縣地置永新縣永豐望萬安望熙寜四年以龍泉縣萬安鎮置袁州上宜春郡軍事崇寧户一十三萬二千二百九十九口三十二萬四千三百五十三貢紵布縣四宜春望分宜望雍熙元年置有貴山鐵務萍鄉望萬載緊開寳末自筠州來屬宣和三年改名建<pb:KR2a0032_WYG_088-22a>城紹興元年復今名撫州上臨川郡軍事建炎四年隷江南東路紹興四年復來隷崇寧戸一十六萬一千四百八十口三十七萬三』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yichun_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yichun",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

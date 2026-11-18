@@ -1,0 +1,12 @@
+{
+  "id": "src_kanripo",
+  "type": "text",
+  "title": "Kanripo 漢籍文本庫(GitHub kanripo org)",
+  "jurisdiction": "正史全文 mandoku 格式錄文(前漢書/後漢書/舊唐書/新唐書/宋史/明史 等 KR2a 系列)",
+  "edition": "公共領域底本錄文(repo 未附許可文件;底本原文本身屬公有領域)",
+  "tier": "C",
+  "license": "古籍原文公有領域;錄文視為 PD 複製(作為第二 C 級來源用於對校)",
+  "access": { "method": "url", "key": "https://github.com/kanripo/(KR2a0007 前漢書 / KR2a0009 後漢書 / KR2a0026 舊唐書 / KR2a0027 新唐書 / KR2a0032 宋史 / KR2a0038 明史)" },
+  "retrieved_at": "2026-11-19",
+  "note": "第二 C 級全文來源(與維基文庫互為獨立傳承,數字互證一致);mandoku 格式(¶=換行、/=夾註,清理後比對)"
+}

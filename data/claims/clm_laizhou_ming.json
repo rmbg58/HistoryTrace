@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/莱州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/萊州府",
+   "quote": "『西北有大弁山與雕崖山連沂水出焉南流經沂州界入泗東北有沭水日照州東北東濱海有鹽場東南有夾倉鎮巡檢司　　萊州府元萊州屬般陽路洪武元年升為府六年降為州九年五月復升為府領州二縣五西距布政司六百四十里　　掖倚北濱海有鹽場又有三山島在海南岸東北有萬里沙西南有掖水北入海東南有小沽河又東北有王徐砦守禦千戸所嘉靖中置又西有海倉北有柴葫寨二巡檢司　平度州元膠水縣洪武二十二年正月改置北有萊山西有膠水下流至昌邑北入海東有大沽河』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_laizhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_laizhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

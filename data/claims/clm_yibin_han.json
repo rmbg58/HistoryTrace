@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/僰道",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/僰道",
+   "quote": "『為郡武帝建元六年開莽曰西順屬益州應劭曰故夜郎國戸十萬九千四百一十九口四十八萬九千四百八十六○縣十二　僰道莽曰僰治應劭曰故僰侯國也音蒲北反江陽　武陽有鐡官莽曰戢成南安有鹽<pb:KR2a0007_WYG_028-52a>官鐡官資中　符温水南至鄨入黚水黚水亦南至鄨入江莽曰符信師古曰鄨音蔽又音鼈黚音紀炎反牛鞞孟康曰音髀師古曰音必爾反南廣汾闗山符黑水所出北至僰道入江又有大渉水北至符入江過郡三行八百四十里漢陽都』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yibin_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yibin",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

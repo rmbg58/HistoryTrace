@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/杭州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/杭州",
+   "quote": "『台衢處四州為東路紹興三十二年戸二百二十四萬三千五百四十八口四百三十二萬七千三百二十二臨安府大都督府本杭州餘杭郡淳化五年改寧海軍節度大觀元年升為帥府舊領兩浙西路兵馬鈐轄建炎元年帶本路安撫使領杭湖嚴秀四州三年升為府<pb:KR2a0032_WYG_088-2a>帶兵馬鈐轄紹興五年兼浙西安撫使崇寧户二十萬三千五百七十四口二十九萬六千六百一十五貢綾藤紙縣九錢塘望有鹽監仁和望梁錢江縣太平興國四年改紹興中興錢塘並』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_hangzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_hangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

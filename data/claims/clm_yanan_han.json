@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/漢書/膚施",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/膚施",
+   "quote": "『歸都尉治塞外匈歸障属并州師古曰匈歸者言匈奴歸附戸十萬三千六百八十三口六十萬六千六百五十八○縣二十三　膚施有五龍山帝原水黄帝祠四所獨樂有鹽官陽周橋山在南有黄帝冢莽曰上陵畤木禾　平都　淺水莽曰廣信京室莽曰積粟洛都莽曰卑順白土圜水出西東入河莽曰黄土師古曰圜音銀其釋在下襄洛莽曰上黨亭原都　漆垣莽曰漆牆奢延莽曰奢節雕陰應劭曰雕山在西南推邪莽曰排邪師古曰邪音似嗟反楨林莽曰楨幹師古曰楨音貞高望北部都尉治莽曰堅寜雕陰』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yanan_han",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "han-geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yanan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

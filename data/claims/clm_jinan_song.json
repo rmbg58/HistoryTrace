@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/齐州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/齊州",
+   "quote": "『京東路熙寧七年分為東西兩路以青淄濰莱登宻沂徐州淮陽軍為東路鄆兗齊濮曹濟單州南京為西路元豐元年割京西路齊州屬東路割東路徐州屬西路元祐元年諸提㸃刑獄不分路京東東路京東西路並為京東路京西南路京西北路並為京西路秦鳯等路永興軍等路並為陜府西路河北西路河北東路並為河北路淮南西路淮南東路並為淮南路其後仍分為兩路<pb:KR2a0032_WYG_085-17b>東路府一濟南州七青宻沂登莱濰淄軍一淮陽縣三十八靑州望北海』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jinan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jinan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

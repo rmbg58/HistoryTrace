@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/嘉州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷090/嘉州",
+   "quote": "『b>漢州上德陽郡軍事戸一十二萬九百口五十二萬七千二百五十二貢紵布縣四雒望什邡望綿竹望德陽望嘉定府上本嘉州犍為郡軍事乾德四年廢綏山羅目玉津三縣慶元二年以寧宗潛邸升府開禧元年升嘉慶軍節度崇寧戸七萬一千六百五十二口二十一萬四百七十二貢麩金縣五龍遊上宣和元年改曰嘉祥後復故熙寜五年省平<pb:KR2a0032_WYG_090-7a>羌縣入焉洪雅上淳化四年自眉州來隷夾江中峨眉中犍為下大中祥符四年移治懲非鎭監一豐逺』——Kanripo《宋史》卷090",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_leshan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_leshan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷090 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/歙州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/歙州",
+   "quote": "『四十口四十七萬七百四十九貢紵布黄連筆縣六宣城望南陵望寧國緊旌德緊太平中涇緊徽州上新安郡軍事宣和三年改歙州為徽州崇寧戸一十萬八千三百一十六口一十六萬七千八百九十六貢白苧紙縣六歙望休寧望祁門望婺源望績溪望黟緊<pb:KR2a0032_WYG_088-18a>池州上池陽郡軍事建炎四年分江東西置安撫使領建康太平宣徽饒廣德後以建康路安撫使兼知池州崇寧戸一十三萬五千五十九口二十萬六千九百三十二貢紙紅白薑縣六貴池望』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huangshan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

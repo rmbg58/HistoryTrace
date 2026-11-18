@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/金城",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/金城",
+   "quote": "『琳琅玕師古曰球琳皆玉名琅玕石似珠者也球音求又音虬琳音林琅音郎玕音干浮于積石至于龍門西河師古曰積石山在金城西南龍門山在河東之西界皆河水所經會于渭汭師古曰逆流曰會自渭北涯逆水西上織皮昆崘析支渠叟西戎即叙師古曰昆崘析支渠叟三國名也言此諸國皆織皮毛各得其業而西方逺戎並就次叙也叟讀曰搜○宋祁曰姚本各得其下添事字次字改作此道汧及岐至于荆山師古曰自此以下更説所治山水首尾之次也<pb:KR2a0007_WYG_028』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lanzhou_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lanzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

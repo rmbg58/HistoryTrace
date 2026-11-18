@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/赣州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/贛州府",
+   "quote": "『東有盧溪鎮萬載府北北有龍江下流即㙐州府之蜀江東北有康樂水入焉西有鐵山界巡檢司又有高村鎮巡檢司尋廢　　贛州府元贛州路属江西行省太祖乙巳年為府領縣十二西北距布政司一千一百八十里　贛倚南有崆峒山章貢二水夾山左右經城之東西貢水一名東江自福建長汀縣流入府界章水一名西江自湖廣宜章縣流入府界至城北合流為贛<pb:KR2a0038_WYG_043-37a>江北有桂源巡檢司後遷修鎮東北有磨刀寨巡檢司後遷石院舖南有長洛巡檢』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_ganzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_ganzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

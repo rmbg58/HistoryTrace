@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/觻得",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/觻得",
+   "quote": "『年開莽曰設屏應劭曰張國臂掖故曰張掖也師古曰昆音胡門反戸二萬四千三百五十二口八萬八千七百三十一○縣十　觻得千金渠西至樂涫入澤中羌谷水出𦍑中東北至居延入海過郡二行二千二百里莽曰官式應劭曰觻得渠西入澤羌谷孟康曰觻音鹿師古曰孟音是也涫音官其下並同昭武莽曰渠武刪丹桑欽以為道弱水自此西至酒泉合黎莽曰貫虜氐池莽曰否武屋蘭莽曰<pb:KR2a0007_WYG_028-68b>傳武曰勒都尉治澤索谷莽曰勒治師古曰澤音鐸索』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhangye_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhangye",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

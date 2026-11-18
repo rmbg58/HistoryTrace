@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/歙州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷040/歙州",
+   "quote": "『　遂安　後漢分歙縣南鄉安定里置新定縣晉改新定為遂安<pb:KR2a0026_WYG_040-28b>歙州　隋新安郡武徳四年平汪華置歙州總管管歙睦衢三州貞觀元年罷都督府天寳元年改為新安郡乾元元年復為歙州舊領縣三戸六千二十一口二萬六千六百一十七天寳領縣五户三萬八千三百三十口二十六萬九千一百九在京師東南三千六百六十七里至東都二千八百二十六里歙　漢縣屬丹陽郡縣南有歙浦因為名隋於縣置新<pb:KR2a0026_』——Kanripo《舊唐書》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huangshan_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huangshan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

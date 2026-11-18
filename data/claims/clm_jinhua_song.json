@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/婺州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/婺州",
+   "quote": "『十八貢白紵漆器縣六烏程望歸安望太平興國七年析烏程地置縣安吉望長興望德清緊武康上太平興國三年自杭州來隷婺州上東陽郡淳化元年改保寜軍節度崇寧户一十三萬四千八十口二十六萬一千六百七十八貢綿藤紙縣七金華望義烏望永康緊武義上浦江上唐浦陽縣梁錢鏐奏改蘭溪望東陽望<pb:KR2a0032_WYG_088-4a>慶元府本明州奉化郡建隆元年升奉國軍節度本上州大觀元年升為望紹興初置沿海制置使八年以浙東安撫使兼制司十一年罷』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jinhua_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jinhua",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

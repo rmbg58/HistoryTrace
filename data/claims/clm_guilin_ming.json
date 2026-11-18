@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/桂林府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/桂林府",
+   "quote": "『六百四十口一百六十七萬六千二百七十四萬厯六年戸二十一萬八千七百一十二口一百一十八萬六千一百七十九　　桂林府元静江路洪武元年為府五年六月改為桂林府領州二縣七　臨桂倚洪武三年七月建靖江王府於獨秀峯前東有桂山東北有克山又有桂江亦曰灕江南有陽江來合焉至蒼梧縣合於左右江東有蘆田市西有兩江口二巡檢司南有湘山渡巡<pb:KR2a0038_WYG_045-24b>檢司後廢興安府北南有海陽山湘水出其北流入湖廣永州府界灕水』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_guilin_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_guilin",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

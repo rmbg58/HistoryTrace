@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/安庆府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/安慶府",
+   "quote": "『有鐵鑪山多鐵冶又西南有四十八盤山又淠河在東源出霍山下流至夀州入淮西北有千羅畈西南有上土市二巡檢司　　安慶府元安慶路屬河南江北行省太祖辛丑年八月曰寧江府壬寅年四月曰安慶府領縣六北距南京六百五十里洪<pb:KR2a0038_WYG_040-42a>武二十六年編户五萬五千五百七十三口四十二萬二千八百四𢎞治四年户四萬六千五十口六十一萬六千八十九萬厯六年户四萬六千六百九口五十四萬三千四百七十六　懷寧倚南濱大江西有』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_anqing_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_anqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/延安府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/延安府",
+   "quote": "『南有嘉陵江西北有犀牛江即西漢水也又西有白水江東北有九股樹西有置口二巡檢司又西北有白水鎮巡檢司後廢　　延安府元延安路屬陜西行省洪武二年五月為府領州三縣十六南距布政司七百四十里　膚施倚東有延水又有清化水流入焉安塞府西北西有洛水北有延水出縣西北之蘆闗嶺又東南有西川水北有金明川俱流入焉又北有塞門守禦百戸所洪武十二年置西南有敷政巡檢司甘泉府西南北有野猪峽西有洛河南有伏陸水流入焉又東北有庫利川安定府東北北有髙栢山懷』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yanan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yanan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/武昌",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/武昌",
+   "quote": "『敇修　　志第二十　　地理五　　湖廣　　　　　　浙江　　湖廣禹貢荆揚梁豫四州之域元置湖廣等處行中書省治武昌路又分置湖南道宣慰司治天臨路屬焉又以襄陽等<pb:KR2a0038_WYG_044-1b>三路屬河南江北等處行中書省又分置荆湖北道宣慰司治中興路并屬焉太祖甲辰年二月平陳理置湖廣等處行中書省洪武三年十二月置武昌都衛與行中書省同治八年十月改都衛為湖廣都指揮使司九年六月改行中書省為承宣布政使司領府十五直隸』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuhan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuhan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

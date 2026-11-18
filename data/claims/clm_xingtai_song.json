@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/邢州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/邢州",
+   "quote": "『卽北平縣治置軍使隸州<pb:KR2a0032_WYG_086-8b>信徳府次府鉅鹿郡後唐安國軍節度本邢州宣和元年升為府崇寧戸五萬三千六百一十三口九萬五千五百五十二貢絹白磁盞解玉砂縣八邢臺上宣和二年改龍岡縣為邢臺沙河上任中堯山中平鄉上熙寧六年省平鄉縣為鎭入鉅鹿元祐元年復内邱上熙寧六年省堯山縣入馬元祐元年復南和中熙寧五年省任縣為鎭入焉元祐元年復鉅鹿上濬州平川軍節度本通利軍端拱元年以滑州黎陽縣<pb:KR2』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xingtai_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xingtai",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

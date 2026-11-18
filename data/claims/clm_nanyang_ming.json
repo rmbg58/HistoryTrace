@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/南阳府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/南陽府",
+   "quote": "『之香䑓廵檢司於此蘭陽府東少北北濵大河有李景髙口萬厯十七年河決於此儀封府東少北元屬睢州洪武十年五月改屬南陽府後來屬故城在縣北洪武二十二年二月圯於河徙日樓村即今治也東北有黄陵岡大河舊經其下入曹縣界𢎞治五年河決於此尋塞之改從岡南入睢州界又賈魯故河亦在縣北正徳四年河決入焉新鄭府西南元屬均州隆慶五年七月改屬西南有大隗山一名具茨山潩水出焉一名魯固河下流入頴又南有陘山北有大河又有溱水一曰<pb:KR2a0038_WY』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_nanyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_nanyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

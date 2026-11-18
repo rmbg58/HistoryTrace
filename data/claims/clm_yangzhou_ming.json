@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/扬州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/揚州府",
+   "quote": "『口仍置巡檢司於舊治東南濱大江冇江淮衛洪武二十八年正月置又冇西江口巡檢司六合府西北元屬真州洪武三年直𨽻揚州府二十二年二月來屬東有瓜歩山濱大江滁河水自西來入焉有瓜埠巡檢司　　鳳陽府元濠州屬安豐路太祖呉元年升為臨濠府洪武二年<pb:KR2a0038_WYG_040-30b>九月建中都置留守司於此六年九月曰中立府七年八月曰鳳陽府洪武二年九月建中都城於舊城西三年十二月始成周五十里四百四十三步立門九正南曰洪武南之左』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yangzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

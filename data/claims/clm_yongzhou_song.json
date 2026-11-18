@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/永州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/永州",
+   "quote": "『白紵零陵香縣四營道緊熙寧五年省永明縣為鎮入焉元祐元年復江華緊有黄富鐵場寧遠緊唐延唐縣乾德三年改永明上永州中零陵郡軍事熙寧六年廢福田樂山二砦八年廢零陵砦崇寧戸八萬九千三百八十七口二十四萬三千三百二十二貢葛石燕縣三零陵望祁陽中東安中雍熙元年升東安場為縣有東安砦郴州中桂陽郡軍事紹興初改隷荆湖東路二年仍來<pb:KR2a0032_WYG_088-33a>屬崇寧户三萬九千三百九十二口一十三萬八千五百九十九貢紵縣』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_yongzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_yongzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

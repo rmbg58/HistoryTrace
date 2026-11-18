@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/姑臧",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/姑臧",
+   "quote": "『帝太初四年開莽曰張掖師古曰休音許虯反屠音直閭反其後並同戸萬七千五百八十一口七萬六千四百一十九○縣十　姑臧南山谷水所出北至武威入海行七百九十里張掖　武威休屠澤在東北古文以為豬壄澤休屠莽曰晏然都尉治熊水障北部都尉治休屠城揟次莽曰播徳孟康曰揟<pb:KR2a0007_WYG_028-68a>音子如反次音咨諸本作恣鸞鳥○宋祁曰鳥邵本作烏樸&KR3025;莽曰敷虜孟康曰音蒲環媼圍　蒼柗南山柗陜水所出北至揟次入海』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_wuwei_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_wuwei",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

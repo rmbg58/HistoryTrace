@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/兰州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/蘭州",
+   "quote": "『a0032_WYG_085-4a>銀州王韶取熙河章惇取懿洽謝景溫取徽誠熊本取南平郭逵取廣源最後李憲取蘭州沈括取葭蘆米脂浮圖安疆等砦雖嘗以河東邊界七百里地與遼人當時王安石議蓋曰吾將取之寧姑與之也迨元祐更張葭蘆等四砦給賜夏人而分畫乆不能定紹聖遂罷分畫督諸路各乘勢攻討進築自三年秋八月訖元符二年冬凡陜西河東建州一安西軍二晉寧綏徳闗三龍平㑹寜金城城九安西平夏威戎興平定邊威羌金湯白豹㑹川砦二十八平羌平戎殄羌暖泉米』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_lanzhou_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_lanzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

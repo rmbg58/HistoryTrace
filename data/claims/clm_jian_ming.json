@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/吉安府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/吉安府",
+   "quote": "『衛西北洪武二十五年閏十二月置　　江西禹貢揚州之域元置江西等處行中書省治龍興路太祖壬寅年正月因之正月治吉安府二月還治洪都洪武三年十二月置江西都衛與行中書省同治八年十月改都衛為都指揮使司九年六月改行中書省為承宣布政使司領府十三<pb:KR2a0038_WYG_043-28a>州一縣七十七為里九千九百五十六有奇北至九江與江南湖廣界東至玉山與浙江界南至安逺與福建廣東界西至永寜與湖廣界距南京一千五百二十里京師四千』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jian_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jian",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

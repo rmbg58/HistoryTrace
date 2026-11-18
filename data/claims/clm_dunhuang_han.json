@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/敦煌",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/敦煌",
+   "quote": "『莽曰蕭武師古曰闞駰云衆水所會故曰會水池頭　綏彌如淳曰今曰安彌乾齊西部都尉治西部障莽曰測虜孟康曰乾音干敦煌郡武帝後元年分酒泉置正西關外有白龍堆沙有蒲昌海莽曰敦徳應劭曰敦大也煌盛也敦音屯戸萬一千二百口三萬八千三百三十五○縣六敦煌中部都尉治部廣候官杜林以為古𤓰州地生美𤓰莽曰敦徳師古曰即春秋左氏傳所云允姓之戎居於𤓰州者也其地今猶出大𤓰長者狐入𤓰中食之首尾不出冥安南籍端水出南羌中西北入其澤溉民田應劭曰冥水出北入』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dunhuang_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dunhuang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

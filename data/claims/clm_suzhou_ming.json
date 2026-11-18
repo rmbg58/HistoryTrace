@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/苏州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/蘇州府",
+   "quote": "『>於金沙塲以避水患海在東大江於此入海又西有張港東有呉陵又有安東壩上又有白塔河四廵檢司東南有料角嘴　　蘇州府元平江路屬江浙行省太祖呉元年九月曰蘇州府領州一縣七西距南京五百八十八里洪武二十六年編戸四十九萬一千五百一十四口二百三十五萬五千三十𢎞治四年户五十三萬五千四百九口二百四萬八千九十七萬厯六年户六十萬七百五十五口二百一萬一千九百八十五　呉倚西有姑蘇山西南有横山又有穹窿光福等山又有太<pb:KR2a0038』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_suzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_suzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

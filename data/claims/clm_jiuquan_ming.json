@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/肃州卫",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/肅州衛",
+   "quote": "『KR2a0038_WYG_042-31b>州前衛　甘州後衛俱洪武二十九年置　四衛俱與甘州左衛同城　　肅州衛元肅州路屬甘肅行省洪武二十七年十一月置衛西有嘉峪山其西麓即嘉峪闗也𢎞治七年正月扁闗曰鎮西西南有小崑崙山亦曰雪山與甘州山相接北有討來河東㑹於張掖河西南有白水又西北有黒水東南有紅水俱流入白水下流入西寕衛之西海又東北有威虜衛洪武中置永樂三年三月省東距行都司五百十里　　山丹衛元山丹州直𨽻甘肅行省洪武初廢二十』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_jiuquan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_jiuquan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

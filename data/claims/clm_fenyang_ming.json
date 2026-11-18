@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汾州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷041/汾州府",
+   "quote": "『蒲府西北元属隰州洪武二年改屬西有第一河西流入大河東有張村岔巡檢司靈石府北元屬霍州萬厯二十三年五月改屬汾州府四十三年還屬府東有綿山即介山也城北有汾水又東有谷水流入焉又北有靈石口巡檢司西南有陰地闗又有汾水闗　蒲州元河中府洪武二年改為蒲州以州治河東縣省入中條山在東南即雷首山也又名首陽山跨臨晉聞喜垣曲平陸芮城安邑夏縣解州之境又南有厯山又大河自榆林折而西經州城西又經中條山麓又折而東謂之河曲臨河有風陵闗巡檢司又東南』——Kanripo《明史》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fenyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fenyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

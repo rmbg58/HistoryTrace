@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/舒州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/舒州",
+   "quote": "『六萬六千三百七十一貢苧布練布縣三歴陽緊有梁山柵江二砦含山中有東闗砦烏江中紹興五年廢為鎮七年復安慶府本舒州同安郡德慶軍節度本團練州建隆元年升為防禦政和五年賜軍額建炎間置舒蘄鎮撫使紹興三年舒黄蘄三州仍聽江南西路安撫司節制十七年改安慶軍慶元元年以寧宗潛邸升為府端平三年移治羅刹洲又移楊槎洲景定元年改築宜城舊屬沿江制置使司崇寧户一十二萬八千三百五十口三<pb:KR2a0032_WYG_088-14b>十四萬一千』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_anqing_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_anqing",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

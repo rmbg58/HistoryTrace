@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/晋州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷086/晉州",
+   "quote": "『-14a>渉中黎城中天聖三年徙治渉之東南白馬驛熙寧五年省入潞城縣元祐元年復平陽府望平陽郡建雄軍節度本晉州政和六年升為府崇寧戸七萬五千九百八口一十八萬五千二百五十四貢蜜蠟燭縣十臨汾望洪洞緊襄陵緊熙寧五年廢慈州鄉寧縣分隸焉有鵰掌豹尾二砦神山上有韓買安國史壁疊頭等堡趙城上熙寧五年省為鎭隷洪洞元豐三年復為縣汾西中有厚裔青岸石橋青山邊栢五砦霍邑中冀氏中有府城永興二砦陶川白練當谷横嶺四堡岳陽中下和川中下太平興國六』——Kanripo《宋史》卷086",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_linfen_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_linfen",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷086 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

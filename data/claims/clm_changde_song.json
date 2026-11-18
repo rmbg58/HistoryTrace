@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/鼎州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷088/鼎州",
+   "quote": "『-24a>也荆湖南北路紹興元年以鄂岳潭衡永郴道州桂陽軍為東路鄂州置安撫司鼎澧辰沅靖邵全州武岡軍為西路鼎州置安撫司二年罷東西路仍分南北路安撫司南路治潭州北路治鄂尋治江陵北路府二江陵德安州十鄂復鼎澧峽岳歸辰沅靖軍二荆門漢陽縣五十六南渡後府三江陵常德德安州九鄂岳歸峽復澧辰沅靖軍三漢陽荆門壽昌紹興三十二年户二十五萬四千一百一口四十四萬五千八<pb:KR2a0032_WYG_088-24b>百四十四江陵府次府江』——Kanripo《宋史》卷088",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changde_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changde",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷088 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

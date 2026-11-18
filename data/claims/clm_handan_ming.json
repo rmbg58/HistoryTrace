@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/邯郸县",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/邯鄲縣",
+   "quote": "『七十里領縣二　武安州西北元末廢洪武元年十一月復置東南有滏山滏水出焉西南有磁山産磁石東北有洺河流入北直邯鄲縣界又西有固鎮巡檢司涉州西少北元屬真定路後廢洪武元年十一月復置屬真定府二年四月來屬南有涉水即清漳水也自山西黎城縣流入又東北有偏店巡檢司後移於縣西南之吾而峪口　　汝州元屬南陽府洪武初以州治梁縣省入成化十二年九月直隸布政司東南有霍山又有魚齒山涉水出於此入葉縣界又西南有鳴臯山又有空峒<pb:KR2a0038』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_handan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_handan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

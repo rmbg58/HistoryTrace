@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/福州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/福州府",
+   "quote": "『年户五十萬六千三十九口二百一十萬六千六百萬厯六年户五十一萬五千三百七口一百七十三萬八千七百九十三　　福州府元福州路屬福建道太祖吳元年為府領縣九　閩倚南有釣臺山亦曰南臺山東南有鼔山南有方山一名甘果山下有官母嶼有巡檢司東南濵海南有閩江亦曰建江自南平縣流入府界東南納羣川之水至府西曰洪塘江分二流南出曰陶江東出曰南臺江至鼓山上復合為一又東南有馬頭江自永福縣流入曰西峽江又東有東峽江流合焉又東南至五虎門入於海東有閩安』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_fuzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_fuzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

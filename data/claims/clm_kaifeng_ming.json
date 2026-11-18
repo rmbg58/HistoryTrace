@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/开封府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷042/開封府",
+   "quote": "『地置河南江北行中書省治汴梁路洪武元年五月<pb:KR2a0038_WYG_042-1b>置中書分省治開封府二年四月改分省為河南等處行中書省三年十二月置河南都衛八年十月改都衛為都指揮使司九年六月改行中書省為承宣布政使司府八直隸州一屬州十一縣九十六為里三千八百八十有奇北至武安與北直山西界南至信陽與江南湖廣界東至永城與山東江南界西至陜州與山西陜西界距南京一千一百七十五里京師一千五百八十里洪武二十六年編戸三十一』——Kanripo《明史》卷042",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_kaifeng_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_kaifeng",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷042 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "ctp:han-shu 地理志/平城",
    "quote": null,
    "source": "src_hanshu_ctext"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0007/地理志卷028/平城",
+   "quote": "『説非也又如皇甫謐所云湯都在穀熟事並不經劉向云殷湯無𦵏處安得湯冢乎京師古曰即鄭共叔叚所居也平陰應劭曰在平城南故曰平隂中牟圃田澤在西豫州藪有筦叔邑趙獻侯自耿徙此師古曰筦與管同平莽曰治平陽武有博<pb:KR2a0007_WYG_028-24a>狼沙莽曰陽桓師古曰狼音浪河南故郟鄏地周武王遷九鼎周公致太平營以為都是為王城至平王居之師古曰郟音夾鄏音辱緱氏劉聚周大夫劉子邑有延壽城仙人祠莽曰中亭師古曰緱音工侯反卷師古』——Kanripo《前漢書》卷028",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_datong_han",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_datong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《前漢書》卷028 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

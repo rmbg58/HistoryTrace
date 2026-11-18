@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/长沙府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/長沙府",
+   "quote": "『保康府東南𢎞治十年十一月以房縣之潭頭坪之北有粉水東南有常坪堡嘉靖十九年移南漳縣之七里頭巡檢司於此　　長沙府元天臨路属湖南道宣慰司太祖甲辰年為潭州府洪武五年六月更名長沙領州一縣十一東北距布政司八百<pb:KR2a0038_WYG_044-14a>八十里　長沙倚治西北洪武三年四月建潭王府二十三年除永樂元年谷王府自北直宣府遷於此十五年除二十二年建襄王府正統元年遷於襄陽天順元年三月建吉王府縣舊治城外洪武初徙城中』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_changsha_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_changsha",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

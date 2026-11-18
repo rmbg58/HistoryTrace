@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/襄阳府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷044/襄陽府",
+   "quote": "『一名夷水自四州建始縣流入下流入於大江又北有塩井西南有連天闗巡檢司南有野山闗巡檢司本治石砫隆慶四年更名襄陽府元裏陽路属河南江北行省大祖甲辰年為府屬湖廣行省九年屬湖廣布政司二十四年六月改屬河南未幾還<pb:KR2a0038_WYG_044-12a>屬湖廣領州一縣六東南距布政司六百八十里　襄陽倚正統元年襄王府自長沙遷此南有虎頭山又有峴山東南有鹿門山又西有隆中山漢水在城北亦曰襄江白河在城東北與唐河合南入漢謂之白』——Kanripo《明史》卷044",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_xiangyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_xiangyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷044 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

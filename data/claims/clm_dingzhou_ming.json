@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/定州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/定州",
+   "quote": "『十里領縣三　文安州南少東西有易水東北有得勝火燒等淀大城州東南東北有黄㲼河源自交河分流至縣境入三角淀保定州南少西洪武七年九月省入霸州十三年十一月復置玉帯河在北東流入㑹通河西南有磁河東南與玉帯河合　涿州洪武初以州治范陽縣省入西有獨鹿山北有涿水西北有挾河合焉南有范水東北距府<pb:KR2a0038_WYG_040-7a>百四十里領縣一　房山州北少西西有大房山北有大安山西南有青龍潭其下流為挾河一名韓村河至涿州』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_dingzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_dingzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

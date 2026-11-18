@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/陈州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/陳州",
+   "quote": "『流合大河入海又南有汝水自河南息縣流入逕朱臯鎮入淮又北有穎河自河南沈邱縣流入洪武二十四年黄河決於河南由陳州合穎逕太和縣又逕州城北又逕穎上縣至夀州仝入於淮永樂九年河復故道宣徳正統成化正徳間河穎時通時塞俗亦稱穎為小黄河西北又有沈邱鎮巡檢司東距府四百四十里領縣二　潁上州東南東有潁河南有淮河東北有西肥水太和州西北南有潁水亦名沙河北有西肥水又有洪山北原和二巡檢司亳州元屬歸徳府洪武初以州治譙縣省入尋降為縣屬歸徳州六』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_huaiyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_huaiyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

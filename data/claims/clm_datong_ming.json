@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/大同府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/大同府",
+   "quote": "『口柴溝洗馬林等堡西南有渡口堡又有西陽河堡東距都司八十里懐安衛元懐安縣屬興和路洪武三年屬興和府改屬山西大同府尋廢二十六年二月置衛屬山西行都司永樂元年二月直𨽻後軍都督府宣徳五年六月改屬西北有花山北有蕁蔴嶺南有水溝口河東入於洋河東北有威寧縣元屬興和路洪武中廢又西有李信屯堡嘉靖十六年置<pb:KR2a0038_WYG_040-21a>東距都司百二十里　　保安右衛永樂十五年置於順聖川直𨽻後軍都督府十七年移治西沙城』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_datong_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_datong",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

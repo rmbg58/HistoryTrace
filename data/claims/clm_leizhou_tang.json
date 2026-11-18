@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/雷州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷041/雷州",
+   "quote": "『二十二里至東都五千七百五里東至大海一百三十九里南至<pb:KR2a0026_WYG_041-86a>雷州二百五十里西至廉州二百五十里北至辯州一百五十里西南至零縁縣大海一百二十里西北至白州二百三十里東北至新州五十里石城　州所治漢合浦郡地宋将檀道濟於陵羅江口築石城因置羅州属髙凉郡唐復置羅州於縣　吳川　隋義　招義　武徳五年析石龍縣置也　南河武徳五年析石龍縣置也潘州下　隋合浦郡之定川縣武徳四年置南宕州領南昌定』——Kanripo《舊唐書》卷041",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_leizhou_tang",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_leizhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷041 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

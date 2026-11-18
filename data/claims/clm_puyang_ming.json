@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/开州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷040/開州",
+   "quote": "『舊治在縣西洪武三年遷於此南有魏河又有新舊二漳河下流俱合於衛河南樂府東南有繁水北入於衛河清豐府東南元屬開州洪武七年三月改屬府西南有澶水伏流至古繁水城西南謂之繁水内黄府西南元屬滑州洪武七年三月改屬府北有衛河東有繁水西有洹水西北有回隆鎮有回龍廟巡檢司嘉靖三十六年漳河決於此入衛濬府西南元濬州治在浮邱山之西洪武二年四月降為縣徙治於山東北之平坡嘉靖二十九年復徙城於山巔即今治也東有大伾山一名黎陽山又名清澶山西有衛河』——Kanripo《明史》卷040",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_puyang_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_puyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷040 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

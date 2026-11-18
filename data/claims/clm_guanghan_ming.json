@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/汉州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷043/漢州",
+   "quote": "『有湔㳛口新都府北東有雒水自什邡縣流經此下流至瀘州入大江亦曰中水北有湔水即大江别流自灌縣東北出流經此至漢州入雒水東北有綿水自漢州流至此入雒江三水同流亦曰郫江也彭府北元彭州洪武十年五月降為縣北有九隴山有葛璝山又有大隋山中隋山南有沱江又北有濛水流合焉又東有濛陽縣元属彭州洪武十年五月省又北有白石溝巡檢巡崇寜府西北元属彭州洪武四年属府十年五月省入灌縣十三年十一月復置南有沱江灌府西少北元灌州洪武中降為縣西北有灌口』——Kanripo《明史》卷043",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_guanghan_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_guanghan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷043 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

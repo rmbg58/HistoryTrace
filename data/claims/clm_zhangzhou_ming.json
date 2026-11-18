@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/漳州府",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0038/地理志卷045/漳州府",
+   "quote": "『山西有太湖山南有丁溪又有滻溪合而北流入興化仙逰境又西北有高鎮巡檢司本東西團後徙治更名東南有虎豹闗　　漳州府元漳州路屬福建道宣慰司洪武元年為府領縣十東北距<pb:KR2a0038_WYG_045-8b>布政司七百里　龍溪倚東有岐山西有天寳山北有華峯嶺一名龍頭嶺東南濱海海中有丹霞等嶼又東北有九龍江亦名北溪其上源出長汀及沙縣流入縣界厯龍頭嶺下謂之峽中至縣東出峽為桞營江又南有南溪流入焉又東南為鎮門港入於海有桞營』——Kanripo《明史》卷045",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_zhangzhou_ming",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_zhangzhou",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《明史》卷045 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

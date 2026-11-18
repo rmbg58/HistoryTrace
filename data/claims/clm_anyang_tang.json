@@ -11,9 +11,15 @@
    "locus": "殆知閣鏡像/舊唐書/相州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0026/地理志卷039/相州",
+   "quote": "『汲郡本治衛縣武徳元年改為衛州二年陷竇建徳四年賊平仍舊領衛清淇湯陰三縣其年廢義州以汲縣來屬六年以湯陰屬相州貞觀元年州移治於汲縣又廢殷州以共城新鄉博望三縣來屬六年廢博望縣十七年廢清淇縣其年又以廢州之黎陽縣來屬天寶元年改為汲郡乾元元年復為衛州舊領縣五戸一萬一千九百三口四萬三千六百八十二天寶<pb:KR2a0026_WYG_039-24b>戸四萬八千五十六口二十八萬四千六百三十在京師東一千二百二十二里去東都三』——Kanripo《舊唐書》卷039",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_anyang_tang",
  "object": {
@@ -32,10 +38,18 @@
   "created_by": "geojuan-locator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_anyang",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《舊唐書》卷039 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }

@@ -11,9 +11,15 @@
    "locus": "殆知阁镜像/正史地理志/蔡州",
    "quote": null,
    "source": "src_daizhige"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "Kanripo KR2a0032/地理志卷085/蔡州",
+   "quote": "『濟源望溫望汜水上熙寜五年省入河隂元豐二年復置大中祥符四年改武牢關曰行慶河隂中王屋中熙寜五年自河南來隸蔡州緊汝南郡淮康軍節度崇寜户九萬八千五百二口十八萬五千一十三貢綾縣十汝陽上上蔡上新蔡中褒信中遂平中新息中確山中隋朗山縣大中祥符五年改真陽中西平中平輿淮寜府輔淮陽郡鎮安軍節度本陳州政和三年改輔為上宣和元年升為府崇寜户三萬二千九十四口一<pb:KR2a0032_WYG_085-28b>十五萬九千六百一十七貢』——Kanripo《宋史》卷085",
+   "source": "src_kanripo"
   }
  ],
- "confidence": "G3",
+ "confidence": "G4",
  "disputes": [],
  "id": "clm_runan_song",
  "object": {
@@ -33,10 +39,18 @@
   "created_by": "seed-generator",
   "pipeline_runs": []
  },
- "status": "cross-checked",
+ "status": "verified-multi-source",
  "subject": {
   "id": "plc_runan",
   "type": "place"
  },
- "verdicts": []
+ "verdicts": [
+  {
+   "basis": "G4 分支一:維基文庫引文與 Kanripo《宋史》卷085 同條互證(兩獨立 C 級傳承),無未決異文",
+   "by": "ht-kanripo@auto(ADR-010:两独立传承对校,数字/条目逐字一致)",
+   "date": "2026-11-19",
+   "decision": "accept",
+   "round": "R3"
+  }
+ ]
 }
