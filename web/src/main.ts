@@ -165,6 +165,11 @@ async function bootstrap(): Promise<void> {
 
   const map = initMap(document.getElementById("map")!);
   let mapReady = false;
+  // 诊断暴露(线上排查 map load 问题)
+  (window as unknown as Record<string, unknown>).__ht = { map, mapReady: () => mapReady };
+  map.on("error", (e) => {
+    (window as unknown as { __errs: string[] }).__errs.push(`maplibre:${e.error?.message || "unknown"}`);
+  });
 
   const applyBoundaries = (): void => {
     if (!boundaries) return;
