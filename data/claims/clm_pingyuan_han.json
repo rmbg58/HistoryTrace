@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·平原",
+   "quote": "『，南皮，定，章武，中邑，高成，高樂，參戶，成平，柳，臨樂，東平舒，重平，安次，脩市，文安，景成，束州，建成，章鄉，蒲領。平原郡，戶十五萬四千三百八十七，口六十六萬四千五百四十三。縣十九：平原，鬲，高唐，重丘，平昌，羽，般，樂陵，祝阿，瑗，阿陽，漯陰，朸，富平，安德，合陽，樓虛，龍哣，安。千乘郡，戶十一萬六千七百二十七，口四十九萬七百二十。縣十五：千乘，東鄒，溼沃，平安，博昌，蓼城，建信，狄，琅槐，樂安』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/平原",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_pingyuan_han",
+ "object": {
+  "name": "平原",
+  "role": "平原郡轄"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_pingyuan",
+  "type": "place"
+ },
+ "verdicts": []
+}

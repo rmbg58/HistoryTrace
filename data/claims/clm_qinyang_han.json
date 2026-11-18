@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·野王",
+   "quote": "『內郡，戶二十四萬一千二百四十六，口百六萬七千九十七。縣十八：懷，汲，武德，波，山陽，河陽，州，共，平皋，朝歌，脩武，溫，野王，獲嘉，軹，沁水，隆慮，蕩陰。河南郡，戶二十七萬六千四百四十四，口一百七十四萬二百七十九。縣二十二：雒陽，滎陽，偃師，京，平陰，中牟，平，陽武，河南，緱氏，卷，原武，鞏，穀成，故市，密，新成，開封，成皋，苑陵，梁，新鄭。東郡，戶四十萬一千二百九十七，口百六十五萬九千二十八。縣二十』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/野王",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_qinyang_han",
+ "object": {
+  "name": "野王",
+  "role": "河內郡治"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_qinyang",
+  "type": "place"
+ },
+ "verdicts": []
+}

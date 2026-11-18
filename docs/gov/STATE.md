@@ -17,6 +17,7 @@ Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 �
 | T-007 | M8:引文搜索缺陷修复+队列重考 | agent | data/ pipelines/ | done | 2026-11-18 | 旧 10 条作废清除;过滤修复后重考 8 条;**队列 8 条待用户裁决升 G4** |
 | T-008 | M8:verify.yml CI 建立(校验,不含部署;OT-001 待用户确认) | agent | .github/ | done | 2026-11-18 | workflow_dispatch 可手动跑 R4 regression |
 | T-009 | M9:卷页直抓考据(清史稿地理志卷 53-75 定位)+24 城 | agent | data/ pipelines/ | done | 2026-11-18 | 省-卷映射实测(直隶53…贵州75);24 城带真源 quote 录入;151 城 663 claims 全绿;剩余 49 城待证据(部分候选名不符清制) |
+| T-010 | M11:汉期第二批(野王/膚施/廣武/奉高/狄道/莒/平原/浮陽/清陽/高密)+3 城跨朝(安阳/聊城/临沂 tang·song·ming 部分受限) | agent | data/ pipelines/ | done | 2026-11-18 | 卷页直抓复制到漢書卷028 成功;157→160 城 678 claims 全绿;3 条宋期 claim 因 IP 限流顺延(下次会话补);R4 27/27 稳定 |
 
 状态:planned / in_progress / blocked / waiting_external / done / abandoned。超时只标记需确认,不自动放弃;任务必须保留下一步或关闭原因。
 

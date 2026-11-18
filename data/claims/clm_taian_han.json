@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·奉高",
+   "quote": "『攷略》收錄有『蓍丞之印』，確明傳世本作『著』爲訛誤。，宜成。泰山郡，戶十七萬二千八十六，口七十二萬六千六百四。縣二十四：奉高，博，茬，盧，肥成，蛇丘，剛，柴，蓋，梁父，東平陽，南武陽，萊蕪，鉅平，嬴，牟，蒙陰，華，寧陽，乘丘，富陽，桃山，桃鄉，式。齊郡，戶十五萬四千八百二十六，口五十五萬四千四百四十四。縣十二：臨淄，昌國，利，西安，鉅定，廣，廣饒，昭南，臨朐，北鄉，平廣，臺鄉。北海郡，戶十二萬七千，口』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/奉高",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_taian_han",
+ "object": {
+  "name": "奉高",
+  "role": "泰山郡治(今泰安東)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_taian",
+  "type": "place"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·廣武",
+   "quote": "『十一：晉陽，葰人，界休，榆次，中都，于離，茲氏，狼孟，鄔，盂，平陶，汾陽，京陵，陽曲，大陵，原平，祁，上艾，慮虒，陽邑，廣武。上黨郡，戶七萬三千七百九十八，口三十三萬七千七百六十六。縣十四：長子，屯留，余吾，銅鞮，沾，涅氏，襄垣，壺關，泫氏，高都，潞，陭氏，陽阿，穀遠。河內郡，戶二十四萬一千二百四十六，口百六萬七千九十七。縣十八：懷，汲，武德，波，山陽，河陽，州，共，平皋，朝歌，脩武，溫，野王，獲嘉，』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/廣武",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_daixian_han",
+ "object": {
+  "name": "廣武",
+  "role": "雁門郡轄"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_daixian",
+  "type": "place"
+ },
+ "verdicts": []
+}

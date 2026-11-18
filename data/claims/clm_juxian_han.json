@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·莒",
+   "quote": "『口十九萬二千五百三十六。縣五：高密，昌安，石泉，夷安，成鄉。城陽國，戶五萬六千六百四十二，口二十萬五千七百八十四。縣四：莒，陽都，東安，慮。淮陽國，戶十三萬五千五百四十四，口九十八萬一千四百二十三。縣九：陳，苦，陽夏，寧平，扶溝，固始，圉，新平，柘。梁國，戶三萬八千七百九，口十萬六千七百五十二。縣八：碭，甾，杼秋，蒙，已氏，虞，下邑，睢陽。東平國，戶十三萬一千七百五十三，口六十萬七千九百七十六。縣七』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/莒",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_juxian_han",
+ "object": {
+  "name": "莒",
+  "role": "城陽國都"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_juxian",
+  "type": "place"
+ },
+ "verdicts": []
+}

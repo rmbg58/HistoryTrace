@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "明史/卷42/彰德府",
+   "quote": "『山，一名百門山，山有百門泉，泉通百道，其下流爲衛水，故又名衛源。又西南有清水。又西北有侯趙川、西有鴨子口二巡檢司。===彰德府===彰德府元彰德路，直隸中書省。閏七月爲府。十月屬河南分省。領州一，縣六。南距布政司三百六十里。安陽倚。四月建趙王府。元末，縣廢。九月復置。東北有韓陵山。西北有銅山，舊產銅。北有安陽河，本名洹水，自林縣流入，至北直內黃縣入衛河。又北有濁漳水。臨漳府東北。元末廢。九月復置。西有清』——《明史》(明史/卷42)",
+   "source": "src_mingshi_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/明史/彰德府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_anyang_ming",
+ "object": {
+  "name": "彰德府",
+  "role": "河南布政使司·彰德府"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1368,
+  "latest": 1643,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_anyang",
+  "type": "place"
+ },
+ "verdicts": []
+}

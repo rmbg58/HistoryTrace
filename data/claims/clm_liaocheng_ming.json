@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "明史/卷41/東昌府",
+   "quote": "『。費州西北。西北有蒙山。西南有大沫涸，又有祊水，東北有蒙陽水，下流俱入於沂河。西南有關陽鎮、西北有毛陽鎮二巡檢司。===東昌府===東昌府元東昌路，直隸中書省。洪武初爲府。領州三，縣十五。東距布政司二百九十里。聊城倚。城東有會通河。西南有武水枯河，即漯河也，爲會通河所截，中堙。堂邑府西。東北有會通河。西有舊黃河。博平府東北。三月省，尋復置。西南有會通河。東北有故黃河。茌平府東北。西有故黃河。又西北有故馬』——《明史》(明史/卷41)",
+   "source": "src_mingshi_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/明史/東昌府",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_liaocheng_ming",
+ "object": {
+  "name": "東昌府",
+  "role": "山東布政使司·東昌府"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 1368,
+  "latest": 1643,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_liaocheng",
+  "type": "place"
+ },
+ "verdicts": []
+}

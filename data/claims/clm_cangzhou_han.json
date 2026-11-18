@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·浮陽",
+   "quote": "『鄉，西鄉，饒陽，中水，武垣，阿陵，阿武，高郭，新昌。勃海郡，戶二十五萬六千三百七十七，口九十萬五千一百一十九。縣二十六：浮陽，陽信，東光，阜城，千童，重合，南皮，定，章武，中邑，高成，高樂，參戶，成平，柳，臨樂，東平舒，重平，安次，脩市，文安，景成，束州，建成，章鄉，蒲領。平原郡，戶十五萬四千三百八十七，口六十六萬四千五百四十三。縣十九：平原，鬲，高唐，重丘，平昌，羽，般，樂陵，祝阿，瑗，阿陽，漯陰，』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/浮陽",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_cangzhou_han",
+ "object": {
+  "name": "浮陽",
+  "role": "渤海郡轄"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_cangzhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

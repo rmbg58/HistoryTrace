@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "舊唐書/卷38/沂州",
+   "quote": "『東楚四州。海州領朐山、龍沮、新樂、曲陽、沐陽、厚丘、懷仁、利城、祝其九縣。六年，改新樂為祝其。七年，以東楚州屬揚府，又以沂州來屬。八年，廢環州及龍沮、祝其、曲陽、厚丘、利城六縣，仍以廢環州之東海來屬。九年，廢漣州。，罷都督府。，以海州為東海郡。，復為海州。舊領縣四：朐山、東海、沐陽、懷仁，戶八千九百九十九，口四萬三千六百九十三。天寶，戶二萬八千五百四十九，口十八萬四千九。在京師東二千五百七十里，至東都』——《舊唐書》(舊唐書/卷38)",
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/舊唐書/沂州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_linyi_tang",
+ "object": {
+  "name": "沂州",
+  "role": "河南道·沂州(今臨沂)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 618,
+  "latest": 907,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_linyi",
+  "type": "place"
+ },
+ "verdicts": []
+}

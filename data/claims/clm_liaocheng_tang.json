@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "舊唐書/卷39/博州",
+   "quote": "『}漢縣，隋因之。，置毛州，割魏州之館陶、冠氏、堂邑，貝州之臨清、清水。又分置沙丘縣。，廢毛州，省沙丘、清水二縣，以堂邑屬博州，臨清屬貝州，館陶、冠氏屬魏州}}春秋邑名。隋分館陶縣東界置。，屬毛州。州廢來屬}}陽平縣地，隋置新州。，改為莘州，領莘、臨黃、武陽、武水四縣。，廢莘州，以莘、臨黃、武陽屬魏州，武水屬博州}}漢觀縣地，隋為臨黃縣。，屬莘州。州廢來屬}}隋武陽縣。，廢武陽入臨黃、莘二縣。復置，改為』——《舊唐書》(舊唐書/卷39)",
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/舊唐書/博州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_liaocheng_tang",
+ "object": {
+  "name": "博州",
+  "role": "河北道·博州(今聊城)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 618,
+  "latest": 907,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_liaocheng",
+  "type": "place"
+ },
+ "verdicts": []
+}

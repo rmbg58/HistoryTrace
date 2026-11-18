@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "舊唐書/卷39/相州",
+   "quote": "『郡，本治衛縣。，改為衛州。二年，陷竇建德。四年，賊平，仍舊領衛、清淇、湯陰三縣。其年，廢義州，以汲縣來屬。六年，以湯陰屬相州。，州移治於汲縣，又廢殷州，以共城、新鄉、博望三縣來屬。六年，廢博望縣。十七年，廢清淇縣。其年，又以廢黎州之黎陽縣來屬。，改為汲郡。，復為衛州。舊領縣五，戶一萬一千九百三，口四萬三千六百八十二。天寶，戶四萬八千五十六，口二十八萬四千六百三十。在京師東一千二百二十二里，去東都三百九』——《舊唐書》(舊唐書/卷39)",
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/舊唐書/相州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_anyang_tang",
+ "object": {
+  "name": "相州",
+  "role": "河北道·相州(今安陽)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 618,
+  "latest": 907,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_anyang",
+  "type": "place"
+ },
+ "verdicts": []
+}

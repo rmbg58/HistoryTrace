@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "漢書/卷028/地理志上·膚施",
+   "quote": "『，歸德，回獲，略畔道，泥陽，郁郅，義渠道，弋居，大呓，廉。上郡，戶十萬三千六百八十三，口六十萬六千六百五十八。縣二十三：膚施，獨樂，陽周，木禾，平都，淺水，京室，洛都，白土，襄洛，原都，漆垣，奢延，雕陰，推邪，楨林，高望，雕陰道，龜茲，定陽，高奴，望松，宜都。西河郡，戶十三萬六千三百九十，口六十九萬八千八百三十六。縣三十六：富昌，騶虞，鵠澤，平定，美稷，中陽，樂街，徒經，皋狼，大成，廣田，圜陰，益闌，』——《漢書》(漢書/卷028)",
+   "source": "src_hanshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/漢書/膚施",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_yanan_han",
+ "object": {
+  "name": "膚施",
+  "role": "上郡治"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": -202,
+  "latest": 8,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-18",
+  "created_by": "han-geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_yanan",
+  "type": "place"
+ },
+ "verdicts": []
+}

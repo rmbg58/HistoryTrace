@@ -1056,6 +1056,69 @@
    "lng": 120.86,
    "lat": 32.02,
    "province": "江苏"
+  },
+  {
+   "id": "plc_lintao",
+   "name": "临洮",
+   "lng": 103.862,
+   "lat": 35.378,
+   "province": "甘肃"
+  },
+  {
+   "id": "plc_juxian",
+   "name": "莒县",
+   "lng": 118.84,
+   "lat": 35.58,
+   "province": "山东"
+  },
+  {
+   "id": "plc_pingyuan",
+   "name": "平原",
+   "lng": 116.44,
+   "lat": 37.16,
+   "province": "山东"
+  },
+  {
+   "id": "plc_cangzhou",
+   "name": "沧州",
+   "lng": 116.58,
+   "lat": 38.3,
+   "province": "河北"
+  },
+  {
+   "id": "plc_qinghe",
+   "name": "清河",
+   "lng": 115.66,
+   "lat": 37.04,
+   "province": "河北"
+  },
+  {
+   "id": "plc_gaomi",
+   "name": "高密",
+   "lng": 119.76,
+   "lat": 36.38,
+   "province": "山东"
+  },
+  {
+   "id": "plc_linyi",
+   "name": "临沂",
+   "lng": 118.35,
+   "lat": 35.1,
+   "province": "山东"
+  },
+  {
+   "id": "plc_anyang",
+   "name": "安阳",
+   "lng": 114.35,
+   "lat": 36.1,
+   "province": "河南"
+  },
+  {
+   "id": "plc_liaocheng",
+   "name": "聊城",
+   "lng": 115.98,
+   "lat": 36.45,
+   "province": "山东"
   }
  ]
 }
