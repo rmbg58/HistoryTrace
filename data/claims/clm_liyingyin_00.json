@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/李义山文集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_liyingyin_00",
+ "object": {
+  "lat": 34.79,
+  "lng": 113.38,
+  "name": "荥阳",
+  "note": "生于荥阳,自言族望属安定"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 813,
+  "latest": 813,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_liyingyin",
+  "type": "person"
+ },
+ "verdicts": []
+}

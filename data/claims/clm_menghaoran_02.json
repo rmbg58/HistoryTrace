@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/孟浩然集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_menghaoran_02",
+ "object": {
+  "lat": 32.01,
+  "lng": 112.14,
+  "name": "襄阳",
+  "note": "王昌龄游襄阳,宴饮疽发而卒"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 740,
+  "latest": 740,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_menghaoran",
+  "type": "person"
+ },
+ "verdicts": []
+}

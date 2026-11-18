@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/元氏长庆集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_yuanzhen_03",
+ "object": {
+  "lat": 30.0,
+  "lng": 120.58,
+  "name": "越州?武昌?",
+  "note": "出为浙东观察使(越州)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 822,
+  "latest": 826,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_yuanzhen",
+  "type": "person"
+ },
+ "verdicts": []
+}

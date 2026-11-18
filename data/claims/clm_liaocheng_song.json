@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "宋史/卷086/博州",
+   "quote": "『鎭入焉。魏，次畿。館陶，畿。熙-{寧}-五年，省永濟縣爲鎭入焉，尋-{復}-舊。臨淸，次畿。夏津，畿。淸平，畿。宋初，自博州來隸。熙-{寧}-二年，又割博平縣明靈砦隸焉，本縣移置明靈。冠氏，畿宗城。畿。熙-{寧}-五年，省臨淸縣爲鎭入焉。當年-{復}-舊，尋以永濟隸臨淸。熙-{寧}-六年，又省經城縣爲鎭入焉。====開德府====開德府，上，澶淵郡，鎭-{寧}-軍節度。本澶州。崇-{寧}-四年，建爲北』——《宋史》(宋史/卷086)",
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/宋史/博州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_liaocheng_song",
+ "object": {
+  "name": "博州",
+  "role": "河北東路·博州"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 960,
+  "latest": 1127,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_liaocheng",
+  "type": "place"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "舊唐書/卷38/亳州",
+   "quote": "『名也}}漢縣。，改為箕城縣。，省入宛丘。，割宛丘置武城縣，以縣本楚武王所築故也。，復為箕城。，改為西華，復古名也。===亳州===}}望，隋譙郡。，平王世充，改為亳州，領譙、城父、谷陽、鹿邑、酇五縣。五年，置總管府，管譙、亳、宋、北荊、潁、沈六州。七年，改為都督府。，罷都督府，亳州不改。十七年，廢譙州，以臨渙、永城、山桑三縣來屬。，改為譙郡。，復為亳州也。舊領縣八，戶五千七百九十，口三萬三千一百七十七』——《舊唐書》(舊唐書/卷38)",
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/舊唐書/亳州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_bozhou_tang",
+ "object": {
+  "name": "亳州",
+  "role": "河南道·亳州(今亳州)"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 618,
+  "latest": 907,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_bozhou",
+  "type": "place"
+ },
+ "verdicts": []
+}

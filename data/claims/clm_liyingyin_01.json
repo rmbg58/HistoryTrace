@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/李义山文集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_liyingyin_01",
+ "object": {
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "name": "长安",
+  "note": "登进士第,令狐楚子綯之延誉"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 837,
+  "latest": 838,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_liyingyin",
+  "type": "person"
+ },
+ "verdicts": []
+}

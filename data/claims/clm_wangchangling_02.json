@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/王昌龄诗集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_wangchangling_02",
+ "object": {
+  "lat": 27.32,
+  "lng": 109.68,
+  "name": "龙标(黔阳)",
+  "note": "贬龙标尉(李白遥寄'闻龙标过五溪')"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 748,
+  "latest": 755,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_wangchangling",
+  "type": "person"
+ },
+ "verdicts": []
+}

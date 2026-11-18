@@ -1,0 +1,37 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/唐才子传?旧唐书",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G2",
+ "disputes": [],
+ "id": "clm_wangchangling_03",
+ "object": {
+  "lat": 33.85,
+  "lng": 115.78,
+  "name": "亳州",
+  "note": "还乡经亳州,为刺史闾丘晓所杀"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 757,
+  "latest": 757,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_wangchangling",
+  "type": "person"
+ },
+ "verdicts": []
+}

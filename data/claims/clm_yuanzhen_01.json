@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/元稹传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/元氏长庆集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_yuanzhen_01",
+ "object": {
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "name": "长安",
+  "note": "书判拔萃,与白居易同科"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 803,
+  "latest": 803,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_yuanzhen",
+  "type": "person"
+ },
+ "verdicts": []
+}

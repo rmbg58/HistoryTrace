@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/杜牧传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/樊川文集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_dumu_02",
+ "object": {
+  "lat": 30.45,
+  "lng": 114.87,
+  "name": "黄州",
+  "note": "出为黄州刺史"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 842,
+  "latest": 844,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_dumu",
+  "type": "person"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,41 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.8,
+   "locus": "宋史/卷086/相州",
+   "quote": "『-{復}-。有赤陘、飛呉二砦。砦一：北砦。-{咸}-平二年置。熙-{寧}-八年，析行唐縣二鄕隸砦。天威軍。見上。====相州====相州，望，鄴郡，彰德軍節度。崇-{甯}-戸三萬六千三百四十，口七萬一千六百三十五。貢暗花牡丹花紗、知母、胡粉、絹。縣四：安陽，緊。熙-{寧}-五年，省永和縣入焉。湯陰，緊。宣和二年，以湯陰縣隸浚州，尋-{復}-來隸。臨漳，緊。熙-{寧}-五年，省鄴縣入焉。林慮。中。===』——《宋史》(宋史/卷086)",
+   "source": "src_songshi_ws"
+  },
+  {
+   "certainty": 0.7,
+   "locus": "殆知閣鏡像/宋史/相州",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_anyang_song",
+ "object": {
+  "name": "相州",
+  "role": "河北西路·相州"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 960,
+  "latest": 1127,
+  "precision": "year"
+ },
+ "predicate": "name_in_period",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "geojuan-locator",
+  "pipeline_runs": []
+ },
+ "status": "cross-checked",
+ "subject": {
+  "id": "plc_anyang",
+  "type": "place"
+ },
+ "verdicts": []
+}

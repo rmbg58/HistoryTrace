@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/元稹传",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/元氏长庆集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_yuanzhen_02",
+ "object": {
+  "lat": 30.33,
+  "lng": 112.19,
+  "name": "江陵",
+  "note": "贬江陵士曹参军"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 810,
+  "latest": 815,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_yuanzhen",
+  "type": "person"
+ },
+ "verdicts": []
+}

@@ -1,0 +1,43 @@
+{
+ "attestations": [
+  {
+   "certainty": 0.75,
+   "locus": "旧唐书/文苑传?王昌龄?",
+   "quote": null,
+   "source": "src_jiutangshu_ws"
+  },
+  {
+   "certainty": 0.75,
+   "locus": "殆知阁镜像/王昌龄诗集",
+   "quote": null,
+   "source": "src_daizhige"
+  }
+ ],
+ "confidence": "G3",
+ "disputes": [],
+ "id": "clm_wangchangling_01",
+ "object": {
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "name": "长安",
+  "note": "登进士第,补秘书省校书郎"
+ },
+ "period": {
+  "calendar": "proleptic-julian",
+  "earliest": 727,
+  "latest": 727,
+  "precision": "year"
+ },
+ "predicate": "person_at",
+ "provenance": {
+  "created_at": "2026-11-19",
+  "created_by": "seed-generator",
+  "pipeline_runs": []
+ },
+ "status": "machine-checked",
+ "subject": {
+  "id": "prs_wangchangling",
+  "type": "person"
+ },
+ "verdicts": []
+}
