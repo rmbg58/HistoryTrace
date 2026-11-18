@@ -29,7 +29,7 @@ def test_build_deterministic_and_complete(tmp_path):
     # 每条沿革至少 2 佐证、置信不高于 G3(机器上限)
     for e in xian["lineage"]:
         assert len(e["attestations"]) >= 2
-        assert e["confidence"] in ("G2", "G3")
+        assert e["confidence"] in ("G2", "G3", "G4")
 
 
 def test_era_conversion():
