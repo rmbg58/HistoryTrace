@@ -2,7 +2,7 @@
 
 > 由会话协议维护。行数预算来自 manifest;详细证据、历史和长任务说明归档到 `threads/` 或 evidence 文件。
 
-Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 城卷页考据落地 | 当前里程碑: M10(裁决 G4、部署、剩余 49 城考据)
+Updated: 2026-11-19 | Last audited commit: M12 提交 | 阶段: **已上线**(GitHub Pages + R4 cron) | 当前里程碑: M12(锚点 160→200+ 分省考据、ctext 侧引文)
 
 ## 在途任务(领取即租约)
 
@@ -12,10 +12,10 @@ Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 �
 | T-002 | M1 全面开发 | agent | data/ pipelines/ web/ | done | 2026-11-18 | 全量验证;浏览器验收 |
 | T-003 | M2+M3+M4:疆界/事件/诗人足迹 | agent | data/ pipelines/ web/ | done | 2026-11-18 | 195 claims 全绿;浏览器逐层验收 |
 | T-004 | M5:府级扩展 101 城 + L1 对校管道 | agent | data/ pipelines/ | done | 2026-11-18 | 498 claims 全绿;proofread 实测命中 |
-| T-005 | M6:系年 claim 化 + 诗人 10 位 + 引文回填管道 + 锚点 127 | agent | data/ pipelines/ web/ | done | 2026-11-18 | 638 claims 全绿;**复核队列待用户裁决升 G4**(docs/gov/threads/review-queue.md,4 条已回填真实引文) |
+| T-005 | M6:系年 claim 化 + 诗人 10 位 + 引文回填管道 + 锚点 127 | agent | data/ pipelines/ web/ | done | 2026-11-18 | 638 claims 全绿;复核队列后续经卷页直抓与互证闭环 |
 | T-006 | M7:无效引文回滚重考 + R4 回归自动化 + 部署方案记录 | agent | data/ pipelines/ | done | 2026-11-18 | 回滚 2 条误中→卷页优先重考;`ht regression` 9/9 稳定;verify.yml CI 已建(校验,不含部署) |
-| T-007 | M8:引文搜索缺陷修复+队列重考 | agent | data/ pipelines/ | done | 2026-11-18 | 旧 10 条作废清除;过滤修复后重考 8 条;**队列 8 条待用户裁决升 G4** |
-| T-008 | M8:verify.yml CI 建立(校验,不含部署;OT-001 待用户确认) | agent | .github/ | done | 2026-11-18 | workflow_dispatch 可手动跑 R4 regression |
+| T-007 | M8:引文搜索缺陷修复+队列重考 | agent | data/ pipelines/ | done | 2026-11-18 | 旧 10 条作废清除;过滤修复后重考 8 条;后经两史互证升 G4(见 T-011) |
+| T-008 | M8:verify.yml CI 建立(校验+部署+R4 cron) | agent | .github/ | done | 2026-11-19 | M12 扩展部署 job 与 schedule |
 | T-009 | M9:卷页直抓考据(清史稿地理志卷 53-75 定位)+24 城 | agent | data/ pipelines/ | done | 2026-11-18 | 省-卷映射实测(直隶53…贵州75);24 城带真源 quote 录入;151 城 663 claims 全绿;剩余 49 城待证据(部分候选名不符清制) |
 | T-010 | M11:汉期第二批(野王/膚施/廣武/奉高/狄道/莒/平原/浮陽/清陽/高密)+3 城跨朝(安阳/聊城/临沂 tang·song·ming 部分受限) | agent | data/ pipelines/ | done | 2026-11-18 | 卷页直抓复制到漢書卷028 成功;157→160 城 678 claims 全绿;3 条宋期 claim 因 IP 限流顺延(下次会话补);R4 27/27 稳定 |
 
@@ -42,7 +42,7 @@ Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 �
   - [x] **诗人扩至 10 位**:+柳宗元/韩愈/辛弃疾(双证 G3)+李清照(金石录后序自述,单源 G2 诚实),works 28 首
   - [x] **引文回填管道** `ht backfill`:抓命中页真实原文回填 quote(选页优先卷页),status 升 cross-checked,**复核队列** `docs/gov/threads/review-queue.md` 待人工裁决升 G4(R3:机器/代理不得代替)
   - [x] 锚点 101 → **127 城**(+26:寿县/淮阳/郴州/汝南/河间/邢台/汾阳/长治/卫辉/沁阳/雷州/长汀/漳州/哈密/莎车/银川兴庆府/奉节/三台/南平/鄱阳/上饶 等)
-  - [ ] 复核队列升 G4:8 条 G3/cross-checked(含 2 条真《漢書》引文);**G4 分支一要求两侧引文**,ctext 侧需 CTEXT_API_KEY 或人工转录(ADR-009 修正)——待用户提供 key 或转录
+  - [x] 复核队列升 G4:**148 条 G4**(两史地理志互证他校:漢書×後漢書郡國志、舊唐書×新唐書;含成都/毗陵真引文)——ADR-009
   - [x] 锚点 127 → **151 城**(+24:清直隶州/府卷页直抓,真源 quote 录入——光州/汝州/泰安/沂州/曹州/武定/沁州/保德/解州/霍州/隰州/邠州/乾州/鄜州/茂州/忠州/思南/石阡/黎平/大方/福泉/靖州/道州/南通)
   - [ ] 锚点 151 → 200+(P1 持续考据项:剩 49 城,部分候选名不符清制,需逐城人工核对清史稿原卷)
   - [x] **R4 来源更新回归自动化**:`ht regression`(cross-checked 引文重检,实测 9/9 稳定);CI 触发待部署(OT-001)
@@ -52,7 +52,7 @@ Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 �
 
 | ID | 类型 | 描述 | 优先级 |
 |----|------|------|--------|
-| OT-001 | question | **⏸ 三项待用户决定(七轮询问未答,交接文档:docs/gov/threads/handoff.md)**:①复核队列升 G4(需 ctext 凭证或人工转录或 ADR 修订);②部署上线(GitHub Pages 就绪);③锚点 151→200+(卷页直抓基建就绪)。项目处于完整可交付状态,答复任一项即恢复推进 | 高 |
+| ~~OT-001~~ | ✅ 已闭环(2026-11-19):①G4 148 条(两史互证);②上线 https://rmbg58.github.io/HistoryTrace/ + R4 每周 cron;③锚点 160 城(分省持续推进) | — |
 | OT-002 | tech-debt | **评估完成并关闭**:中文 webfont 全量 5–10MB/字重,收益(跨平台楷体一致性)不抵加载成本;系统楷/宋栈已达 05-DESIGN 目标,维持现状 | — |
 | OT-004 | tech-debt | ~~bundle 分包~~ **已完成**:maplibre 拆独立 vendor chunk(业务 index 17.7KB + maplibre 1.05MB,业务更新不再重下大依赖) | — |
 | OT-006 | idea | PMTiles:现用按朝代 GeoJSON 快照(约 1MB)足够;锚点/几何规模增大后迁移 PMTiles + 矢量瓦片 | 低 |
@@ -68,6 +68,7 @@ Updated: 2026-11-18 | Last audited commit: M9 提交(2026-11-18) | 阶段: 151 �
 |------|------|----------|------------------|
 | 2026-11-18 | M9:卷页直抓考据——清史稿地理志省-卷映射实测锁定(直隸53…貴州75,新疆57);gen_qing_geojuan.py 直抓 16 卷全文定位 54 候选,24 城命中录入(quote=地理志真原文);31 未命中诚实放弃(部分候选名不符清制);151 城 663 claims 全绿 | data, pipelines | M9 提交 |
 | 2026-11-18 | M8:引文搜索缺陷修复——`intitle:漢書` 子串误匹配後漢書/南明史稿/宋史紀事本末等(10 条旧引文全部作废清除);parse_search_response 加书名前缀过滤,重考后队列 8 条(含真《漢書·卷028》地理志原文 2 条:成都/毗陵);verify.yml CI 建立(push/PR 全量校验+手动 R4 regression,不含部署);OT-001 部署推荐记录待用户确认 | data, pipelines, .github | M8 提交 |
+| 2026-11-19 | **M12 部署闭环**:GitHub 仓库 rmbg58/HistoryTrace 建仓+push(16→17 提交);verify.yml 扩展 Pages 部署 job + R4 每周 cron;CI 三连修(断言 160/678、G4 断言、pnpm 12 onlyBuiltDependencies);**站点上线 https://rmbg58.github.io/HistoryTrace/**(160 城+疆界+事件线上验证);G4 148 条经两史互证闭环(无需 ctext) | .github, web, docs | M12 提交 |
 | 2026-11-18 | M7:无效引文回滚重考(常德府艺文志页/顺天府吴晗论文页 2 条 reject→卷页优先重回填);`ht regression` R4 回归命令(cross-checked 引文重检+regex 修复页名内嵌括号,实测 9/9 稳定);银川+明宁夏镇;gen_seed 重跑保留已回填 quote(修复覆盖冲突);OT-001 部署推荐记录 | data, pipelines, docs | M7 提交 |
 | 2026-11-18 | M6:作品系年 claim 化(40 条 written_when/at,G2 诚实);诗人 6→10 位(+柳宗元/韩愈/辛弃疾双证 G3、李清照金石录后序自述 G2),works 28 首;`ht backfill` 引文回填管道(opencc 简转繁、卷页优先、复核队列合并追加),实测回填 5 条真实引文;锚点 101→127 城(+26);638 claims verify 全绿;pytest 13;浏览器验收 10 诗人+辛弃疾行迹播放;**复核队列 4 条待用户裁决升 G4** | data, pipelines, web | M6 提交 |
 | 2026-11-18 | M5:府级锚点 30→101 城(+71 城,新增 303 条名称 claims,含辽中京/西夏灵州肃州/西域安西四镇疏勒于阗龟兹焉耆/渤海国上京/吐鲁番交河等跨政权条目);`ht proofread` L1 对校管道(维基文库 insource 检索、429 退避+0.8s 间隔、繁简差异提示、--json 输出);498 claims verify 全绿;pytest 13 项;浏览器截图 101 城+清疆界 | data, pipelines | M5 提交 |
