@@ -16,7 +16,7 @@ export interface AppState {
   activeEventId: string | null;
 }
 
-export type PanelTab = "lineage" | "events" | "poets";
+export type PanelTab = "lineage" | "events" | "poets" | "graph";
 
 export interface PlaceMeta {
   id: string;

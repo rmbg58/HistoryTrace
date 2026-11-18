@@ -77,15 +77,24 @@ export function refreshMarkers(): void {
 
 /* ---- 疆界图层(Cliopatria 示意边界,参考层) ---- */
 
-const BOUNDARY_FILL = "rgba(163, 129, 79, 0.07)"; // 赭石淡彩
-const BOUNDARY_LINE = "rgba(47, 43, 38, 0.55)"; // 墨线
+const BOUNDARY_LINE = "rgba(47, 43, 38, 0.62)"; // 墨线
 const GHOST_LINE = "rgba(74, 68, 60, 0.22)"; // 幽灵边界(前朝)
+// 朝代主题色(青绿山水设色:汉青/唐金赭/宋绿/明朱/清黛)
+export const DYN_COLORS: Record<string, { fill: string; line: string }> = {
+  han: { fill: "rgba(93, 125, 140, 0.13)", line: "rgba(61, 85, 104, 0.7)" },
+  tang: { fill: "rgba(163, 129, 79, 0.14)", line: "rgba(122, 94, 55, 0.72)" },
+  song: { fill: "rgba(109, 138, 106, 0.14)", line: "rgba(85, 110, 83, 0.7)" },
+  ming: { fill: "rgba(158, 61, 52, 0.1)", line: "rgba(140, 55, 48, 0.68)" },
+  qing: { fill: "rgba(61, 85, 104, 0.12)", line: "rgba(45, 68, 88, 0.7)" },
+};
 
 export function installBoundaryLayers(
   currentFC: FeatureCollection,
   ghostFC: FeatureCollection | null,
+  dynKey = "tang",
 ): void {
   if (!map) return;
+  const theme = DYN_COLORS[dynKey] ?? { fill: "rgba(163, 129, 79, 0.12)", line: BOUNDARY_LINE };
   if (!map.getSource("polities")) {
     map.addSource("polities", { type: "geojson", data: currentFC });
     map.addSource("polities-ghost", { type: "geojson", data: emptyFC() });
@@ -93,13 +102,13 @@ export function installBoundaryLayers(
       id: "polities-fill",
       type: "fill",
       source: "polities",
-      paint: { "fill-color": BOUNDARY_FILL },
+      paint: { "fill-color": theme.fill },
     });
     map.addLayer({
       id: "polities-line",
       type: "line",
       source: "polities",
-      paint: { "line-color": BOUNDARY_LINE, "line-width": 1.4 },
+      paint: { "line-color": theme.line, "line-width": 1.6 },
     });
     map.addLayer({
       id: "polities-ghost-line",
@@ -110,6 +119,8 @@ export function installBoundaryLayers(
   } else {
     (map.getSource("polities") as maplibregl.GeoJSONSource).setData(currentFC);
     (map.getSource("polities-ghost") as maplibregl.GeoJSONSource).setData(ghostFC ?? emptyFC());
+    map.setPaintProperty("polities-fill", "fill-color", theme.fill);
+    map.setPaintProperty("polities-line", "line-color", theme.line);
   }
 }
 

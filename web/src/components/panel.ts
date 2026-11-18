@@ -7,6 +7,7 @@ import {
   type LineageEntry,
 } from "../lib/lineage";
 import { formatYear } from "./timeline";
+import { renderGraphTab } from "./graph";
 import { getState, setState, type EventMeta, type PlaceMeta } from "../state";
 
 export function renderPanel(root: HTMLElement): void {
@@ -21,6 +22,7 @@ export function renderPanel(root: HTMLElement): void {
     ["lineage", "沿革"],
     ["events", "事件"],
     ["poets", "诗人"],
+    ["graph", "关联"],
   ] as const) {
     const b = document.createElement("button");
     b.className = "ptab" + (panelTab === key ? " is-active" : "");
@@ -36,6 +38,7 @@ export function renderPanel(root: HTMLElement): void {
 
   if (panelTab === "lineage") renderLineageTab(body);
   else if (panelTab === "events") renderEventsTab(body);
+  else if (panelTab === "graph") renderGraphTab(body);
   else renderPoetsTab(body);
 }
 
@@ -239,7 +242,14 @@ function renderPoetsTab(body: HTMLElement): void {
   playBtn.addEventListener("click", () => {
     document.dispatchEvent(new CustomEvent("ht:play-poet", { detail: poet.id }));
   });
-  head.appendChild(playBtn);
+  const speedBtn = document.createElement("button");
+  speedBtn.className = "speed-btn";
+  speedBtn.textContent = "×2 速";
+  speedBtn.title = "切换播放速度";
+  speedBtn.addEventListener("click", () => {
+    document.dispatchEvent(new CustomEvent("ht:speed-cycle"));
+  });
+  head.append(playBtn, speedBtn);
   body.appendChild(head);
 
   for (const [i, s] of poet.stops.entries()) {

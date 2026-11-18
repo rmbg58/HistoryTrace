@@ -10,6 +10,9 @@
     "src_liaoshi_ws",
     "src_daizhige",
     "src_cliopatria",
+    "src_datav_geoatlas",
+    "src_shuge",
+    "src_poetry_api",
     "src_own_manual"
   ],
   "restricted": ["src_chgis_v6", "src_cbdb"]

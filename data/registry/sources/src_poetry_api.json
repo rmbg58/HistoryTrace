@@ -1,0 +1,12 @@
+{
+  "id": "src_poetry_api",
+  "type": "reference",
+  "title": "chinese-poetry-api(palemoky)",
+  "jurisdiction": "近 40 万首诗词全文+作者小传(REST/GraphQL/MCP)",
+  "edition": "基于 chinese-poetry 数据集的修正版(fix-typo 分支)",
+  "tier": "C",
+  "license": "代码 GPL-3.0;数据集源自 chinese-poetry(MIT)修正——引用数据需回溯上游许可",
+  "access": { "method": "url", "key": "https://github.com/palemoky/chinese-poetry-api" },
+  "retrieved_at": "2026-11-19",
+  "note": "作品文本扩展源(作者小传/飞花令/语义检索);无地理信息;self-host 可选"
+}

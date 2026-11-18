@@ -1,0 +1,12 @@
+{
+  "id": "src_datav_geoatlas",
+  "type": "geodata",
+  "title": "阿里 DataV GeoAtlas 现代省界",
+  "jurisdiction": "中华人民共和国省级行政区划边界(含九段线)",
+  "edition": "areas_v3(2023)",
+  "tier": "C",
+  "license": "公开接口(阿里云 DataV GeoAtlas,用于地图可视化);无明确再分发条款,仅作『今界』参考层",
+  "access": { "method": "url", "key": "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json" },
+  "retrieved_at": "2026-11-19",
+  "note": "现代行政区划参考层(今界),非历史政区数据;标注属性 name/center/centroid"
+}

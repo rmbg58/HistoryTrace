@@ -11,8 +11,11 @@ window.addEventListener("unhandledrejection", (e) => {
 });
 
 import { renderPanel } from "./components/panel";
+import { renderSearch } from "./components/search";
 import { renderTimeline } from "./components/timeline";
 import type { Dynasty, LineageEntry } from "./lib/lineage";
+import type { FeatureCollection } from "geojson";
+import { installProvinces } from "./map/provinces";
 import {
   addPlaces,
   clearFootprint,
@@ -101,6 +104,9 @@ function worksAtStop(poet: PoetFootprint, idx: number): void {
 }
 
 let playTimer: ReturnType<typeof setInterval> | null = null;
+let playSpeedIdx = 0;
+const SPEEDS = [900, 450, 220];
+const SPEED_LABEL: string[] = ["×1", "×2", "×4"];
 
 function playFootprint(poetId: string): void {
   const poet = getState().footprints.find((p) => p.id === poetId);
@@ -113,6 +119,7 @@ function playFootprint(poetId: string): void {
     if (!stop) {
       if (playTimer) clearInterval(playTimer);
       playTimer = null;
+      document.querySelectorAll(".fp-stop.is-playing").forEach((el) => el.classList.remove("is-playing"));
       return;
     }
     setState({ year: stop.year });
@@ -120,11 +127,24 @@ function playFootprint(poetId: string): void {
       flyToCoords(stop.lng, stop.lat, 4.8);
       worksAtStop(poet, i);
     }
+    document.querySelectorAll(".fp-stop").forEach((el, k) => el.classList.toggle("is-playing", k === i));
     i += 1;
   };
   step();
-  playTimer = setInterval(step, 900);
+  playTimer = setInterval(step, SPEEDS[playSpeedIdx % SPEEDS.length]);
+  playSpeedIdx += 1;
 }
+
+document.addEventListener("ht:speed-cycle", () => {
+  playSpeedIdx = (playSpeedIdx + 1) % SPEEDS.length;
+  const speedBtn = document.querySelector(".speed-btn");
+  if (speedBtn) speedBtn.textContent = SPEED_LABEL[playSpeedIdx] ?? "×1";
+  // 若在播放中,以新速度重启当前诗人
+  const active = getState().activePoetId;
+  if (active && playTimer) {
+    playFootprint(active);
+  }
+});
 
 async function bootstrap(): Promise<void> {
   const index = await fetchJson<IndexPayload>("./data/index.json");
@@ -183,6 +203,7 @@ async function bootstrap(): Promise<void> {
     installBoundaryLayers(
       toFeatureCollection(curSnap?.features ?? []),
       ghostSnap ? toFeatureCollection(ghostSnap.features) : null,
+      cur.key,
     );
   };
 
@@ -219,7 +240,8 @@ async function bootstrap(): Promise<void> {
   };
 
   const applyAll = (): void => {
-    renderTimeline(document.getElementById("timeline")!);
+    renderSearch(document.getElementById("search")!);
+  renderTimeline(document.getElementById("timeline")!);
     renderPanel(document.getElementById("panel")!);
     refreshMarkers();
     if (!mapReady) return;
@@ -238,10 +260,45 @@ async function bootstrap(): Promise<void> {
       const place = getState().places.find((p) => p.id === id);
       if (place) flyTo(place);
     });
+    // 现代省界参考层(今界)+ 省名淡标注
+    fetch("./data/china-provinces.geojson")
+      .then((r) => r.json())
+      .then((fc: FeatureCollection) => {
+        installProvinces(
+          map,
+          fc,
+          fc.features.map((f) => {
+            const props = f.properties as { name?: string; centroid?: number[] };
+            return {
+              name: props.name ?? "",
+              lng: props.centroid?.[0] ?? 0,
+              lat: props.centroid?.[1] ?? 0,
+            };
+          }),
+        );
+      })
+      .catch(() => undefined);
     applyAll(); // 初始渲染(疆界/事件/行迹)
   });
 
   // 面板城名列表 → 选中联动
+  document.addEventListener("ht:search-goto", (ev) => {
+    const d = (ev as CustomEvent<{ kind: string; id: string }>).detail;
+    if (d.kind === "place") {
+      selectPlace(d.id);
+      const place = getState().places.find((p) => p.id === d.id);
+      if (place) flyTo(place);
+    } else if (d.kind === "poet") {
+      setState({ activePoetId: d.id, panelTab: "poets" });
+    } else if (d.kind === "event") {
+      setState({ activeEventId: d.id, panelTab: "events" });
+      const evm = getState().events.find((e) => e.id === d.id);
+      if (evm?.place.lng != null && evm.place.lat != null) {
+        flyToCoords(evm.place.lng, evm.place.lat);
+        setState({ year: evm.year });
+      }
+    }
+  });
   document.addEventListener("ht:select-place", (ev) => {
     const id = (ev as CustomEvent<string>).detail;
     selectPlace(id);

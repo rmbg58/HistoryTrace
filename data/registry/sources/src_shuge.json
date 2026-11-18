@@ -1,0 +1,12 @@
+{
+  "id": "src_shuge",
+  "type": "reference",
+  "title": "书格 shuge.org",
+  "jurisdiction": "古籍善本/字画/舆图高清影像(766+ 套)",
+  "edition": "公共版权领域数字资源,站点 CC BY 4.0",
+  "tier": "A",
+  "license": "CC BY 4.0(站点);影像多为公共领域",
+  "access": { "method": "url", "key": "https://www.shuge.org/" },
+  "retrieved_at": "2026-11-19",
+  "note": "A 级影印底本来源(含舆图类):地方志/一统志善本可作 claim 底本直核深链;无 API,人工查证"
+}

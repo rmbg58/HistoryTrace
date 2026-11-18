@@ -1,4 +1,4 @@
-/** 朝代时间轴:chips + 年份滑块。 */
+/** 朝代时间轴:朝代色带 + chips + 年份滑块。 */
 
 import { dynastyForYear } from "../lib/lineage";
 import { getState, setState } from "../state";
@@ -7,6 +7,7 @@ export function renderTimeline(root: HTMLElement): void {
   const { dynasties, year } = getState();
   const min = Math.min(...dynasties.map((d) => d.earliest));
   const max = Math.max(...dynasties.map((d) => d.latest));
+  const active = dynastyForYear(dynasties, year);
 
   root.innerHTML = "";
   const chips = document.createElement("div");
@@ -19,6 +20,17 @@ export function renderTimeline(root: HTMLElement): void {
     b.title = d.note ? `${d.label}(${d.earliest}–${d.latest},${d.note})` : `${d.label}(${d.earliest}–${d.latest})`;
     b.addEventListener("click", () => setState({ year: d.earliest }));
     chips.appendChild(b);
+  }
+
+  const band = document.createElement("div");
+  band.className = "dynasty-band";
+  const total = max - min;
+  for (const d of dynasties) {
+    const seg = document.createElement("span");
+    seg.className = "seg" + (active?.key === d.key ? " is-active" : "");
+    seg.style.width = `${((d.latest - d.earliest) / total) * 100}%`;
+    seg.dataset.key = d.key;
+    band.appendChild(seg);
   }
 
   const slider = document.createElement("input");
@@ -38,11 +50,13 @@ export function renderTimeline(root: HTMLElement): void {
   dynEl.className = "dyn";
   readout.append(yearEl, dynEl);
 
-  root.append(chips, slider, readout);
+  root.append(chips, band, slider, readout);
 
-  const active = dynastyForYear(dynasties, year);
   for (const chip of chips.querySelectorAll<HTMLButtonElement>(".chip")) {
     chip.classList.toggle("is-active", chip.dataset.key === active?.key);
+  }
+  for (const seg of band.querySelectorAll<HTMLSpanElement>(".seg")) {
+    seg.classList.toggle("is-active", seg.dataset.key === active?.key);
   }
   slider.value = String(Math.min(Math.max(year, min), max));
   yearEl.textContent = formatYear(year);
