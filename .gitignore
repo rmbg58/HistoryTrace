@@ -8,7 +8,9 @@ __pycache__/
 .venv/
 
 # web 数据产物(可由 `uv run ht build` 重建;claims 才是事实源)
-web/public/data/
+web/public/data/*
+# 例外:疆界快照由 49MB 受限缓存派生(CI 无法重建),且许可 CC-BY-4.0 可分发
+!web/public/data/boundaries.json
 
 # 数据管线:外部来源下载缓存(许可受限,永不入库:CHGIS/CBDB/dump 等)
 data/_downloaded/
