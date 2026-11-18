@@ -15,12 +15,12 @@ def test_build_deterministic_and_complete(tmp_path):
     snapshot2 = {p.name: p.read_text(encoding="utf-8") for p in sorted(tmp_path.rglob("*.json"))}
     assert snapshot1 == snapshot2, "构建必须可复现(排除时间戳)"
     assert counts1 == counts2
-    assert counts1["places"] == 127
-    assert counts1["claims"] >= 630
+    assert counts1["places"] == 160
+    assert counts1["claims"] >= 678
 
     index = json.loads((tmp_path / "index.json").read_text(encoding="utf-8"))
     assert len(index["dynasties"]) == 5
-    assert len(index["places"]) == 127
+    assert len(index["places"]) == 160
 
     xian = json.loads((tmp_path / "lineages" / "plc_xian.json").read_text(encoding="utf-8"))
     names = [e["name"] for e in xian["lineage"]]
