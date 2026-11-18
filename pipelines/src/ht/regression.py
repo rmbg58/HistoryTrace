@@ -52,7 +52,7 @@ def regression(limit: int | None = None) -> dict[str, Any]:
                 results.append({"claimId": cid, "status": "unparseable-quote"})
                 continue
             _book, page = parsed
-            term = att["locus"].split("/")[-1].strip()
+            term = att["locus"].split("/")[-1].split("(")[0].split("·")[-1].strip()
             try:
                 from opencc import OpenCC
 
