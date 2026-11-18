@@ -1,12 +1,23 @@
-# 校验流水线(非部署):PR/push 跑全量验证;手动 dispatch 追加 R4 回归
-# 部署方案未定(OT-001);本文件不做任何发布动作
+# 校验 + 部署流水线
+# push/PR:全量校验;main push:构建并发布 GitHub Pages;weekly cron:R4 回归
 name: verify
 
 on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: "0 9 * * 1" # 每周一 09:00 UTC —— R4 来源更新回归(OT-001 闭环)
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   verify:
@@ -18,7 +29,7 @@ jobs:
           python-version: "3.12"
       - run: pip install uv && uv sync
         working-directory: pipelines
-      - name: Lint + unit tests + R0/R1 校验
+      - name: Lint + 单测 + R0/R1 校验
         run: |
           uv run ruff check .
           uv run pytest
@@ -39,7 +50,7 @@ jobs:
         working-directory: web
 
   regression:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -48,6 +59,41 @@ jobs:
           python-version: "3.12"
       - run: pip install uv && uv sync
         working-directory: pipelines
-      - name: R4 回归(cross-checked 引文重检)
+      - name: R4 回归(cross-checked/verified 引文重检)
         run: uv run ht regression
         working-directory: pipelines
+
+  deploy-pages:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'schedule'
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install uv && uv sync
+        working-directory: pipelines
+      - name: 构建数据产物(ht build,页面依赖)
+        run: uv run ht build
+        working-directory: pipelines
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 构建前端
+        run: |
+          pnpm install
+          pnpm build
+        working-directory: web
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
