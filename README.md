@@ -66,7 +66,11 @@ pnpm typecheck && pnpm test && pnpm build
 - 事件层:大史事朱印落点,当朝高亮;点看摘要与佐证
 - 诗人足迹:李白/杜甫/王维/白居易/苏轼/陆游/柳宗元/韩愈/李清照/辛弃疾,行迹随时间轴渐显,可播放;作品墨笺气泡(系年 claim 化,G2 诚实)
 
-**已上线**:https://rmbg58.github.io/HistoryTrace/(GitHub Pages,CI 自动构建发布,R4 每周回归)。锚点 160 城,后续按省分批推进 200+。
+**双平台已上线**:
+- Cloudflare Pages(国内访问推荐):https://historytrace.pages.dev/
+- GitHub Pages:https://rmbg58.github.io/HistoryTrace/
+
+CI 自动构建发布,R4 每周回归。锚点 160 城,后续按省分批推进 200+。
 
 ---
 

@@ -52,7 +52,7 @@ Updated: 2026-11-19 | Last audited commit: M12 提交 | 阶段: **已上线**(Gi
 
 | ID | 类型 | 描述 | 优先级 |
 |----|------|------|--------|
-| ~~OT-001~~ | ✅ 已闭环(2026-11-19):①G4 148 条(两史互证);②上线 https://rmbg58.github.io/HistoryTrace/ + R4 每周 cron;③锚点 160 城(分省持续推进) | — |
+| ~~OT-001~~ | ✅ 已闭环(2026-11-19):①G4 148 条(两史互证);②**双平台上线**——Cloudflare Pages https://historytrace.pages.dev/(国内访问推荐)+ GitHub Pages https://rmbg58.github.io/HistoryTrace/ + R4 每周 cron;③锚点 160 城(分省持续推进) | — |
 | OT-002 | tech-debt | **评估完成并关闭**:中文 webfont 全量 5–10MB/字重,收益(跨平台楷体一致性)不抵加载成本;系统楷/宋栈已达 05-DESIGN 目标,维持现状 | — |
 | OT-004 | tech-debt | ~~bundle 分包~~ **已完成**:maplibre 拆独立 vendor chunk(业务 index 17.7KB + maplibre 1.05MB,业务更新不再重下大依赖) | — |
 | OT-006 | idea | PMTiles:现用按朝代 GeoJSON 快照(约 1MB)足够;锚点/几何规模增大后迁移 PMTiles + 矢量瓦片 | 低 |
